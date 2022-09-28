@@ -1121,7 +1121,7 @@ entity{
   hints_header:t="briefing/common_hints_header"
   hints:t="common/controls"
   mission_type:t="invasion"
-  mission_name:t="Big Action - Battle Of Volokolamsk(0.0.3.7.3c) (F1 see tips in game!)"
+  mission_name:t="Big Action - Battle Of Volokolamsk(0.0.3.7.3d) (F1 see tips in game!)"
 
   "loading_images:list<t>"{
     item:t="ui/volokolamsk_lake_01.jpg"

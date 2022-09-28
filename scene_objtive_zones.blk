@@ -17,7 +17,7 @@ entity{
   capzone__icon:t="!ui/skin#building_wire_fence.svg"
   ui_order:i=3
   capzone__activateAfterTeam2Cap:t="s2"
-  capzone__checkAllZonesInGroup:b=yes
+  capzone__checkAllZonesInGroup:b=no
   capzone__createRespawnBaseForTeam:i=1
   capzone__createdRespawnBaseGroup:i=5002
   capzone__spawnAtZoneTimeout:r=26
@@ -26,7 +26,7 @@ entity{
   capzone__autoDecap:b=no
   capzone__autoCap:b=no
   capzone__presenceAdvantageToDominate:i=0
-  capzone__caption:t="P;Beloe Highland (Lock 60s After Cap)"
+  capzone__caption:t="P;Beloe Highland; Break Through Once Cap; (Lock 60s After Cap)"
   capzone__maxTeamPresence:i=3
   capzone__maxCapDecapSpeedMult:r=3
   capzone__alwaysShow:b=yes

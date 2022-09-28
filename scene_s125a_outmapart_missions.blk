@@ -152,7 +152,7 @@ entity{
   groupName:t="s1"
   sphere_zone__radius:r=8
   active:b=yes
-  resupply_zone__duration:r=12
+  resupply_zone__duration:r=20
 }
 
 entity{
@@ -172,7 +172,7 @@ entity{
   groupName:t="s1"
   sphere_zone__radius:r=8
   active:b=yes
-  resupply_zone__duration:r=12
+  resupply_zone__duration:r=20
 }
 
 entity{
@@ -192,7 +192,7 @@ entity{
   groupName:t="s1"
   sphere_zone__radius:r=8
   active:b=yes
-  resupply_zone__duration:r=12
+  resupply_zone__duration:r=20
 }
 
 entity{
@@ -212,7 +212,7 @@ entity{
   groupName:t="s1"
   sphere_zone__radius:r=8
   active:b=yes
-  resupply_zone__duration:r=12
+  resupply_zone__duration:r=20
 }
 
 entity{
@@ -232,7 +232,7 @@ entity{
   groupName:t="s1"
   sphere_zone__radius:r=8
   active:b=yes
-  resupply_zone__duration:r=12
+  resupply_zone__duration:r=20
 }
 
 entity{
@@ -252,7 +252,7 @@ entity{
   groupName:t="s1"
   sphere_zone__radius:r=8
   active:b=yes
-  resupply_zone__duration:r=12
+  resupply_zone__duration:r=20
 }
 
 entity{
@@ -272,7 +272,7 @@ entity{
   groupName:t="s1"
   sphere_zone__radius:r=8
   active:b=yes
-  resupply_zone__duration:r=12
+  resupply_zone__duration:r=20
 }
 
 entity{
@@ -336,7 +336,7 @@ entity{
   groupName:t="s2"
   sphere_zone__radius:r=8
   active:b=no
-  resupply_zone__duration:r=12
+  resupply_zone__duration:r=20
 }
 
 entity{
@@ -356,7 +356,7 @@ entity{
   groupName:t="s2"
   sphere_zone__radius:r=8
   active:b=no
-  resupply_zone__duration:r=12
+  resupply_zone__duration:r=20
 }
 
 entity{
@@ -376,7 +376,7 @@ entity{
   groupName:t="s2"
   sphere_zone__radius:r=8
   active:b=no
-  resupply_zone__duration:r=12
+  resupply_zone__duration:r=20
 }
 
 entity{

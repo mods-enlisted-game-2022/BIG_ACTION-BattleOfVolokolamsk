@@ -12,7 +12,7 @@ entity{
 
 entity{
   _template:t="defend_zone_team_chained_sphere+defend_zone_respawnbase+separate_cap_decap_time+lockable_capzone"
-  transform:m=[[5.14944, -0.11186, 0.225281] [0.0854437, 1.80207, 0.106804] [-0.231644, -0.127788, 5.14878] [-833.064, 37.8635, -968.416]]
+  transform:m=[[5.14944, -0.203585, 0.225281] [0.0854437, 3.27976, 0.106804] [-0.231644, -0.232574, 5.14878] [-833.064, 37.8635, -968.416]]
   groupName:t="s1"
   capzone__icon:t="!ui/skin#building_wire_fence.svg"
   ui_order:i=3
@@ -96,7 +96,7 @@ entity{
 entity{
   _template:t="bomb_site_zone_chained_sphere+resupply_for_ground_vehicle_zone+resupply_in_air_zone"
   transform:m=[[-0.0148214, 0.0217584, -0.999654] [-0.0468156, 0.998652, 0.0224307] [0.998794, 0.0471319, -0.0137827] [-1096.4, 0.536145, -871.034]]
-  capzone__bombTemplate:t="bomb_site+russia_wooden_planks_b"
+  capzone__bombTemplate:t="bomb_site+debris_wooden_planks_stack_a"
   capzone__icon:t="ui/skin#item_tnt_block_exploder.svg"
   ui_order:i=9
   groupName:t="s1"
@@ -128,9 +128,9 @@ entity{
   capzone__activateRespawnOnProgress:r=0.2
   capzone__curTeamDominating:i=1
   capzone__curTeamCapturingZone:i=2
-  capzone__bombTransformLocalPos:m=[[5.97121, -0.0251706, -1.59772] [0.0036443, 1.61424, -0.0118109] [0.835118, 0.0209485, 3.12078] [0.407471, -2.40305, 0.443909]]
-  capzone__timeToDefuse:r=30
-  capzone__timeToExplosion:r=360
+  capzone__bombTransformLocalPos:m=[[-0.00246843, 0.737302, -0.0208407] [-3.42378, 0.0144322, 0.916104] [0.541835, 0.0590272, 2.02409] [4.74646, -1.22089, -0.839233]]
+  capzone__timeToDefuse:r=15
+  capzone__timeToExplosion:r=390
   capzone__timeToPlant:r=5
   capzone__timeToResetPlant:r=5
   capzone__deactivateAfterCap:b=no
@@ -180,8 +180,8 @@ entity{
   capzone__curTeamDominating:i=1
   capzone__curTeamCapturingZone:i=2
   capzone__bombTransformLocalPos:m=[[0.584599, 0, 0] [0, 0.584599, -0] [-0, 0, 0.584599] [0.167206, -0.525215, 0.257202]]
-  capzone__timeToDefuse:r=30
-  capzone__timeToExplosion:r=360
+  capzone__timeToDefuse:r=15
+  capzone__timeToExplosion:r=390
   capzone__timeToPlant:r=5
   capzone__timeToResetPlant:r=5
   capzone__deactivateAfterCap:b=no
@@ -285,7 +285,7 @@ entity{
 entity{
   _template:t="defend_zone_team_chained_sphere+bomb_site_zone_chained_sphere+defend_zone_respawnbase+resupply_for_ground_vehicle_zone"
   transform:m=[[1.02843, 0.0169921, 0.33123] [-0.0138084, 1.08042, -0.0125525] [-0.331378, 0.00771391, 1.02849] [1307.26, 0.724831, -1192.26]]
-  capzone__bombTemplate:t="bomb_site+russia_wooden_planks_b"
+  capzone__bombTemplate:t="bomb_site+debris_wooden_planks_stack_a"
   capzone__icon:t="ui/skin#item_tnt_block_exploder.svg"
   ui_order:i=23
   groupName:t="s3"
@@ -317,9 +317,9 @@ entity{
   capzone__activateRespawnOnProgress:r=0.2
   capzone__curTeamDominating:i=1
   capzone__curTeamCapturingZone:i=2
-  capzone__bombTransformLocalPos:m=[[5.17451, 0.00750637, 1.97912] [0.000530133, 0.3199, -0.00259938] [-1.34962, 0.030908, 3.52853] [-0.250854, -0.327037, 0.56543]]
-  capzone__timeToDefuse:r=30
-  capzone__timeToExplosion:r=360
+  capzone__bombTransformLocalPos:m=[[-0.00128922, -0.777939, 0.00632121] [3.71946, 0.00539548, 1.4226] [-0.792057, 0.0181391, 2.07081] [-5.11523, -0.866342, -1.29163]]
+  capzone__timeToDefuse:r=15
+  capzone__timeToExplosion:r=390
   capzone__timeToPlant:r=5
   capzone__timeToResetPlant:r=5
   capzone__deactivateAfterCap:b=no

@@ -1,0 +1,103 @@
+entity{
+  _template:t="battle_area_polygon_point"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-9530.17, 97.9898, 574.039]]
+  battle_area_polygon_point__forBattleAreaId:t="aaxs123air"
+  battle_area_polygon_point__id:t="aaxs123airp1"
+  battle_area_polygon_point__nextId:t="aaxs123airp2"
+}
+
+entity{
+  _template:t="battle_area_polygon_point"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-6791.99, 97.991, -8113.93]]
+  battle_area_polygon_point__forBattleAreaId:t="aaxs123air"
+  battle_area_polygon_point__id:t="aaxs123airp2"
+  battle_area_polygon_point__nextId:t="aaxs123airp3"
+}
+
+entity{
+  _template:t="battle_area_polygon_point"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [5273.04, 1012.59, -5636.44]]
+  battle_area_polygon_point__forBattleAreaId:t="aaxs123air"
+  battle_area_polygon_point__id:t="aaxs123airp3"
+  battle_area_polygon_point__nextId:t="aaxs123airp4"
+}
+
+entity{
+  _template:t="battle_area_polygon_point"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-2120.85, 1045.07, 3614.44]]
+  battle_area_polygon_point__forBattleAreaId:t="aaxs123air"
+  battle_area_polygon_point__id:t="aaxs123airp5"
+  battle_area_polygon_point__nextId:t="aaxs123airp6"
+}
+
+entity{
+  _template:t="battle_area_polygon_point"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-7214.53, 97.9922, 2547.31]]
+  battle_area_polygon_point__forBattleAreaId:t="aaxs123air"
+  battle_area_polygon_point__id:t="aaxs123airp6"
+  battle_area_polygon_point__nextId:t="aaxs123airp1"
+}
+
+entity{
+  _template:t="battle_area_polygon_point"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [4566.54, 1027.83, -1767.25]]
+  battle_area_polygon_point__forBattleAreaId:t="aaxs123air"
+  battle_area_polygon_point__id:t="aaxs123airp4"
+  battle_area_polygon_point__nextId:t="aaxs123airp5_1"
+}
+
+entity{
+  _template:t="battle_area_polygon_point"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [703.892, 32.9172, 834.219]]
+  battle_area_polygon_point__forBattleAreaId:t="aaxs123air"
+  battle_area_polygon_point__id:t="aaxs123airp5_1"
+  battle_area_polygon_point__nextId:t="aaxs123airp5_2"
+}
+
+entity{
+  _template:t="battle_area_polygon_point"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-374.622, 30.23, 1106.54]]
+  battle_area_polygon_point__forBattleAreaId:t="aaxs123air"
+  battle_area_polygon_point__id:t="aaxs123airp5_2"
+  battle_area_polygon_point__nextId:t="aaxs123airp5"
+}
+
+entity{
+  _template:t="aircraft_poly_battle_area"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-2285.34, 32.7581, -533.224]]
+  battleAreaId:t="aaxs123air"
+  battle_area__team:i=2
+  battle_area__timeToDamage:r=20
+  battle_area__damage:r=12
+  groupName:t="s1"
+}
+
+entity{
+  _template:t="aircraft_poly_battle_area"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-2285.34, 32.7581, -533.224]]
+  battleAreaId:t="aaxs123air"
+  battle_area__team:i=2
+  battle_area__timeToDamage:r=20
+  battle_area__damage:r=12
+  groupName:t="s2"
+}
+
+entity{
+  _template:t="aircraft_poly_battle_area"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-2285.34, 32.7581, -533.224]]
+  battleAreaId:t="aaxs123air"
+  battle_area__team:i=2
+  battle_area__timeToDamage:r=15
+  battle_area__damage:r=12
+  groupName:t="s3"
+}
+
+entity{
+  _template:t="aircraft_poly_battle_area"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-2285.34, 32.7581, -533.224]]
+  battleAreaId:t="aaxs123air"
+  battle_area__team:i=2
+  battle_area__timeToDamage:r=10
+  battle_area__damage:r=12
+  groupName:t="s4"
+}

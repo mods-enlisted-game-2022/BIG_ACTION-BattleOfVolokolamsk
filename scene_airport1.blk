@@ -1,0 +1,112 @@
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[0.150363, 0, -100.072] [0, 45.9894, 0] [23.3291, -0, 0.278386] [3506.91, 7.00185, -1258.57]]
+  ri_extra__name:t="reichchancellery_garage_plate_b"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[0.00221971, 0, 0.999998] [0, 1, -0] [-0.999998, 0, 0.00221971] [3549.07, 14.0064, -1768.16]]
+  ri_extra__name:t="aircraft_hangar_b"
+}
+
+entity{
+  _template:t="aircraft_carrier_landing_zone"
+  transform:m=[[72.7563, 0, -0.545756] [0, 12.887, 0] [0.698554, -0, 709.992] [3511.8, 6.68795, -1455.66]]
+}
+
+entity{
+  _template:t="respAircraftOnCarrier"
+  transform:m=[[-0.00752619, 0, 0.999972] [0, 1, 0] [-0.999972, 0, -0.00752619] [3509.96, 7.57273, -1651.17]]
+  maxVehicleOnSpawn:i=0
+  landing_zone__maxSpeed:r=20
+  team:i=1
+}
+
+entity{
+  _template:t="respAircraftOnCarrier"
+  transform:m=[[-0.992521, 0, 0.122074] [0, 1, 0] [-0.122074, 0, -0.992521] [5.70835, 10.1308, -1433.06]]
+  maxVehicleOnSpawn:i=0
+  landing_zone__maxSpeed:r=20
+  team:i=2
+}
+
+entity{
+  _template:t="aircraft_carrier_landing_zone"
+  transform:m=[[9.30221, 0, 72.3889] [0, 12.887, -0] [-325.76, 0, 25.8193] [-128.293, 13.2259, -1411.9]]
+}
+
+entity{
+  _template:t="base_vehicle+builded_auto_turret+resupply_vehicle+resupply_for_ground_vehicle_zone"
+  transform:m=[[-0.989743, -0.0257185, 0.140525] [-0.0312173, 0.998825, -0.0370669] [-0.139407, -0.0410735, -0.989383] [13.4619, 9.36513, -1497.93]]
+  animchar__res:t="turret_127mm_mk32_single_char"
+  collres__res:t="turret_127mm_mk32_single_collision"
+  phys_obj_net_phys__blk:t="content/e_ww2_common/gamedata/units/cannons/turret_127mm_mk32_single.blk"
+  killLogName:t="aircraft_carrier/defence_turret"
+  team:i=1
+  hitpoints__hp:r=3000
+  hitpoints__maxHp:r=3000
+  turret__enemyTeamLight:c=233, 233, 233, 1
+  turret__allyTeamLight:c=233, 233, 233, 1
+  phys__maxMassRatioForPushOnCollision:r=999
+  turret__teamLightTemplate:t=""
+  resupply_zone__team:i=1
+  groupName:t="s1"
+
+  "net_sound__descs:object"{
+    "resupplyStart:object"{
+      path:t=""
+      toPlayer:b=no
+    }
+
+    "resupplyEnd:object"{
+      path:t=""
+      toPlayer:b=no
+    }
+  }
+
+  "turret_gun_flash_fx__flashFx:shared:array"{
+    turret_gun_flash_fx__flashFx:t="muzzle_ground_100mm"
+  }
+
+  "turret_gun_flash_fx__flashFxScale:shared:array"{
+    turret_gun_flash_fx__flashFxScale:r=1
+  }
+
+  "turret_control__emitterNodes:shared:array"{
+    turret_control__emitterNodes:t="bone_gun_barrel"
+  }
+
+  "turret_gun_flash_fx__flashNodes:shared:array"{
+    turret_gun_flash_fx__flashNodes:t="emtr_gun_flame"
+  }
+
+  "turretsInitialComponents:array"{
+    "turretsInitialComponents:object"{
+      gun__shotFreq:r=3
+      turret__yawSpeed:r=160
+      turret_ai__amplitude:p2=0.01, 0.03
+      gun_deviation__maxDeviation:r=6.6
+      turret__limit:p4=-160, 180, 5, 79
+      gun_spread__maxDeltaAngle:r=1.6
+      turret_ai__atackDist:r=1000
+      turret_ai__period:p2=0.006, 0.01
+      turret__pitchSpeed:r=160
+      turret_ai__pauseTimer:r=1
+
+      "gun__shellsAmmo:array"{
+        gun__shellsAmmo:i=60
+      }
+    }
+  }
+
+  "turret_control__turretInfo:shared:array"{
+    "turret_control__turretInfo:object"{
+      turretGroup:t="main_turrets"
+      salt:i=1
+      gun:t="turret_127mm_mk32_turret_01"
+      turretName:t="turret_01"
+    }
+  }
+}

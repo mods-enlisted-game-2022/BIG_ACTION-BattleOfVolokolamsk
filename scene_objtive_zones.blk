@@ -1,0 +1,651 @@
+entity{
+  _template:t="bomb_site_zone_chained_box"
+  transform:m=[[21.7077, 0, 0] [0, 21.7077, 0] [0, 0, 21.7077] [-1528.05, 25.9506, 1684.99]]
+  capzone__mustBeCapturedByTeam:i=2
+  capzone__checkAllZonesInGroup:b=yes
+  ui_order:i=0
+  capzone__alwaysHide:b=yes
+  capzone__caption:t="PlaceHolderEnsureGameModeUI!"
+  capzone_timer__timeLeft:r=18000
+  capzone__plantingTeam:i=2
+}
+
+entity{
+  _template:t="defend_zone_team_chained_sphere+defend_zone_respawnbase+separate_cap_decap_time+lockable_capzone"
+  transform:m=[[5.14944, -0.11186, 0.225281] [0.0854437, 1.80207, 0.106804] [-0.231644, -0.127788, 5.14878] [-833.064, 37.8635, -968.416]]
+  groupName:t="s1"
+  capzone__icon:t="!ui/skin#building_wire_fence.svg"
+  ui_order:i=3
+  capzone__activateAfterTeam2Cap:t="s2"
+  capzone__checkAllZonesInGroup:b=yes
+  capzone__createRespawnBaseForTeam:i=1
+  capzone__createdRespawnBaseGroup:i=5002
+  capzone__spawnAtZoneTimeout:r=26
+  capzone__createRespawnBase:t="respawnBaseGroupActivator"
+  capzone__canCaptureOnVehicle:b=yes
+  capzone__autoDecap:b=no
+  capzone__autoCap:b=no
+  capzone__presenceAdvantageToDominate:i=0
+  capzone__caption:t="P;Beloe Highland (Lock 60s After Cap)"
+  capzone__maxTeamPresence:i=3
+  capzone__maxCapDecapSpeedMult:r=3
+  capzone__alwaysShow:b=yes
+  capzone_timer__timeLeft:r=-1
+  capzone__capReward:r=12000
+  capzone__capTimeTeam1:r=999999
+  capzone__capTimeTeam2:r=180
+  capzone__decapTimeTeam1:r=3
+  capzone__decapTimeTeam2:r=12
+  capzone__lockAfterActivate:b=yes
+  capzone__unlockAfterTime:r=360
+  capzone__canCaptureByPresenceDomination:b=yes
+  decal__height:r=100
+  capzone__title:t="P"
+  capzone__onlyTeamCanCapture:i=-1
+  capzone__capTeam:i=-1
+  capzone__progress:r=0.5
+  capzone__curTeamDominating:i=1
+  capzone__curTeamCapturingZone:i=1
+
+  "capzone__activateChoice:object"{
+    s2:r=1
+  }
+}
+
+entity{
+  _template:t="defend_zone_team_chained_sphere+separate_cap_decap_time+lockable_capzone+capzone_respawn_activator"
+  transform:m=[[4.68898, 0.100363, 0.204957] [-0.0143367, 1.23002, -0.00716839] [-0.205528, 0.0448117, 4.68981] [-1302.67, 1.42717, -1234.3]]
+  groupName:t="s1"
+  capzone__icon:t="!ui/skin#custom_spawn_point.svg"
+  ui_order:i=4
+  capzone__activateAfterTeam2Cap:t="s2"
+  capzone__checkAllZonesInGroup:b=yes
+  capzone__createRespawnBase:t="respawnBaseGroupActivator"
+  capzone__canCaptureOnVehicle:b=yes
+  capzone__autoDecap:b=no
+  capzone__autoCap:b=no
+  capzone__presenceAdvantageToDominate:i=0
+  capzone__caption:t="A;Beloe Lake Position (Garrison Rally For Point P Captureable; Lock 90s After Cap)"
+  capzone__maxTeamPresence:i=3
+  capzone__maxCapDecapSpeedMult:r=3
+  capzone__alwaysShow:b=yes
+  capzone_timer__timeLeft:r=-1
+  capzone__capReward:r=18000
+  capzone__capTimeTeam1:r=90
+  capzone__capTimeTeam2:r=90
+  capzone__decapTimeTeam1:r=5
+  capzone__decapTimeTeam2:r=30
+  capzone__lockAfterCap:b=yes
+  capzone__unlockAfterTime:r=90
+  capzone__acivateRespawnGroup:i=1231
+  decal__height:r=2
+  capzone__onlyTeamCanCapture:i=-1
+  capzone__capTeam:i=-1
+  capzone__activateRespawnOnProgress:r=0.2
+  capzone__progress:r=0.5
+  capzone__curTeamDominating:i=1
+  capzone__curTeamCapturingZone:i=1
+  capzone__title:t="A"
+  capzone__deactivateAfterCap:b=no
+
+  "capzone__activateChoice:object"{
+    s2:r=1
+  }
+}
+
+entity{
+  _template:t="bomb_site_zone_chained_sphere+resupply_for_ground_vehicle_zone+resupply_in_air_zone"
+  transform:m=[[-0.0148214, 0.0217584, -0.999654] [-0.0468156, 0.998652, 0.0224307] [0.998794, 0.0471319, -0.0137827] [-1096.4, 0.536145, -871.034]]
+  capzone__bombTemplate:t="bomb_site+russia_wooden_planks_b"
+  capzone__icon:t="ui/skin#item_tnt_block_exploder.svg"
+  ui_order:i=9
+  groupName:t="s1"
+  capzone__checkAllZonesInGroup:b=no
+  capzone__createRespawnBaseForTeam:i=1
+  capzone__createdRespawnBaseGroup:i=50125
+  capzone__spawnAtZoneTimeout:r=90
+  capzone__curTeamDominating:i=2
+  capzone__createRespawnBase:t="respawnBaseGroupActivator"
+  capzone__canCaptureOnVehicle:b=yes
+  capzone__autoDecap:b=no
+  capzone__autoCap:b=no
+  capzone__presenceAdvantageToDominate:i=0
+  capzone__caption:t="Soviet Bomb Site;Beloe Bridge (Blow up the bridge to prevent Axis pushing/-2000 to Axis)"
+  capzone__maxTeamPresence:i=3
+  capzone__maxCapDecapSpeedMult:r=3
+  capzone__alwaysShow:b=yes
+  capzone_timer__timeLeft:r=-1
+  capzone__capReward:r=3000
+  capzone__capTimeTeam1:r=90
+  capzone__capTimeTeam2:r=90
+  capzone__decapTimeTeam1:r=30
+  capzone__decapTimeTeam2:r=30
+  capzone__lockAfterCap:b=yes
+  capzone__unlockAfterTime:r=90
+  capzone__acivateRespawnGroup:i=12321
+  decal__height:r=2
+  capzone__capTeam:i=2
+  capzone__activateRespawnOnProgress:r=0.2
+  capzone__curTeamDominating:i=1
+  capzone__curTeamCapturingZone:i=2
+  capzone__bombTransformLocalPos:m=[[5.97121, -0.0251706, -1.59772] [0.0036443, 1.61424, -0.0118109] [0.835118, 0.0209485, 3.12078] [0.407471, -2.40305, 0.443909]]
+  capzone__timeToDefuse:r=30
+  capzone__timeToExplosion:r=360
+  capzone__timeToPlant:r=5
+  capzone__timeToResetPlant:r=5
+  capzone__deactivateAfterCap:b=no
+  capzone__plantingTeam:i=1
+  capzone__owningTeam:i=3
+  capzone__onlyTeamCanCapture:i=3
+  sphere_zone__radius:r=50
+  active:b=yes
+  capzone__title:t=""
+
+  "capzone__activateChoice:object"{
+    s2:r=1
+  }
+}
+
+entity{
+  _template:t="defend_zone_team_chained_sphere+bomb_site_zone_chained_sphere+resupply_for_ground_vehicle_zone"
+  transform:m=[[0.999029, -0, 0.0440517] [0, 1, 0] [-0.0440517, 0, 0.999029] [-263.547, 7.90478, -1618.52]]
+  groupName:t="s2"
+  capzone__bombTemplate:t="bomb_site+bomb_site_radar_hardware_animchar_03"
+  capzone__icon:t="ui/skin#item_tnt_block_exploder.svg"
+  ui_order:i=13
+  capzone__checkAllZonesInGroup:b=no
+  capzone__spawnAtZoneTimeout:r=60
+  capzone__curTeamDominating:i=2
+  capzone__createRespawnBase:t="respawnBaseGroupActivator"
+  capzone__canCaptureOnVehicle:b=yes
+  capzone__autoDecap:b=no
+  capzone__autoCap:b=no
+  capzone__presenceAdvantageToDominate:i=0
+  capzone__caption:t="Soviet Bomb Site;Railway Station Avangard Farm (Blow up the railway to prevent Axis pushing/-2000 to Axis)"
+  capzone__maxTeamPresence:i=3
+  capzone__maxCapDecapSpeedMult:r=3
+  capzone__alwaysShow:b=yes
+  capzone_timer__timeLeft:r=-1
+  capzone__capReward:r=3000
+  capzone__capTimeTeam1:r=90
+  capzone__capTimeTeam2:r=90
+  capzone__decapTimeTeam1:r=30
+  capzone__decapTimeTeam2:r=30
+  capzone__lockAfterCap:b=yes
+  capzone__unlockAfterTime:r=90
+  capzone__acivateRespawnGroup:i=12321
+  decal__height:r=2
+  capzone__capTeam:i=2
+  capzone__activateRespawnOnProgress:r=0.2
+  capzone__curTeamDominating:i=1
+  capzone__curTeamCapturingZone:i=2
+  capzone__bombTransformLocalPos:m=[[0.584599, 0, 0] [0, 0.584599, -0] [-0, 0, 0.584599] [0.167206, -0.525215, 0.257202]]
+  capzone__timeToDefuse:r=30
+  capzone__timeToExplosion:r=360
+  capzone__timeToPlant:r=5
+  capzone__timeToResetPlant:r=5
+  capzone__deactivateAfterCap:b=no
+  capzone__plantingTeam:i=1
+  capzone__owningTeam:i=3
+  capzone__onlyTeamCanCapture:i=3
+  resupply_zone__team:i=2
+  resupply_zone__resupplyFuel:b=yes
+  sphere_zone__radius:r=80
+}
+
+entity{
+  _template:t="defend_zone_team_chained_sphere+separate_cap_decap_time+lockable_capzone+capzone_respawn_activator+defend_zone_respawnbase"
+  transform:m=[[12.4337, -0.251401, 0.548542] [0.0606587, 5.02364, 0] [-0.548879, 0.0110979, 12.4444] [3.25756, 45.2206, -1085.07]]
+  groupName:t="s2"
+  capzone__icon:t="!ui/skin#battles.svg"
+  ui_order:i=16
+  capzone__activateAfterTeam2Cap:t="s3"
+  capzone__checkAllZonesInGroup:b=no
+  capzone__spawnAtZoneTimeout:r=90
+  capzone__curTeamDominating:i=1
+  capzone__createRespawnBase:t="respawnBaseGroupActivator"
+  capzone__canCaptureOnVehicle:b=yes
+  capzone__autoDecap:b=no
+  capzone__autoCap:b=no
+  capzone__presenceAdvantageToDominate:i=0
+  capzone__caption:t="P;316 HighLand Traffic Village; Break Through Once Cap; (Garrison 60% for Axis)"
+  capzone__maxTeamPresence:i=3
+  capzone__maxCapDecapSpeedMult:r=3
+  capzone__alwaysShow:b=yes
+  capzone__capReward:r=12000
+  capzone__capTimeTeam1:r=999999
+  capzone__capTimeTeam2:r=180
+  capzone__decapTimeTeam1:r=3
+  capzone__decapTimeTeam2:r=12
+  capzone__lockAfterActivate:b=yes
+  capzone__unlockAfterTime:r=360
+  capzone__acivateRespawnGroup:i=12322
+  decal__height:r=2
+  capzone__title:t="P"
+  capzone__createRespawnBaseForTeam:i=1
+  capzone__createdRespawnBaseGroup:i=50121
+  capzone_timer__timeLeft:r=-1
+  capzone__onlyTeamCanCapture:i=-1
+  capzone__capTeam:i=-1
+  capzone__activateRespawnOnProgress:r=0.6
+  capzone__progress:r=0.5
+  capzone__curTeamDominating:i=1
+  capzone__curTeamCapturingZone:i=1
+  capzone__mustBeCapturedByTeam:i=2
+
+  "capzone__activateChoice:object"{
+    s3:r=1
+  }
+}
+
+entity{
+  _template:t="defend_zone_team_chained_sphere+defend_zone_respawnbase+separate_cap_decap_time+lockable_capzone"
+  transform:m=[[5.42431, -0.0353794, -0.00446189] [0.0463529, 1.40526, -0.148329] [0.0082497, 0.113624, 5.46084] [701.685, 13.3543, -504.685]]
+  capzone__icon:t="!ui/skin#battles.svg"
+  ui_order:i=22
+  active:b=yes
+  capzone__checkAllZonesInGroup:b=no
+  groupName:t="s3"
+  capzone__activateAfterTeam2Cap:t="s4"
+  capzone__canCaptureOnVehicle:b=yes
+  capzone__alwaysShow:b=yes
+  capzone__progress:r=0.5
+  capzone__capTeam:i=-1
+  capzone__createRespawnBase:t="respawnBaseGroupActivator"
+  capzone__createRespawnBaseForTeam:i=1
+  capzone__createdRespawnBaseGroup:i=50123
+  capzone__spawnAtZoneTimeout:r=150
+  capzone__curTeamDominating:i=1
+  capzone__presenceAdvantageToDominate:i=2
+  capzone__caption:t="F;Artillery Fortification; Break Through Once Cap"
+  capzone__maxTeamPresence:i=3
+  capzone__maxCapDecapSpeedMult:r=3
+  capzone_timer__timeLeft:r=-1
+  capzone__capTimeTeam1:r=999999
+  capzone__capTimeTeam2:r=180
+  capzone__decapTimeTeam1:r=3
+  capzone__decapTimeTeam2:r=12
+  capzone__lockAfterActivate:b=yes
+  capzone__unlockAfterTime:r=360
+  capzone__autoDecap:b=no
+  capzone__autoCap:b=no
+  capzone__title:t="F"
+  capzone__onlyTeamCanCapture:i=-1
+  capzone__capTeam:i=-1
+  capzone__progress:r=0.5
+  capzone__curTeamDominating:i=1
+  capzone__curTeamCapturingZone:i=1
+  capzone__mustBeCapturedByTeam:i=2
+
+  "capzone__activateChoice:object"{
+    s4:r=1
+  }
+}
+
+entity{
+  _template:t="defend_zone_team_chained_sphere+bomb_site_zone_chained_sphere+defend_zone_respawnbase+resupply_for_ground_vehicle_zone"
+  transform:m=[[1.02843, 0.0169921, 0.33123] [-0.0138084, 1.08042, -0.0125525] [-0.331378, 0.00771391, 1.02849] [1307.26, 0.724831, -1192.26]]
+  capzone__bombTemplate:t="bomb_site+russia_wooden_planks_b"
+  capzone__icon:t="ui/skin#item_tnt_block_exploder.svg"
+  ui_order:i=23
+  groupName:t="s3"
+  capzone__checkAllZonesInGroup:b=no
+  capzone__createRespawnBaseForTeam:i=1
+  capzone__createdRespawnBaseGroup:i=50125
+  capzone__spawnAtZoneTimeout:r=90
+  capzone__curTeamDominating:i=2
+  capzone__createRespawnBase:t="respawnBaseGroupActivator"
+  capzone__canCaptureOnVehicle:b=yes
+  capzone__autoDecap:b=no
+  capzone__autoCap:b=no
+  capzone__presenceAdvantageToDominate:i=0
+  capzone__caption:t="Soviet Bomb Site;Panfilov Bridge (Blow up the bridge to prevent Axis pushing/-2000 to Axis)"
+  capzone__maxTeamPresence:i=3
+  capzone__maxCapDecapSpeedMult:r=3
+  capzone__alwaysShow:b=yes
+  capzone_timer__timeLeft:r=-1
+  capzone__capReward:r=3000
+  capzone__capTimeTeam1:r=90
+  capzone__capTimeTeam2:r=90
+  capzone__decapTimeTeam1:r=30
+  capzone__decapTimeTeam2:r=30
+  capzone__lockAfterCap:b=yes
+  capzone__unlockAfterTime:r=90
+  capzone__acivateRespawnGroup:i=12321
+  decal__height:r=2
+  capzone__capTeam:i=2
+  capzone__activateRespawnOnProgress:r=0.2
+  capzone__curTeamDominating:i=1
+  capzone__curTeamCapturingZone:i=2
+  capzone__bombTransformLocalPos:m=[[5.17451, 0.00750637, 1.97912] [0.000530133, 0.3199, -0.00259938] [-1.34962, 0.030908, 3.52853] [-0.250854, -0.327037, 0.56543]]
+  capzone__timeToDefuse:r=30
+  capzone__timeToExplosion:r=360
+  capzone__timeToPlant:r=5
+  capzone__timeToResetPlant:r=5
+  capzone__deactivateAfterCap:b=no
+  capzone__plantingTeam:i=1
+  capzone__owningTeam:i=3
+  capzone__onlyTeamCanCapture:i=3
+  sphere_zone__radius:r=50
+  active:b=no
+  capzone__title:t=""
+}
+
+entity{
+  _template:t="defend_zone_team_chained_sphere+separate_cap_decap_time+lockable_capzone+capzone_respawn_activator+defend_zone_respawnbase"
+  transform:m=[[5.33069, 0.0828208, -0.321228] [-0.0184006, 1.52823, -0.0465721] [0.31864, 0.253183, 5.33063] [1287.28, 2.25254, -994.193]]
+  groupName:t="s3"
+  capzone__progress:r=0.5
+  capzone__capTeam:i=-1
+  capzone__icon:t="!ui/skin#custom_spawn_point.svg"
+  ui_order:i=25
+  capzone__activateAfterTeam2Cap:t="s4"
+  capzone__checkAllZonesInGroup:b=yes
+  capzone__curTeamDominating:i=1
+  capzone__createRespawnBase:t="respawnBaseGroupActivator"
+  capzone__canCaptureOnVehicle:b=yes
+  capzone__autoDecap:b=no
+  capzone__autoCap:b=no
+  capzone__presenceAdvantageToDominate:i=0
+  capzone__caption:t="E;Rokosovski Town (Garrison Rally Captureable; Lock 90s After Cap)"
+  capzone__maxTeamPresence:i=3
+  capzone__maxCapDecapSpeedMult:r=3
+  capzone__alwaysShow:b=yes
+  capzone_timer__timeLeft:r=-1
+  capzone__capReward:r=6000
+  capzone__capTimeTeam1:r=150
+  capzone__capTimeTeam2:r=100
+  capzone__decapTimeTeam1:r=30
+  capzone__decapTimeTeam2:r=30
+  capzone__lockAfterCap:b=yes
+  capzone__unlockAfterTime:r=90
+  capzone__acivateRespawnGroup:i=12331
+  decal__height:r=1
+  capzone__title:t="R"
+  capzone__onlyTeamCanCapture:i=-1
+  capzone__capTeam:i=-1
+  capzone__activateRespawnOnProgress:r=0.2
+  capzone__progress:r=0.5
+  capzone__curTeamDominating:i=1
+  capzone__curTeamCapturingZone:i=1
+  capzone__createRespawnBase:t="respawnBaseGroupActivator"
+  capzone__createRespawnBaseForTeam:i=1
+  capzone__createdRespawnBaseGroup:i=50124
+  capzone__spawnAtZoneTimeout:r=120
+
+  "capzone__activateChoice:object"{
+    s4:r=1
+  }
+}
+
+entity{
+  _template:t="defend_zone_team_chained_sphere+separate_cap_decap_time+lockable_capzone+capzone_respawn_activator"
+  transform:m=[[8.63656, 0, -0.513963] [-0, 1.53268, 0] [0.514336, 0, 8.64283] [1117.21, 80.4842, 61.4188]]
+  groupName:t="s4"
+  capzone__icon:t="!ui/skin#custom_spawn_point.svg"
+  ui_order:i=35
+  capzone__activateAfterTeam2Cap:t="s5a"
+  capzone__checkAllZonesInGroup:b=yes
+  capzone__createRespawnBaseForTeam:i=1
+  capzone__createdRespawnBaseGroup:i=5001
+  capzone__spawnAtZoneTimeout:r=60
+  capzone__curTeamDominating:i=1
+  capzone__createRespawnBase:t="respawnBaseGroupActivator"
+  capzone__canCaptureOnVehicle:b=yes
+  capzone__autoDecap:b=no
+  capzone__autoCap:b=no
+  capzone__presenceAdvantageToDominate:i=0
+  capzone__caption:t="A;Panfilov Town (Garrison Rally Captureable; Lock 90s After Cap)"
+  capzone__maxTeamPresence:i=3
+  capzone__maxCapDecapSpeedMult:r=3
+  capzone__alwaysShow:b=yes
+  capzone_timer__timeLeft:r=-1
+  capzone__capReward:r=3600
+  capzone__capTimeTeam1:r=150
+  capzone__capTimeTeam2:r=100
+  capzone__decapTimeTeam1:r=30
+  capzone__decapTimeTeam2:r=30
+  capzone__lockAfterCap:b=yes
+  capzone__unlockAfterTime:r=90
+  capzone__acivateRespawnGroup:i=12341
+  decal__height:r=1
+  capzone__title:t="A"
+  capzone__onlyTeamCanCapture:i=-1
+  capzone__capTeam:i=-1
+  capzone__activateRespawnOnProgress:r=0.2
+  capzone__progress:r=0.5
+  capzone__curTeamDominating:i=1
+  capzone__curTeamCapturingZone:i=1
+  capzone__activateAfterCap:t="s5a"
+
+  "capzone__activateChoice:object"{
+    s5:r=1
+  }
+}
+
+entity{
+  _template:t="defend_zone_team_chained_sphere+separate_cap_decap_time+lockable_capzone+capzone_respawn_activator"
+  transform:m=[[7.14225, 0, -2.81679] [0, 1, 0] [2.81679, -0, 7.14225] [575.322, 19.5201, 132.708]]
+  groupName:t="s4"
+  capzone__icon:t="!ui/skin#custom_spawn_point_active.svg"
+  ui_order:i=39
+  capzone__activateAfterTeam2Cap:t="s5a"
+  capzone__checkAllZonesInGroup:b=yes
+  capzone__createRespawnBaseForTeam:i=1
+  capzone__createdRespawnBaseGroup:i=5001
+  capzone__spawnAtZoneTimeout:r=60
+  capzone__createRespawnBase:t="respawnBaseGroupActivator"
+  capzone__canCaptureOnVehicle:b=yes
+  capzone__autoDecap:b=no
+  capzone__autoCap:b=no
+  capzone__presenceAdvantageToDominate:i=0
+  capzone__caption:t="B;Kamenka River (Garrison Rally For Tanks/Panzer and Infantry Captureable; Lock 180s After Cap)"
+  capzone__maxTeamPresence:i=3
+  capzone__maxCapDecapSpeedMult:r=3
+  capzone__alwaysShow:b=yes
+  capzone_timer__timeLeft:r=-1
+  capzone__capReward:r=3600
+  capzone__capTimeTeam1:r=150
+  capzone__capTimeTeam2:r=100
+  capzone__decapTimeTeam1:r=30
+  capzone__decapTimeTeam2:r=30
+  capzone__lockAfterCap:b=yes
+  capzone__unlockAfterTime:r=90
+  capzone__acivateRespawnGroup:i=12342
+  decal__height:r=1
+  capzone__title:t="B"
+  capzone__onlyTeamCanCapture:i=-1
+  capzone__capTeam:i=-1
+  capzone__activateRespawnOnProgress:r=0.2
+  capzone__progress:r=0.5
+  capzone__curTeamDominating:i=1
+  capzone__curTeamCapturingZone:i=1
+  capzone__activateAfterCap:t="s5a"
+
+  "capzone__activateChoice:object"{
+    s5:r=1
+  }
+}
+
+entity{
+  _template:t="defend_zone_team_chained_sphere+separate_cap_decap_time+lockable_capzone+defend_zone_respawnbase"
+  transform:m=[[-4.12547, -0.206141, 8.19953] [-0.0319226, 0.999449, 0.00906532] [-8.19688, -0.224352, -4.12978] [679.326, 3.71845, 532.17]]
+  ui_order:i=301
+  capzone__icon:t="!ui/skin#battles.svg"
+  groupName:t="s4"
+  capzone__checkAllZonesInGroup:b=no
+  capzone__decapTime:r=80
+  capzone__canCaptureOnVehicle:b=yes
+  capzone__progress:r=0
+  capzone__curTeamDominating:i=1
+  capzone__createRespawnBase:t="respawnBaseGroupActivator"
+  capzone__createRespawnBaseForTeam:i=1
+  capzone__createdRespawnBaseGroup:i=55132
+  capzone__spawnAtZoneTimeout:r=180
+  capzone__activateAfterTeam2Cap:t="s5a"
+  active:b=no
+  capzone__capTeam:i=1
+  capzone__mustBeCapturedByTeam:i=2
+  capzone__alwaysShow:b=yes
+  capzone_timer__timeLeft:r=-1
+  capzone__caption:t="P;Vysokovo Village East; Break Through Once Cap; (+600 to Axis/-500 to Allies)"
+  capzone__maxTeamPresence:i=3
+  capzone__maxCapDecapSpeedMult:r=3
+  capzone__capReward:r=3600
+  capzone__autoDecap:b=no
+  capzone__autoCap:b=no
+  capzone__capTimeTeam1:r=999999
+  capzone__capTimeTeam2:r=180
+  capzone__decapTimeTeam1:r=3
+  capzone__decapTimeTeam2:r=12
+  capzone__lockAfterActivate:b=yes
+  capzone__unlockAfterTime:r=360
+  capzone__onlyTeamCanCapture:i=-1
+  capzone__activateRespawnOnProgress:r=0.6
+  capzone__progress:r=0.5
+  capzone__title:t="P"
+  capzone__activateAfterCap:t="s5a"
+
+  "capzone__activateChoice:object"{
+    s5a:r=1
+  }
+
+  "capzone__activateChoiceTeam2:object"{
+    s5a:r=1
+  }
+}
+
+entity{
+  _template:t="defend_zone_team_chained_sphere+separate_cap_decap_time+lockable_capzone+capzone_respawn_activator"
+  transform:m=[[7.27939, 0.0828208, 2.13327] [0.00299949, 1.5283, -0.0695688] [-2.13581, 0.335353, 7.27501] [298.388, 3.91467, 709.339]]
+  groupName:t="s5a"
+  capzone__icon:t="!ui/skin#custom_spawn_point.svg"
+  ui_order:i=401
+  capzone__activateAfterTeam2Cap:t="s5b"
+  capzone__checkAllZonesInGroup:b=yes
+  capzone__createRespawnBaseForTeam:i=1
+  capzone__createdRespawnBaseGroup:i=5001
+  capzone__spawnAtZoneTimeout:r=60
+  capzone__createRespawnBase:t="respawnBaseGroupActivator"
+  capzone__canCaptureOnVehicle:b=yes
+  capzone__autoDecap:b=no
+  capzone__autoCap:b=no
+  capzone__presenceAdvantageToDominate:i=0
+  capzone__caption:t="C;Cross Roads Position (Garrison Rally Captureable; Lock 90s After Cap)"
+  capzone__maxTeamPresence:i=3
+  capzone__maxCapDecapSpeedMult:r=3
+  capzone__alwaysShow:b=yes
+  capzone_timer__timeLeft:r=-1
+  capzone__capReward:r=1800
+  capzone__capTimeTeam1:r=150
+  capzone__capTimeTeam2:r=100
+  capzone__decapTimeTeam1:r=30
+  capzone__decapTimeTeam2:r=30
+  capzone__lockAfterCap:b=yes
+  capzone__unlockAfterTime:r=90
+  capzone__acivateRespawnGroup:i=12351
+  decal__height:r=1
+  capzone__title:t="C"
+  active:b=no
+  capzone__activateAfterCap:t="s5b"
+  capzone__onlyTeamCanCapture:i=-1
+  capzone__capTeam:i=-1
+  capzone__activateRespawnOnProgress:r=0.2
+  capzone__progress:r=0.5
+  capzone__curTeamDominating:i=1
+  capzone__curTeamCapturingZone:i=1
+  capzone__deactivateAfterCap:b=no
+
+  "capzone__activateChoice:object"{
+    s5b:r=1
+  }
+}
+
+entity{
+  _template:t="defend_zone_team_chained_sphere+defend_zone_respawnbase+lockable_capzone+separate_cap_decap_time+capzone_respawn_activator"
+  transform:m=[[5.07356, 1.0709e-07, 5.73054] [-1.26373e-07, 1, 9.31969e-08] [-12.0854, -2.52445e-06, 10.6998] [230.374, 18.5363, 1244.14]]
+  capzone__icon:t="!ui/skin#battles.svg"
+  ui_order:i=403
+  groupName:t="s5a"
+  capzone__checkAllZonesInGroup:b=no
+  capzone__decapTime:r=80
+  capzone__canCaptureOnVehicle:b=no
+  capzone__progress:r=0
+  capzone__curTeamDominating:i=1
+  capzone__createRespawnBase:t="respawnBaseGroupActivator"
+  capzone__createRespawnBaseForTeam:i=1
+  capzone__createdRespawnBaseGroup:i=55132
+  capzone__spawnAtZoneTimeout:r=180
+  capzone__activateAfterTeam2Cap:t="s5b"
+  capzone__caption:t="P;Northern Fortress Trenches; Break Through Once Cap; (No Vehicle Captrue; +300 to Axis/-500 to Allies)"
+  active:b=no
+  capzone__capTeam:i=1
+  capzone__alwaysShow:b=yes
+  capzone_timer__timeLeft:r=-1
+  capzone__maxTeamPresence:i=3
+  capzone__maxCapDecapSpeedMult:r=3
+  capzone__capReward:r=1800
+  capzone__autoDecap:b=no
+  capzone__autoCap:b=no
+  capzone__capTimeTeam1:r=999999
+  capzone__capTimeTeam2:r=180
+  capzone__decapTimeTeam1:r=3
+  capzone__decapTimeTeam2:r=12
+  capzone__lockAfterActivate:b=yes
+  capzone__unlockAfterTime:r=360
+  capzone__onlyTeamCanCapture:i=-1
+  capzone__activateRespawnOnProgress:r=0.6
+  capzone__progress:r=0.5
+  capzone__title:t="P"
+  capzone__activateAfterCap:t="s5b"
+
+  "capzone__activateChoice:object"{
+    s5b:r=1
+  }
+}
+
+entity{
+  _template:t="defend_zone_team_chained_sphere+separate_cap_decap_time+lockable_capzone+capzone_respawn_activator"
+  transform:m=[[7.72845, 0.0828208, 2.26487] [0.00318452, 1.5283, -0.0738604] [-2.26757, 0.335353, 7.7238] [324.502, 2.35061, 1647.99]]
+  groupName:t="s5a"
+  capzone__icon:t="!ui/skin#custom_spawn_point.svg"
+  ui_order:i=405
+  capzone__activateAfterTeam2Cap:t="s5b"
+  capzone__checkAllZonesInGroup:b=yes
+  capzone__createRespawnBaseForTeam:i=1
+  capzone__createdRespawnBaseGroup:i=5001
+  capzone__spawnAtZoneTimeout:r=60
+  capzone__createRespawnBase:t="respawnBaseGroupActivator"
+  capzone__canCaptureOnVehicle:b=yes
+  capzone__autoDecap:b=no
+  capzone__autoCap:b=no
+  capzone__presenceAdvantageToDominate:i=0
+  capzone__caption:t="D;Birch Grove South (Garrison Rally Captureable; Lock 90s After Cap)"
+  capzone__maxTeamPresence:i=3
+  capzone__maxCapDecapSpeedMult:r=3
+  capzone__alwaysShow:b=yes
+  capzone_timer__timeLeft:r=-1
+  capzone__capReward:r=1800
+  capzone__capTimeTeam1:r=150
+  capzone__capTimeTeam2:r=100
+  capzone__decapTimeTeam1:r=30
+  capzone__decapTimeTeam2:r=30
+  capzone__lockAfterCap:b=yes
+  capzone__unlockAfterTime:r=90
+  capzone__acivateRespawnGroup:i=12353
+  decal__height:r=1
+  capzone__title:t="D"
+  active:b=no
+  capzone__activateAfterCap:t="s5b"
+  capzone__onlyTeamCanCapture:i=-1
+  capzone__capTeam:i=-1
+  capzone__activateRespawnOnProgress:r=0.2
+  capzone__progress:r=0.5
+  capzone__curTeamDominating:i=1
+  capzone__curTeamCapturingZone:i=1
+  capzone__deactivateAfterCap:b=no
+
+  "capzone__activateChoice:object"{
+    s5b:r=1
+  }
+}

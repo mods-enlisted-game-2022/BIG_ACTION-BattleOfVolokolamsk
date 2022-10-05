@@ -8,7 +8,7 @@ entity{
 
 entity{
   _template:t="battle_area_polygon_point"
-  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-6791.99, 97.991, -8113.93]]
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-9691.58, 97.991, -8732.04]]
   battle_area_polygon_point__forBattleAreaId:t="aaxs123air"
   battle_area_polygon_point__id:t="aaxs123airp2"
   battle_area_polygon_point__nextId:t="aaxs123airp3"

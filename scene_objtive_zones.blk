@@ -1,3 +1,4 @@
+
 entity{
   _template:t="bomb_site_zone_chained_box"
   transform:m=[[21.7077, 0, 0] [0, 21.7077, 0] [0, 0, 21.7077] [-1528.05, 25.9506, 1684.99]]
@@ -6,7 +7,7 @@ entity{
   ui_order:i=0
   capzone__alwaysHide:b=yes
   capzone__caption:t="PlaceHolderEnsureGameModeUI!"
-  capzone_timer__timeLeft:r=18000
+  capzone_timer__timeLeft:r=21600
   capzone__plantingTeam:i=2
 }
 
@@ -14,7 +15,7 @@ entity{
   _template:t="defend_zone_team_chained_sphere+defend_zone_respawnbase+separate_cap_decap_time+lockable_capzone"
   transform:m=[[5.14944, -0.203585, 0.225281] [0.0854437, 3.27976, 0.106804] [-0.231644, -0.232574, 5.14878] [-833.064, 37.8635, -968.416]]
   groupName:t="s1"
-  capzone__icon:t="!ui/skin#building_wire_fence.svg"
+  capzone__icon:t="!ui/skin#battles.svg"
   ui_order:i=3
   capzone__activateAfterTeam2Cap:t="s2"
   capzone__checkAllZonesInGroup:b=no
@@ -26,21 +27,21 @@ entity{
   capzone__autoDecap:b=no
   capzone__autoCap:b=no
   capzone__presenceAdvantageToDominate:i=0
-  capzone__caption:t="P;Beloe Highland; Break Through Once Cap; (Lock 60s After Cap)"
+  capzone__caption:t="D;Beloe Highland; Break Through Once Cap; (Lock 60s After Cap)"
   capzone__maxTeamPresence:i=3
   capzone__maxCapDecapSpeedMult:r=3
   capzone__alwaysShow:b=yes
   capzone_timer__timeLeft:r=-1
-  capzone__capReward:r=12000
+  capzone__capReward:r=6000
   capzone__capTimeTeam1:r=999999
-  capzone__capTimeTeam2:r=180
+  capzone__capTimeTeam2:r=230
   capzone__decapTimeTeam1:r=3
   capzone__decapTimeTeam2:r=12
   capzone__lockAfterActivate:b=yes
-  capzone__unlockAfterTime:r=360
+  capzone__unlockAfterTime:r=390
   capzone__canCaptureByPresenceDomination:b=yes
   decal__height:r=100
-  capzone__title:t="P"
+  capzone__title:t="D"
   capzone__onlyTeamCanCapture:i=-1
   capzone__capTeam:i=-1
   capzone__progress:r=0.5
@@ -65,12 +66,12 @@ entity{
   capzone__autoDecap:b=no
   capzone__autoCap:b=no
   capzone__presenceAdvantageToDominate:i=0
-  capzone__caption:t="A;Beloe Lake Position (Garrison Rally For Point P Captureable; Lock 90s After Cap)"
+  capzone__caption:t="A;Beloe Lake Position (Garrison Rally Captureable; Lock 90s After Cap)"
   capzone__maxTeamPresence:i=3
   capzone__maxCapDecapSpeedMult:r=3
   capzone__alwaysShow:b=yes
   capzone_timer__timeLeft:r=-1
-  capzone__capReward:r=18000
+  capzone__capReward:r=6000
   capzone__capTimeTeam1:r=90
   capzone__capTimeTeam2:r=90
   capzone__decapTimeTeam1:r=5
@@ -86,7 +87,7 @@ entity{
   capzone__curTeamDominating:i=1
   capzone__curTeamCapturingZone:i=1
   capzone__title:t="A"
-  capzone__deactivateAfterCap:b=no
+  capzone__deactivateAfterCap:b=yes
 
   "capzone__activateChoice:object"{
     s2:r=1
@@ -94,7 +95,7 @@ entity{
 }
 
 entity{
-  _template:t="bomb_site_zone_chained_sphere+resupply_for_ground_vehicle_zone+resupply_in_air_zone"
+  _template:t="defend_zone_team_chained_sphere+bomb_site_zone_chained_sphere+resupply_for_ground_vehicle_zone+resupply_in_air_zone"
   transform:m=[[-0.0148214, 0.0217584, -0.999654] [-0.0468156, 0.998652, 0.0224307] [0.998794, 0.0471319, -0.0137827] [-1096.4, 0.536145, -871.034]]
   capzone__bombTemplate:t="bomb_site+debris_wooden_planks_stack_a"
   capzone__icon:t="ui/skin#item_tnt_block_exploder.svg"
@@ -110,7 +111,7 @@ entity{
   capzone__autoDecap:b=no
   capzone__autoCap:b=no
   capzone__presenceAdvantageToDominate:i=0
-  capzone__caption:t="Soviet Bomb Site;Beloe Bridge (Blow up the bridge to prevent Axis pushing/-2000 to Axis)"
+  capzone__caption:t="Soviet Bomb Site;Beloe Bridge (Destroy the Bridge 炸毁桥梁 to prevent Axis pushing/-2500 to Axis)"
   capzone__maxTeamPresence:i=3
   capzone__maxCapDecapSpeedMult:r=3
   capzone__alwaysShow:b=yes
@@ -130,14 +131,14 @@ entity{
   capzone__curTeamCapturingZone:i=2
   capzone__bombTransformLocalPos:m=[[-0.00246843, 0.737302, -0.0208407] [-3.42378, 0.0144322, 0.916104] [0.541835, 0.0590272, 2.02409] [4.74646, -1.22089, -0.839233]]
   capzone__timeToDefuse:r=15
-  capzone__timeToExplosion:r=390
-  capzone__timeToPlant:r=5
+  capzone__timeToExplosion:r=50
+  capzone__timeToPlant:r=360
   capzone__timeToResetPlant:r=5
   capzone__deactivateAfterCap:b=no
   capzone__plantingTeam:i=1
   capzone__owningTeam:i=3
   capzone__onlyTeamCanCapture:i=3
-  sphere_zone__radius:r=50
+  sphere_zone__radius:r=30
   active:b=yes
   capzone__title:t=""
 
@@ -161,7 +162,7 @@ entity{
   capzone__autoDecap:b=no
   capzone__autoCap:b=no
   capzone__presenceAdvantageToDominate:i=0
-  capzone__caption:t="Soviet Bomb Site;Railway Station Avangard Farm (Blow up the railway to prevent Axis pushing/-2000 to Axis)"
+  capzone__caption:t="Soviet Bomb Site;Railway Station Avangard Farm (Destroy the Railway 破坏铁路 to prevent Axis pushing/-2500 to Axis)"
   capzone__maxTeamPresence:i=3
   capzone__maxCapDecapSpeedMult:r=3
   capzone__alwaysShow:b=yes
@@ -181,8 +182,8 @@ entity{
   capzone__curTeamCapturingZone:i=2
   capzone__bombTransformLocalPos:m=[[0.584599, 0, 0] [0, 0.584599, -0] [-0, 0, 0.584599] [0.167206, -0.525215, 0.257202]]
   capzone__timeToDefuse:r=15
-  capzone__timeToExplosion:r=390
-  capzone__timeToPlant:r=5
+  capzone__timeToExplosion:r=50
+  capzone__timeToPlant:r=360
   capzone__timeToResetPlant:r=5
   capzone__deactivateAfterCap:b=no
   capzone__plantingTeam:i=1
@@ -208,20 +209,20 @@ entity{
   capzone__autoDecap:b=no
   capzone__autoCap:b=no
   capzone__presenceAdvantageToDominate:i=0
-  capzone__caption:t="P;316 HighLand Traffic Village; Break Through Once Cap; (Garrison 60% for Axis)"
+  capzone__caption:t="D;316 HighLand Traffic Village; Break Through Once Cap; (Garrison for Axis)"
   capzone__maxTeamPresence:i=3
   capzone__maxCapDecapSpeedMult:r=3
   capzone__alwaysShow:b=yes
-  capzone__capReward:r=12000
+  capzone__capReward:r=3000
   capzone__capTimeTeam1:r=999999
-  capzone__capTimeTeam2:r=180
+  capzone__capTimeTeam2:r=230
   capzone__decapTimeTeam1:r=3
   capzone__decapTimeTeam2:r=12
   capzone__lockAfterActivate:b=yes
-  capzone__unlockAfterTime:r=360
+  capzone__unlockAfterTime:r=390
   capzone__acivateRespawnGroup:i=12322
   decal__height:r=2
-  capzone__title:t="P"
+  capzone__title:t="D"
   capzone__createRespawnBaseForTeam:i=1
   capzone__createdRespawnBaseGroup:i=50121
   capzone_timer__timeLeft:r=-1
@@ -257,25 +258,26 @@ entity{
   capzone__spawnAtZoneTimeout:r=150
   capzone__curTeamDominating:i=1
   capzone__presenceAdvantageToDominate:i=2
-  capzone__caption:t="F;Artillery Fortification; Break Through Once Cap"
+  capzone__caption:t="D;Artillery Fortification; Break Through Once Cap"
   capzone__maxTeamPresence:i=3
   capzone__maxCapDecapSpeedMult:r=3
   capzone_timer__timeLeft:r=-1
   capzone__capTimeTeam1:r=999999
-  capzone__capTimeTeam2:r=180
+  capzone__capTimeTeam2:r=230
   capzone__decapTimeTeam1:r=3
   capzone__decapTimeTeam2:r=12
   capzone__lockAfterActivate:b=yes
-  capzone__unlockAfterTime:r=360
+  capzone__unlockAfterTime:r=390
   capzone__autoDecap:b=no
   capzone__autoCap:b=no
-  capzone__title:t="F"
+  capzone__title:t="D"
   capzone__onlyTeamCanCapture:i=-1
   capzone__capTeam:i=-1
   capzone__progress:r=0.5
   capzone__curTeamDominating:i=1
   capzone__curTeamCapturingZone:i=1
   capzone__mustBeCapturedByTeam:i=2
+  capzone__deactivateAfterCap:b=yes
 
   "capzone__activateChoice:object"{
     s4:r=1
@@ -299,7 +301,7 @@ entity{
   capzone__autoDecap:b=no
   capzone__autoCap:b=no
   capzone__presenceAdvantageToDominate:i=0
-  capzone__caption:t="Soviet Bomb Site;Panfilov Bridge (Blow up the bridge to prevent Axis pushing/-2000 to Axis)"
+  capzone__caption:t="Soviet Bomb Site;Panfilov Bridge (Destroy the Bridge 炸毁桥梁 to prevent Axis pushing/-2500 to Axis)"
   capzone__maxTeamPresence:i=3
   capzone__maxCapDecapSpeedMult:r=3
   capzone__alwaysShow:b=yes
@@ -319,14 +321,14 @@ entity{
   capzone__curTeamCapturingZone:i=2
   capzone__bombTransformLocalPos:m=[[-0.00128922, -0.777939, 0.00632121] [3.71946, 0.00539548, 1.4226] [-0.792057, 0.0181391, 2.07081] [-5.11523, -0.866342, -1.29163]]
   capzone__timeToDefuse:r=15
-  capzone__timeToExplosion:r=390
-  capzone__timeToPlant:r=5
+  capzone__timeToExplosion:r=50
+  capzone__timeToPlant:r=360
   capzone__timeToResetPlant:r=5
   capzone__deactivateAfterCap:b=no
   capzone__plantingTeam:i=1
   capzone__owningTeam:i=3
   capzone__onlyTeamCanCapture:i=3
-  sphere_zone__radius:r=50
+  sphere_zone__radius:r=30
   active:b=no
   capzone__title:t=""
 }
@@ -352,7 +354,7 @@ entity{
   capzone__maxCapDecapSpeedMult:r=3
   capzone__alwaysShow:b=yes
   capzone_timer__timeLeft:r=-1
-  capzone__capReward:r=6000
+  capzone__capReward:r=3000
   capzone__capTimeTeam1:r=150
   capzone__capTimeTeam2:r=100
   capzone__decapTimeTeam1:r=30
@@ -400,7 +402,7 @@ entity{
   capzone__maxCapDecapSpeedMult:r=3
   capzone__alwaysShow:b=yes
   capzone_timer__timeLeft:r=-1
-  capzone__capReward:r=3600
+  capzone__capReward:r=3000
   capzone__capTimeTeam1:r=150
   capzone__capTimeTeam2:r=100
   capzone__decapTimeTeam1:r=30
@@ -439,12 +441,12 @@ entity{
   capzone__autoDecap:b=no
   capzone__autoCap:b=no
   capzone__presenceAdvantageToDominate:i=0
-  capzone__caption:t="B;Kamenka River (Garrison Rally For Tanks/Panzer and Infantry Captureable; Lock 180s After Cap)"
+  capzone__caption:t="B;Vysokovo Village East (Garrison Rally For Tanks/Panzer and Infantry Captureable; Lock 180s After Cap)"
   capzone__maxTeamPresence:i=3
   capzone__maxCapDecapSpeedMult:r=3
   capzone__alwaysShow:b=yes
   capzone_timer__timeLeft:r=-1
-  capzone__capReward:r=3600
+  capzone__capReward:r=3000
   capzone__capTimeTeam1:r=150
   capzone__capTimeTeam2:r=100
   capzone__decapTimeTeam1:r=30
@@ -488,22 +490,22 @@ entity{
   capzone__mustBeCapturedByTeam:i=2
   capzone__alwaysShow:b=yes
   capzone_timer__timeLeft:r=-1
-  capzone__caption:t="P;Vysokovo Village East; Break Through Once Cap; (+600 to Axis/-500 to Allies)"
+  capzone__caption:t="D;Kamenka River Wood; Break Through Once Cap; (+600 to Axis/-500 to Allies)"
   capzone__maxTeamPresence:i=3
   capzone__maxCapDecapSpeedMult:r=3
-  capzone__capReward:r=3600
+  capzone__capReward:r=3000
   capzone__autoDecap:b=no
   capzone__autoCap:b=no
   capzone__capTimeTeam1:r=999999
-  capzone__capTimeTeam2:r=180
+  capzone__capTimeTeam2:r=230
   capzone__decapTimeTeam1:r=3
   capzone__decapTimeTeam2:r=12
   capzone__lockAfterActivate:b=yes
-  capzone__unlockAfterTime:r=360
+  capzone__unlockAfterTime:r=390
   capzone__onlyTeamCanCapture:i=-1
   capzone__activateRespawnOnProgress:r=0.6
   capzone__progress:r=0.5
-  capzone__title:t="P"
+  capzone__title:t="D"
   capzone__activateAfterCap:t="s5a"
 
   "capzone__activateChoice:object"{
@@ -554,7 +556,7 @@ entity{
   capzone__progress:r=0.5
   capzone__curTeamDominating:i=1
   capzone__curTeamCapturingZone:i=1
-  capzone__deactivateAfterCap:b=no
+  capzone__deactivateAfterCap:b=yes
 
   "capzone__activateChoice:object"{
     s5b:r=1
@@ -577,7 +579,7 @@ entity{
   capzone__createdRespawnBaseGroup:i=55132
   capzone__spawnAtZoneTimeout:r=180
   capzone__activateAfterTeam2Cap:t="s5b"
-  capzone__caption:t="P;Northern Fortress Trenches; Break Through Once Cap; (No Vehicle Captrue; +300 to Axis/-500 to Allies)"
+  capzone__caption:t="D;Northern Fortress Trenches; Break Through Once Cap; (No Vehicle Captrue; +300 to Axis/-500 to Allies)"
   active:b=no
   capzone__capTeam:i=1
   capzone__alwaysShow:b=yes
@@ -588,15 +590,15 @@ entity{
   capzone__autoDecap:b=no
   capzone__autoCap:b=no
   capzone__capTimeTeam1:r=999999
-  capzone__capTimeTeam2:r=180
+  capzone__capTimeTeam2:r=230
   capzone__decapTimeTeam1:r=3
   capzone__decapTimeTeam2:r=12
   capzone__lockAfterActivate:b=yes
-  capzone__unlockAfterTime:r=360
+  capzone__unlockAfterTime:r=390
   capzone__onlyTeamCanCapture:i=-1
   capzone__activateRespawnOnProgress:r=0.6
   capzone__progress:r=0.5
-  capzone__title:t="P"
+  capzone__title:t="D"
   capzone__activateAfterCap:t="s5b"
 
   "capzone__activateChoice:object"{
@@ -620,7 +622,7 @@ entity{
   capzone__autoDecap:b=no
   capzone__autoCap:b=no
   capzone__presenceAdvantageToDominate:i=0
-  capzone__caption:t="D;Birch Grove South (Garrison Rally Captureable; Lock 90s After Cap)"
+  capzone__caption:t="E;Birch Grove South (Garrison Rally Captureable; Lock 90s After Cap)"
   capzone__maxTeamPresence:i=3
   capzone__maxCapDecapSpeedMult:r=3
   capzone__alwaysShow:b=yes
@@ -634,9 +636,104 @@ entity{
   capzone__unlockAfterTime:r=90
   capzone__acivateRespawnGroup:i=12353
   decal__height:r=1
-  capzone__title:t="D"
+  capzone__title:t="E"
   active:b=no
   capzone__activateAfterCap:t="s5b"
+  capzone__onlyTeamCanCapture:i=-1
+  capzone__capTeam:i=-1
+  capzone__activateRespawnOnProgress:r=0.2
+  capzone__progress:r=0.5
+  capzone__curTeamDominating:i=1
+  capzone__curTeamCapturingZone:i=1
+  capzone__deactivateAfterCap:b=yes
+
+  "capzone__activateChoice:object"{
+    s5b:r=1
+  }
+}
+
+entity{
+  _template:t="zone_bidirectional_two_chains_box"
+  transform:m=[[21.7077, 0, 0] [0, 21.7077, 0] [0, 0, 21.7077] [-1550.28, 25.9506, 1684.99]]
+  capzone__mustBeCapturedByTeam:i=-99
+  capzone__checkAllZonesInGroup:b=yes
+  ui_order:i=0
+  capzone__alwaysHide:b=yes
+  capzone__caption:t="PlaceHolderEnsureGameModeUI!"
+  capzone_timer__timeLeft:r=-1
+  active:b=yes
+  groupName:t=""
+}
+
+entity{
+  _template:t="defend_zone_team_chained_sphere+lockable_capzone+separate_cap_decap_time"
+  transform:m=[[9.27504, -6.26135e-09, -2.04144] [2.38079e-08, 1, 1.05101e-07] [2.04144, -1.02342e-06, 9.27504] [-157.085, 4.10123, 675.384]]
+  ui_order:i=406
+  capzone__icon:t="!ui/skin#battles.svg"
+  groupName:t="s5b"
+  capzone__checkAllZonesInGroup:b=no
+  capzone__canCaptureOnVehicle:b=yes
+  capzone__presenceAdvantageToDominate:i=2
+  capzone__activateAfterTeam2Cap:t="s6"
+  capzone__caption:t="D;Vysokovo Village North; Break Through Once Cap; (+300 to Axis/-500 to Allies)"
+  capzone__maxTeamPresence:i=3
+  capzone__maxCapDecapSpeedMult:r=3
+  capzone__alwaysShow:b=yes
+  capzone__capReward:r=1800
+  capzone__autoDecap:b=no
+  capzone__autoCap:b=no
+  capzone__title:t="D"
+  capzone__capTimeTeam1:r=999999
+  capzone__capTimeTeam2:r=230
+  capzone__decapTimeTeam1:r=3
+  capzone__decapTimeTeam2:r=12
+  capzone__lockAfterActivate:b=yes
+  capzone__unlockAfterTime:r=390
+  capzone__onlyTeamCanCapture:i=-1
+  capzone__capTeam:i=-1
+  capzone__progress:r=0.5
+  capzone__curTeamDominating:i=1
+  capzone__curTeamCapturingZone:i=1
+  capzone_timer__timeLeft:r=3000
+
+  "capzone__activateChoice:object"{
+    s6:r=1
+  }
+}
+
+entity{
+  _template:t="defend_zone_team_chained_sphere+separate_cap_decap_time+lockable_capzone+capzone_respawn_activator"
+  transform:m=[[7.27939, 0.0828208, 2.13327] [0.00299949, 1.5283, -0.0695688] [-2.13581, 0.335353, 7.27501] [95.8256, 3.42163, 636.989]]
+  groupName:t="s5b"
+  capzone__icon:t="!ui/skin#custom_spawn_point.svg"
+  ui_order:i=408
+  capzone__activateAfterTeam2Cap:t="s6"
+  capzone__checkAllZonesInGroup:b=yes
+  capzone__createRespawnBaseForTeam:i=1
+  capzone__createdRespawnBaseGroup:i=5001
+  capzone__spawnAtZoneTimeout:r=60
+  capzone__createRespawnBase:t="respawnBaseGroupActivator"
+  capzone__canCaptureOnVehicle:b=yes
+  capzone__autoDecap:b=no
+  capzone__autoCap:b=no
+  capzone__presenceAdvantageToDominate:i=0
+  capzone__caption:t="F;Cross Roads Position (Garrison Rally Captureable; Lock 90s After Cap)"
+  capzone__maxTeamPresence:i=3
+  capzone__maxCapDecapSpeedMult:r=3
+  capzone__alwaysShow:b=yes
+  capzone_timer__timeLeft:r=-1
+  capzone__capReward:r=1800
+  capzone__capTimeTeam1:r=150
+  capzone__capTimeTeam2:r=100
+  capzone__decapTimeTeam1:r=30
+  capzone__decapTimeTeam2:r=30
+  capzone__lockAfterCap:b=yes
+  capzone__unlockAfterTime:r=90
+  capzone__acivateRespawnGroup:i=12354
+  decal__height:r=1
+  capzone__title:t="F"
+  active:b=no
+  capzone__activateAfterCap:t="s6"
   capzone__onlyTeamCanCapture:i=-1
   capzone__capTeam:i=-1
   capzone__activateRespawnOnProgress:r=0.2
@@ -646,6 +743,342 @@ entity{
   capzone__deactivateAfterCap:b=no
 
   "capzone__activateChoice:object"{
-    s5b:r=1
+    s6:r=1
   }
+}
+
+entity{
+  _template:t="defend_zone_team_chained_sphere+bomb_site_zone_chained_sphere+resupply_for_ground_vehicle_zone+resupply_in_air_zone+separate_cap_decap_time"
+  transform:m=[[-0.132966, 0.00750234, 0.991092] [0.0166311, 0.999847, -0.00533737] [-0.990981, 0.0157732, -0.133071] [-3.66686, 4.07669, 974.689]]
+  ui_order:i=409
+  groupName:t="s5b"
+  capzone__bombTemplate:t="bomb_site+bomb_site_radar_hardware_animchar_03"
+  capzone__icon:t="ui/skin#item_tnt_block_exploder.svg"
+  capzone__checkAllZonesInGroup:b=no
+  capzone__spawnAtZoneTimeout:r=60
+  capzone__curTeamDominating:i=2
+  capzone__createRespawnBase:t="respawnBaseGroupActivator"
+  capzone__canCaptureOnVehicle:b=yes
+  capzone__autoDecap:b=no
+  capzone__autoCap:b=no
+  capzone__presenceAdvantageToDominate:i=0
+  capzone__caption:t="Soviet Bomb Site;Ammunition Depot (Destroy the Ammunition Depot 弹药库 to prevent Axis pushing/-2500 to Axis)"
+  capzone__maxTeamPresence:i=3
+  capzone__maxCapDecapSpeedMult:r=3
+  capzone__alwaysShow:b=yes
+  capzone_timer__timeLeft:r=-1
+  capzone__capReward:r=9000
+  capzone__capTimeTeam1:r=99999
+  capzone__capTimeTeam2:r=99999
+  capzone__decapTimeTeam1:r=99999
+  capzone__decapTimeTeam2:r=99999
+  capzone__lockAfterCap:b=yes
+  capzone__unlockAfterTime:r=90
+  capzone__acivateRespawnGroup:i=12321
+  decal__height:r=2
+  capzone__capTeam:i=2
+  capzone__activateRespawnOnProgress:r=0.2
+  capzone__curTeamDominating:i=1
+  capzone__curTeamCapturingZone:i=2
+  capzone__bombTransformLocalPos:m=[[-0.698988, 0, 0.715135] [0, 1, 0] [-0.715134, 0, -0.698986] [0.783508, -0.482337, 0.0966797]]
+  capzone__timeToDefuse:r=15
+  capzone__timeToExplosion:r=50
+  capzone__timeToPlant:r=360
+  capzone__timeToResetPlant:r=5
+  capzone__deactivateAfterCap:b=no
+  capzone__plantingTeam:i=1
+  capzone__owningTeam:i=-1
+  capzone__onlyTeamCanCapture:i=-1
+  capzone__mustBeCapturedByTeam:i=1
+  resupply_zone__team:i=2
+  resupply_zone__resupplyFuel:b=yes
+  sphere_zone__radius:r=180
+}
+
+entity{
+  _template:t="defend_zone_chained_box+lockable_capzone+separate_cap_decap_time"
+  transform:m=[[63.9777, 0, -11.5002] [0, 19.7287, 0] [14.2535, -0, 51.6192] [-131.387, 23.2918, -113.131]]
+  ui_order:i=660
+  groupName:t="s6win"
+  capzone__checkAllZonesInGroup:b=no
+  capzone_timer__timeLeft:r=-1
+  capzone__capTimeTeam2:r=1.23
+  capzone__capTimeTeam1:r=99999
+  capzone__decapTimeTeam2:r=99999
+  capzone__decapTimeTeam1:r=2
+  decal__height:r=10
+  capzone__alwaysHide:b=yes
+  capzone__autoDecap:b=no
+  capzone__maxCapDecapSpeedMult:r=3
+  capzone__maxTeamPresence:i=1
+}
+
+entity{
+  _template:t="defend_zone_chained_box+lockable_capzone+separate_cap_decap_time"
+  transform:m=[[63.9777, 0, -11.5002] [0, 19.7287, 0] [14.2535, -0, 51.6192] [-131.387, 23.2918, -113.131]]
+  ui_order:i=660
+  groupName:t="s6win"
+  capzone__checkAllZonesInGroup:b=no
+  capzone_timer__timeLeft:r=-1
+  capzone__capTimeTeam2:r=1.23
+  capzone__capTimeTeam1:r=99999
+  capzone__decapTimeTeam2:r=99999
+  capzone__decapTimeTeam1:r=2
+  decal__height:r=10
+  capzone__alwaysHide:b=yes
+  capzone__autoDecap:b=no
+  capzone__maxCapDecapSpeedMult:r=3
+  capzone__maxTeamPresence:i=1
+}
+
+entity{
+  _template:t="defend_zone_chained_box+lockable_capzone+separate_cap_decap_time"
+  transform:m=[[63.9777, 0, -11.5002] [0, 19.7287, 0] [14.2535, -0, 51.6192] [-131.387, 23.2918, -113.131]]
+  ui_order:i=660
+  groupName:t="s6win"
+  capzone__checkAllZonesInGroup:b=no
+  capzone_timer__timeLeft:r=-1
+  capzone__capTimeTeam2:r=1.23
+  capzone__capTimeTeam1:r=99999
+  capzone__decapTimeTeam2:r=99999
+  capzone__decapTimeTeam1:r=2
+  decal__height:r=10
+  capzone__alwaysHide:b=yes
+  capzone__autoDecap:b=no
+  capzone__maxCapDecapSpeedMult:r=3
+  capzone__maxTeamPresence:i=1
+}
+
+entity{
+  _template:t="defend_zone_chained_box+lockable_capzone+separate_cap_decap_time"
+  transform:m=[[63.9777, 0, -11.5002] [0, 19.7287, 0] [14.2535, -0, 51.6192] [-131.387, 23.2918, -113.131]]
+  ui_order:i=660
+  groupName:t="s6win"
+  capzone__checkAllZonesInGroup:b=no
+  capzone_timer__timeLeft:r=-1
+  capzone__capTimeTeam2:r=1.23
+  capzone__capTimeTeam1:r=99999
+  capzone__decapTimeTeam2:r=99999
+  capzone__decapTimeTeam1:r=2
+  decal__height:r=10
+  capzone__alwaysHide:b=yes
+  capzone__autoDecap:b=no
+  capzone__maxCapDecapSpeedMult:r=3
+  capzone__maxTeamPresence:i=1
+}
+
+entity{
+  _template:t="defend_zone_chained_box+lockable_capzone+separate_cap_decap_time"
+  transform:m=[[63.9777, 0, -11.5002] [0, 19.7287, 0] [14.2535, -0, 51.6192] [-131.387, 23.2918, -113.131]]
+  ui_order:i=660
+  groupName:t="s6win"
+  capzone__checkAllZonesInGroup:b=no
+  capzone_timer__timeLeft:r=-1
+  capzone__capTimeTeam2:r=1.23
+  capzone__capTimeTeam1:r=99999
+  capzone__decapTimeTeam2:r=99999
+  capzone__decapTimeTeam1:r=2
+  decal__height:r=10
+  capzone__alwaysHide:b=yes
+  capzone__autoDecap:b=no
+  capzone__maxCapDecapSpeedMult:r=3
+  capzone__maxTeamPresence:i=1
+}
+
+entity{
+  _template:t="defend_zone_chained_box+lockable_capzone+separate_cap_decap_time"
+  transform:m=[[63.9777, 0, -11.5002] [0, 19.7287, 0] [14.2535, -0, 51.6192] [-131.387, 23.2918, -113.131]]
+  ui_order:i=660
+  groupName:t="s6win"
+  capzone__checkAllZonesInGroup:b=no
+  capzone_timer__timeLeft:r=-1
+  capzone__capTimeTeam2:r=1.23
+  capzone__capTimeTeam1:r=99999
+  capzone__decapTimeTeam2:r=99999
+  capzone__decapTimeTeam1:r=2
+  decal__height:r=10
+  capzone__alwaysHide:b=yes
+  capzone__autoDecap:b=no
+  capzone__maxCapDecapSpeedMult:r=3
+  capzone__maxTeamPresence:i=1
+}
+
+entity{
+  _template:t="defend_zone_chained_box+lockable_capzone+separate_cap_decap_time"
+  transform:m=[[63.9777, 0, -11.5002] [0, 19.7287, 0] [14.2535, -0, 51.6192] [-131.387, 23.2918, -113.131]]
+  ui_order:i=660
+  groupName:t="s6win"
+  capzone__checkAllZonesInGroup:b=no
+  capzone_timer__timeLeft:r=-1
+  capzone__capTimeTeam2:r=1.23
+  capzone__capTimeTeam1:r=99999
+  capzone__decapTimeTeam2:r=99999
+  capzone__decapTimeTeam1:r=2
+  decal__height:r=10
+  capzone__alwaysHide:b=yes
+  capzone__autoDecap:b=no
+  capzone__maxCapDecapSpeedMult:r=3
+  capzone__maxTeamPresence:i=1
+}
+
+entity{
+  _template:t="defend_zone_chained_box+lockable_capzone+separate_cap_decap_time"
+  transform:m=[[63.9777, 0, -11.5002] [0, 19.7287, 0] [14.2535, -0, 51.6192] [-131.387, 23.2918, -113.131]]
+  ui_order:i=660
+  groupName:t="s6win"
+  capzone__checkAllZonesInGroup:b=no
+  capzone_timer__timeLeft:r=-1
+  capzone__capTimeTeam2:r=1.23
+  capzone__capTimeTeam1:r=99999
+  capzone__decapTimeTeam2:r=99999
+  capzone__decapTimeTeam1:r=2
+  decal__height:r=10
+  capzone__alwaysHide:b=yes
+  capzone__autoDecap:b=no
+  capzone__maxCapDecapSpeedMult:r=3
+  capzone__maxTeamPresence:i=1
+}
+
+entity{
+  _template:t="defend_zone_chained_box+lockable_capzone+separate_cap_decap_time"
+  transform:m=[[63.9777, 0, -11.5002] [0, 19.7287, 0] [14.2535, -0, 51.6192] [-131.387, 23.2918, -113.131]]
+  ui_order:i=660
+  groupName:t="s6win"
+  capzone__checkAllZonesInGroup:b=no
+  capzone_timer__timeLeft:r=-1
+  capzone__capTimeTeam2:r=1.23
+  capzone__capTimeTeam1:r=99999
+  capzone__decapTimeTeam2:r=99999
+  capzone__decapTimeTeam1:r=2
+  decal__height:r=10
+  capzone__alwaysHide:b=yes
+  capzone__autoDecap:b=no
+  capzone__maxCapDecapSpeedMult:r=3
+  capzone__maxTeamPresence:i=1
+}
+
+entity{
+  _template:t="defend_zone_chained_box+lockable_capzone+separate_cap_decap_time"
+  transform:m=[[63.9777, 0, -11.5002] [0, 19.7287, 0] [14.2535, -0, 51.6192] [-131.387, 23.2918, -113.131]]
+  ui_order:i=660
+  groupName:t="s6win"
+  capzone__checkAllZonesInGroup:b=no
+  capzone_timer__timeLeft:r=-1
+  capzone__capTimeTeam2:r=1.23
+  capzone__capTimeTeam1:r=99999
+  capzone__decapTimeTeam2:r=99999
+  capzone__decapTimeTeam1:r=2
+  decal__height:r=10
+  capzone__alwaysHide:b=yes
+  capzone__autoDecap:b=no
+  capzone__maxCapDecapSpeedMult:r=3
+  capzone__maxTeamPresence:i=1
+}
+
+entity{
+  _template:t="defend_zone_chained_box+lockable_capzone+separate_cap_decap_time"
+  transform:m=[[63.9777, 0, -11.5002] [0, 19.7287, 0] [14.2535, -0, 51.6192] [-131.387, 23.2918, -113.131]]
+  ui_order:i=660
+  groupName:t="s6win"
+  capzone__checkAllZonesInGroup:b=no
+  capzone_timer__timeLeft:r=-1
+  capzone__capTimeTeam2:r=1.23
+  capzone__capTimeTeam1:r=99999
+  capzone__decapTimeTeam2:r=99999
+  capzone__decapTimeTeam1:r=2
+  decal__height:r=10
+  capzone__alwaysHide:b=yes
+  capzone__autoDecap:b=no
+  capzone__maxCapDecapSpeedMult:r=3
+  capzone__maxTeamPresence:i=1
+}
+
+entity{
+  _template:t="defend_zone_chained_box+lockable_capzone+separate_cap_decap_time"
+  transform:m=[[63.9777, 0, -11.5002] [0, 19.7287, 0] [14.2535, -0, 51.6192] [-131.387, 23.2918, -113.131]]
+  ui_order:i=660
+  groupName:t="s6win"
+  capzone__checkAllZonesInGroup:b=no
+  capzone_timer__timeLeft:r=-1
+  capzone__capTimeTeam2:r=1.23
+  capzone__capTimeTeam1:r=99999
+  capzone__decapTimeTeam2:r=99999
+  capzone__decapTimeTeam1:r=2
+  decal__height:r=10
+  capzone__alwaysHide:b=yes
+  capzone__autoDecap:b=no
+  capzone__maxCapDecapSpeedMult:r=3
+  capzone__maxTeamPresence:i=1
+}
+
+entity{
+  _template:t="defend_zone_chained_box+lockable_capzone+separate_cap_decap_time"
+  transform:m=[[63.9777, 0, -11.5002] [0, 19.7287, 0] [14.2535, -0, 51.6192] [-131.387, 23.2918, -113.131]]
+  ui_order:i=660
+  groupName:t="s6win"
+  capzone__checkAllZonesInGroup:b=no
+  capzone_timer__timeLeft:r=-1
+  capzone__capTimeTeam2:r=1.23
+  capzone__capTimeTeam1:r=99999
+  capzone__decapTimeTeam2:r=99999
+  capzone__decapTimeTeam1:r=2
+  decal__height:r=10
+  capzone__alwaysHide:b=yes
+  capzone__autoDecap:b=no
+  capzone__maxCapDecapSpeedMult:r=3
+  capzone__maxTeamPresence:i=1
+}
+
+entity{
+  _template:t="defend_zone_chained_box+lockable_capzone+separate_cap_decap_time"
+  transform:m=[[63.9777, 0, -11.5002] [0, 19.7287, 0] [14.2535, -0, 51.6192] [-131.387, 23.2918, -113.131]]
+  ui_order:i=660
+  groupName:t="s6win"
+  capzone__checkAllZonesInGroup:b=no
+  capzone_timer__timeLeft:r=-1
+  capzone__capTimeTeam2:r=1.23
+  capzone__capTimeTeam1:r=99999
+  capzone__decapTimeTeam2:r=99999
+  capzone__decapTimeTeam1:r=2
+  decal__height:r=10
+  capzone__alwaysHide:b=yes
+  capzone__autoDecap:b=no
+  capzone__maxCapDecapSpeedMult:r=3
+  capzone__maxTeamPresence:i=1
+}
+
+entity{
+  _template:t="defend_zone_chained_box+lockable_capzone+separate_cap_decap_time"
+  transform:m=[[63.9777, 0, -11.5002] [0, 19.7287, 0] [14.2535, -0, 51.6192] [-131.387, 23.2918, -113.131]]
+  ui_order:i=660
+  groupName:t="s6win"
+  capzone__checkAllZonesInGroup:b=no
+  capzone_timer__timeLeft:r=-1
+  capzone__capTimeTeam2:r=1.23
+  capzone__capTimeTeam1:r=99999
+  capzone__decapTimeTeam2:r=99999
+  capzone__decapTimeTeam1:r=2
+  decal__height:r=10
+  capzone__alwaysHide:b=yes
+  capzone__autoDecap:b=no
+  capzone__maxCapDecapSpeedMult:r=3
+  capzone__maxTeamPresence:i=1
+}
+
+entity{
+  _template:t="defend_zone_chained_box+lockable_capzone+separate_cap_decap_time"
+  transform:m=[[63.9777, 0, -11.5002] [0, 19.7287, 0] [14.2535, -0, 51.6192] [-131.387, 23.2918, -113.131]]
+  ui_order:i=660
+  groupName:t="s6win"
+  capzone__checkAllZonesInGroup:b=no
+  capzone_timer__timeLeft:r=-1
+  capzone__capTimeTeam2:r=1.23
+  capzone__capTimeTeam1:r=99999
+  capzone__decapTimeTeam2:r=99999
+  capzone__decapTimeTeam1:r=2
+  decal__height:r=10
+  capzone__alwaysHide:b=yes
+  capzone__autoDecap:b=no
+  capzone__maxCapDecapSpeedMult:r=3
+  capzone__maxTeamPresence:i=1
 }

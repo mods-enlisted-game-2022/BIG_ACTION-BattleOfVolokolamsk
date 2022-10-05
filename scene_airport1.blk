@@ -1,27 +1,60 @@
-
 entity{
-  _template:t="game_rendinst"
-  transform:m=[[0.150363, 0, -100.072] [0, 45.9894, 0] [23.3291, -0, 0.278386] [3506.91, 7.00185, -1258.57]]
-  ri_extra__name:t="reichchancellery_garage_plate_b"
+  _template:t="human_hidden_ui_battle_area"
+  transform:m=[[114.402, 0, -0.899936] [0, 35.7599, 0] [1.68513, -0, 1796.13] [3507.61, 17.3022, -1047.47]]
+  battle_area__team:i=1
 }
 
 entity{
-  _template:t="game_rendinst"
-  transform:m=[[0.00221971, 0, 0.999998] [0, 1, -0] [-0.999998, 0, 0.00221971] [3549.07, 14.0064, -1768.16]]
-  ri_extra__name:t="aircraft_hangar_b"
+  _template:t="human_hidden_ui_battle_area"
+  transform:m=[[6.64478, 0, 72.681] [0, 12.887, -0] [-325.424, 0, 29.7516] [-128.293, 13.2259, -1411.9]]
+  battle_area__team:i=2
+}
+
+entity{
+  _template:t="human_hidden_ui_battle_area"
+  transform:m=[[6.64478, 0, 72.681] [0, 12.887, -0] [-325.424, 0, 29.7516] [-128.293, 13.2259, -1411.9]]
+  battle_area__team:i=1
+}
+
+entity{
+  _template:t="human_hidden_ui_battle_area"
+  transform:m=[[9.58393, -0, 193.685] [0, 49.6149, 0] [-2228.35, 0, 110.264] [-6890.82, 67.3306, -5030.19]]
+  battle_area__team:i=2
 }
 
 entity{
   _template:t="aircraft_carrier_landing_zone"
-  transform:m=[[72.7563, 0, -0.545756] [0, 12.887, 0] [0.698554, -0, 709.992] [3511.8, 6.68795, -1455.66]]
+  transform:m=[[114.402, 0, -0.899936] [0, 35.7599, 0] [1.68513, -0, 1796.13] [3507.61, 17.3022, -1047.47]]
+}
+
+entity{
+  _template:t="aircraft_carrier_landing_zone"
+  transform:m=[[9.30221, 0, 72.3889] [0, 12.887, -0] [-325.76, 0, 25.8193] [-128.293, 13.2259, -1411.9]]
+}
+
+entity{
+  _template:t="aircraft_carrier_landing_zone"
+  transform:m=[[11.5648, -0, 193.576] [0, 49.6149, 0] [-2227.11, 0, 133.053] [-6890.73, 67.3306, -5030.72]]
 }
 
 entity{
   _template:t="respAircraftOnCarrier"
-  transform:m=[[-0.00752619, 0, 0.999972] [0, 1, 0] [-0.999972, 0, -0.00752619] [3509.96, 7.57273, -1651.17]]
+  transform:m=[[-0.00752619, 0, 0.999972] [0, 1, 0] [-0.999972, 0, -0.00752619] [3509.96, 7.57273, -1682.63]]
   maxVehicleOnSpawn:i=0
   landing_zone__maxSpeed:r=20
   team:i=1
+  sphere_zone__radius:r=1600
+  zone__icon:t="!ui/skin#aircraft_icon.svg"
+}
+
+entity{
+  _template:t="respAircraftOnCarrier"
+  transform:m=[[0.998853, 0, -0.0478891] [0, 1, 0] [0.047889, -0, 0.998853] [-7882.86, 68.3311, -4974.93]]
+  maxVehicleOnSpawn:i=0
+  landing_zone__maxSpeed:r=20
+  team:i=2
+  sphere_zone__radius:r=1800
+  zone__icon:t="!ui/skin#aircraft_icon.svg"
 }
 
 entity{
@@ -30,11 +63,20 @@ entity{
   maxVehicleOnSpawn:i=0
   landing_zone__maxSpeed:r=20
   team:i=2
+  sphere_zone__radius:r=396
+  zone__icon:t="!ui/skin#aircraft_icon.svg"
 }
 
 entity{
-  _template:t="aircraft_carrier_landing_zone"
-  transform:m=[[9.30221, 0, 72.3889] [0, 12.887, -0] [-325.76, 0, 25.8193] [-128.293, 13.2259, -1411.9]]
+  _template:t="game_rendinst"
+  transform:m=[[0.150363, 0, -154.475] [0, 45.9894, 0] [23.3291, -0, 0.429726] [3506.91, 7.00185, -1056.23]]
+  ri_extra__name:t="reichchancellery_garage_plate_b"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[-192.43, 0, 10.0786] [0, 228.627, 0] [-1.05207, 0, -42.0589] [-6917.01, 33.1615, -5027.29]]
+  ri_extra__name:t="reichchancellery_garage_plate_b"
 }
 
 entity{
@@ -45,8 +87,8 @@ entity{
   phys_obj_net_phys__blk:t="content/e_ww2_common/gamedata/units/cannons/turret_127mm_mk32_single.blk"
   killLogName:t="aircraft_carrier/defence_turret"
   team:i=1
-  hitpoints__hp:r=3000
-  hitpoints__maxHp:r=3000
+  hitpoints__hp:r=160
+  hitpoints__maxHp:r=160
   turret__enemyTeamLight:c=233, 233, 233, 1
   turret__allyTeamLight:c=233, 233, 233, 1
   phys__maxMassRatioForPushOnCollision:r=999
@@ -84,19 +126,19 @@ entity{
 
   "turretsInitialComponents:array"{
     "turretsInitialComponents:object"{
-      gun__shotFreq:r=3
+      gun__shotFreq:r=1.12
       turret__yawSpeed:r=160
       turret_ai__amplitude:p2=0.01, 0.03
       gun_deviation__maxDeviation:r=6.6
       turret__limit:p4=-160, 180, 5, 79
       gun_spread__maxDeltaAngle:r=1.6
-      turret_ai__atackDist:r=1000
+      turret_ai__atackDist:r=560
       turret_ai__period:p2=0.006, 0.01
       turret__pitchSpeed:r=160
       turret_ai__pauseTimer:r=1
 
       "gun__shellsAmmo:array"{
-        gun__shellsAmmo:i=60
+        gun__shellsAmmo:i=8
       }
     }
   }

@@ -218,12 +218,12 @@ entity{
   groupName:t="s1"
   sphere_zone__radius:r=8
   active:b=yes
-  resupply_zone__duration:r=12
+  resupply_zone__duration:r=30
 }
 
 entity{
   _template:t="placebale_rendinst+add_score_to_destroyable_ri+fortification_builder_info+ammunition_box_a+undestroyable_building+resupply_for_ground_vehicle_zone"
-  transform:m=[[-2.80469, -0.251912, -0.214388] [-0.26254, 2.80869, 0.13434] [0.201232, 0.153345, -2.81277] [-2449.36, 16.9207, -722.752]]
+  transform:m=[[-2.4038, -0.215905, -0.183745] [-0.225014, 2.40723, 0.115138] [0.172469, 0.131427, -2.41073] [-2449.36, 16.9207, -722.752]]
   ri_extra__name:t="ammunition_box_c"
   destroyable_ri__group:i=14172
   team:i=2
@@ -238,7 +238,7 @@ entity{
   groupName:t="s1"
   sphere_zone__radius:r=8
   active:b=yes
-  resupply_zone__duration:r=12
+  resupply_zone__duration:r=30
 }
 
 entity{
@@ -258,7 +258,7 @@ entity{
   groupName:t="s1"
   sphere_zone__radius:r=8
   active:b=yes
-  resupply_zone__duration:r=12
+  resupply_zone__duration:r=30
 }
 
 entity{
@@ -278,12 +278,12 @@ entity{
   groupName:t="s1"
   sphere_zone__radius:r=8
   active:b=yes
-  resupply_zone__duration:r=12
+  resupply_zone__duration:r=30
 }
 
 entity{
   _template:t="placebale_rendinst+add_score_to_destroyable_ri+fortification_builder_info+ammunition_box_a+undestroyable_building+resupply_for_ground_vehicle_zone"
-  transform:m=[[-3.47989, 0.0515798, -0.27411] [0.0629222, 3.48757, -0.14255] [0.271731, -0.147035, -3.47735] [-2452.4, 25.5979, -1633.18]]
+  transform:m=[[-2.3947, 0.0354949, -0.18863] [0.0433002, 2.39999, -0.0980964] [0.186993, -0.101183, -2.39295] [-2452.4, 25.5979, -1633.18]]
   ri_extra__name:t="ammunition_box_f"
   destroyable_ri__group:i=14172
   team:i=2
@@ -298,12 +298,12 @@ entity{
   groupName:t="s1"
   sphere_zone__radius:r=8
   active:b=yes
-  resupply_zone__duration:r=12
+  resupply_zone__duration:r=30
 }
 
 entity{
   _template:t="placebale_rendinst+add_score_to_destroyable_ri+fortification_builder_info+ammunition_box_a+undestroyable_building+resupply_for_ground_vehicle_zone"
-  transform:m=[[-2.6827, 0.38206, -0.252] [0.417279, 2.65731, -0.413425] [0.18802, -0.446175, -2.67805] [-1077.26, 18.3558, -2633.4]]
+  transform:m=[[-2.6827, 0.38206, -0.252] [0.417279, 2.65731, -0.413425] [0.18802, -0.446175, -2.67805] [-1077.33, 18.1969, -2634.48]]
   ri_extra__name:t="ammunition_box_b"
   destroyable_ri__group:i=14172
   team:i=2
@@ -318,7 +318,7 @@ entity{
   groupName:t="s1"
   sphere_zone__radius:r=8
   active:b=yes
-  resupply_zone__duration:r=12
+  resupply_zone__duration:r=30
 }
 
 entity{
@@ -338,7 +338,7 @@ entity{
   groupName:t="s1"
   sphere_zone__radius:r=8
   active:b=yes
-  resupply_zone__duration:r=12
+  resupply_zone__duration:r=30
 }
 
 entity{
@@ -358,7 +358,7 @@ entity{
   groupName:t="s2"
   sphere_zone__radius:r=8
   active:b=no
-  resupply_zone__duration:r=12
+  resupply_zone__duration:r=30
 }
 
 entity{
@@ -378,7 +378,7 @@ entity{
   groupName:t="s2"
   sphere_zone__radius:r=8
   active:b=no
-  resupply_zone__duration:r=12
+  resupply_zone__duration:r=30
 }
 
 entity{
@@ -398,7 +398,7 @@ entity{
   groupName:t="s2"
   sphere_zone__radius:r=8
   active:b=no
-  resupply_zone__duration:r=12
+  resupply_zone__duration:r=30
 }
 
 entity{
@@ -418,7 +418,7 @@ entity{
   groupName:t="s5a"
   sphere_zone__radius:r=8
   active:b=no
-  resupply_zone__duration:r=30
+  resupply_zone__duration:r=50
 }
 
 entity{
@@ -438,7 +438,7 @@ entity{
   groupName:t="s5a"
   sphere_zone__radius:r=8
   active:b=no
-  resupply_zone__duration:r=30
+  resupply_zone__duration:r=50
 }
 
 entity{
@@ -508,22 +508,22 @@ entity{
     "turretsInitialComponents:object"{
       gun__shotFreq:r=1.66
       gun__maxAmmo:i=15
-      gun__ammo:i=0
+      gun__ammo:i=15
       gun_deviation__maxDeviation:r=1.2
       turret__limit:p4=-180, 180, -12, 76
       gun_spread__maxDeltaAngle:r=0.99
       gun_deviation__onShotDeviationChange:r=0.1
-      turret_ai__amplitude:p2=0.001, 0.003
+      turret_ai__amplitude:p2=0, 0
       turret_ai__attackTimerr:r=1
       turret_ai__sleepTimer:r=3.9
       turret_ai__atackDist:r=50
-      turret_ai__period:p2=0.002, 0.001
+      turret_ai__period:p2=0, 0
       turret_ai__pauseTimer:r=1
       turret__yawSpeed:r=99
       turret__pitchSpeed:r=99
 
       "gun__shellsAmmo:array"{
-        gun__shellsAmmo:i=15
+        gun__shellsAmmo:i=6
       }
     }
   }
@@ -602,22 +602,22 @@ entity{
       gun__delayedAmmoSyncTime:r=1
       gun__shotFreq:r=1.66
       gun__maxAmmo:i=15
-      gun__ammo:i=0
+      gun__ammo:i=15
       gun_deviation__maxDeviation:r=1.2
       turret__limit:p4=-180, 180, -12, 76
       gun_spread__maxDeltaAngle:r=0.99
       gun_deviation__onShotDeviationChange:r=0.1
-      turret_ai__amplitude:p2=0.001, 0.003
+      turret_ai__amplitude:p2=0, 0
       turret_ai__attackTimerr:r=1
       turret_ai__sleepTimer:r=4.3
       turret_ai__atackDist:r=50
-      turret_ai__period:p2=0.002, 0.001
+      turret_ai__period:p2=0, 0
       turret_ai__pauseTimer:r=1
       turret__yawSpeed:r=99
       turret__pitchSpeed:r=99
 
       "gun__shellsAmmo:array"{
-        gun__shellsAmmo:i=15
+        gun__shellsAmmo:i=6
       }
     }
   }
@@ -699,22 +699,22 @@ entity{
     "turretsInitialComponents:object"{
       gun__shotFreq:r=1.66
       gun__maxAmmo:i=15
-      gun__ammo:i=0
+      gun__ammo:i=15
       gun_deviation__maxDeviation:r=1.2
       turret__limit:p4=-180, 180, -12, 76
       gun_spread__maxDeltaAngle:r=0.99
       gun_deviation__onShotDeviationChange:r=0.1
-      turret_ai__amplitude:p2=0.001, 0.003
+      turret_ai__amplitude:p2=0, 0
       turret_ai__attackTimerr:r=1
       turret_ai__sleepTimer:r=3.76
       turret_ai__atackDist:r=50
-      turret_ai__period:p2=0.002, 0.001
+      turret_ai__period:p2=0, 0
       turret_ai__pauseTimer:r=1
       turret__yawSpeed:r=99
       turret__pitchSpeed:r=99
 
       "gun__shellsAmmo:array"{
-        gun__shellsAmmo:i=15
+        gun__shellsAmmo:i=6
       }
     }
   }
@@ -796,22 +796,22 @@ entity{
     "turretsInitialComponents:object"{
       gun__shotFreq:r=1.66
       gun__maxAmmo:i=15
-      gun__ammo:i=0
+      gun__ammo:i=15
       gun_deviation__maxDeviation:r=1.2
       turret__limit:p4=-180, 180, -12, 76
       gun_spread__maxDeltaAngle:r=0.99
       gun_deviation__onShotDeviationChange:r=0.1
-      turret_ai__amplitude:p2=0.001, 0.003
+      turret_ai__amplitude:p2=0, 0
       turret_ai__attackTimerr:r=1
       turret_ai__sleepTimer:r=4.1
       turret_ai__atackDist:r=50
-      turret_ai__period:p2=0.002, 0.001
+      turret_ai__period:p2=0, 0
       turret_ai__pauseTimer:r=1
       turret__yawSpeed:r=99
       turret__pitchSpeed:r=99
 
       "gun__shellsAmmo:array"{
-        gun__shellsAmmo:i=15
+        gun__shellsAmmo:i=6
       }
     }
   }
@@ -893,22 +893,22 @@ entity{
     "turretsInitialComponents:object"{
       gun__shotFreq:r=1.66
       gun__maxAmmo:i=15
-      gun__ammo:i=0
+      gun__ammo:i=15
       gun_deviation__maxDeviation:r=1.2
       turret__limit:p4=-180, 180, -12, 76
       gun_spread__maxDeltaAngle:r=0.99
       gun_deviation__onShotDeviationChange:r=0.1
-      turret_ai__amplitude:p2=0.001, 0.003
+      turret_ai__amplitude:p2=0, 0
       turret_ai__attackTimerr:r=1
       turret_ai__sleepTimer:r=5.1
       turret_ai__atackDist:r=50
-      turret_ai__period:p2=0.002, 0.001
+      turret_ai__period:p2=0, 0
       turret_ai__pauseTimer:r=1
       turret__yawSpeed:r=99
       turret__pitchSpeed:r=99
 
       "gun__shellsAmmo:array"{
-        gun__shellsAmmo:i=15
+        gun__shellsAmmo:i=6
       }
     }
   }
@@ -990,22 +990,22 @@ entity{
     "turretsInitialComponents:object"{
       gun__shotFreq:r=1.66
       gun__maxAmmo:i=15
-      gun__ammo:i=0
+      gun__ammo:i=15
       gun_deviation__maxDeviation:r=1.2
       turret__limit:p4=-180, 180, -12, 76
       gun_spread__maxDeltaAngle:r=0.99
       gun_deviation__onShotDeviationChange:r=0.1
-      turret_ai__amplitude:p2=0.001, 0.003
+      turret_ai__amplitude:p2=0, 0
       turret_ai__attackTimerr:r=1
       turret_ai__sleepTimer:r=4.5
       turret_ai__atackDist:r=50
-      turret_ai__period:p2=0.002, 0.001
+      turret_ai__period:p2=0, 0
       turret_ai__pauseTimer:r=1
       turret__yawSpeed:r=99
       turret__pitchSpeed:r=99
 
       "gun__shellsAmmo:array"{
-        gun__shellsAmmo:i=15
+        gun__shellsAmmo:i=6
       }
     }
   }
@@ -1087,22 +1087,22 @@ entity{
     "turretsInitialComponents:object"{
       gun__shotFreq:r=1.66
       gun__maxAmmo:i=15
-      gun__ammo:i=0
+      gun__ammo:i=15
       gun_deviation__maxDeviation:r=1.2
       turret__limit:p4=-180, 180, -12, 76
       gun_spread__maxDeltaAngle:r=0.99
       gun_deviation__onShotDeviationChange:r=0.1
-      turret_ai__amplitude:p2=0.001, 0.003
+      turret_ai__amplitude:p2=0, 0
       turret_ai__attackTimerr:r=1
       turret_ai__sleepTimer:r=3.68
       turret_ai__atackDist:r=50
-      turret_ai__period:p2=0.002, 0.001
+      turret_ai__period:p2=0, 0
       turret_ai__pauseTimer:r=1
       turret__yawSpeed:r=99
       turret__pitchSpeed:r=99
 
       "gun__shellsAmmo:array"{
-        gun__shellsAmmo:i=15
+        gun__shellsAmmo:i=6
       }
     }
   }
@@ -1188,24 +1188,24 @@ entity{
   "turretsInitialComponents:array"{
     "turretsInitialComponents:object"{
       gun__shotFreq:r=1.23
-      gun__maxAmmo:i=16
+      gun__maxAmmo:i=15
       turret__yawSpeed:r=99
-      turret_ai__amplitude:p2=0.001, 0.003
+      turret_ai__amplitude:p2=0, 0
       gun_deviation__maxDeviation:r=0.633
-      gun__ammo:i=0
+      gun__ammo:i=15
       turret__limit:p4=-30, 30, -12, 76
       gun_spread__maxDeltaAngle:r=0.666
       gun_deviation__onShotDeviationChange:r=0.1
       turret_ai__attackTimerr:r=1
       turret_ai__sleepTimer:r=2.23
       turret_ai__atackDist:r=60
-      turret_ai__period:p2=0.002, 0.001
+      turret_ai__period:p2=0, 0
       turret__pitchSpeed:r=99
       turret_ai__pauseTimer:r=1
 
       "gun__shellsAmmo:array"{
         gun__shellsAmmo:i=0
-        gun__shellsAmmo:i=32
+        gun__shellsAmmo:i=12
         gun__shellsAmmo:i=0
       }
     }
@@ -1294,22 +1294,22 @@ entity{
       gun__shotFreq:r=1.23
       gun__maxAmmo:i=16
       turret__yawSpeed:r=99
-      turret_ai__amplitude:p2=0.001, 0.003
+      turret_ai__amplitude:p2=0, 0
       gun_deviation__maxDeviation:r=0.633
-      gun__ammo:i=0
+      gun__ammo:i=32
       turret__limit:p4=-30, 30, -12, 76
       gun_spread__maxDeltaAngle:r=0.666
       gun_deviation__onShotDeviationChange:r=0.1
       turret_ai__attackTimerr:r=1
       turret_ai__sleepTimer:r=2.6
       turret_ai__atackDist:r=60
-      turret_ai__period:p2=0.002, 0.001
+      turret_ai__period:p2=0, 0
       turret__pitchSpeed:r=99
       turret_ai__pauseTimer:r=1
 
       "gun__shellsAmmo:array"{
         gun__shellsAmmo:i=0
-        gun__shellsAmmo:i=32
+        gun__shellsAmmo:i=12
         gun__shellsAmmo:i=0
       }
     }
@@ -1398,22 +1398,22 @@ entity{
       gun__shotFreq:r=1.23
       gun__maxAmmo:i=16
       turret__yawSpeed:r=99
-      turret_ai__amplitude:p2=0.001, 0.003
+      turret_ai__amplitude:p2=0, 0
       gun_deviation__maxDeviation:r=0.633
-      gun__ammo:i=0
+      gun__ammo:i=32
       turret__limit:p4=-30, 30, -12, 76
       gun_spread__maxDeltaAngle:r=0.666
       gun_deviation__onShotDeviationChange:r=0.1
       turret_ai__attackTimerr:r=1
       turret_ai__sleepTimer:r=2.33
       turret_ai__atackDist:r=60
-      turret_ai__period:p2=0.002, 0.001
+      turret_ai__period:p2=0, 0
       turret__pitchSpeed:r=99
       turret_ai__pauseTimer:r=1
 
       "gun__shellsAmmo:array"{
         gun__shellsAmmo:i=0
-        gun__shellsAmmo:i=32
+        gun__shellsAmmo:i=12
         gun__shellsAmmo:i=0
       }
     }
@@ -1669,7 +1669,7 @@ entity{
       gun__shotFreq:r=2.3
       gun__maxAmmo:i=24
       turret__yawSpeed:r=99
-      turret_ai__amplitude:p2=0.001, 0.003
+      turret_ai__amplitude:p2=0, 0
       gun_deviation__maxDeviation:r=2.3
       gun__ammo:i=24
       turret__limit:p4=-60, 60, -3, 40
@@ -1679,10 +1679,11 @@ entity{
       gun__ammoToRessuply:i=15
       turret_ai__sleepTimer:r=0.06
       turret_ai__atackDist:r=60
-      turret_ai__period:p2=0.002, 0.001
+      turret_ai__period:p2=0, 0
       turret__pitchSpeed:r=99
       turret_ai__pauseTimer:r=1
       gun__reloadTime:r=15.0
+      gun__reloadTime:r=2.0
 
       "gun__shellsAmmo:array"{
         gun__shellsAmmo:i=24
@@ -1768,7 +1769,7 @@ entity{
       gun__shotFreq:r=2
       gun__maxAmmo:i=24
       turret__yawSpeed:r=99
-      turret_ai__amplitude:p2=0.001, 0.003
+      turret_ai__amplitude:p2=0, 0
       gun_deviation__maxDeviation:r=2.3
       gun__ammo:i=24
       turret__limit:p4=-60, 60, -3, 40
@@ -1779,9 +1780,10 @@ entity{
       gun__reloadTime:r=16.0
       turret_ai__sleepTimer:r=0.06
       turret_ai__atackDist:r=60
-      turret_ai__period:p2=0.002, 0.001
+      turret_ai__period:p2=0, 0
       turret__pitchSpeed:r=99
       turret_ai__pauseTimer:r=1
+      gun__reloadTime:r=2.0
 
       "gun__shellsAmmo:array"{
         gun__shellsAmmo:i=24

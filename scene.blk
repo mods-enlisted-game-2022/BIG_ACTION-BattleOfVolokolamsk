@@ -1121,7 +1121,7 @@ entity{
   hints_header:t="briefing/common_hints_header"
   hints:t="common/controls"
   mission_type:t="invasion"
-  mission_name:t="Big Action - Battle Of Volokolamsk(0.0.3.7.5b2nf) (F1 see tips in game!) (zh_CN)"
+  mission_name:t="Big Action - Battle Of Volokolamsk(0.0.3.7.5b5nf) (F1 see tips in game!) (zh_CN)"
 
   "loading_images:list<t>"{
     item:t="ui/volokolamsk_lake_01.jpg"
@@ -5346,7 +5346,7 @@ entity{
 
 entity{
   _template:t="respawnChooser+respTeam1"
-  transform:m=[[0.0629124, -0.0303062, 0.997559] [0.00172985, 0.999541, 0.0302573] [-0.998017, -0.000177935, 0.0629359] [-289.234, 17.0134, -145.542]]
+  transform:m=[[0.0629124, -0.0303062, 0.997559] [0.00172985, 0.999541, 0.0302573] [-0.998017, -0.000177935, 0.0629359] [-202.513, 9.78062, 351.307]]
   groupName:t="s6"
   respawnBaseGroup:i=5511
   active:b=no
@@ -5354,7 +5354,7 @@ entity{
 
 entity{
   _template:t="respawnChooser+respTeam1"
-  transform:m=[[0.808078, 0.0235574, -0.588605] [-0.00780891, 0.999541, 0.0292834] [0.589024, -0.0190669, 0.80789] [-94.897, 18.4172, -221.72]]
+  transform:m=[[-0.085442, 0.0235574, 0.996065] [-0.0169894, 0.999541, -0.025097] [-0.996198, -0.0190669, -0.0850024] [139.952, 14.9389, 350.909]]
   groupName:t="s6"
   respawnBaseGroup:i=5511
   active:b=no
@@ -11757,7 +11757,7 @@ entity{
   gun__timeBetweenShots:r=0.1
   auto_gun_controller__traceTime:r=1
   auto_gun_controller__targetTeam:i=2
-  mounted_gun__vert_limits:p2=-20, 10
+  mounted_gun__vert_limits:p2=-20, 6
   mounted_gun__horz_limits:p2=-60, 60
 }
 
@@ -11779,7 +11779,7 @@ entity{
   gun__timeBetweenShots:r=0.1
   auto_gun_controller__traceTime:r=1
   auto_gun_controller__targetTeam:i=2
-  mounted_gun__vert_limits:p2=-30, 10
+  mounted_gun__vert_limits:p2=-30, 5
   mounted_gun__horz_limits:p2=-60, 60
 }
 
@@ -11800,7 +11800,7 @@ entity{
   hitpoints__maxHp:r=99999
   gun__timeBetweenShots:r=0.1
   auto_gun_controller__targetTeam:i=2
-  mounted_gun__vert_limits:p2=-30, 12
+  mounted_gun__vert_limits:p2=-30, 1
   mounted_gun__horz_limits:p2=-50, 50
   gun__shotFreq:r=8
   interactAngleLimits:p2=-30, 30
@@ -11824,7 +11824,7 @@ entity{
   gun__timeBetweenShots:r=0.1
   auto_gun_controller__traceTime:r=1
   auto_gun_controller__targetTeam:i=2
-  mounted_gun__vert_limits:p2=-20, 10
+  mounted_gun__vert_limits:p2=-20, 5
   mounted_gun__horz_limits:p2=-60, 60
 }
 
@@ -11845,7 +11845,7 @@ entity{
   hitpoints__maxHp:r=99999
   gun__timeBetweenShots:r=0.1
   auto_gun_controller__targetTeam:i=2
-  mounted_gun__vert_limits:p2=-30, 12
+  mounted_gun__vert_limits:p2=-30, 1
   mounted_gun__horz_limits:p2=-30, 30
   gun__shotFreq:r=9
 }
@@ -11867,7 +11867,7 @@ entity{
   hitpoints__maxHp:r=99999
   gun__timeBetweenShots:r=0.1
   auto_gun_controller__targetTeam:i=2
-  mounted_gun__vert_limits:p2=-10, 60
+  mounted_gun__vert_limits:p2=-10, 1
   mounted_gun__horz_limits:p2=-50, 50
   gun__shotFreq:r=10
 }
@@ -11889,7 +11889,7 @@ entity{
   hitpoints__maxHp:r=99999
   gun__timeBetweenShots:r=0.1
   auto_gun_controller__targetTeam:i=2
-  mounted_gun__vert_limits:p2=-30, 12
+  mounted_gun__vert_limits:p2=-30, 1
   mounted_gun__horz_limits:p2=-30, 30
   gun__shotFreq:r=6
 }
@@ -11912,7 +11912,7 @@ entity{
   gun__timeBetweenShots:r=0.1
   auto_gun_controller__traceTime:r=1
   auto_gun_controller__targetTeam:i=2
-  mounted_gun__vert_limits:p2=-30, 10
+  mounted_gun__vert_limits:p2=-30, 5
   mounted_gun__horz_limits:p2=-60, 60
 
   "gun__shells:array"{
@@ -13595,7 +13595,7 @@ entity{
 
   "turretsInitialComponents:array"{
     "turretsInitialComponents:object"{
-      gun__shotFreq:r=3
+      gun__shotFreq:r=2.3
       item__name:t="guns/85mm_52k"
       turret__yawSpeed:r=39
       gun_deviation__maxDeviation:r=60
@@ -13917,7 +13917,7 @@ entity{
       turret_ai__attackTimerr:r=0.1
       turret_ai__maxWindow:p2=0, 0
       turret_ai__sleepTimer:r=0.16
-      turret_ai__atackDist:r=910
+      turret_ai__atackDist:r=760
       turret_ai__period:p2=0.06, 0.3
       turret__pitchSpeed:r=66
       turret_ai__pauseTimer:r=1
@@ -13972,7 +13972,7 @@ entity{
       turret_ai__attackTimerr:r=0.1
       turret_ai__maxWindow:p2=0, 0
       turret_ai__sleepTimer:r=0.1
-      turret_ai__atackDist:r=910
+      turret_ai__atackDist:r=760
       turret_ai__period:p2=0.06, 0.3
       turret__pitchSpeed:r=66
       turret_ai__pauseTimer:r=1
@@ -14027,7 +14027,7 @@ entity{
       turret_ai__attackTimerr:r=0.1
       turret_ai__maxWindow:p2=0, 0
       turret_ai__sleepTimer:r=0.1
-      turret_ai__atackDist:r=910
+      turret_ai__atackDist:r=760
       turret_ai__period:p2=0.06, 0.3
       turret__pitchSpeed:r=66
       turret_ai__pauseTimer:r=1
@@ -14079,7 +14079,7 @@ entity{
       turret_ai__attackTimerr:r=0.1
       turret_ai__maxWindow:p2=0, 0
       turret_ai__sleepTimer:r=0.08
-      turret_ai__atackDist:r=790
+      turret_ai__atackDist:r=590
       turret_ai__period:p2=0.02, 0.2
       turret__pitchSpeed:r=66
       turret_ai__pauseTimer:r=1

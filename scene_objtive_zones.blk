@@ -688,7 +688,7 @@ entity{
   capzone__decapTimeTeam1:r=3
   capzone__decapTimeTeam2:r=12
   capzone__lockAfterActivate:b=yes
-  capzone__unlockAfterTime:r=390
+  capzone__unlockAfterTime:r=3
   capzone__onlyTeamCanCapture:i=-1
   capzone__capTeam:i=-1
   capzone__progress:r=0.5

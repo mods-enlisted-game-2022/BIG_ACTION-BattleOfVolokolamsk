@@ -523,7 +523,7 @@ entity{
       turret__pitchSpeed:r=99
 
       "gun__shellsAmmo:array"{
-        gun__shellsAmmo:i=6
+        gun__shellsAmmo:i=9
       }
     }
   }
@@ -617,7 +617,7 @@ entity{
       turret__pitchSpeed:r=99
 
       "gun__shellsAmmo:array"{
-        gun__shellsAmmo:i=6
+        gun__shellsAmmo:i=9
       }
     }
   }
@@ -714,7 +714,7 @@ entity{
       turret__pitchSpeed:r=99
 
       "gun__shellsAmmo:array"{
-        gun__shellsAmmo:i=6
+        gun__shellsAmmo:i=9
       }
     }
   }
@@ -811,7 +811,7 @@ entity{
       turret__pitchSpeed:r=99
 
       "gun__shellsAmmo:array"{
-        gun__shellsAmmo:i=6
+        gun__shellsAmmo:i=9
       }
     }
   }
@@ -908,7 +908,7 @@ entity{
       turret__pitchSpeed:r=99
 
       "gun__shellsAmmo:array"{
-        gun__shellsAmmo:i=6
+        gun__shellsAmmo:i=9
       }
     }
   }
@@ -1005,7 +1005,7 @@ entity{
       turret__pitchSpeed:r=99
 
       "gun__shellsAmmo:array"{
-        gun__shellsAmmo:i=6
+        gun__shellsAmmo:i=9
       }
     }
   }
@@ -1102,7 +1102,7 @@ entity{
       turret__pitchSpeed:r=99
 
       "gun__shellsAmmo:array"{
-        gun__shellsAmmo:i=6
+        gun__shellsAmmo:i=9
       }
     }
   }
@@ -1205,7 +1205,7 @@ entity{
 
       "gun__shellsAmmo:array"{
         gun__shellsAmmo:i=0
-        gun__shellsAmmo:i=12
+        gun__shellsAmmo:i=16
         gun__shellsAmmo:i=0
       }
     }
@@ -1309,7 +1309,7 @@ entity{
 
       "gun__shellsAmmo:array"{
         gun__shellsAmmo:i=0
-        gun__shellsAmmo:i=12
+        gun__shellsAmmo:i=16
         gun__shellsAmmo:i=0
       }
     }
@@ -1413,7 +1413,7 @@ entity{
 
       "gun__shellsAmmo:array"{
         gun__shellsAmmo:i=0
-        gun__shellsAmmo:i=12
+        gun__shellsAmmo:i=16
         gun__shellsAmmo:i=0
       }
     }

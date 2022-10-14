@@ -111,7 +111,7 @@ entity{
   capzone__autoDecap:b=no
   capzone__autoCap:b=no
   capzone__presenceAdvantageToDominate:i=0
-  capzone__caption:t="Soviet Bomb Site;Beloe Bridge (Destroy the Bridge 炸毁桥梁 to prevent Axis pushing/-2500 to Axis)"
+  capzone__caption:t="Soviet Bomb Site;Beloe Bridge (Destroy the Bridge 炸毁桥梁 to prevent Axis pushing/-2500 to Axis;6mins Plant;Explosion in 50s)"
   capzone__maxTeamPresence:i=3
   capzone__maxCapDecapSpeedMult:r=3
   capzone__alwaysShow:b=yes
@@ -162,7 +162,7 @@ entity{
   capzone__autoDecap:b=no
   capzone__autoCap:b=no
   capzone__presenceAdvantageToDominate:i=0
-  capzone__caption:t="Soviet Bomb Site;Railway Station Avangard Farm (Destroy the Railway 破坏铁路 to prevent Axis pushing/-2500 to Axis)"
+  capzone__caption:t="Soviet Bomb Site;Railway Station Avangard Farm (Destroy the Railway 破坏铁路 to prevent Axis pushing/-2500 to Axis;6mins Plant;Explosion in 50s)"
   capzone__maxTeamPresence:i=3
   capzone__maxCapDecapSpeedMult:r=3
   capzone__alwaysShow:b=yes
@@ -301,7 +301,7 @@ entity{
   capzone__autoDecap:b=no
   capzone__autoCap:b=no
   capzone__presenceAdvantageToDominate:i=0
-  capzone__caption:t="Soviet Bomb Site;Panfilov Bridge (Destroy the Bridge 炸毁桥梁 to prevent Axis pushing/-2500 to Axis)"
+  capzone__caption:t="Soviet Bomb Site;Panfilov Bridge (Destroy the Bridge 炸毁桥梁 to prevent Axis pushing/-2500 to Axis;6mins Plant;Explosion in 50s)"
   capzone__maxTeamPresence:i=3
   capzone__maxCapDecapSpeedMult:r=3
   capzone__alwaysShow:b=yes
@@ -666,7 +666,7 @@ entity{
 }
 
 entity{
-  _template:t="defend_zone_team_chained_sphere+lockable_capzone+separate_cap_decap_time"
+  _template:t="zone_bidirectional_two_chains_sphere+lockable_capzone+separate_cap_decap_time"
   transform:m=[[9.27504, -6.26135e-09, -2.04144] [2.38079e-08, 1, 1.05101e-07] [2.04144, -1.02342e-06, 9.27504] [-157.085, 4.10123, 675.384]]
   ui_order:i=406
   capzone__icon:t="!ui/skin#battles.svg"
@@ -762,7 +762,7 @@ entity{
   capzone__autoDecap:b=no
   capzone__autoCap:b=no
   capzone__presenceAdvantageToDominate:i=0
-  capzone__caption:t="Soviet Bomb Site;Ammunition Depot (Destroy the Ammunition Depot 弹药库 to prevent Axis pushing/-2500 to Axis)"
+  capzone__caption:t="Soviet Bomb Site;Ammunition Depot (Destroy the Ammunition Depot 弹药库 to prevent Axis pushing/-2500 to Axis;6mins Plant;Explosion in 50s)"
   capzone__maxTeamPresence:i=3
   capzone__maxCapDecapSpeedMult:r=3
   capzone__alwaysShow:b=yes

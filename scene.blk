@@ -120,7 +120,7 @@ entity{
 
 entity{
   _template:t="battle_area_polygon_point"
-  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-9530.17, 97.9898, 574.039]]
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-9691.58, 97.991, -8732.04]]
   battle_area_polygon_point__forBattleAreaId:t="aaxs1air"
   battle_area_polygon_point__id:t="aaxs1airp1"
   battle_area_polygon_point__nextId:t="aaxs1airp2"
@@ -144,7 +144,7 @@ entity{
 
 entity{
   _template:t="battle_area_polygon_point"
-  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-607.2, 1045.07, 1733.98]]
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-2120.85, 1045.07, 3614.44]]
   battle_area_polygon_point__forBattleAreaId:t="aaxs1air"
   battle_area_polygon_point__id:t="aaxs1airp5"
   battle_area_polygon_point__nextId:t="aaxs1airp6"
@@ -152,7 +152,7 @@ entity{
 
 entity{
   _template:t="battle_area_polygon_point"
-  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-7214.53, 97.9922, 2547.31]]
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-9530.17, 97.9898, 574.039]]
   battle_area_polygon_point__forBattleAreaId:t="aaxs1air"
   battle_area_polygon_point__id:t="aaxs1airp6"
   battle_area_polygon_point__nextId:t="aaxs1airp1"
@@ -1099,7 +1099,7 @@ entity{
   team__minScoreCap:r=90000
   team__squadSpawnCost:i=6
   team__capturePenalty:r=15000
-  team__aircraftRequestInterval:r=90
+  team__aircraftRequestInterval:r=30
   team__numZonesCaptured:i=2
 
   "team__armies:list<t>"{
@@ -1121,7 +1121,7 @@ entity{
   hints_header:t="briefing/common_hints_header"
   hints:t="common/controls"
   mission_type:t="invasion"
-  mission_name:t="Big Action - Battle Of Volokolamsk(0.0.3.7.5b5nf) (F1 see tips in game!) (zh_CN)"
+  mission_name:t="Big Action - Battle Of Volokolamsk(0.0.3.7.5c3nf.3) (F1 see tips in game!) (zh_CN)"
 
   "loading_images:list<t>"{
     item:t="ui/volokolamsk_lake_01.jpg"
@@ -1164,7 +1164,7 @@ entity{
 }
 
 entity{
-  _template:t="defend_zone_team_chained_sphere+lockable_capzone+separate_cap_decap_time"
+  _template:t="zone_bidirectional_two_chains_sphere+lockable_capzone+separate_cap_decap_time"
   transform:m=[[9.31933, 0.364037, -2.16021] [-0.0390328, 0.999238, 1.58325e-08] [2.15856, 0.0843189, 9.32644] [-161.298, 4.0265, 676.352]]
   ui_order:i=501
   capzone__icon:t="!ui/skin#refresh.svg"
@@ -1201,7 +1201,7 @@ entity{
 }
 
 entity{
-  _template:t="defend_zone_chained_sphere+lockable_capzone+separate_cap_decap_time+capzone_respawn_activator"
+  _template:t="zone_bidirectional_two_chains_sphere+lockable_capzone+separate_cap_decap_time+capzone_respawn_activator"
   transform:m=[[5.67315, 0, 0] [0, 1, 0] [0, 0, 8.47793] [-583.159, 5.96471, 586.18]]
   ui_order:i=503
   capzone__icon:t="!ui/skin#victories_battles.svg"
@@ -1238,49 +1238,7 @@ entity{
 }
 
 entity{
-  _template:t="defend_zone_chained_sphere+lockable_capzone+separate_cap_decap_time+capzone_respawn_activator"
-  transform:m=[[6.95387, -0, -2.83213] [0, 1, -0] [2.83213, 0, 6.95387] [127.586, 17.3884, 397.747]]
-  ui_order:i=507
-  capzone__icon:t="!ui/skin#victories_battles.svg"
-  groupName:t="s6"
-  active:b=yes
-  capzone__capTeam:i=1
-  capzone__autoDecap:b=no
-  capzone__deactivateAfterCap:b=no
-  capzone__curTeamDominating:i=1
-  capzone__canCaptureOnVehicle:b=yes
-  capzone__caption:t="C;Vysokovo Isle (-500 to Allies/-2500 to Axis/Garrison Rally Captureable; 2mins Lock After Cap; Release for ReCap!)"
-  capzone__maxTeamPresence:i=3
-  capzone__maxCapDecapSpeedMult:r=3
-  capzone_timer__timeLeft:r=-1
-  capzone__canCaptureOnVehicle:b=yes
-  effect__colorMult:c=255, 255, 255, 30
-  effect__scale:r=0.8
-  capzone__title:t="C"
-  capzone__alwaysShow:b=no
-  capzone__unlockAfterTime:r=120
-  capzone__lockAfterCap:b=yes
-  capzone__captureStatus:i=2
-  capzone__capTimeTeam2:r=90
-  capzone__capTimeTeam1:r=690
-  capzone__decapTimeTeam2:r=1
-  capzone__decapTimeTeam1:r=3
-  capzone__activateAfterCap:t="nil"
-  capzone__acivateRespawnGroup:i=12363
-  capzone__activateRespawnOnProgress:r=0.2
-  capzone__capReward:r=1800
-
-  "capzone__presenceTeamCount:object"{
-    1:i=1
-  }
-
-  "capzone__activateChoice:object"{
-    nil:r=1
-  }
-}
-
-entity{
-  _template:t="defend_zone_chained_sphere+lockable_capzone+separate_cap_decap_time+capzone_respawn_activator"
+  _template:t="zone_bidirectional_two_chains_sphere+lockable_capzone+separate_cap_decap_time+capzone_respawn_activator"
   transform:m=[[-5.70636, 0, 0.0543349] [0, 1.14012, 0] [-0.069693, 0, -4.44886] [-179.666, 9.61372, 355.483]]
   ui_order:i=505
   capzone__icon:t="!ui/skin#victories_battles.svg"
@@ -1312,9 +1270,43 @@ entity{
   capzone__activateRespawnOnProgress:r=0.2
   capzone__capReward:r=1800
 
-  "capzone__presenceTeamCount:object"{
-    1:i=1
+  "capzone__activateChoice:object"{
+    nil:r=1
   }
+}
+
+entity{
+  _template:t="zone_bidirectional_two_chains_sphere+lockable_capzone+separate_cap_decap_time+capzone_respawn_activator"
+  transform:m=[[6.95387, -0, -2.83213] [0, 1, -0] [2.83213, 0, 6.95387] [127.586, 17.3884, 397.747]]
+  ui_order:i=507
+  capzone__icon:t="!ui/skin#victories_battles.svg"
+  groupName:t="s6"
+  active:b=yes
+  capzone__capTeam:i=1
+  capzone__autoDecap:b=no
+  capzone__deactivateAfterCap:b=no
+  capzone__curTeamDominating:i=1
+  capzone__canCaptureOnVehicle:b=yes
+  capzone__caption:t="C;Vysokovo Isle (-500 to Allies/-2500 to Axis/Garrison Rally Captureable; 2mins Lock After Cap; Release for ReCap!)"
+  capzone__maxTeamPresence:i=3
+  capzone__maxCapDecapSpeedMult:r=3
+  capzone_timer__timeLeft:r=-1
+  capzone__canCaptureOnVehicle:b=yes
+  effect__colorMult:c=255, 255, 255, 30
+  effect__scale:r=0.8
+  capzone__title:t="C"
+  capzone__alwaysShow:b=no
+  capzone__unlockAfterTime:r=120
+  capzone__lockAfterCap:b=yes
+  capzone__captureStatus:i=2
+  capzone__capTimeTeam2:r=90
+  capzone__capTimeTeam1:r=690
+  capzone__decapTimeTeam2:r=1
+  capzone__decapTimeTeam1:r=3
+  capzone__activateAfterCap:t="nil"
+  capzone__acivateRespawnGroup:i=12363
+  capzone__activateRespawnOnProgress:r=0.2
+  capzone__capReward:r=1800
 
   "capzone__activateChoice:object"{
     nil:r=1
@@ -1366,7 +1358,7 @@ entity{
 }
 
 entity{
-  _template:t="defend_zone_team_chained_sphere+lockable_capzone+separate_cap_decap_time"
+  _template:t="zone_bidirectional_two_chains_sphere+lockable_capzone+separate_cap_decap_time"
   transform:m=[[4.1021, 0.349621, -8.64288] [-0.0281129, 0.999238, 0.0270781] [8.64577, 0.131899, 4.10881] [676.633, 3.71845, 530.888]]
   ui_order:i=690
   capzone__icon:t="!ui/skin#refresh.svg"
@@ -1389,7 +1381,7 @@ entity{
   capzone__autoCap:b=no
   capzone_timer__timeLeft:r=-1
   capzone__capTimeTeam2:r=99999
-  capzone__capTimeTeam1:r=300
+  capzone__capTimeTeam1:r=230
   capzone__decapTimeTeam2:r=30
   capzone__decapTimeTeam1:r=3
   active:b=yes
@@ -4655,6 +4647,30 @@ entity{
 }
 
 entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[-0.962273, 0.0102953, 0.271888] [0.00683514, 0.999883, -0.0136703] [-0.271997, -0.0112962, -0.962232] [-23.0164, 9.74577, -1383.94]]
+  ri_extra__name:t="il_2m_type3_mstitel_c_destroyed_fuse"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[-0.958749, -0.0770399, 0.273612] [-0.0778853, 0.996932, 0.00778853] [-0.273373, -0.0138431, -0.961809] [-16.3308, 9.81049, -1385.96]]
+  ri_extra__name:t="il_2m_type3_mstitel_c_destroyed_tail"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[-0.962334, 0.0025588, 0.271854] [0.0156067, 0.998826, 0.0458446] [-0.271418, 0.0483606, -0.961245] [-21.5326, 9.77546, -1377.85]]
+  ri_extra__name:t="il_2m_type3_mstitel_c_destroyed_wing_01"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[-0.96195, 0.0486614, 0.268856] [0.0291998, 0.996687, -0.0759195] [-0.271659, -0.0651802, -0.960183] [-24.0928, 9.81864, -1390.07]]
+  ri_extra__name:t="il_2m_type3_mstitel_c_destroyed_wing_02"
+}
+
+entity{
   _template:t="game_rendinst_decor+enbaked_ri"
   transform:m=[[0.947331, -0.047463, 0.316721] [0.0553053, 0.998344, -0.0158121] [-0.315446, 0.0324956, 0.948387] [641.403, 17.0418, -473.242]]
   ri_extra__name:t="trench_ohub_soil_a"
@@ -6352,22 +6368,36 @@ entity{
 
 entity{
   _template:t="respAircraftInAir"
-  transform:m=[[-0.930338, 0, -0.366703] [0, 1, 0] [0.366702, 0, -0.930338] [5141.43, 909.018, 2390.58]]
+  transform:m=[[-0.993668, 0, 0.112354] [0, 1, 0] [-0.112354, 0, -0.993668] [22.4092, 10.1841, -1418.95]]
   respawnbaseType:t="aircraft_fighter"
   team:i=1
   maxVehicleOnSpawn:i=1
   respTime:i=1
   groupName:t="s1"
+
+  "respbase__addTemplatesOnSpawn:list<t>"{
+    item:t="destroy_inactive_vehicle"
+    item:t="plane_spawn_on_carrier"
+    item:t="aircraft_spawn_validation"
+    item:t="vehicle_spawn_restriction"
+  }
 }
 
 entity{
   _template:t="respAircraftInAir"
-  transform:m=[[-0.874288, 0, -0.485407] [0, 1, 0] [0.485407, 0, -0.874288] [5477.58, 968.39, 2717.8]]
+  transform:m=[[-0.996529, 0, 0.0832423] [0, 1, 0] [-0.0832423, 0, -0.996529] [20.3785, 10.2414, -1434.69]]
   respawnbaseType:t="aircraft_assault"
   team:i=1
   maxVehicleOnSpawn:i=1
   respTime:i=1
   groupName:t="s1"
+
+  "respbase__addTemplatesOnSpawn:list<t>"{
+    item:t="destroy_inactive_vehicle"
+    item:t="plane_spawn_on_carrier"
+    item:t="aircraft_spawn_validation"
+    item:t="vehicle_spawn_restriction"
+  }
 }
 
 entity{
@@ -7269,7 +7299,107 @@ entity{
 
 entity{
   _template:t="ussr_kv_1_L_11_common"
-  transform:m=[[0.7429, -0.00402762, -0.669391] [0.0458041, 0.997944, 0.0448295] [0.667835, -0.0639647, 0.741557] [-506.911, 5.42672, 1333.9]]
+  transform:m=[[0.759322, -0.00562141, -0.650691] [0.0458041, 0.997944, 0.0448295] [0.649101, -0.0638443, 0.758018] [-506.984, 5.43242, 1333.85]]
+  vehicle_seats__restrictToTeam:i=1
+  team:i=1
+  vehicle_seats__autoDetectRestrictToTeam:b=no
+
+  "animchar__objTexReplace:object"{
+    "ussr_camo_green*":t="ussr_camo_czechoslovak_yellow_green*"
+  }
+
+  "turretsInitialComponents:array"{
+    "turretsInitialComponents:object"{
+      "gun__shellsAmmo:array"{
+        gun__shellsAmmo:i=16
+        gun__shellsAmmo:i=16
+      }
+    }
+
+    "turretsInitialComponents:object"{
+      gun__shootNodeName:t="bone_mg_gun_twin"
+
+      "gun__shellsAmmo:array"{
+        gun__shellsAmmo:i=1690
+      }
+    }
+  }
+
+  "turret_control__turretInfo:shared:array"{
+    "turret_control__turretInfo:object"{
+      salt:i=1
+      gun:t="bt_7_1937_turret_01_45mm_20k+turret_with_several_types_of_shells+main_turret"
+      barrelDm:t="gun_barrel"
+      breechDm:t="cannon_breech"
+      turretName:t="turret_01"
+      verDriveDm:t="drive_turret_v"
+      horDriveDm:t="drive_turret_h"
+    }
+
+    "turret_control__turretInfo:object"{
+      salt:i=1
+      gun:t="ht_130_turret_01_ato_41+t_34_1941_turret_02_7_62mm_dt+base_tankgun_machinegun_nooverheat+gunsound_flamethrower+main_turret"
+      barrelDm:t="gun_barrel_01"
+      turretName:t="turret_02"
+      verDriveDm:t="drive_turret_v"
+      horDriveDm:t="drive_turret_h"
+    }
+  }
+}
+
+entity{
+  _template:t="ussr_kv_1_L_11_common"
+  transform:m=[[0.744303, 0.0391536, -0.666694] [0.015578, 0.99699, 0.0759426] [0.667661, -0.06691, 0.741453] [-497.4, 5.44925, 1324.37]]
+  vehicle_seats__restrictToTeam:i=1
+  team:i=1
+  vehicle_seats__autoDetectRestrictToTeam:b=no
+
+  "animchar__objTexReplace:object"{
+    "ussr_camo_green*":t="ussr_camo_czechoslovak_yellow_green*"
+  }
+
+  "turretsInitialComponents:array"{
+    "turretsInitialComponents:object"{
+      "gun__shellsAmmo:array"{
+        gun__shellsAmmo:i=16
+        gun__shellsAmmo:i=16
+      }
+    }
+
+    "turretsInitialComponents:object"{
+      gun__shootNodeName:t="bone_mg_gun_twin"
+
+      "gun__shellsAmmo:array"{
+        gun__shellsAmmo:i=1690
+      }
+    }
+  }
+
+  "turret_control__turretInfo:shared:array"{
+    "turret_control__turretInfo:object"{
+      salt:i=1
+      gun:t="bt_7_1937_turret_01_45mm_20k+turret_with_several_types_of_shells+main_turret"
+      barrelDm:t="gun_barrel"
+      breechDm:t="cannon_breech"
+      turretName:t="turret_01"
+      verDriveDm:t="drive_turret_v"
+      horDriveDm:t="drive_turret_h"
+    }
+
+    "turret_control__turretInfo:object"{
+      salt:i=1
+      gun:t="ht_130_turret_01_ato_41+t_34_1941_turret_02_7_62mm_dt+base_tankgun_machinegun_nooverheat+gunsound_flamethrower+main_turret"
+      barrelDm:t="gun_barrel_01"
+      turretName:t="turret_02"
+      verDriveDm:t="drive_turret_v"
+      horDriveDm:t="drive_turret_h"
+    }
+  }
+}
+
+entity{
+  _template:t="ussr_kv_1_L_11_common"
+  transform:m=[[0.739679, 0.00485544, -0.672942] [-0.0136702, 0.999876, -0.00781153] [0.672821, 0.0149773, 0.739654] [-516.806, 5.2016, 1320.13]]
   vehicle_seats__restrictToTeam:i=1
   team:i=1
   vehicle_seats__autoDetectRestrictToTeam:b=no
@@ -8881,11 +9011,6 @@ entity{
 
 entity{
   _template:t="opel_blitz_kfz_305"
-  transform:m=[[0.999843, -0.0172205, -0.00414601] [0.0170191, 0.998864, -0.0445025] [0.00490766, 0.044425, 0.999001] [1343.9, 3.57431, -987.267]]
-}
-
-entity{
-  _template:t="opel_blitz_kfz_305"
   transform:m=[[-0.836594, 0.0101212, 0.54773] [0.119523, 0.979115, 0.164464] [-0.534626, 0.203056, -0.820331] [990.721, 1.64406, 1478.37]]
 }
 
@@ -8917,6 +9042,51 @@ entity{
 entity{
   _template:t="opel_blitz_kfz_305"
   transform:m=[[0.133047, -0.0113586, -0.991045] [-0.00903438, 0.999879, -0.0126728] [0.991069, 0.0106395, 0.132928] [1047.2, 82.1852, 106.957]]
+}
+
+entity{
+  _template:t="opel_blitz_kfz_305"
+  transform:m=[[0.791575, -0.0109012, -0.610974] [-0.0156118, 0.999154, -0.0380537] [0.610872, 0.0396608, 0.790735] [-1635.63, 0.742048, -934.12]]
+}
+
+entity{
+  _template:t="opel_blitz_kfz_305"
+  transform:m=[[0.75662, -0.0377411, 0.652765] [0.0380548, 0.999183, 0.0136607] [-0.652746, 0.0145049, 0.757438] [-1019.08, 4.71912, -1625.48]]
+}
+
+entity{
+  _template:t="opel_blitz_kfz_305"
+  transform:m=[[0.741199, -0, 0.671284] [0, 1, 0] [-0.671284, 0, 0.741199] [-1007.58, 4.69398, -1619.72]]
+}
+
+entity{
+  _template:t="opel_blitz_kfz_305"
+  transform:m=[[0.710358, -0.00539643, 0.70382] [-0.0156188, 0.999604, 0.0234282] [-0.703667, -0.0276353, 0.709993] [-991.318, 4.60421, -1606.3]]
+}
+
+entity{
+  _template:t="opel_blitz_kfz_305"
+  transform:m=[[0.651274, 0.0118555, -0.75875] [0, 0.999878, 0.0156231] [0.758842, -0.0101749, 0.651195] [635.857, 6.20664, -1559.18]]
+}
+
+entity{
+  _template:t="opel_blitz_kfz_305"
+  transform:m=[[0.837466, -0.00853786, -0.546423] [0, 0.999878, -0.0156231] [0.54649, 0.0130838, 0.837364] [646.328, 6.07553, -1565.46]]
+}
+
+entity{
+  _template:t="opel_blitz_kfz_305"
+  transform:m=[[0.818974, 0.0217561, -0.573418] [-0.0156212, 0.999756, 0.0156212] [0.573618, -0.00383587, 0.819114] [-1632.68, 0.744348, -911.903]]
+}
+
+entity{
+  _template:t="opel_blitz_kfz_305"
+  transform:m=[[0.775698, 0.015918, -0.630904] [-0.00781131, 0.999847, 0.0156226] [0.631056, -0.00719025, 0.775704] [-1629.74, 1.00892, -928.403]]
+}
+
+entity{
+  _template:t="opel_blitz_kfz_305"
+  transform:m=[[0.760821, -0.0175112, -0.648726] [-0.0302026, 0.997597, -0.0623498] [0.648259, 0.0670303, 0.758464] [-1621.73, 1.1017, -919.48]]
 }
 
 entity{
@@ -9608,7 +9778,7 @@ entity{
 
 entity{
   _template:t="vw_kubelwagen"
-  transform:m=[[0.999539, 0, 0.0303486] [0, 1, 0] [-0.0303486, 0, 0.999539] [-1643.22, 1.935, -927.142]]
+  transform:m=[[0.99836, 0.0465378, 0.0333289] [-0.0468222, 0.998873, 0.00780369] [-0.0329281, -0.00935143, 0.999414] [-1643.23, 0.761939, -927.071]]
   vehicle_net_phys__blk:t="content/e_ww2_common/gamedata/units/vehicles/gaz_67.blk:VehiclePhys"
 }
 
@@ -11212,531 +11382,6 @@ entity{
 entity{
   _template:t="bag_stack_b"
   transform:m=[[-0.982484, -0.186347, -0.00139059] [-0.184091, 0.971698, -0.148032] [0.0289365, -0.145183, -0.988981] [-110.231, 58.2868, -1055.69]]
-}
-
-entity{
-  _template:t="turret_105_skc_32"
-  transform:m=[[-0.475432, 0.03054, 0.879221] [0.241992, 0.965386, 0.0973224] [-0.845816, 0.259035, -0.466366] [-706.359, 148.359, -717.06]]
-  auto_gun_controller__changeTargetTime:r=5
-  auto_gun_controller__nextTraceTime:r=300
-  auto_gun_controller__traceTime:r=1
-  gun_deviation__maxDeviation:r=60
-  gun_deviation__decreaseMul:r=0
-  gun_deviation__bufferThreshold:r=60
-  gun__ammo:i=999
-  collres__res:t="grenade_mk2_collision"
-  auto_gun_controller__targetDist:r=800
-  auto_gun_controller__targetTeam:i=3
-  team:i=4
-  animchar_render__enabled:b=no
-  gun__maxAmmo:i=999
-  mounted_gun__vert_limits:p2=-20, 60
-  mounted_gun__horz_limits:p2=-36, 36
-  gun_spread__maxDeltaAngle:r=0.36
-  interactable:b=no
-  item__name:t="items/150mm_schwereFeldHaubitze18"
-  gun__locName:t="150mm/schwereFeldHaubitze18"
-  item__template:t=""
-  item__proto:t="content/tanks/gamedata/weapons/empty.blk"
-  gun__blk:t="content/tanks/gamedata/weapons/empty.blk"
-  gun__animOffset:p3=0, -0.1, -0
-  gun__shotFreq:r=0.23
-  gun__shotFreqRndK:r=0.1
-  gun_deviation__increaseMul:r=10
-  death_desc__offenderTeam:i=2
-  gun_sound__isEnabled:b=no
-
-  "gun__shells:array"{
-    gun__shells:t="gamedata/gen/weapons/shells/152mm_ml20s_152mm_ussr_heat.blk"
-  }
-}
-
-entity{
-  _template:t="turret_105_skc_32"
-  transform:m=[[-0.455809, 0.03054, 0.889552] [0.244092, 0.965386, 0.0919297] [-0.855954, 0.259035, -0.447486] [-625.11, 195.395, -655.456]]
-  auto_gun_controller__changeTargetTime:r=6
-  auto_gun_controller__nextTraceTime:r=100
-  auto_gun_controller__traceTime:r=1
-  gun_deviation__maxDeviation:r=50
-  gun_deviation__decreaseMul:r=0
-  gun_deviation__bufferThreshold:r=60
-  gun__ammo:i=999
-  collres__res:t="grenade_mk2_collision"
-  auto_gun_controller__targetDist:r=800
-  auto_gun_controller__targetTeam:i=3
-  team:i=4
-  animchar_render__enabled:b=no
-  gun__maxAmmo:i=999
-  mounted_gun__vert_limits:p2=-20, 60
-  mounted_gun__horz_limits:p2=-16, 16
-  gun_spread__maxDeltaAngle:r=0.5
-  interactable:b=no
-  item__name:t="items/150mm_schwereFeldHaubitze18"
-  gun__locName:t="150mm/schwereFeldHaubitze18"
-  item__template:t=""
-  item__proto:t="content/tanks/gamedata/weapons/empty.blk"
-  gun__blk:t="content/tanks/gamedata/weapons/empty.blk"
-  gun__animOffset:p3=0, -0.1, -0
-  gun__shotFreq:r=0.39
-  gun__shotFreqRndK:r=0.1
-  gun_deviation__increaseMul:r=10
-  death_desc__offenderTeam:i=2
-  gun_sound__isEnabled:b=no
-
-  "gun__shells:array"{
-    gun__shells:t="gamedata/gen/weapons/shells/152mm_ml20s_152mm_ussr_heat.blk"
-  }
-}
-
-entity{
-  _template:t="turret_105_skc_32"
-  transform:m=[[0.989737, -0.0581233, -0.130542] [0.0765991, 0.986999, 0.141298] [0.120632, -0.149847, 0.981322] [-233.35, 6.78991, -534.234]]
-  auto_gun_controller__changeTargetTime:r=6
-  auto_gun_controller__nextTraceTime:r=60
-  auto_gun_controller__traceTime:r=1
-  collres__res:t="grenade_mk2_collision"
-  auto_gun_controller__targetDist:r=550
-  auto_gun_controller__targetTeam:i=2
-  team:i=1
-  animchar_render__enabled:b=no
-  gun__maxAmmo:i=9999
-  mounted_gun__vert_limits:p2=-20, 20
-  mounted_gun__horz_limits:p2=-2, 12
-  gun_spread__maxDeltaAngle:r=0.1
-  interactable:b=no
-  item__name:t="76mm Field Gun M1902"
-  gun__locName:t="76mm Field Gun M1902"
-  item__template:t=""
-  item__proto:t="content/tanks/gamedata/weapons/empty.blk"
-  gun__blk:t="content/tanks/gamedata/weapons/empty.blk"
-  gun__animOffset:p3=0, 0.1, -0
-  gun__shotFreq:r=0.05
-  gun__shotFreqRndK:r=0.1
-  gun__ammo:i=9999
-  death_desc__offenderTeam:i=1
-  hitpoints__hp:r=99999
-  hitpoints__maxHp:r=99999
-  gun_sound__isEnabled:b=no
-
-  "gun__shells:array"{
-    gun__shells:t="gamedata/gen/weapons/shells/76mm_l10_76mm_ussr_he.blk"
-  }
-}
-
-entity{
-  _template:t="turret_105_skc_32"
-  transform:m=[[0.89868, -0.0581233, -0.434734] [0.117095, 0.986999, 0.110097] [0.422683, -0.149847, 0.893803] [-441.427, 3.91484, -491.179]]
-  auto_gun_controller__changeTargetTime:r=6
-  auto_gun_controller__nextTraceTime:r=50
-  auto_gun_controller__traceTime:r=1
-  collres__res:t="grenade_mk2_collision"
-  auto_gun_controller__targetDist:r=500
-  auto_gun_controller__targetTeam:i=2
-  team:i=1
-  animchar_render__enabled:b=no
-  gun__maxAmmo:i=9999
-  mounted_gun__vert_limits:p2=-20, 20
-  mounted_gun__horz_limits:p2=-2, 12
-  gun_spread__maxDeltaAngle:r=0.1
-  interactable:b=no
-  item__name:t="76mm Field Gun M1902"
-  gun__locName:t="76mm Field Gun M1902"
-  item__template:t=""
-  item__proto:t="content/tanks/gamedata/weapons/empty.blk"
-  gun__blk:t="content/tanks/gamedata/weapons/empty.blk"
-  gun__animOffset:p3=0, 0.1, -0
-  gun__shotFreq:r=0.05
-  gun__shotFreqRndK:r=0.1
-  gun__ammo:i=9999
-  death_desc__offenderTeam:i=1
-  hitpoints__hp:r=99999
-  hitpoints__maxHp:r=99999
-  gun_sound__isEnabled:b=no
-
-  "gun__shells:array"{
-    gun__shells:t="gamedata/gen/weapons/shells/122mm_d25t_122mm_ussr_aphe.blk"
-  }
-}
-
-entity{
-  _template:t="turret_105_skc_32"
-  transform:m=[[-0.993645, 0.065, 0.091888] [0.103069, 0.853498, 0.510803] [-0.045224, 0.517027, -0.854773] [-774.55, 115.312, -1280.76]]
-  auto_gun_controller__changeTargetTime:r=30
-  auto_gun_controller__nextTraceTime:r=30
-  auto_gun_controller__traceTime:r=30
-  gun_deviation__maxDeviation:r=30
-  gun_deviation__decreaseMul:r=0
-  gun_deviation__bufferThreshold:r=60
-  collres__res:t="grenade_mk2_collision"
-  auto_gun_controller__targetDist:r=300
-  auto_gun_controller__targetTeam:i=1
-  team:i=2
-  animchar_render__enabled:b=no
-  gun__maxAmmo:i=8
-  mounted_gun__vert_limits:p2=-50, 50
-  mounted_gun__horz_limits:p2=-36, 36
-  gun_spread__maxDeltaAngle:r=0.5
-  interactable:b=no
-  item__name:t="items/150mm_schwereFeldHaubitze18"
-  gun__locName:t="150mm/schwereFeldHaubitze18"
-  item__template:t=""
-  item__proto:t="content/tanks/gamedata/weapons/empty.blk"
-  gun__blk:t="content/tanks/gamedata/weapons/empty.blk"
-  gun__animOffset:p3=0, -0.1, -0
-  gun__shotFreq:r=0.16
-  gun__shotFreqRndK:r=0.1
-  death_desc__offenderTeam:i=2
-  gun_sound__isEnabled:b=no
-  gun__ammo:i=99999
-
-  "gun__shells:array"{
-    gun__shells:t="gamedata/gen/weapons/shells/150mm_sig_33_150mm_ger_heat.blk"
-  }
-}
-
-entity{
-  _template:t="ship_gun_105mm"
-  transform:m=[[-0.5, 0, -0.866025] [0, 1, 0] [0.866025, 0, -0.5] [-630.115, 6.53983, -559.57]]
-  animchar__visible:b=no
-  animchar_render__enabled:b=no
-  auto_gun_controller__targetTeam:i=0
-  team:i=3
-  auto_gun_controller__enabled:b=no
-  interactable:b=no
-  collres__res:t="grenade_mk2_collision"
-  gun_sound__isEnabled:b=no
-  gun__ammo:i=0
-  gun__maxAmmo:i=0
-}
-
-entity{
-  _template:t="ship_gun_105mm"
-  transform:m=[[-0.5, 0, -0.866025] [0, 1, 0] [0.866025, 0, -0.5] [-578.159, 9.43946, -597.473]]
-  animchar__visible:b=no
-  animchar_render__enabled:b=no
-  auto_gun_controller__targetTeam:i=0
-  team:i=3
-  auto_gun_controller__enabled:b=no
-  interactable:b=no
-  collres__res:t="grenade_mk2_collision"
-  gun_sound__isEnabled:b=no
-  gun__ammo:i=0
-  gun__maxAmmo:i=0
-}
-
-entity{
-  _template:t="ship_gun_105mm"
-  transform:m=[[-0.5, 0, -0.866025] [0, 1, 0] [0.866025, 0, -0.5] [-568.892, 7.71092, -543.093]]
-  animchar__visible:b=no
-  animchar_render__enabled:b=no
-  auto_gun_controller__targetTeam:i=0
-  team:i=3
-  auto_gun_controller__enabled:b=no
-  interactable:b=no
-  collres__res:t="grenade_mk2_collision"
-  gun_sound__isEnabled:b=no
-  gun__ammo:i=0
-  gun__maxAmmo:i=0
-}
-
-entity{
-  _template:t="ship_gun_105mm"
-  transform:m=[[-0.5, 0, -0.866025] [0, 1, 0] [0.866025, 0, -0.5] [-582.464, 11.4263, -631.836]]
-  animchar__visible:b=no
-  animchar_render__enabled:b=no
-  auto_gun_controller__targetTeam:i=0
-  team:i=3
-  auto_gun_controller__enabled:b=no
-  interactable:b=no
-  collres__res:t="grenade_mk2_collision"
-  gun_sound__isEnabled:b=no
-  gun__ammo:i=0
-  gun__maxAmmo:i=0
-}
-
-entity{
-  _template:t="ship_gun_105mm"
-  transform:m=[[-0.5, 0, -0.866025] [0, 1, 0] [0.866025, 0, -0.5] [-259.143, 3.91401, -548.441]]
-  animchar__visible:b=no
-  animchar_render__enabled:b=no
-  auto_gun_controller__targetTeam:i=0
-  team:i=3
-  auto_gun_controller__enabled:b=no
-  interactable:b=no
-  collres__res:t="grenade_mk2_collision"
-  gun_sound__isEnabled:b=no
-  gun__ammo:i=0
-  gun__maxAmmo:i=0
-}
-
-entity{
-  _template:t="ship_gun_105mm"
-  transform:m=[[-0.5, 0, -0.866025] [0, 1, 0] [0.866025, 0, -0.5] [-295.783, 4.76449, -488.024]]
-  animchar__visible:b=no
-  animchar_render__enabled:b=no
-  auto_gun_controller__targetTeam:i=0
-  team:i=3
-  auto_gun_controller__enabled:b=no
-  interactable:b=no
-  collres__res:t="grenade_mk2_collision"
-  gun_sound__isEnabled:b=no
-  gun__ammo:i=0
-  gun__maxAmmo:i=0
-}
-
-entity{
-  _template:t="ship_gun_105mm"
-  transform:m=[[-0.5, 0, -0.866025] [0, 1, 0] [0.866025, 0, -0.5] [-406.015, 3.59917, -757.414]]
-  animchar__visible:b=no
-  animchar_render__enabled:b=no
-  auto_gun_controller__targetTeam:i=0
-  team:i=3
-  auto_gun_controller__enabled:b=no
-  interactable:b=no
-  collres__res:t="grenade_mk2_collision"
-  gun_sound__isEnabled:b=no
-  gun__ammo:i=0
-  gun__maxAmmo:i=0
-}
-
-entity{
-  _template:t="ship_gun_105mm"
-  transform:m=[[-0.5, 0, -0.866025] [0, 1, 0] [0.866025, 0, -0.5] [-314.866, 1.18207, -672.612]]
-  animchar__visible:b=no
-  animchar_render__enabled:b=no
-  auto_gun_controller__targetTeam:i=0
-  team:i=3
-  auto_gun_controller__enabled:b=no
-  interactable:b=no
-  collres__res:t="grenade_mk2_collision"
-  gun_sound__isEnabled:b=no
-  gun__ammo:i=0
-  gun__maxAmmo:i=0
-}
-
-entity{
-  _template:t="ship_gun_105mm"
-  transform:m=[[-0.5, 0, -0.866025] [0, 1, 0] [0.866025, 0, -0.5] [-398.856, 2.68328, -736.659]]
-  animchar__visible:b=no
-  animchar_render__enabled:b=no
-  auto_gun_controller__targetTeam:i=0
-  team:i=3
-  auto_gun_controller__enabled:b=no
-  interactable:b=no
-  collres__res:t="grenade_mk2_collision"
-  gun_sound__isEnabled:b=no
-  gun__ammo:i=0
-  gun__maxAmmo:i=0
-}
-
-entity{
-  _template:t="ship_gun_105mm"
-  transform:m=[[-0.5, 0, -0.866025] [0, 1, 0] [0.866025, 0, -0.5] [-347.696, 3.59918, -768.85]]
-  animchar__visible:b=no
-  animchar_render__enabled:b=no
-  auto_gun_controller__targetTeam:i=0
-  team:i=3
-  auto_gun_controller__enabled:b=no
-  interactable:b=no
-  collres__res:t="grenade_mk2_collision"
-  gun_sound__isEnabled:b=no
-  gun__ammo:i=0
-  gun__maxAmmo:i=0
-}
-
-entity{
-  _template:t="ship_gun_105mm"
-  transform:m=[[-0.5, 0, -0.866025] [0, 1, 0] [0.866025, 0, -0.5] [-355.372, 1.59155, -719.244]]
-  animchar__visible:b=no
-  animchar_render__enabled:b=no
-  auto_gun_controller__targetTeam:i=0
-  team:i=3
-  auto_gun_controller__enabled:b=no
-  interactable:b=no
-  collres__res:t="grenade_mk2_collision"
-  gun_sound__isEnabled:b=no
-  gun__ammo:i=0
-  gun__maxAmmo:i=0
-}
-
-entity{
-  _template:t="ship_gun_105mm"
-  transform:m=[[-0.5, 0, -0.866025] [0, 1, 0] [0.866025, 0, -0.5] [-528.624, 6.65017, -629.793]]
-  animchar__visible:b=no
-  animchar_render__enabled:b=no
-  auto_gun_controller__targetTeam:i=0
-  team:i=3
-  auto_gun_controller__enabled:b=no
-  interactable:b=no
-  collres__res:t="grenade_mk2_collision"
-  gun_sound__isEnabled:b=no
-  gun__ammo:i=0
-  gun__maxAmmo:i=0
-}
-
-entity{
-  _template:t="ship_gun_105mm"
-  transform:m=[[-0.5, 0, -0.866025] [0, 1, 0] [0.866025, 0, -0.5] [-525.099, 8.89508, -538.751]]
-  animchar__visible:b=no
-  animchar_render__enabled:b=no
-  auto_gun_controller__targetTeam:i=0
-  team:i=3
-  auto_gun_controller__enabled:b=no
-  interactable:b=no
-  collres__res:t="grenade_mk2_collision"
-  gun_sound__isEnabled:b=no
-  gun__ammo:i=0
-  gun__maxAmmo:i=0
-}
-
-entity{
-  _template:t="ship_gun_105mm"
-  transform:m=[[-0.5, 0, -0.866025] [0, 1, 0] [0.866025, 0, -0.5] [-420.386, 2.52889, -647.129]]
-  animchar__visible:b=no
-  animchar_render__enabled:b=no
-  auto_gun_controller__targetTeam:i=0
-  team:i=3
-  auto_gun_controller__enabled:b=no
-  interactable:b=no
-  collres__res:t="grenade_mk2_collision"
-  gun_sound__isEnabled:b=no
-  gun__ammo:i=0
-  gun__maxAmmo:i=0
-}
-
-entity{
-  _template:t="ship_gun_105mm"
-  transform:m=[[-0.5, 0, -0.866025] [0, 1, 0] [0.866025, 0, -0.5] [-393.773, 3.48419, -501.914]]
-  animchar__visible:b=no
-  animchar_render__enabled:b=no
-  auto_gun_controller__targetTeam:i=0
-  team:i=3
-  auto_gun_controller__enabled:b=no
-  interactable:b=no
-  collres__res:t="grenade_mk2_collision"
-  gun_sound__isEnabled:b=no
-  gun__ammo:i=0
-  gun__maxAmmo:i=0
-}
-
-entity{
-  _template:t="ship_gun_105mm"
-  transform:m=[[-0.5, 0, -0.866025] [0, 1, 0] [0.866025, 0, -0.5] [-403.314, 2.52889, -529.137]]
-  animchar__visible:b=no
-  animchar_render__enabled:b=no
-  auto_gun_controller__targetTeam:i=0
-  team:i=3
-  auto_gun_controller__enabled:b=no
-  interactable:b=no
-  collres__res:t="grenade_mk2_collision"
-  gun_sound__isEnabled:b=no
-  gun__ammo:i=0
-  gun__maxAmmo:i=0
-}
-
-entity{
-  _template:t="ship_gun_105mm"
-  transform:m=[[-0.5, 0, -0.866025] [0, 1, 0] [0.866025, 0, -0.5] [-398.176, 3.58923, -406.447]]
-  animchar__visible:b=no
-  animchar_render__enabled:b=no
-  auto_gun_controller__targetTeam:i=0
-  team:i=3
-  auto_gun_controller__enabled:b=no
-  interactable:b=no
-  collres__res:t="grenade_mk2_collision"
-  gun_sound__isEnabled:b=no
-  gun__ammo:i=0
-  gun__maxAmmo:i=0
-}
-
-entity{
-  _template:t="ship_gun_105mm"
-  transform:m=[[-0.5, 0, -0.866025] [0, 1, 0] [0.866025, 0, -0.5] [-164.196, 16.8136, -213.784]]
-  animchar__visible:b=no
-  animchar_render__enabled:b=no
-  auto_gun_controller__targetTeam:i=0
-  team:i=3
-  auto_gun_controller__enabled:b=no
-  interactable:b=no
-  collres__res:t="grenade_mk2_collision"
-  gun_sound__isEnabled:b=no
-  gun__ammo:i=0
-  gun__maxAmmo:i=0
-}
-
-entity{
-  _template:t="ship_gun_105mm"
-  transform:m=[[-0.5, 0, -0.866025] [0, 1, 0] [0.866025, 0, -0.5] [-146.37, 14.4644, -230.969]]
-  animchar__visible:b=no
-  animchar_render__enabled:b=no
-  auto_gun_controller__targetTeam:i=0
-  team:i=3
-  auto_gun_controller__enabled:b=no
-  interactable:b=no
-  collres__res:t="grenade_mk2_collision"
-  gun_sound__isEnabled:b=no
-  gun__ammo:i=0
-  gun__maxAmmo:i=0
-}
-
-entity{
-  _template:t="ship_gun_105mm"
-  transform:m=[[-0.5, 0, -0.866025] [0, 1, 0] [0.866025, 0, -0.5] [-203.108, 45.7907, -191.141]]
-  animchar__visible:b=no
-  animchar_render__enabled:b=no
-  auto_gun_controller__targetTeam:i=0
-  team:i=3
-  auto_gun_controller__enabled:b=no
-  interactable:b=no
-  collres__res:t="grenade_mk2_collision"
-  gun_sound__isEnabled:b=no
-  gun__ammo:i=0
-  gun__maxAmmo:i=0
-}
-
-entity{
-  _template:t="ship_gun_105mm"
-  transform:m=[[-0.5, 0, -0.866025] [0, 1, 0] [0.866025, 0, -0.5] [-475.204, 6.37441, -491.621]]
-  animchar__visible:b=no
-  animchar_render__enabled:b=no
-  auto_gun_controller__targetTeam:i=0
-  team:i=3
-  auto_gun_controller__enabled:b=no
-  interactable:b=no
-  collres__res:t="grenade_mk2_collision"
-  gun_sound__isEnabled:b=no
-  gun__ammo:i=0
-  gun__maxAmmo:i=0
-}
-
-entity{
-  _template:t="ship_gun_105mm"
-  transform:m=[[-0.5, 0, -0.866025] [0, 1, 0] [0.866025, 0, -0.5] [-334.411, 4.75002, -500.958]]
-  animchar__visible:b=no
-  animchar_render__enabled:b=no
-  auto_gun_controller__targetTeam:i=0
-  team:i=3
-  auto_gun_controller__enabled:b=no
-  interactable:b=no
-  collres__res:t="grenade_mk2_collision"
-  gun_sound__isEnabled:b=no
-  gun__ammo:i=0
-  gun__maxAmmo:i=0
-}
-
-entity{
-  _template:t="ship_gun_105mm"
-  transform:m=[[-0.5, 0, -0.866025] [0, 1, 0] [0.866025, 0, -0.5] [-288.067, 4.65545, -551.886]]
-  animchar__visible:b=no
-  animchar_render__enabled:b=no
-  auto_gun_controller__targetTeam:i=0
-  team:i=3
-  auto_gun_controller__enabled:b=no
-  interactable:b=no
-  collres__res:t="grenade_mk2_collision"
-  gun_sound__isEnabled:b=no
-  gun__ammo:i=0
-  gun__maxAmmo:i=0
 }
 
 entity{
@@ -16069,6 +15714,11 @@ entity{
 }
 
 entity{
+  _template:t="gmc_353_b"
+  transform:m=[[-0.0317092, -0.0307278, -0.999025] [0.0156174, 0.99939, -0.0312347] [0.999375, -0.0165926, -0.0312099] [1346.62, 2.39222, -975.594]]
+}
+
+entity{
   _template:t="us_halftrack_m13_common+anti_aircraft_cannon_common+vehicle_effects_tracked+tank_light_vehicle_tracks_sound+forestall"
   transform:m=[[-0.77688, 2.76148e-11, -0.629649] [4.2991e-10, 1, -4.86578e-10] [0.629649, -6.48705e-10, -0.776879] [33.1151, 10.2511, -1377.95]]
   team:i=1
@@ -16486,4 +16136,34 @@ entity{
       }
     }
   }
+}
+
+entity{
+  _template:t="bonfire_effect"
+  transform:m=[[1.84623, 0, 0] [0, 1.84623, 0] [0, 0, 1.84623] [-20.8037, 9.86448, -1384.76]]
+}
+
+entity{
+  _template:t="bonfire_effect"
+  transform:m=[[1.84623, 0, 0] [0, 1.84623, 0] [0, 0, 1.84623] [-267.288, 5.86865, -516.8]]
+}
+
+entity{
+  _template:t="bonfire_effect"
+  transform:m=[[1.84623, 0, 0] [0, 1.84623, 0] [0, 0, 1.84623] [-238.841, 5.82042, -466.466]]
+}
+
+entity{
+  _template:t="bonfire_effect"
+  transform:m=[[1.84623, 0, 0] [0, 1.84623, 0] [0, 0, 1.84623] [-382.212, 5.01344, -522.77]]
+}
+
+entity{
+  _template:t="bonfire_effect"
+  transform:m=[[1.84623, 0, 0] [0, 1.84623, 0] [0, 0, 1.84623] [-529.433, 8.58597, -491.428]]
+}
+
+entity{
+  _template:t="bonfire_effect"
+  transform:m=[[1.84623, 0, 0] [0, 1.84623, 0] [0, 0, 1.84623] [-417.471, 0.513167, -652.134]]
 }

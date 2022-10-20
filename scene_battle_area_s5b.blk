@@ -453,7 +453,7 @@ entity{
   battle_area__damage:r=4
   battle_area__damageInterval:r=3
   battle_area__timeToDamage:r=30
-  deactivationDelay:r=180
+  deactivationDelay:r=720
 }
 
 entity{

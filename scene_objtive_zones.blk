@@ -27,15 +27,15 @@ entity{
   capzone__autoDecap:b=no
   capzone__autoCap:b=no
   capzone__presenceAdvantageToDominate:i=0
-  capzone__caption:t="D;Beloe Highland; Break Through Once Cap; (Lock 60s After Cap)"
+  capzone__caption:t="D;Beloe Highland; Break Through Once Cap; (+600 to Axis/-500 to Allies)"
   capzone__maxTeamPresence:i=3
   capzone__maxCapDecapSpeedMult:r=3
   capzone__alwaysShow:b=yes
   capzone_timer__timeLeft:r=-1
-  capzone__capReward:r=6000
+  capzone__capReward:r=3600
   capzone__capTimeTeam1:r=999999
   capzone__capTimeTeam2:r=230
-  capzone__decapTimeTeam1:r=3
+  capzone__decapTimeTeam1:r=360
   capzone__decapTimeTeam2:r=12
   capzone__lockAfterActivate:b=yes
   capzone__unlockAfterTime:r=390
@@ -43,7 +43,7 @@ entity{
   decal__height:r=100
   capzone__title:t="D"
   capzone__onlyTeamCanCapture:i=-1
-  capzone__capTeam:i=-1
+  capzone__capTeam:i=1
   capzone__progress:r=0.5
   capzone__curTeamDominating:i=1
   capzone__curTeamCapturingZone:i=1
@@ -66,7 +66,7 @@ entity{
   capzone__autoDecap:b=no
   capzone__autoCap:b=no
   capzone__presenceAdvantageToDominate:i=0
-  capzone__caption:t="A;Beloe Lake Position (Garrison Rally Captureable; Lock 90s After Cap)"
+  capzone__caption:t="a;Beloe Lake Position (Garrison Rally Captureable; Lock 90s After Cap)"
   capzone__maxTeamPresence:i=3
   capzone__maxCapDecapSpeedMult:r=3
   capzone__alwaysShow:b=yes
@@ -74,19 +74,19 @@ entity{
   capzone__capReward:r=6000
   capzone__capTimeTeam1:r=90
   capzone__capTimeTeam2:r=90
-  capzone__decapTimeTeam1:r=5
+  capzone__decapTimeTeam1:r=30
   capzone__decapTimeTeam2:r=30
   capzone__lockAfterCap:b=yes
   capzone__unlockAfterTime:r=90
   capzone__acivateRespawnGroup:i=1231
   decal__height:r=2
   capzone__onlyTeamCanCapture:i=-1
-  capzone__capTeam:i=-1
+  capzone__capTeam:i=1
   capzone__activateRespawnOnProgress:r=0.2
   capzone__progress:r=0.5
   capzone__curTeamDominating:i=1
   capzone__curTeamCapturingZone:i=1
-  capzone__title:t="A"
+  capzone__title:t="a"
   capzone__deactivateAfterCap:b=yes
 
   "capzone__activateChoice:object"{
@@ -111,7 +111,7 @@ entity{
   capzone__autoDecap:b=no
   capzone__autoCap:b=no
   capzone__presenceAdvantageToDominate:i=0
-  capzone__caption:t="Soviet Bomb Site;Beloe Bridge (Destroy the Bridge 炸毁桥梁 to prevent Axis pushing/-2500 to Axis;6mins Plant;Explosion in 50s)"
+  capzone__caption:t="Bomb Site For Defender;Beloe Bridge (Destroy the Bridge 炸毁桥梁 to prevent Axis pushing/-2500 to Axis;6mins Plant;Explosion in 50s)"
   capzone__maxTeamPresence:i=3
   capzone__maxCapDecapSpeedMult:r=3
   capzone__alwaysShow:b=yes
@@ -130,9 +130,9 @@ entity{
   capzone__curTeamDominating:i=1
   capzone__curTeamCapturingZone:i=2
   capzone__bombTransformLocalPos:m=[[-0.00246843, 0.737302, -0.0208407] [-3.42378, 0.0144322, 0.916104] [0.541835, 0.0590272, 2.02409] [4.74646, -1.22089, -0.839233]]
-  capzone__timeToDefuse:r=15
+  capzone__timeToDefuse:r=12
   capzone__timeToExplosion:r=50
-  capzone__timeToPlant:r=360
+  capzone__timeToPlant:r=390
   capzone__timeToResetPlant:r=5
   capzone__deactivateAfterCap:b=no
   capzone__plantingTeam:i=1
@@ -162,7 +162,7 @@ entity{
   capzone__autoDecap:b=no
   capzone__autoCap:b=no
   capzone__presenceAdvantageToDominate:i=0
-  capzone__caption:t="Soviet Bomb Site;Railway Station Avangard Farm (Destroy the Railway 破坏铁路 to prevent Axis pushing/-2500 to Axis;6mins Plant;Explosion in 50s)"
+  capzone__caption:t="Bomb Site For Defender;Railway Station Avangard Farm (Destroy the Railway 破坏铁路 to prevent Axis pushing/-2500 to Axis;6mins Plant;Explosion in 50s)"
   capzone__maxTeamPresence:i=3
   capzone__maxCapDecapSpeedMult:r=3
   capzone__alwaysShow:b=yes
@@ -181,9 +181,9 @@ entity{
   capzone__curTeamDominating:i=1
   capzone__curTeamCapturingZone:i=2
   capzone__bombTransformLocalPos:m=[[0.584599, 0, 0] [0, 0.584599, -0] [-0, 0, 0.584599] [0.167206, -0.525215, 0.257202]]
-  capzone__timeToDefuse:r=15
+  capzone__timeToDefuse:r=12
   capzone__timeToExplosion:r=50
-  capzone__timeToPlant:r=360
+  capzone__timeToPlant:r=390
   capzone__timeToResetPlant:r=5
   capzone__deactivateAfterCap:b=no
   capzone__plantingTeam:i=1
@@ -202,34 +202,34 @@ entity{
   ui_order:i=16
   capzone__activateAfterTeam2Cap:t="s3"
   capzone__checkAllZonesInGroup:b=no
-  capzone__spawnAtZoneTimeout:r=90
+  capzone__spawnAtZoneTimeout:r=390
   capzone__curTeamDominating:i=1
   capzone__createRespawnBase:t="respawnBaseGroupActivator"
   capzone__canCaptureOnVehicle:b=yes
   capzone__autoDecap:b=no
   capzone__autoCap:b=no
   capzone__presenceAdvantageToDominate:i=0
-  capzone__caption:t="D;316 HighLand Traffic Village; Break Through Once Cap; (Garrison for Axis)"
+  capzone__caption:t="D;316 HighLand Traffic Village; Break Through Once Cap; 当防守方仍然控制此位置时,可在南面铁路部署步兵 (+500 to Axis/-500 to Allies)"
   capzone__maxTeamPresence:i=3
   capzone__maxCapDecapSpeedMult:r=3
   capzone__alwaysShow:b=yes
   capzone__capReward:r=3000
-  capzone__capTimeTeam1:r=999999
+  capzone__capTimeTeam1:r=9999999
   capzone__capTimeTeam2:r=230
-  capzone__decapTimeTeam1:r=3
+  capzone__decapTimeTeam1:r=360
   capzone__decapTimeTeam2:r=12
   capzone__lockAfterActivate:b=yes
   capzone__unlockAfterTime:r=390
-  capzone__acivateRespawnGroup:i=12322
+  capzone__acivateRespawnGroup:i=12321
   decal__height:r=2
   capzone__title:t="D"
   capzone__createRespawnBaseForTeam:i=1
   capzone__createdRespawnBaseGroup:i=50121
   capzone_timer__timeLeft:r=-1
   capzone__onlyTeamCanCapture:i=-1
-  capzone__capTeam:i=-1
-  capzone__activateRespawnOnProgress:r=0.6
-  capzone__progress:r=0.5
+  capzone__capTeam:i=1
+  capzone__activateRespawnOnProgress:r=0.1
+  capzone__progress:r=0.6
   capzone__curTeamDominating:i=1
   capzone__curTeamCapturingZone:i=1
   capzone__mustBeCapturedByTeam:i=2
@@ -255,16 +255,17 @@ entity{
   capzone__createRespawnBase:t="respawnBaseGroupActivator"
   capzone__createRespawnBaseForTeam:i=1
   capzone__createdRespawnBaseGroup:i=50123
-  capzone__spawnAtZoneTimeout:r=150
+  capzone__spawnAtZoneTimeout:r=390
   capzone__curTeamDominating:i=1
   capzone__presenceAdvantageToDominate:i=2
-  capzone__caption:t="D;Artillery Fortification; Break Through Once Cap"
+  capzone__caption:t="D;Artillery Fortification; Break Through Once Cap (+500 to Axis/-500 to Allies)"
+  capzone__capReward:r=3000
   capzone__maxTeamPresence:i=3
   capzone__maxCapDecapSpeedMult:r=3
   capzone_timer__timeLeft:r=-1
-  capzone__capTimeTeam1:r=999999
+  capzone__capTimeTeam1:r=9999999
   capzone__capTimeTeam2:r=230
-  capzone__decapTimeTeam1:r=3
+  capzone__decapTimeTeam1:r=120
   capzone__decapTimeTeam2:r=12
   capzone__lockAfterActivate:b=yes
   capzone__unlockAfterTime:r=390
@@ -272,7 +273,7 @@ entity{
   capzone__autoCap:b=no
   capzone__title:t="D"
   capzone__onlyTeamCanCapture:i=-1
-  capzone__capTeam:i=-1
+  capzone__capTeam:i=1
   capzone__progress:r=0.5
   capzone__curTeamDominating:i=1
   capzone__curTeamCapturingZone:i=1
@@ -301,7 +302,7 @@ entity{
   capzone__autoDecap:b=no
   capzone__autoCap:b=no
   capzone__presenceAdvantageToDominate:i=0
-  capzone__caption:t="Soviet Bomb Site;Panfilov Bridge (Destroy the Bridge 炸毁桥梁 to prevent Axis pushing/-2500 to Axis;6mins Plant;Explosion in 50s)"
+  capzone__caption:t="Bomb Site For Defender;Panfilov Bridge (Destroy the Bridge 炸毁桥梁 to prevent Axis pushing/-2500 to Axis;6mins Plant;Explosion in 50s)"
   capzone__maxTeamPresence:i=3
   capzone__maxCapDecapSpeedMult:r=3
   capzone__alwaysShow:b=yes
@@ -320,9 +321,9 @@ entity{
   capzone__curTeamDominating:i=1
   capzone__curTeamCapturingZone:i=2
   capzone__bombTransformLocalPos:m=[[-0.00128922, -0.777939, 0.00632121] [3.71946, 0.00539548, 1.4226] [-0.792057, 0.0181391, 2.07081] [-5.11523, -0.866342, -1.29163]]
-  capzone__timeToDefuse:r=15
+  capzone__timeToDefuse:r=12
   capzone__timeToExplosion:r=50
-  capzone__timeToPlant:r=360
+  capzone__timeToPlant:r=390
   capzone__timeToResetPlant:r=5
   capzone__deactivateAfterCap:b=no
   capzone__plantingTeam:i=1
@@ -349,7 +350,7 @@ entity{
   capzone__autoDecap:b=no
   capzone__autoCap:b=no
   capzone__presenceAdvantageToDominate:i=0
-  capzone__caption:t="E;Rokosovski Town (Garrison Rally Captureable; Lock 90s After Cap)"
+  capzone__caption:t="r;Rokosovski Town (Garrison Rally Captureable; Lock 90s After Cap)"
   capzone__maxTeamPresence:i=3
   capzone__maxCapDecapSpeedMult:r=3
   capzone__alwaysShow:b=yes
@@ -363,7 +364,7 @@ entity{
   capzone__unlockAfterTime:r=90
   capzone__acivateRespawnGroup:i=12331
   decal__height:r=1
-  capzone__title:t="R"
+  capzone__title:t="r"
   capzone__onlyTeamCanCapture:i=-1
   capzone__capTeam:i=-1
   capzone__activateRespawnOnProgress:r=0.2
@@ -373,7 +374,8 @@ entity{
   capzone__createRespawnBase:t="respawnBaseGroupActivator"
   capzone__createRespawnBaseForTeam:i=1
   capzone__createdRespawnBaseGroup:i=50124
-  capzone__spawnAtZoneTimeout:r=120
+  capzone__spawnAtZoneTimeout:r=180
+  capzone__capTeam:i=1
 
   "capzone__activateChoice:object"{
     s4:r=1
@@ -397,7 +399,7 @@ entity{
   capzone__autoDecap:b=no
   capzone__autoCap:b=no
   capzone__presenceAdvantageToDominate:i=0
-  capzone__caption:t="A;Panfilov Town (Garrison Rally Captureable; Lock 90s After Cap)"
+  capzone__caption:t="a;Panfilov Town (Garrison Rally Captureable; Lock 90s After Cap)"
   capzone__maxTeamPresence:i=3
   capzone__maxCapDecapSpeedMult:r=3
   capzone__alwaysShow:b=yes
@@ -411,7 +413,7 @@ entity{
   capzone__unlockAfterTime:r=90
   capzone__acivateRespawnGroup:i=12341
   decal__height:r=1
-  capzone__title:t="A"
+  capzone__title:t="a"
   capzone__onlyTeamCanCapture:i=-1
   capzone__capTeam:i=-1
   capzone__activateRespawnOnProgress:r=0.2
@@ -419,6 +421,7 @@ entity{
   capzone__curTeamDominating:i=1
   capzone__curTeamCapturingZone:i=1
   capzone__activateAfterCap:t="s5a"
+  capzone__capTeam:i=1
 
   "capzone__activateChoice:object"{
     s5:r=1
@@ -441,7 +444,7 @@ entity{
   capzone__autoDecap:b=no
   capzone__autoCap:b=no
   capzone__presenceAdvantageToDominate:i=0
-  capzone__caption:t="B;Vysokovo Village East (Garrison Rally For Tanks/Panzer and Infantry Captureable; Lock 180s After Cap)"
+  capzone__caption:t="b;Vysokovo Village East (Garrison Rally For Tanks/Panzer and Infantry Captureable; Lock 180s After Cap)"
   capzone__maxTeamPresence:i=3
   capzone__maxCapDecapSpeedMult:r=3
   capzone__alwaysShow:b=yes
@@ -455,7 +458,7 @@ entity{
   capzone__unlockAfterTime:r=90
   capzone__acivateRespawnGroup:i=12342
   decal__height:r=1
-  capzone__title:t="B"
+  capzone__title:t="b"
   capzone__onlyTeamCanCapture:i=-1
   capzone__capTeam:i=-1
   capzone__activateRespawnOnProgress:r=0.2
@@ -463,6 +466,7 @@ entity{
   capzone__curTeamDominating:i=1
   capzone__curTeamCapturingZone:i=1
   capzone__activateAfterCap:t="s5a"
+  capzone__capTeam:i=1
 
   "capzone__activateChoice:object"{
     s5:r=1
@@ -490,15 +494,15 @@ entity{
   capzone__mustBeCapturedByTeam:i=2
   capzone__alwaysShow:b=yes
   capzone_timer__timeLeft:r=-1
-  capzone__caption:t="D;Kamenka River Wood; Break Through Once Cap; (+600 to Axis/-500 to Allies)"
+  capzone__caption:t="D;Kamenka River Wood; Break Through Once Cap; (+300 to Axis/-500 to Allies)"
   capzone__maxTeamPresence:i=3
   capzone__maxCapDecapSpeedMult:r=3
-  capzone__capReward:r=3000
+  capzone__capReward:r=1800
   capzone__autoDecap:b=no
   capzone__autoCap:b=no
   capzone__capTimeTeam1:r=999999
   capzone__capTimeTeam2:r=230
-  capzone__decapTimeTeam1:r=3
+  capzone__decapTimeTeam1:r=120
   capzone__decapTimeTeam2:r=12
   capzone__lockAfterActivate:b=yes
   capzone__unlockAfterTime:r=390
@@ -533,7 +537,7 @@ entity{
   capzone__autoDecap:b=no
   capzone__autoCap:b=no
   capzone__presenceAdvantageToDominate:i=0
-  capzone__caption:t="C;Cross Roads Position (Garrison Rally Captureable; Lock 90s After Cap)"
+  capzone__caption:t="c;Cross Roads Position (Garrison Rally Captureable; Lock 90s After Cap)"
   capzone__maxTeamPresence:i=3
   capzone__maxCapDecapSpeedMult:r=3
   capzone__alwaysShow:b=yes
@@ -547,7 +551,7 @@ entity{
   capzone__unlockAfterTime:r=90
   capzone__acivateRespawnGroup:i=12351
   decal__height:r=1
-  capzone__title:t="C"
+  capzone__title:t="c"
   active:b=no
   capzone__activateAfterCap:t="s5b"
   capzone__onlyTeamCanCapture:i=-1
@@ -557,6 +561,7 @@ entity{
   capzone__curTeamDominating:i=1
   capzone__curTeamCapturingZone:i=1
   capzone__deactivateAfterCap:b=yes
+  capzone__capTeam:i=1
 
   "capzone__activateChoice:object"{
     s5b:r=1
@@ -591,7 +596,7 @@ entity{
   capzone__autoCap:b=no
   capzone__capTimeTeam1:r=999999
   capzone__capTimeTeam2:r=230
-  capzone__decapTimeTeam1:r=3
+  capzone__decapTimeTeam1:r=120
   capzone__decapTimeTeam2:r=12
   capzone__lockAfterActivate:b=yes
   capzone__unlockAfterTime:r=390
@@ -622,7 +627,7 @@ entity{
   capzone__autoDecap:b=no
   capzone__autoCap:b=no
   capzone__presenceAdvantageToDominate:i=0
-  capzone__caption:t="E;Birch Grove South (Garrison Rally Captureable; Lock 90s After Cap)"
+  capzone__caption:t="e;Birch Grove South (Garrison Rally Captureable; Lock 90s After Cap)"
   capzone__maxTeamPresence:i=3
   capzone__maxCapDecapSpeedMult:r=3
   capzone__alwaysShow:b=yes
@@ -636,7 +641,7 @@ entity{
   capzone__unlockAfterTime:r=90
   capzone__acivateRespawnGroup:i=12353
   decal__height:r=1
-  capzone__title:t="E"
+  capzone__title:t="e"
   active:b=no
   capzone__activateAfterCap:t="s5b"
   capzone__onlyTeamCanCapture:i=-1
@@ -646,6 +651,7 @@ entity{
   capzone__curTeamDominating:i=1
   capzone__curTeamCapturingZone:i=1
   capzone__deactivateAfterCap:b=yes
+  capzone__capTeam:i=1
 
   "capzone__activateChoice:object"{
     s5b:r=1
@@ -685,12 +691,12 @@ entity{
   capzone__title:t="D"
   capzone__capTimeTeam1:r=999999
   capzone__capTimeTeam2:r=230
-  capzone__decapTimeTeam1:r=3
+  capzone__decapTimeTeam1:r=120
   capzone__decapTimeTeam2:r=12
   capzone__lockAfterActivate:b=yes
   capzone__unlockAfterTime:r=3
   capzone__onlyTeamCanCapture:i=-1
-  capzone__capTeam:i=-1
+  capzone__capTeam:i=1
   capzone__progress:r=0.5
   capzone__curTeamDominating:i=1
   capzone__curTeamCapturingZone:i=1
@@ -717,7 +723,7 @@ entity{
   capzone__autoDecap:b=no
   capzone__autoCap:b=no
   capzone__presenceAdvantageToDominate:i=0
-  capzone__caption:t="F;Cross Roads Position (Garrison Rally Captureable; Lock 90s After Cap)"
+  capzone__caption:t="f;Cross Roads Position (Garrison Rally Captureable; Lock 90s After Cap)"
   capzone__maxTeamPresence:i=3
   capzone__maxCapDecapSpeedMult:r=3
   capzone__alwaysShow:b=yes
@@ -728,19 +734,20 @@ entity{
   capzone__decapTimeTeam1:r=30
   capzone__decapTimeTeam2:r=30
   capzone__lockAfterCap:b=yes
+  capzone__lockAfterActivate:b=yes
   capzone__unlockAfterTime:r=90
   capzone__acivateRespawnGroup:i=12354
   decal__height:r=1
-  capzone__title:t="F"
+  capzone__title:t="f"
   active:b=no
   capzone__activateAfterCap:t="s6"
   capzone__onlyTeamCanCapture:i=-1
-  capzone__capTeam:i=-1
   capzone__activateRespawnOnProgress:r=0.2
   capzone__progress:r=0.5
   capzone__curTeamDominating:i=1
   capzone__curTeamCapturingZone:i=1
   capzone__deactivateAfterCap:b=no
+  capzone__capTeam:i=1
 
   "capzone__activateChoice:object"{
     s6:r=1
@@ -762,7 +769,7 @@ entity{
   capzone__autoDecap:b=no
   capzone__autoCap:b=no
   capzone__presenceAdvantageToDominate:i=0
-  capzone__caption:t="Soviet Bomb Site;Ammunition Depot (Destroy the Ammunition Depot 弹药库 to prevent Axis pushing/-2500 to Axis;6mins Plant;Explosion in 50s)"
+  capzone__caption:t="Bomb Site For Defender;Ammunition Depot (Destroy the Ammunition Depot 弹药库 to prevent Axis pushing/-2500 to Axis;6mins Plant;Explosion in 50s)"
   capzone__maxTeamPresence:i=3
   capzone__maxCapDecapSpeedMult:r=3
   capzone__alwaysShow:b=yes
@@ -781,9 +788,9 @@ entity{
   capzone__curTeamDominating:i=1
   capzone__curTeamCapturingZone:i=2
   capzone__bombTransformLocalPos:m=[[-0.698988, 0, 0.715135] [0, 1, 0] [-0.715134, 0, -0.698986] [0.783508, -0.482337, 0.0966797]]
-  capzone__timeToDefuse:r=15
+  capzone__timeToDefuse:r=12
   capzone__timeToExplosion:r=50
-  capzone__timeToPlant:r=360
+  capzone__timeToPlant:r=390
   capzone__timeToResetPlant:r=5
   capzone__deactivateAfterCap:b=no
   capzone__plantingTeam:i=1
@@ -792,7 +799,7 @@ entity{
   capzone__mustBeCapturedByTeam:i=1
   resupply_zone__team:i=2
   resupply_zone__resupplyFuel:b=yes
-  sphere_zone__radius:r=180
+  sphere_zone__radius:r=160
 }
 
 entity{

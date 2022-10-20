@@ -231,9 +231,7 @@ entity{
   battle_area__timeToDamage:r=16
   battle_area__damageInterval:r=3
   battle_area__damage:r=4
-  deactivationDelay:r=600
-
-  "battleAreaPoints:list<p2>"{}
+  deactivationDelay:r=720
 }
 
 entity{

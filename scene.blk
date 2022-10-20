@@ -30,6 +30,14 @@ import{
   scene:t="%ugm/scene_airport1.blk"
 }
 
+import{
+  scene:t="%ugm/scene_resupply_boxes_defender.blk"
+}
+
+import{
+  scene:t="%ugm/scene_resupply_base_sdkfz_6_2.blk"
+}
+
 entity{
   _template:t="battle_area_polygon_point"
   transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1349, 27.6372, -821.204]]
@@ -736,7 +744,7 @@ entity{
 
 entity{
   _template:t="battle_area_polygon_point"
-  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-2783.53, 97.9936, -2649.64]]
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-3364.24, 97.9947, -3453.74]]
   battle_area_polygon_point__forBattleAreaId:t="aussrxair"
   battle_area_polygon_point__id:t="aussrxairp5"
   battle_area_polygon_point__nextId:t="aussrxairp6"
@@ -759,9 +767,7 @@ entity{
   battle_area__timeToDamage:r=16
   battle_area__damage:r=4
   battle_area__damageInterval:r=3
-  deactivationDelay:r=600
-
-  "battleAreaPoints:list<p2>"{}
+  deactivationDelay:r=720
 }
 
 entity{
@@ -797,9 +803,7 @@ entity{
   battle_area__timeToDamage:r=16
   battle_area__damageInterval:r=3
   battle_area__damage:r=4
-  deactivationDelay:r=600
-
-  "battleAreaPoints:list<p2>"{}
+  deactivationDelay:r=720
 }
 
 entity{
@@ -823,9 +827,7 @@ entity{
   battle_area__timeToDamage:r=16
   battle_area__damageInterval:r=3
   battle_area__damage:r=4
-  deactivationDelay:r=600
-
-  "battleAreaPoints:list<p2>"{}
+  deactivationDelay:r=720
 }
 
 entity{
@@ -849,17 +851,16 @@ entity{
   battle_area__timeToDamage:r=16
   battle_area__damageInterval:r=3
   battle_area__damage:r=4
-  deactivationDelay:r=600
+  deactivationDelay:r=720
 }
 
 entity{
   _template:t="aircraft_poly_battle_area"
-  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-30.816, 16.626, -148.995]]
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-19.6415, 16.626, -136.099]]
   battleAreaId:t="aussrxair"
   battle_area__team:i=1
   battle_area__timeToDamage:r=20
   battle_area__damage:r=12
-  deactivationDelay:r=300
   groupName:t=""
 }
 
@@ -1010,6 +1011,8 @@ entity{
   team__haveScores:b=yes
   team__briefing:t="""
   (F1 Tips | Советы | 任务目标)
+   - MOD介绍视频B站：BV1Qd4y1q7Z7
+   - Introduce in English and other Language：WIP
    - 我们在维亚济马布良斯克的战斗中损失惨重,
    -   现在我们必须坚守莫扎伊斯克防线!
    - Defend D zone to stop axis pushing!
@@ -1025,7 +1028,6 @@ entity{
    - 轴心敌军每秒扣1分。 当敌军推进到下个区域,我们会扣除500分
    - 友军伤害已开启,注意不要伤害队友!!!(暂时关闭)
    - 按TAB查看计分板中攻守双方的分数
-   - 寻找并摧毁敌军的远程火炮,可以停止区域轰炸
   ---
 """
   team__winSubtitle:t="debriefing/won_defence_subtitle"
@@ -1037,7 +1039,7 @@ entity{
   team__deathPenalty:r=6
   team__minDeathPenalty:r=6
   score_bleed__staticBleed:r=0
-  team__numZonesCaptured:i=23
+  team__numZonesCaptured:i=36
   team__minScoreCap:r=18000
   team__zeroScoreFailTimer:r=-1
   team__capturePenalty:r=3000
@@ -1063,6 +1065,8 @@ entity{
   team__haveScores:b=yes
   team__briefing:t="""
   (F1 Tips | Советы | 任务目标)
+  - MOD介绍视频B站：BV1Qd4y1q7Z7
+  - Introduce in English and other Language：WIP
   - 控制Волокола́мск沃洛科拉姆斯克Volokolamsk
   -    从西向东再向北,包围并消灭此地带的敌军
   -    掩护南面突破莫扎伊斯克防线的攻势
@@ -1081,7 +1085,6 @@ entity{
   - 由于后勤因素,己方每秒钟会扣除1分,尽快完成任务!
   - 友军伤害已开启,注意不要伤害队友!!!(暂时关闭)
   - 按TAB查看计分板中攻守双方的分数
-  - 寻找并摧毁敌军的远程火炮,可以停止区域轰炸
   ---
 """
   team__winSubtitle:t="debriefing/won_invasion_subtitle"
@@ -1089,7 +1092,7 @@ entity{
   team__winTitle:t="debriefing/axis_won_invasion"
   team__spawnBotArmy:t="normandy_axis"
   score_bleed__domBleed:r=0.1
-  score_bleed__staticBleed:r=6
+  score_bleed__staticBleed:r=6.1
   score_bleed__domBleedOn:b=yes
   team__deathPenalty:r=6
   team__deathPenaltyByMember:r=0
@@ -1121,7 +1124,7 @@ entity{
   hints_header:t="briefing/common_hints_header"
   hints:t="common/controls"
   mission_type:t="invasion"
-  mission_name:t="Big Action - Battle Of Volokolamsk(0.0.3.7.5c3nf.3) (F1 see tips in game!) (zh_CN)"
+  mission_name:t="Big Action - Battle Of Volokolamsk(0.0.3.7.6a1nf.1) (F1 see tips in game!) (zh_CN)"
 
   "loading_images:list<t>"{
     item:t="ui/volokolamsk_lake_01.jpg"
@@ -1174,7 +1177,7 @@ entity{
   capzone__decapTime:r=10
   capzone__canCaptureOnVehicle:b=yes
   capzone__curTeamDominating:i=1
-  capzone__caption:t="Push Back;Vysokovo Village North (Allies Fight Back To Previous Sector/-2500 to Axis)"
+  capzone__caption:t="Push Back;Vysokovo Village North (Defend Team Fight Back To Previous Sector/-2500 to Axis/防守方反击到上一个区域)"
   capzone__maxTeamPresence:i=3
   capzone__maxCapDecapSpeedMult:r=3
   capzone__activateAfterTeam1Cap:t="s5b"
@@ -1191,8 +1194,7 @@ entity{
   capzone__decapTimeTeam2:r=30
   capzone__decapTimeTeam1:r=3
   active:b=yes
-  capzone__title:t="P6"
-  capzone__captureStatus:i=2
+  capzone__title:t="<P>"
   capzone__locked:b=yes
 
   "capzone__activateChoice:object"{
@@ -1201,8 +1203,49 @@ entity{
 }
 
 entity{
-  _template:t="zone_bidirectional_two_chains_sphere+lockable_capzone+separate_cap_decap_time+capzone_respawn_activator"
-  transform:m=[[5.67315, 0, 0] [0, 1, 0] [0, 0, 8.47793] [-583.159, 5.96471, 586.18]]
+  _template:t="zone_bidirectional_two_chains_sphere+defend_zone_team_chained_sphere+separate_cap_decap_time+lockable_capzone+capzone_respawn_activator"
+  transform:m=[[5.01722, 0.235456, 1.47361] [-0.0450199, 1.00218, -0.00685086] [-1.47355, -0.031864, 5.02211] [-430.526, 6.14322, 625.504]]
+  groupName:t="s6"
+  capzone__icon:t="!ui/skin#custom_spawn_point.svg"
+  ui_order:i=502
+  capzone__checkAllZonesInGroup:b=yes
+  capzone__createRespawnBaseForTeam:i=1
+  capzone__createdRespawnBaseGroup:i=5001
+  capzone__spawnAtZoneTimeout:r=60
+  capzone__createRespawnBase:t="respawnBaseGroupActivator"
+  capzone__canCaptureOnVehicle:b=yes
+  capzone__autoDecap:b=no
+  capzone__autoCap:b=no
+  capzone__presenceAdvantageToDominate:i=0
+  capzone__caption:t="a;Barn Position (Garrison Rally Captureable For A; Lock 90s After Cap)"
+  capzone__maxTeamPresence:i=3
+  capzone__maxCapDecapSpeedMult:r=3
+  capzone__alwaysShow:b=yes
+  capzone_timer__timeLeft:r=-1
+  capzone__capReward:r=1800
+  capzone__capTimeTeam1:r=150
+  capzone__capTimeTeam2:r=100
+  capzone__decapTimeTeam1:r=30
+  capzone__decapTimeTeam2:r=30
+  capzone__lockAfterCap:b=yes
+  capzone__unlockAfterTime:r=90
+  capzone__acivateRespawnGroup:i=12361
+  decal__height:r=1
+  capzone__title:t="a"
+  active:b=no
+  capzone__activateAfterCap:t="nil"
+  capzone__onlyTeamCanCapture:i=-1
+  capzone__capTeam:i=1
+  capzone__activateRespawnOnProgress:r=0.2
+  capzone__progress:r=0.5
+  capzone__curTeamDominating:i=1
+  capzone__curTeamCapturingZone:i=1
+  capzone__deactivateAfterCap:b=no
+}
+
+entity{
+  _template:t="defend_zone_team_chained_sphere+lockable_capzone+separate_cap_decap_time+capzone_respawn_activator"
+  transform:m=[[7.11241, 0, 0] [0, 3.31164, 0] [0, 0, 7.11241] [-574.852, 5.99088, 586.06]]
   ui_order:i=503
   capzone__icon:t="!ui/skin#victories_battles.svg"
   groupName:t="s6"
@@ -1211,7 +1254,7 @@ entity{
   capzone__alwaysShow:b=no
   capzone__curTeamDominating:i=1
   capzone__deactivateAfterCap:b=no
-  capzone__caption:t="A;Manor (-500 to Allies/-2500 to Axis/Garrison Rally Captureable; 2mins Lock After Cap; Release for ReCap!)"
+  capzone__caption:t="A;Manor (-500 to Allies;-2500 to Axis;Capture Disabled Defend Team Garrison For B;1mins Lock After Cap;占领C点后将开启D点;)"
   capzone__maxTeamPresence:i=3
   capzone__maxCapDecapSpeedMult:r=3
   capzone__autoDecap:b=no
@@ -1220,17 +1263,21 @@ entity{
   effect__colorMult:c=255, 255, 255, 30
   effect__scale:r=0.8
   capzone__title:t="A"
-  capzone__unlockAfterTime:r=120
+  capzone__unlockAfterTime:r=90
   capzone__lockAfterCap:b=yes
-  capzone__captureStatus:i=2
   capzone__capTimeTeam2:r=90
   capzone__capTimeTeam1:r=690
-  capzone__decapTimeTeam2:r=1
+  capzone__decapTimeTeam2:r=30
   capzone__decapTimeTeam1:r=3
   capzone__activateAfterCap:t="nil"
-  capzone__acivateRespawnGroup:i=12361
+  capzone__acivateRespawnGroup:i=123661
   capzone__activateRespawnOnProgress:r=0.2
   capzone__capReward:r=1800
+  capzone__progress:r=1
+  capzone__lockAfterActivate:b=yes
+  capzone__curTeamCapturingZone:i=1
+  capzone__owningTeam:i=1
+  capzone__autoCap:b=yes
 
   "capzone__activateChoice:object"{
     nil:r=1
@@ -1238,37 +1285,82 @@ entity{
 }
 
 entity{
-  _template:t="zone_bidirectional_two_chains_sphere+lockable_capzone+separate_cap_decap_time+capzone_respawn_activator"
-  transform:m=[[-5.70636, 0, 0.0543349] [0, 1.14012, 0] [-0.069693, 0, -4.44886] [-179.666, 9.61372, 355.483]]
+  _template:t="zone_bidirectional_two_chains_sphere+defend_zone_team_chained_sphere+separate_cap_decap_time+lockable_capzone+capzone_respawn_activator"
+  transform:m=[[5.02304, 0.00439562, 1.47257] [0, 0.999878, -0.081779] [-1.47275, 0.014992, 5.02243] [159.263, 16.702, 377]]
+  groupName:t="s6"
+  capzone__icon:t="!ui/skin#custom_spawn_point.svg"
+  ui_order:i=504
+  capzone__checkAllZonesInGroup:b=yes
+  capzone__createRespawnBaseForTeam:i=1
+  capzone__createdRespawnBaseGroup:i=5001
+  capzone__spawnAtZoneTimeout:r=60
+  capzone__createRespawnBase:t="respawnBaseGroupActivator"
+  capzone__canCaptureOnVehicle:b=yes
+  capzone__autoDecap:b=no
+  capzone__autoCap:b=no
+  capzone__presenceAdvantageToDominate:i=0
+  capzone__caption:t="b;Vysokovo Isle (Garrison Rally Captureable; Lock 90s After Cap)"
+  capzone__maxTeamPresence:i=3
+  capzone__maxCapDecapSpeedMult:r=3
+  capzone__alwaysShow:b=yes
+  capzone_timer__timeLeft:r=-1
+  capzone__capReward:r=1800
+  capzone__capTimeTeam1:r=150
+  capzone__capTimeTeam2:r=100
+  capzone__decapTimeTeam1:r=30
+  capzone__decapTimeTeam2:r=30
+  capzone__lockAfterCap:b=yes
+  capzone__unlockAfterTime:r=90
+  capzone__acivateRespawnGroup:i=12362
+  decal__height:r=1
+  capzone__title:t="b"
+  active:b=no
+  capzone__activateAfterCap:t="nil"
+  capzone__onlyTeamCanCapture:i=-1
+  capzone__capTeam:i=1
+  capzone__activateRespawnOnProgress:r=0.2
+  capzone__progress:r=0.5
+  capzone__curTeamDominating:i=1
+  capzone__curTeamCapturingZone:i=1
+  capzone__deactivateAfterCap:b=no
+}
+
+entity{
+  _template:t="zone_bidirectional_two_chains_sphere+defend_zone_team_chained_sphere+lockable_capzone+separate_cap_decap_time+capzone_respawn_activator+respTeam2"
+  transform:m=[[-6.85149, 0, 0.0845301] [0, 1.14012, 0] [-0.0836787, 0, -6.9212] [-179.666, 9.61372, 355.483]]
   ui_order:i=505
   capzone__icon:t="!ui/skin#victories_battles.svg"
   groupName:t="s6"
   active:b=yes
   capzone__capTeam:i=1
   capzone__autoDecap:b=no
+  capzone__autoCap:b=yes
   capzone__deactivateAfterCap:b=no
   capzone__curTeamDominating:i=1
   capzone__canCaptureOnVehicle:b=yes
-  capzone__caption:t="B;Vysokovo Villiage (-500 to Allies/-2500 to Axis/Garrison Rally Captureable; 2mins Lock After Cap; Release for ReCap!)"
+  capzone__caption:t="B;Vysokovo Villiage (Garrison For Defend Team By A;Capture To Push C;-500 to Allies;-2500 to Axis;2mins Lock After Cap;B,C,D点依次被前面防区的防守方控制;)"
   capzone__maxTeamPresence:i=3
   capzone__maxCapDecapSpeedMult:r=3
   capzone_timer__timeLeft:r=-1
   capzone__canCaptureOnVehicle:b=yes
-  effect__colorMult:c=255, 255, 255, 30
-  effect__scale:r=0.8
   capzone__title:t="B"
   capzone__alwaysShow:b=no
-  capzone__unlockAfterTime:r=120
+  capzone__unlockAfterTime:r=30
   capzone__lockAfterCap:b=yes
-  capzone__captureStatus:i=2
   capzone__capTimeTeam2:r=90
   capzone__capTimeTeam1:r=690
-  capzone__decapTimeTeam2:r=1
+  capzone__decapTimeTeam2:r=30
   capzone__decapTimeTeam1:r=3
   capzone__activateAfterCap:t="nil"
-  capzone__acivateRespawnGroup:i=12363
+  capzone__acivateRespawnGroup:i=123662
   capzone__activateRespawnOnProgress:r=0.2
   capzone__capReward:r=1800
+  capzone__lockAfterActivate:b=yes
+  capzone__progress:r=1
+  capzone__owningTeam:i=1
+  capzone__curTeamCapturingZone:i=1
+  respawnbaseType:t="nil"
+  team:i=2
 
   "capzone__activateChoice:object"{
     nil:r=1
@@ -1276,18 +1368,19 @@ entity{
 }
 
 entity{
-  _template:t="zone_bidirectional_two_chains_sphere+lockable_capzone+separate_cap_decap_time+capzone_respawn_activator"
-  transform:m=[[6.95387, -0, -2.83213] [0, 1, -0] [2.83213, 0, 6.95387] [127.586, 17.3884, 397.747]]
+  _template:t="zone_bidirectional_two_chains_sphere+defend_zone_team_chained_sphere+lockable_capzone+separate_cap_decap_time+capzone_respawn_activator+respTeam2+respawnChooser"
+  transform:m=[[5.67567, -0.0804435, -2.31055] [0.00781131, 0.999847, -0.0156226] [2.31146, 0.0706204, 5.67543] [9.64593, 4.0976, 176.546]]
   ui_order:i=507
   capzone__icon:t="!ui/skin#victories_battles.svg"
   groupName:t="s6"
   active:b=yes
   capzone__capTeam:i=1
   capzone__autoDecap:b=no
+  capzone__autoCap:b=yes
   capzone__deactivateAfterCap:b=no
   capzone__curTeamDominating:i=1
   capzone__canCaptureOnVehicle:b=yes
-  capzone__caption:t="C;Vysokovo Isle (-500 to Allies/-2500 to Axis/Garrison Rally Captureable; 2mins Lock After Cap; Release for ReCap!)"
+  capzone__caption:t="C;Stable Trench (Garrison Defend Team By B;Capture To Push D;-500 to Allies;-2500 to Axis;6mins Lock;)"
   capzone__maxTeamPresence:i=3
   capzone__maxCapDecapSpeedMult:r=3
   capzone_timer__timeLeft:r=-1
@@ -1296,17 +1389,23 @@ entity{
   effect__scale:r=0.8
   capzone__title:t="C"
   capzone__alwaysShow:b=no
-  capzone__unlockAfterTime:r=120
+  capzone__unlockAfterTime:r=90
   capzone__lockAfterCap:b=yes
-  capzone__captureStatus:i=2
   capzone__capTimeTeam2:r=90
   capzone__capTimeTeam1:r=690
-  capzone__decapTimeTeam2:r=1
+  capzone__decapTimeTeam2:r=30
   capzone__decapTimeTeam1:r=3
   capzone__activateAfterCap:t="nil"
-  capzone__acivateRespawnGroup:i=12363
+  capzone__acivateRespawnGroup:i=123663
   capzone__activateRespawnOnProgress:r=0.2
   capzone__capReward:r=1800
+  capzone__lockAfterActivate:b=yes
+  capzone__progress:r=1
+  capzone__curTeamCapturingZone:i=1
+  capzone__owningTeam:i=1
+  respawnBaseGroup:i=123662
+  respawnbaseType:t="nil"
+  team:i=2
 
   "capzone__activateChoice:object"{
     nil:r=1
@@ -1314,8 +1413,8 @@ entity{
 }
 
 entity{
-  _template:t="defend_zone_chained_box+lockable_capzone+separate_cap_decap_time+defend_zone_respawnbase+capzone_respawn_activator"
-  transform:m=[[63.9777, 0, -11.5002] [0, 19.7287, 0] [14.2535, -0, 51.6192] [-131.387, 23.2918, -113.131]]
+  _template:t="defend_zone_chained_box+lockable_capzone+separate_cap_decap_time+defend_zone_respawnbase+capzone_respawn_activator+respTeam2+respawnChooser"
+  transform:m=[[63.9777, 0, -11.5002] [0, 19.7287, 0] [15.3835, -0, 55.7114] [-133.251, 23.2918, -119.883]]
   ui_order:i=660
   capzone__icon:t="!ui/skin#army_icons/ussr_army.svg"
   groupName:t="s6"
@@ -1325,7 +1424,7 @@ entity{
   capzone__deactivateAfterCap:b=no
   capzone__curTeamDominating:i=1
   capzone__canCaptureOnVehicle:b=yes
-  capzone__caption:t="D;Final Zone;Monastery HQ (HQ; Final Zone For Defend Team! Hold The Position!)"
+  capzone__caption:t="D;Monastery HQ (指挥部; 进攻方占领即胜利; Final Zone For Defend Team! Hold The Position!)"
   capzone__maxTeamPresence:i=3
   capzone__maxCapDecapSpeedMult:r=3
   capzone_timer__timeLeft:r=-1
@@ -1336,14 +1435,13 @@ entity{
   capzone__alwaysShow:b=no
   capzone__unlockAfterTime:r=666
   capzone__lockAfterCap:b=yes
-  capzone__captureStatus:i=2
   capzone__capTimeTeam2:r=390
   capzone__capTimeTeam1:r=99999
   capzone__decapTimeTeam2:r=120
   capzone__decapTimeTeam1:r=3
   capzone__activateAfterCap:t="s6win"
   capzone__createdRespawnBaseGroup:i=60101
-  capzone__spawnAtZoneTimeout:r=180
+  capzone__spawnAtZoneTimeout:r=390
   capzone__acivateRespawnGroup:i=12362
   capzone__createRespawnBaseForTeam:i=1
   capzone__createRespawnBase:t="respawnBaseGroupActivator"
@@ -1351,6 +1449,9 @@ entity{
   decal__height:r=10
   capzone__lastZoneForTeam:i=1
   capzone__alwaysShow:b=yes
+  respawnBaseGroup:i=123663
+  respawnbaseType:t="nil"
+  team:i=2
 
   "capzone__activateChoice:object"{
     s6win:r=1
@@ -1368,14 +1469,14 @@ entity{
   capzone__decapTime:r=10
   capzone__canCaptureOnVehicle:b=yes
   capzone__curTeamDominating:i=1
-  capzone__caption:t="T4;Vysokovo Village East (15mins Unlock) (Allies Fight Back To Sector4/-2500 to Axis)"
+  capzone__caption:t="Push Back To 4th Sector!;Vysokovo Village East (15mins Unlock) (Defend Team Fight Back To Sector4/-2500 to Axis)"
   capzone__maxTeamPresence:i=3
   capzone__maxCapDecapSpeedMult:r=3
   capzone__activateAfterTeam1Cap:t="s4"
   capzone__capReward:r=9000
   capzone__autoDecap:b=no
   capzone__lockAfterActivate:b=yes
-  capzone__unlockAfterTime:r=900
+  capzone__unlockAfterTime:r=930
   capzone__onlyTeamCanCapture:i=-1
   capzone__presenceAdvantageToDominate:i=2
   capzone__autoCap:b=no
@@ -1385,8 +1486,7 @@ entity{
   capzone__decapTimeTeam2:r=30
   capzone__decapTimeTeam1:r=3
   active:b=yes
-  capzone__captureStatus:i=2
-  capzone__title:t="T4"
+  capzone__title:t="<P4>"
   capzone__locked:b=yes
 
   "capzone__activateChoice:object"{
@@ -1677,6 +1777,7 @@ entity{
   }
 
   "egras:array"{
+    egras:p3=4.02394, 1909.4, 90
     egras:p3=690.201, -514.285, 15
     egras:p3=689.418, -509.295, 15
     egras:p3=701.415, -516.771, 15
@@ -3307,7 +3408,7 @@ entity{
 
 entity{
   _template:t="game_rendinst+enbaked_ri"
-  transform:m=[[-1.31406, 0.529873, -4.79208] [0.656743, 4.94027, 0.366169] [4.77635, -0.533503, -1.36874] [-127.289, 59.2622, -125.212]]
+  transform:m=[[-2.57906, 1.03996, -9.40525] [1.28897, 9.6961, 0.718667] [9.37438, -1.04709, -2.68638] [-127.289, 59.2622, -125.212]]
   ri_extra__name:t="soviet_victory_flag_a"
 }
 
@@ -5030,32 +5131,32 @@ entity{
 
 entity{
   _template:t="resupply_in_air_zone"
-  transform:m=[[0.942378, 0, 0] [0, 0.942378, 0] [0, 0, 0.942378] [-2217.15, 745.231, -682.456]]
+  transform:m=[[0.942378, 0, 0] [0, 0.942378, 0] [0, 0, 0.942378] [-2217.15, 800, -682.456]]
   resupply_zone__team:i=2
   resupply_zone__cooldown:r=20
-  sphere_zone__radius:r=800
+  sphere_zone__radius:r=900
 }
 
 entity{
   _template:t="resupply_in_air_zone"
-  transform:m=[[0.987227, 0, 0.159318] [0, 1, 0] [-0.159318, 0, 0.987227] [-189.717, 602.107, 1551.88]]
+  transform:m=[[0.987227, 0, 0.159318] [0, 1, 0] [-0.159318, 0, 0.987227] [-613.781, 800, 563.6]]
   resupply_zone__team:i=1
-  sphere_zone__radius:r=600
+  sphere_zone__radius:r=900
 }
 
 entity{
   _template:t="resupply_in_air_zone"
-  transform:m=[[0.942378, 0, 0] [0, 0.942378, 0] [0, 0, 0.942378] [1509.91, 763.36, 314.865]]
+  transform:m=[[0.942378, 0, 0] [0, 0.942378, 0] [0, 0, 0.942378] [1509.91, 800, 314.865]]
   resupply_zone__team:i=2
   resupply_zone__cooldown:r=20
-  sphere_zone__radius:r=800
+  sphere_zone__radius:r=900
 }
 
 entity{
   _template:t="resupply_in_air_zone"
-  transform:m=[[0.987227, 0, 0.159318] [0, 1, 0] [-0.159318, 0, 0.987227] [2014.56, 602.116, -2006.25]]
+  transform:m=[[0.987227, 0, 0.159318] [0, 1, 0] [-0.159318, 0, 0.987227] [2014.56, 800, -2006.25]]
   resupply_zone__team:i=1
-  sphere_zone__radius:r=600
+  sphere_zone__radius:r=900
 }
 
 entity{
@@ -5108,8 +5209,17 @@ entity{
   transform:m=[[-0.642939, 0, -0.765918] [0, 1, 0] [0.765918, 0, -0.642939] [-361.037, 7.89421, -819.59]]
   groupName:t="s1"
   lastSpawnOnTime:r=-12
-  respawnBaseGroup:i=1013
+  respawnBaseGroup:i=1012
   active:b=no
+}
+
+entity{
+  _template:t="respawnChooser+respTeam1"
+  transform:m=[[-0.834925, 0, 0.550365] [0, 1, 0] [-0.550365, 0, -0.834925] [-530.266, 33.921, -1027.12]]
+  groupName:t="s1"
+  lastSpawnOnTime:r=-12
+  respawnBaseGroup:i=1012
+  active:b=yes
 }
 
 entity{
@@ -5138,7 +5248,7 @@ entity{
 
 entity{
   _template:t="respawnChooser+respTeam1"
-  transform:m=[[-0.986454, 0, -0.164042] [0, 1, 0] [0.164042, 0, -0.986454] [44.2237, 18.6702, -828.7]]
+  transform:m=[[0.125557, 0, 0.992087] [0, 1, -0] [-0.992087, 0, 0.125557] [288.734, 69.5084, -988.209]]
   groupName:t="s2"
   respawnBaseGroup:i=2211
   active:b=no
@@ -5354,6 +5464,98 @@ entity{
 
 entity{
   _template:t="respawnChooser+respTeam1"
+  transform:m=[[-0.766203, -0.0303062, -0.641884] [-0.0231171, 0.999541, -0.0195985] [0.642183, -0.00017793, -0.766551] [-672.432, 3.50454, 688.656]]
+  groupName:t="s6"
+  respawnBaseGroup:i=12361
+  active:b=no
+}
+
+entity{
+  _template:t="respawnChooser+respTeam1"
+  transform:m=[[0.999983, 0, -0.00593212] [0, 1, 0] [0.00593212, -0, 0.999983] [-466.885, 8.78995, 471.43]]
+  team:i=1
+  groupName:t="s6"
+  respawnBaseGroup:i=12361
+  active:b=no
+}
+
+entity{
+  _template:t="respawnChooser+respTeam1"
+  transform:m=[[-0.0818161, 0, 0.996648] [0, 1, 0] [-0.996648, 0, -0.0818161] [308.31, 5.80377, 361.949]]
+  team:i=1
+  groupName:t="s6"
+  respawnBaseGroup:i=12362
+  active:b=no
+}
+
+entity{
+  _template:t="respawnChooser+respTeam1"
+  transform:m=[[0.587931, 0, 0.808912] [0, 1, -0] [-0.808912, 0, 0.587931] [-70.233, 11.0331, 384.118]]
+  team:i=1
+  groupName:t="s6"
+  respawnBaseGroup:i=12362
+  active:b=no
+}
+
+entity{
+  _template:t="respawnChooser+respTeam1"
+  transform:m=[[-0.999769, 0, 0.0214705] [0, 1, 0] [-0.0214705, 0, -0.999769] [-235.213, 11.9812, 425.664]]
+  team:i=1
+  groupName:t="s6"
+  respawnBaseGroup:i=123661
+  active:b=no
+}
+
+entity{
+  _template:t="respawnChooser+respTeam1"
+  transform:m=[[-0.881281, 0.0235574, -0.472006] [0.0297673, 0.999541, -0.00569231] [0.471655, -0.0190669, -0.881577] [26.1002, 5.63323, 210.335]]
+  groupName:t="s6"
+  respawnBaseGroup:i=123662
+  active:b=no
+}
+
+entity{
+  _template:t="respawnChooser+respTeam1"
+  transform:m=[[-0.906438, 0.0235574, 0.421683] [0.0133107, 0.999541, -0.0272272] [-0.42213, -0.0190669, -0.906334] [-71.6101, 5.54591, 174.978]]
+  groupName:t="s6"
+  respawnBaseGroup:i=123662
+  active:b=no
+}
+
+entity{
+  _template:t="respawnChooser+respTeam1"
+  transform:m=[[0.879548, 0.0235574, 0.475227] [-0.029788, 0.999541, 0.00558337] [-0.474877, -0.0190669, 0.879845] [-19.3181, 5.4064, 246.434]]
+  groupName:t="s6"
+  respawnBaseGroup:i=123662
+  active:b=no
+}
+
+entity{
+  _template:t="respawnChooser+respTeam1"
+  transform:m=[[-0.805006, 0, -0.593265] [0, 1, 0] [0.593265, 0, -0.805006] [-33.71, 18.2951, -53.1053]]
+  groupName:t="s6"
+  respawnBaseGroup:i=123663
+  active:b=no
+}
+
+entity{
+  _template:t="respawnChooser+respTeam1"
+  transform:m=[[0.22477, 0, -0.974411] [0, 1, 0] [0.974411, -0, 0.22477] [-125.951, 18.202, -14.6294]]
+  groupName:t="s6"
+  respawnBaseGroup:i=123663
+  active:b=no
+}
+
+entity{
+  _template:t="respawnChooser+respTeam1"
+  transform:m=[[0.996943, 0, 0.0781161] [0, 1, -0] [-0.0781161, 0, 0.996943] [-196.722, 16.8475, -67.859]]
+  groupName:t="s6"
+  respawnBaseGroup:i=123663
+  active:b=no
+}
+
+entity{
+  _template:t="respawnChooser+respTeam1"
   transform:m=[[0.926473, -0.00378758, 0.376342] [-0.00780891, 0.999541, 0.0292834] [-0.37628, -0.0300691, 0.926018] [-284.771, 5.77073, -319.626]]
   groupName:t="s6"
   respawnBaseGroup:i=5511
@@ -5362,7 +5564,7 @@ entity{
 
 entity{
   _template:t="respawnChooser+respTeam1"
-  transform:m=[[0.0629124, -0.0303062, 0.997559] [0.00172985, 0.999541, 0.0302573] [-0.998017, -0.000177935, 0.0629359] [-202.513, 9.78062, 351.307]]
+  transform:m=[[-0.0834199, -0.00378758, 0.996507] [-0.0302803, 0.999541, 0.00126427] [-0.996054, -0.0300691, -0.0834963] [-125.259, 3.03995, -327.117]]
   groupName:t="s6"
   respawnBaseGroup:i=5511
   active:b=no
@@ -5370,9 +5572,18 @@ entity{
 
 entity{
   _template:t="respawnChooser+respTeam1"
-  transform:m=[[-0.085442, 0.0235574, 0.996065] [-0.0169894, 0.999541, -0.025097] [-0.996198, -0.0190669, -0.0850024] [139.952, 14.9389, 350.909]]
+  transform:m=[[-0.997687, 0, -0.0679677] [0, 1, 0] [0.0679677, 0, -0.997686] [-308.216, 8.21821, -188.361]]
   groupName:t="s6"
   respawnBaseGroup:i=5511
+  active:b=no
+}
+
+entity{
+  _template:t="respawnChooser+respTeam1"
+  transform:m=[[0.979745, 0, 0.200248] [0, 1, -0] [-0.200248, 0, 0.979745] [-470.114, 3.19082, 43.3168]]
+  team:i=1
+  groupName:t="s6"
+  respawnBaseGroup:i=5512
   active:b=no
 }
 
@@ -5418,9 +5629,10 @@ entity{
 
 entity{
   _template:t="respawnChooser+respTeam1"
-  transform:m=[[-0.209423, 0, -0.977824] [0, 1, 0] [0.977824, 0, -0.209423] [-1259.01, 6.67212, 594.669]]
+  transform:m=[[0.879235, 0, -0.47639] [-0, 1, 0] [0.47639, 0, 0.879234] [-731.424, 6.61821, 255.368]]
+  team:i=1
   groupName:t="s6"
-  respawnBaseGroup:i=5514
+  respawnBaseGroup:i=5513
   active:b=no
 }
 
@@ -5719,6 +5931,15 @@ entity{
 
 entity{
   _template:t="respawnChooser+respTeam2"
+  transform:m=[[-0.0761119, 0.0088909, 0.99706] [0.0369946, 0.999297, -0.00608682] [-0.996412, 0.0364225, -0.0763873] [-192.687, 9.41654, 491.268]]
+  groupName:t="s5b"
+  respawnBaseGroup:i=44212
+  team:i=1
+  active:b=no
+}
+
+entity{
+  _template:t="respawnChooser+respTeam2"
   transform:m=[[-0.431056, -0.0173742, -0.902158] [0.0535797, 0.997557, -0.0448121] [0.900734, -0.067654, -0.429072] [968.02, 3.27047, 1489.6]]
   groupName:t="s5b"
   respawnBaseGroup:i=4423
@@ -5833,30 +6054,6 @@ entity{
   groupName:t="s2"
   team:i=1
   respawnBaseGroup:i=12321
-}
-
-entity{
-  _template:t="respTeam1+respawnChooser"
-  transform:m=[[-0.078596, 0, 0.996908] [0, 1, 0] [-0.996906, 0, -0.0785958] [27.3445, 45.5941, -1091.02]]
-  groupName:t="s2"
-  team:i=1
-  respawnBaseGroup:i=12322
-}
-
-entity{
-  _template:t="respTeam1+respawnChooser"
-  transform:m=[[-0.91593, 0, -0.401341] [0, 1, 0] [0.40134, 0, -0.915929] [27.5726, 46.4576, -1126.33]]
-  groupName:t="s2"
-  team:i=1
-  respawnBaseGroup:i=12322
-}
-
-entity{
-  _template:t="respTeam1+respawnChooser"
-  transform:m=[[-0.996274, 0, 0.0862567] [0, 1, 0] [-0.0862565, 0, -0.996273] [-3.14739, 46.7853, -1117.35]]
-  groupName:t="s2"
-  team:i=1
-  respawnBaseGroup:i=12322
 }
 
 entity{
@@ -5997,15 +6194,7 @@ entity{
 
 entity{
   _template:t="respTeam1+respawnChooser"
-  transform:m=[[-0.978652, 0, 0.205533] [0, 1, 0] [-0.205533, 0, -0.978651] [139.667, 14.8356, 356.181]]
-  groupName:t="s6"
-  team:i=1
-  respawnBaseGroup:i=12361
-}
-
-entity{
-  _template:t="respTeam1+respawnChooser"
-  transform:m=[[0.999324, 0, 0.0368042] [0, 1, -0] [-0.0368042, 0, 0.999323] [-620.616, 8.20087, 586.471]]
+  transform:m=[[0.850725, 0, 0.525614] [0, 1, -0] [-0.525614, 0, 0.850724] [122.083, 3.86707, 207.569]]
   groupName:t="s6"
   team:i=1
   respawnBaseGroup:i=12362
@@ -6013,10 +6202,26 @@ entity{
 
 entity{
   _template:t="respTeam1+respawnChooser"
+  transform:m=[[-0.343469, 0, 0.939166] [0, 1, 0] [-0.939165, 0, -0.343469] [-118.198, 6.29428, 281.827]]
+  groupName:t="s6"
+  team:i=1
+  respawnBaseGroup:i=123661
+}
+
+entity{
+  _template:t="respTeam1+respawnChooser"
   transform:m=[[-0.985154, 0, -0.171683] [0, 1, 0] [0.171682, 0, -0.985152] [-167.288, 9.35774, 355.675]]
   groupName:t="s6"
   team:i=1
-  respawnBaseGroup:i=12363
+  respawnBaseGroup:i=123661
+}
+
+entity{
+  _template:t="respTeam1+respawnChooser"
+  transform:m=[[-0.545499, 0, -0.838114] [0, 1, 0] [0.838112, 0, -0.545497] [-167.993, 9.05112, 397.441]]
+  groupName:t="s6"
+  team:i=1
+  respawnBaseGroup:i=123661
 }
 
 entity{
@@ -6181,7 +6386,7 @@ entity{
 
 entity{
   _template:t="respTeam2+respawnChooser"
-  transform:m=[[0.442537, 0, -0.896752] [0, 1, 0] [0.896751, -0, 0.442536] [-414.652, 7.28007, 658.132]]
+  transform:m=[[0.873543, 0, 0.48675] [-0, 1, 0] [-0.486749, -0, 0.873542] [-344.363, 6.37966, 703.224]]
   groupName:t="s6"
   team:i=2
   respawnBaseGroup:i=12361
@@ -6189,10 +6394,66 @@ entity{
 
 entity{
   _template:t="respTeam2+respawnChooser"
-  transform:m=[[-0.253877, 0, -0.967238] [0, 1, 0] [0.967237, 0, -0.253877] [-138.818, 4.86693, 720.467]]
+  transform:m=[[-0.828155, 0, -0.560502] [0, 1, 0] [0.560501, 0, -0.828154] [-321.81, 7.04895, 713.026]]
   groupName:t="s6"
   team:i=2
-  respawnBaseGroup:i=12363
+  respawnBaseGroup:i=12361
+}
+
+entity{
+  _template:t="respTeam2+respawnChooser"
+  transform:m=[[-0.317489, 0, -0.948263] [0, 1, 0] [0.948262, 0, -0.317488] [109.019, 7.99541, 510.506]]
+  groupName:t="s6"
+  team:i=2
+  respawnBaseGroup:i=12362
+}
+
+entity{
+  _template:t="respTeam2+respawnChooser"
+  transform:m=[[-0.90124, 0, -0.433324] [0, 1, 0] [0.433323, 0, -0.901239] [52.3014, 2.57385, 565.593]]
+  groupName:t="s6"
+  team:i=2
+  respawnBaseGroup:i=12362
+}
+
+entity{
+  _template:t="respTeam2+respawnChooser"
+  transform:m=[[-0.595693, 0, -0.803214] [0, 1, 0] [0.803213, 0, -0.595693] [-110.313, 8.98802, 520.11]]
+  groupName:t="s6"
+  team:i=2
+  respawnBaseGroup:i=123662
+}
+
+entity{
+  _template:t="respTeam2+respawnChooser"
+  transform:m=[[0.860179, 0, -0.509996] [0, 1, 0] [0.509995, -0, 0.860178] [-297.095, 12.4643, 514.033]]
+  groupName:t="s6"
+  team:i=2
+  respawnBaseGroup:i=123662
+}
+
+entity{
+  _template:t="respTeam2+respawnChooser"
+  transform:m=[[0.363469, 0, 0.931608] [0, 1, -0] [-0.931607, 0, 0.363468] [-163.788, 3.55436, 158.748]]
+  groupName:t="s6"
+  team:i=2
+  respawnBaseGroup:i=123663
+}
+
+entity{
+  _template:t="respTeam2+respawnChooser"
+  transform:m=[[-0.787383, 0, 0.616466] [0, 1, 0] [-0.616466, 0, -0.787383] [-258.566, 2.66363, 78.6207]]
+  groupName:t="s6"
+  team:i=2
+  respawnBaseGroup:i=123663
+}
+
+entity{
+  _template:t="respTeam2+respawnChooser"
+  transform:m=[[0.334285, 0, -0.942473] [0, 1, 0] [0.942473, -0, 0.334285] [-311.249, 31.515, -41.0863]]
+  groupName:t="s6"
+  team:i=2
+  respawnBaseGroup:i=123663
 }
 
 entity{
@@ -6206,7 +6467,7 @@ entity{
 
 entity{
   _template:t="respawnBaseWithGroupOnCapturePoint"
-  transform:m=[[0.97262, 0.0151294, -0.231911] [-0.0146021, 0.999885, 0.00399028] [0.231945, -0.000494634, 0.972729] [-1191.03, 3.32207, -1096.95]]
+  transform:m=[[-0.0940057, 0.0151294, 0.995457] [0.000929906, 0.999885, -0.0151089] [-0.995572, -0.000494639, -0.0940089] [-661.222, 45.3459, -909.729]]
   team:i=1
   groupName:t="s1"
   respawnBaseGroup:i=5002
@@ -6215,7 +6476,7 @@ entity{
 
 entity{
   _template:t="respawnBaseWithGroupOnCapturePoint"
-  transform:m=[[-0.998948, 0.0151294, 0.043291] [0.0150938, 0.999885, -0.00114927] [-0.0433034, -0.000494635, -0.999063] [-1077.6, 4.93186, -828.528]]
+  transform:m=[[-0.631608, 0.0151294, -0.77514] [0.00994044, 0.999885, 0.0114163] [0.775225, -0.000494636, -0.631687] [-1425.25, 5.17572, -1320.08]]
   team:i=1
   groupName:t="s1"
   respawnBaseGroup:i=5002
@@ -6224,11 +6485,44 @@ entity{
 
 entity{
   _template:t="respawnBaseWithGroupOnCapturePoint"
-  transform:m=[[-0.780981, 0.0151294, -0.624372] [0.012126, 0.999885, 0.00906104] [0.624438, -0.000494621, -0.781075] [-957.63, 3.94276, -763.425]]
+  transform:m=[[-0.533415, 0.0151294, -0.845719] [0.00848958, 0.999885, 0.0125328] [0.845812, -0.000494634, -0.533482] [-708.093, 34.7653, -809.271]]
   team:i=1
   groupName:t="s1"
   respawnBaseGroup:i=5002
   active:b=no
+}
+
+entity{
+  _template:t="respawnBaseWithGroupOnCapturePoint"
+  transform:m=[[0.728253, 0.0151294, -0.685141] [-0.0106803, 0.999885, 0.0107272] [0.685226, -0.000494607, 0.728332] [-1428.05, 5.45612, -1357.73]]
+  team:i=1
+  groupName:t="s1"
+  respawnBaseGroup:i=5002
+  active:b=no
+}
+
+entity{
+  _template:t="respawnBaseWithGroupOnCapturePoint"
+  transform:m=[[-0.078596, 0, 0.996908] [0, 1, 0] [-0.996906, 0, -0.0785958] [27.3445, 45.5941, -1091.02]]
+  groupName:t="s2"
+  team:i=1
+  respawnBaseGroup:i=50121
+}
+
+entity{
+  _template:t="respawnBaseWithGroupOnCapturePoint"
+  transform:m=[[-0.91593, 0, -0.401341] [0, 1, 0] [0.40134, 0, -0.915929] [27.5726, 46.4576, -1126.33]]
+  groupName:t="s2"
+  team:i=1
+  respawnBaseGroup:i=50121
+}
+
+entity{
+  _template:t="respawnBaseWithGroupOnCapturePoint"
+  transform:m=[[-0.996274, 0, 0.0862567] [0, 1, 0] [-0.0862565, 0, -0.996273] [-3.14739, 46.7853, -1117.35]]
+  groupName:t="s2"
+  team:i=1
+  respawnBaseGroup:i=50121
 }
 
 entity{
@@ -6272,7 +6566,7 @@ entity{
   transform:m=[[-0.0644469, 0, 1.64237] [0, 1.64364, 0] [-1.64237, 0, -0.0644469] [1154.74, 81.5658, 108.316]]
   team:i=1
   groupName:t="s4"
-  respawnBaseGroup:i=50131
+  respawnBaseGroup:i=50132
   active:b=no
 }
 
@@ -6323,7 +6617,7 @@ entity{
 
 entity{
   _template:t="respawnBaseWithGroupOnCapturePoint"
-  transform:m=[[-0.0915822, 0, 0.995798] [0, 1, 0] [-0.995798, 0, -0.0915822] [-192.487, 9.59849, 491.718]]
+  transform:m=[[0.999545, 0, -0.0301794] [0, 1, 0] [0.0301793, -0, 0.999544] [-621.657, 8.20631, 586.586]]
   team:i=1
   groupName:t="s6"
   respawnBaseGroup:i=60101
@@ -6332,7 +6626,7 @@ entity{
 
 entity{
   _template:t="respawnBaseWithGroupOnCapturePoint"
-  transform:m=[[-0.860105, 0, 0.510117] [0, 1, 0] [-0.510117, 0, -0.860105] [-296.533, 12.483, 513.705]]
+  transform:m=[[0.730729, 0, 0.682669] [0, 1, -0] [-0.682668, 0, 0.730728] [-442.173, 7.69484, 594.51]]
   team:i=1
   groupName:t="s6"
   respawnBaseGroup:i=60101
@@ -6341,7 +6635,7 @@ entity{
 
 entity{
   _template:t="respawnBaseWithGroupOnCapturePoint"
-  transform:m=[[-0.895106, 0, 0.445854] [0, 1, 0] [-0.445854, 0, -0.895106] [110.57, 8.27968, 507.846]]
+  transform:m=[[-0.633756, 0, 0.773534] [0, 1, 0] [-0.773534, 0, -0.633755] [-426.409, 10.1515, 544.802]]
   team:i=1
   groupName:t="s6"
   respawnBaseGroup:i=60101
@@ -6350,7 +6644,7 @@ entity{
 
 entity{
   _template:t="respawnBaseWithGroupOnCapturePoint"
-  transform:m=[[-0.551785, 0, 0.833986] [0, 1, 0] [-0.833986, 0, -0.551785] [-425.208, 10.4106, 545.152]]
+  transform:m=[[-0.946273, 0, -0.323372] [0, 1, 0] [0.323372, 0, -0.946272] [-553.67, 5.35649, 707.215]]
   team:i=1
   groupName:t="s6"
   respawnBaseGroup:i=60101
@@ -6359,7 +6653,7 @@ entity{
 
 entity{
   _template:t="respawnBaseWithGroupOnCapturePoint"
-  transform:m=[[0.846035, -0, 0.533129] [0, 1, 0] [-0.533129, 0, 0.846035] [-454.13, 7.343, 639.484]]
+  transform:m=[[0.999545, 0, -0.0301794] [0, 1, 0] [0.0301793, -0, 0.999544] [-616.981, 12.6053, 598.82]]
   team:i=1
   groupName:t="s6"
   respawnBaseGroup:i=60101
@@ -6368,7 +6662,7 @@ entity{
 
 entity{
   _template:t="respAircraftInAir"
-  transform:m=[[-0.993668, 0, 0.112354] [0, 1, 0] [-0.112354, 0, -0.993668] [22.4092, 10.1841, -1418.95]]
+  transform:m=[[-0.993668, 0, 0.112354] [0, 1, 0] [-0.112354, 0, -0.993668] [22.4092, 10.8482, -1427.03]]
   respawnbaseType:t="aircraft_fighter"
   team:i=1
   maxVehicleOnSpawn:i=1
@@ -6385,7 +6679,7 @@ entity{
 
 entity{
   _template:t="respAircraftInAir"
-  transform:m=[[-0.996529, 0, 0.0832423] [0, 1, 0] [-0.0832423, 0, -0.996529] [20.3785, 10.2414, -1434.69]]
+  transform:m=[[0.00782655, 0, 0.999969] [0, 1, -0] [-0.999969, 0, 0.00782655] [3510.03, 14.27, -1702.57]]
   respawnbaseType:t="aircraft_assault"
   team:i=1
   maxVehicleOnSpawn:i=1
@@ -7133,7 +7427,7 @@ entity{
 
 entity{
   _template:t="placebale_rendinst"
-  transform:m=[[-0.490953, 0.0662436, -0.868663] [-0.0136226, 0.996399, 0.0836839] [0.871079, 0.0529184, -0.488283] [-171.479, 7.19735, 920.441]]
+  transform:m=[[-0.363472, -0.00887641, -0.931562] [0.0156212, 0.999756, -0.0156212] [0.931474, -0.02023, -0.363245] [-122.442, 6.94534, 920.143]]
   ri_extra__name:t="zis_5"
 }
 
@@ -8583,6 +8877,8 @@ entity{
   gun__overheatPerShot:r=0.01
   gun__overheatReduceOnOverheat:r=0.1886
   animchar__res:t="maxim_gun_without_shield_char"
+  hitpoints__maxHp:r=99
+  hitpoints__hp:r=99
 
   "gun__shells:array"{
     gun__shells:t="gamedata/gen/weapons/shells/12_7mm_dshk_gaz_12mm_ussr_dshk_apit_bullet_1.blk"
@@ -8594,6 +8890,8 @@ entity{
   transform:m=[[0.989951, 0, 0.141411] [0, 1, -0] [-0.141411, 0, 0.989951] [-77.9681, 59.711, -1057.55]]
   gun__overheatReduceOnOverheat:r=0.1886
   gun__overheatPerShot:r=0.01
+  hitpoints__maxHp:r=99
+  hitpoints__hp:r=99
 
   "gun__shells:array"{
     gun__shells:t="gamedata/gen/weapons/shells/12_7mm_dshk_gaz_12mm_ussr_dshk_apit_bullet_1.blk"
@@ -8606,6 +8904,8 @@ entity{
   gun__overheatReduceOnOverheat:r=0.1886
   gun__overheatPerShot:r=0.01
   animchar__res:t="maxim_gun_without_shield_char"
+  hitpoints__maxHp:r=99
+  hitpoints__hp:r=99
 
   "gun__shells:array"{
     gun__shells:t="gamedata/gen/weapons/shells/12_7mm_dshk_gaz_12mm_ussr_dshk_apit_bullet_1.blk"
@@ -8618,6 +8918,7 @@ entity{
   gun__overheatReduceOnOverheat:r=0.1886
   gun__overheatPerShot:r=0.01
   animchar__res:t="maxim_gun_without_shield_char"
+  hitpoints__hp:r=99
 
   "gun__shells:array"{
     gun__shells:t="gamedata/gen/weapons/shells/12_7mm_dshk_gaz_12mm_ussr_dshk_apit_bullet_1.blk"
@@ -8630,6 +8931,8 @@ entity{
   gun__overheatReduceOnOverheat:r=0.1886
   gun__overheatPerShot:r=0.01
   animchar__res:t="maxim_gun_without_shield_char"
+  hitpoints__hp:r=99
+  hitpoints__maxHp:r=99
 
   "gun__shells:array"{
     gun__shells:t="gamedata/gen/weapons/shells/12_7mm_dshk_gaz_12mm_ussr_dshk_apit_bullet_1.blk"
@@ -8641,6 +8944,8 @@ entity{
   transform:m=[[0.956219, 0, 0.292651] [0, 1, -0] [-0.292651, 0, 0.956219] [-153.746, 44.2429, -1107.18]]
   gun__overheatReduceOnOverheat:r=0.1886
   gun__overheatPerShot:r=0.01
+  hitpoints__maxHp:r=99
+  hitpoints__hp:r=99
 
   "gun__shells:array"{
     gun__shells:t="gamedata/gen/weapons/shells/12_7mm_dshk_gaz_12mm_ussr_dshk_apit_bullet_1.blk"
@@ -8664,6 +8969,8 @@ entity{
   gun__overheatReduceOnOverheat:r=0.1886
   gun__overheatPerShot:r=0.01
   animchar__res:t="maxim_gun_without_shield_char"
+  hitpoints__maxHp:r=66
+  hitpoints__hp:r=66
 
   "gun__shells:array"{
     gun__shells:t="gamedata/gen/weapons/shells/12_7mm_dshk_gaz_12mm_ussr_dshk_apit_bullet_1.blk"
@@ -8676,6 +8983,8 @@ entity{
   gun__overheatReduceOnOverheat:r=0.1886
   gun__overheatPerShot:r=0.01
   animchar__res:t="maxim_gun_without_shield_char"
+  hitpoints__maxHp:r=66
+  hitpoints__hp:r=66
 
   "gun__shells:array"{
     gun__shells:t="gamedata/gen/weapons/shells/12_7mm_dshk_gaz_12mm_ussr_dshk_apit_bullet_1.blk"
@@ -8688,6 +8997,8 @@ entity{
   gun__overheatReduceOnOverheat:r=0.1886
   gun__overheatPerShot:r=0.01
   animchar__res:t="maxim_gun_without_shield_char"
+  hitpoints__maxHp:r=66
+  hitpoints__hp:r=66
 
   "gun__shells:array"{
     gun__shells:t="gamedata/gen/weapons/shells/12_7mm_dshk_gaz_12mm_ussr_dshk_apit_bullet_1.blk"
@@ -8700,6 +9011,8 @@ entity{
   gun__overheatReduceOnOverheat:r=0.1886
   gun__overheatPerShot:r=0.01
   animchar__res:t="maxim_gun_without_shield_char"
+  hitpoints__maxHp:r=66
+  hitpoints__hp:r=66
 
   "gun__shells:array"{
     gun__shells:t="gamedata/gen/weapons/shells/12_7mm_dshk_gaz_12mm_ussr_dshk_apit_bullet_1.blk"
@@ -8712,6 +9025,8 @@ entity{
   gun__overheatReduceOnOverheat:r=0.1886
   gun__overheatPerShot:r=0.01
   animchar__res:t="maxim_gun_without_shield_char"
+  hitpoints__maxHp:r=66
+  hitpoints__hp:r=66
 
   "gun__shells:array"{
     gun__shells:t="gamedata/gen/weapons/shells/12_7mm_dshk_gaz_12mm_ussr_dshk_apit_bullet_1.blk"
@@ -8724,6 +9039,7 @@ entity{
   gun__overheatReduceOnOverheat:r=0.1886
   gun__overheatPerShot:r=0.01
   animchar__res:t="maxim_gun_without_shield_char"
+  hitpoints__maxHp:r=66
 
   "gun__shells:array"{
     gun__shells:t="gamedata/gen/weapons/shells/12_7mm_dshk_gaz_12mm_ussr_dshk_apit_bullet_1.blk"
@@ -8736,6 +9052,7 @@ entity{
   gun__overheatReduceOnOverheat:r=0.1886
   gun__overheatPerShot:r=0.01
   animchar__res:t="maxim_gun_without_shield_char"
+  hitpoints__maxHp:r=66
 
   "gun__shells:array"{
     gun__shells:t="gamedata/gen/weapons/shells/12_7mm_dshk_gaz_12mm_ussr_dshk_apit_bullet_1.blk"
@@ -8748,6 +9065,8 @@ entity{
   gun__overheatReduceOnOverheat:r=0.1886
   gun__overheatPerShot:r=0.01
   animchar__res:t="maxim_gun_without_shield_char"
+  hitpoints__maxHp:r=66
+  hitpoints__hp:r=66
 
   "gun__shells:array"{
     gun__shells:t="gamedata/gen/weapons/shells/12_7mm_dshk_gaz_12mm_ussr_dshk_apit_bullet_1.blk"
@@ -8770,7 +9089,8 @@ entity{
   transform:m=[[0.668179, 0, -0.744001] [0, 1, 0] [0.744001, -0, 0.668179] [690.527, 19.4523, -508.851]]
   gun__overheatReduceOnOverheat:r=0.1886
   gun__overheatPerShot:r=0.01
-  hitpoints__maxHp:r=9999
+  hitpoints__maxHp:r=199
+  hitpoints__hp:r=199
 
   "gun__shells:array"{
     gun__shells:t="gamedata/gen/weapons/shells/12_7mm_dshk_gaz_12mm_ussr_dshk_apit_bullet_1.blk"
@@ -8782,6 +9102,8 @@ entity{
   transform:m=[[0.966171, 0, -0.257902] [0, 1, 0] [0.257902, -0, 0.966171] [582.43, 17.9018, -489.849]]
   gun__overheatReduceOnOverheat:r=0.1886
   gun__overheatPerShot:r=0.01
+  hitpoints__maxHp:r=23
+  hitpoints__hp:r=23
 
   "gun__shells:array"{
     gun__shells:t="gamedata/gen/weapons/shells/12_7mm_dshk_gaz_12mm_ussr_dshk_apit_bullet_1.blk"
@@ -10092,6 +10414,20 @@ entity{
   "animchar__objTexReplace:object"{
     "ussr_camo_green_new-paint*":t="ger_camo_grey*"
   }
+
+  "attach_decorators__templates:array"{
+    "attach_decorators__templates:object"{
+      relativeTm:m=[[0.0148784, 0.519615, -0.299631] [-0.585512, 0.0776456, 0.105578] [0.130208, 0.289778, 0.508994] [0.23, 0.18, -0.79]]
+      template:t="german_balkenkreuz_flag_carrier_decor"
+      nodeName:t="bone_turret"
+    }
+
+    "attach_decorators__templates:object"{
+      relativeTm:m=[[-0.169052, 0.519615, 0.247836] [0.554562, 0.0776462, 0.21548] [0.154538, 0.28978, -0.502141] [-0.01, 0.15, 0.71]]
+      template:t="german_balkenkreuz_flag_carrier_decor"
+      nodeName:t="bone_turret"
+    }
+  }
 }
 
 entity{
@@ -10103,6 +10439,20 @@ entity{
 
   "animchar__objTexReplace:object"{
     "ussr_camo_green_new-paint*":t="ger_camo_grey*"
+  }
+
+  "attach_decorators__templates:array"{
+    "attach_decorators__templates:object"{
+      relativeTm:m=[[0.0148784, 0.519615, -0.299631] [-0.585512, 0.0776456, 0.105578] [0.130208, 0.289778, 0.508994] [0.23, 0.18, -0.79]]
+      template:t="german_balkenkreuz_flag_carrier_decor"
+      nodeName:t="bone_turret"
+    }
+
+    "attach_decorators__templates:object"{
+      relativeTm:m=[[-0.169052, 0.519615, 0.247836] [0.554562, 0.0776462, 0.21548] [0.154538, 0.28978, -0.502141] [-0.01, 0.15, 0.71]]
+      template:t="german_balkenkreuz_flag_carrier_decor"
+      nodeName:t="bone_turret"
+    }
   }
 }
 
@@ -11870,794 +12220,6 @@ entity{
 
   "animchar__objTexReplace:object"{
     "it_camo_olive_green*":t="ger_camo_grey*"
-  }
-}
-
-entity{
-  _template:t="germ_flak_36_sdkfz_6_2+resupply_for_ground_vehicle_zone"
-  transform:m=[[-0.596454, 0.00931413, -0.802594] [0.015548, 0.999879, 4.9049e-05] [0.802497, -0.0124494, -0.596526] [-1652.97, 0.695873, -889.011]]
-  team:i=2
-  resupply_zone__team:i=2
-  vehicle_seats__autoDetectRestrictToTeam:b=no
-  vehicle_seats__restrictToTeam:i=2
-  sphere_zone__radius:r=12
-  vehicle__mapIcon:t="map_icon_car"
-  user_point__icon:t="map_icon_car"
-
-  "turret_gun_flash_fx__flashFx:shared:array"{
-    turret_gun_flash_fx__flashFx:t="muzzle_ground_20mm"
-  }
-
-  "turretsInitialComponents:array"{
-    "turretsInitialComponents:object"{
-      gun__reloadTime:r=1.05
-    }
-  }
-
-  "turret_control__turretInfo:shared:array"{
-    "turret_control__turretInfo:object"{
-      salt:i=1
-      gun:t="as_42_metropolitana_turret_01_20mm_breda_20_65_m35+base_37mm_flak36+turret_with_several_types_of_shells+main_turret"
-      barrelDm:t="gun_barrel"
-      breechDm:t="cannon_breech"
-      turretName:t="turret_01"
-      verDriveDm:t="drive_turret_v"
-      horDriveDm:t="drive_turret_h"
-    }
-  }
-
-  "vehicle_seats__seats:shared:array"{
-    "vehicle_seats__seats:object"{
-      receiveDamageFromDMPart:t="driver"
-      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0.25, -0.25, 0]]
-      name:t="driver"
-      seatComponent:t="isDriver"
-      cameraNodeName:t="bone_camera_driver"
-      attachNode:t="driver"
-      seatOwnsEntityControl:b=yes
-      nextSeat:t="main_gunner"
-      locName:t="vehicle_seats/driver"
-      ignoreAttachNodeRotation:b=yes
-      shouldHideOwner:b=no
-    }
-
-    "vehicle_seats__seats:object"{
-      receiveDamageFromDMPart:t="gunner"
-      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0.25, -0.5, 0]]
-      cameraOffset:p3=-2.2, 0.6, 0
-      name:t="main_gunner"
-      seatComponent:t="isGunner"
-      cameraNodeName:t="bone_camera_gunner"
-      cameraType:t="machinegunner_cockpit"
-      attachNode:t="gunner"
-      nextSeat:t="driver"
-      locName:t="vehicle_seats/gunner"
-      ignoreAttachNodeRotation:b=yes
-      shouldHideOwner:b=no
-
-      "turretNames:array"{
-        turretNames:t="turret_01"
-      }
-    }
-
-    "vehicle_seats__seats:object"{
-      receiveDamageFromDMPart:t="commander"
-      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0, 0.1, 0.1]]
-      cameraOffset:p3=-5, 0.29, 0
-      name:t="commander"
-      seatComponent:t="isDriver"
-      cameraType:t="machinegunner_cockpit"
-      attachNode:t="commander"
-      locName:t="vehicle_seats/commander"
-      ignoreAttachNodeRotation:b=yes
-      maxPosWithOpenHatch:r=0.4
-      shouldHideOwner:b=no
-    }
-
-    "vehicle_seats__seats:object"{
-      receiveDamageFromDMPart:t="loader"
-      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0, -0, 0]]
-      seatComponent:t="isPassenger"
-      cameraNodeName:t="bone_camera_driver"
-      attachNode:t="loader"
-      locName:t="vehicle_seats/loader"
-      ignoreAttachNodeRotation:b=yes
-      shouldHideOwner:b=no
-
-      "loaderTurretNames:array"{
-        loaderTurretNames:t="turret_01"
-      }
-    }
-  }
-}
-
-entity{
-  _template:t="germ_flak_36_sdkfz_6_2+resupply_for_ground_vehicle_zone"
-  transform:m=[[-0.57985, 0, -0.814723] [0, 1, 0] [0.814723, 0, -0.57985] [-1648.38, 0.678677, -893.201]]
-  team:i=2
-  vehicle_seats__autoDetectRestrictToTeam:b=no
-  vehicle_seats__restrictToTeam:i=2
-  resupply_zone__team:i=2
-  sphere_zone__radius:r=12
-  vehicle__mapIcon:t="map_icon_car"
-  user_point__icon:t="map_icon_car"
-
-  "turret_gun_flash_fx__flashFx:shared:array"{
-    turret_gun_flash_fx__flashFx:t="muzzle_ground_20mm"
-  }
-
-  "turretsInitialComponents:array"{
-    "turretsInitialComponents:object"{
-      gun__reloadTime:r=1.05
-    }
-  }
-
-  "turret_control__turretInfo:shared:array"{
-    "turret_control__turretInfo:object"{
-      salt:i=1
-      gun:t="as_42_metropolitana_turret_01_20mm_breda_20_65_m35+base_37mm_flak36+turret_with_several_types_of_shells+main_turret"
-      barrelDm:t="gun_barrel"
-      breechDm:t="cannon_breech"
-      turretName:t="turret_01"
-      verDriveDm:t="drive_turret_v"
-      horDriveDm:t="drive_turret_h"
-    }
-  }
-
-  "vehicle_seats__seats:shared:array"{
-    "vehicle_seats__seats:object"{
-      receiveDamageFromDMPart:t="driver"
-      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0.25, -0.25, 0]]
-      name:t="driver"
-      seatComponent:t="isDriver"
-      cameraNodeName:t="bone_camera_driver"
-      attachNode:t="driver"
-      seatOwnsEntityControl:b=yes
-      nextSeat:t="main_gunner"
-      locName:t="vehicle_seats/driver"
-      ignoreAttachNodeRotation:b=yes
-      shouldHideOwner:b=no
-    }
-
-    "vehicle_seats__seats:object"{
-      receiveDamageFromDMPart:t="gunner"
-      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0.25, -0.5, 0]]
-      cameraOffset:p3=-2.2, 0.6, 0
-      name:t="main_gunner"
-      seatComponent:t="isGunner"
-      cameraNodeName:t="bone_camera_gunner"
-      cameraType:t="machinegunner_cockpit"
-      attachNode:t="gunner"
-      nextSeat:t="driver"
-      locName:t="vehicle_seats/gunner"
-      ignoreAttachNodeRotation:b=yes
-      shouldHideOwner:b=no
-
-      "turretNames:array"{
-        turretNames:t="turret_01"
-      }
-    }
-
-    "vehicle_seats__seats:object"{
-      receiveDamageFromDMPart:t="commander"
-      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0, 0.1, 0.1]]
-      cameraOffset:p3=-5, 0.29, 0
-      name:t="commander"
-      seatComponent:t="isDriver"
-      cameraType:t="machinegunner_cockpit"
-      attachNode:t="commander"
-      locName:t="vehicle_seats/commander"
-      ignoreAttachNodeRotation:b=yes
-      maxPosWithOpenHatch:r=0.4
-      shouldHideOwner:b=no
-    }
-
-    "vehicle_seats__seats:object"{
-      receiveDamageFromDMPart:t="loader"
-      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0, -0, 0]]
-      seatComponent:t="isPassenger"
-      cameraNodeName:t="bone_camera_driver"
-      attachNode:t="loader"
-      locName:t="vehicle_seats/loader"
-      ignoreAttachNodeRotation:b=yes
-      shouldHideOwner:b=no
-
-      "loaderTurretNames:array"{
-        loaderTurretNames:t="turret_01"
-      }
-    }
-  }
-}
-
-entity{
-  _template:t="germ_flak_36_sdkfz_6_2+resupply_for_ground_vehicle_zone"
-  transform:m=[[0.991948, 0, -0.126647] [0, 1, 0] [0.126647, -0, 0.991948] [593.689, 7.23755, -1586.33]]
-  team:i=2
-  user_point__icon:t="map_icon_car"
-  vehicle__mapIcon:t="map_icon_car"
-  resupply_zone__team:i=2
-  sphere_zone__radius:r=12
-  vehicle_seats__autoDetectRestrictToTeam:b=no
-  vehicle_seats__restrictToTeam:i=2
-  resupply_zone__resupplyFuel:b=yes
-
-  "turret_gun_flash_fx__flashFx:shared:array"{
-    turret_gun_flash_fx__flashFx:t="muzzle_ground_20mm"
-  }
-
-  "turretsInitialComponents:array"{
-    "turretsInitialComponents:object"{
-      gun__reloadTime:r=1.05
-    }
-  }
-
-  "turret_control__turretInfo:shared:array"{
-    "turret_control__turretInfo:object"{
-      salt:i=1
-      gun:t="as_42_metropolitana_turret_01_20mm_breda_20_65_m35+base_37mm_flak36+turret_with_several_types_of_shells+main_turret"
-      barrelDm:t="gun_barrel"
-      breechDm:t="cannon_breech"
-      turretName:t="turret_01"
-      verDriveDm:t="drive_turret_v"
-      horDriveDm:t="drive_turret_h"
-    }
-  }
-
-  "vehicle_seats__seats:shared:array"{
-    "vehicle_seats__seats:object"{
-      receiveDamageFromDMPart:t="driver"
-      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0.25, -0.25, 0]]
-      name:t="driver"
-      seatComponent:t="isDriver"
-      cameraNodeName:t="bone_camera_driver"
-      attachNode:t="driver"
-      seatOwnsEntityControl:b=yes
-      nextSeat:t="main_gunner"
-      locName:t="vehicle_seats/driver"
-      ignoreAttachNodeRotation:b=yes
-      shouldHideOwner:b=no
-    }
-
-    "vehicle_seats__seats:object"{
-      receiveDamageFromDMPart:t="gunner"
-      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0.25, -0.5, 0]]
-      cameraOffset:p3=-2.2, 0.6, 0
-      name:t="main_gunner"
-      seatComponent:t="isGunner"
-      cameraNodeName:t="bone_camera_gunner"
-      cameraType:t="machinegunner_cockpit"
-      attachNode:t="gunner"
-      nextSeat:t="driver"
-      locName:t="vehicle_seats/gunner"
-      ignoreAttachNodeRotation:b=yes
-      shouldHideOwner:b=no
-
-      "turretNames:array"{
-        turretNames:t="turret_01"
-      }
-    }
-
-    "vehicle_seats__seats:object"{
-      receiveDamageFromDMPart:t="commander"
-      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0, 0.1, 0.1]]
-      cameraOffset:p3=-5, 0.29, 0
-      name:t="commander"
-      seatComponent:t="isDriver"
-      cameraType:t="machinegunner_cockpit"
-      attachNode:t="commander"
-      locName:t="vehicle_seats/commander"
-      ignoreAttachNodeRotation:b=yes
-      maxPosWithOpenHatch:r=0.4
-      shouldHideOwner:b=no
-    }
-
-    "vehicle_seats__seats:object"{
-      receiveDamageFromDMPart:t="loader"
-      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0, -0, 0]]
-      seatComponent:t="isPassenger"
-      cameraNodeName:t="bone_camera_driver"
-      attachNode:t="loader"
-      locName:t="vehicle_seats/loader"
-      ignoreAttachNodeRotation:b=yes
-      shouldHideOwner:b=no
-
-      "loaderTurretNames:array"{
-        loaderTurretNames:t="turret_01"
-      }
-    }
-  }
-}
-
-entity{
-  _template:t="germ_flak_36_sdkfz_6_2+resupply_for_ground_vehicle_zone"
-  transform:m=[[0.992136, -0.01584, -0.124157] [0.0181873, 0.999676, 0.017795] [0.123835, -0.0199132, 0.992103] [582.457, 7.33092, -1584.3]]
-  team:i=2
-  vehicle_seats__autoDetectRestrictToTeam:b=no
-  vehicle_seats__restrictToTeam:i=2
-  resupply_zone__team:i=2
-  sphere_zone__radius:r=12
-  vehicle__mapIcon:t="map_icon_car"
-  user_point__icon:t="map_icon_car"
-  resupply_zone__resupplyFuel:b=yes
-
-  "turret_gun_flash_fx__flashFx:shared:array"{
-    turret_gun_flash_fx__flashFx:t="muzzle_ground_20mm"
-  }
-
-  "turretsInitialComponents:array"{
-    "turretsInitialComponents:object"{
-      gun__reloadTime:r=1.05
-    }
-  }
-
-  "turret_control__turretInfo:shared:array"{
-    "turret_control__turretInfo:object"{
-      salt:i=1
-      gun:t="as_42_metropolitana_turret_01_20mm_breda_20_65_m35+base_37mm_flak36+turret_with_several_types_of_shells+main_turret"
-      barrelDm:t="gun_barrel"
-      breechDm:t="cannon_breech"
-      turretName:t="turret_01"
-      verDriveDm:t="drive_turret_v"
-      horDriveDm:t="drive_turret_h"
-    }
-  }
-
-  "vehicle_seats__seats:shared:array"{
-    "vehicle_seats__seats:object"{
-      receiveDamageFromDMPart:t="driver"
-      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0.25, -0.25, 0]]
-      name:t="driver"
-      seatComponent:t="isDriver"
-      cameraNodeName:t="bone_camera_driver"
-      attachNode:t="driver"
-      seatOwnsEntityControl:b=yes
-      nextSeat:t="main_gunner"
-      locName:t="vehicle_seats/driver"
-      ignoreAttachNodeRotation:b=yes
-      shouldHideOwner:b=no
-    }
-
-    "vehicle_seats__seats:object"{
-      receiveDamageFromDMPart:t="gunner"
-      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0.25, -0.5, 0]]
-      cameraOffset:p3=-2.2, 0.6, 0
-      name:t="main_gunner"
-      seatComponent:t="isGunner"
-      cameraNodeName:t="bone_camera_gunner"
-      cameraType:t="machinegunner_cockpit"
-      attachNode:t="gunner"
-      nextSeat:t="driver"
-      locName:t="vehicle_seats/gunner"
-      ignoreAttachNodeRotation:b=yes
-      shouldHideOwner:b=no
-
-      "turretNames:array"{
-        turretNames:t="turret_01"
-      }
-    }
-
-    "vehicle_seats__seats:object"{
-      receiveDamageFromDMPart:t="commander"
-      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0, 0.1, 0.1]]
-      cameraOffset:p3=-5, 0.29, 0
-      name:t="commander"
-      seatComponent:t="isDriver"
-      cameraType:t="machinegunner_cockpit"
-      attachNode:t="commander"
-      locName:t="vehicle_seats/commander"
-      ignoreAttachNodeRotation:b=yes
-      maxPosWithOpenHatch:r=0.4
-      shouldHideOwner:b=no
-    }
-
-    "vehicle_seats__seats:object"{
-      receiveDamageFromDMPart:t="loader"
-      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0, -0, 0]]
-      seatComponent:t="isPassenger"
-      cameraNodeName:t="bone_camera_driver"
-      attachNode:t="loader"
-      locName:t="vehicle_seats/loader"
-      ignoreAttachNodeRotation:b=yes
-      shouldHideOwner:b=no
-
-      "loaderTurretNames:array"{
-        loaderTurretNames:t="turret_01"
-      }
-    }
-  }
-}
-
-entity{
-  _template:t="germ_flak_36_sdkfz_6_2+resupply_for_ground_vehicle_zone"
-  transform:m=[[0.481642, -0.0267654, 0.875959] [0.0836834, 0.996371, -0.0155683] [-0.872364, 0.0808016, 0.482134] [-979.157, 4.82203, -1641.4]]
-  team:i=2
-  vehicle_seats__restrictToTeam:i=2
-  vehicle_seats__autoDetectRestrictToTeam:b=no
-  resupply_zone__team:i=2
-  sphere_zone__radius:r=12
-  vehicle__mapIcon:t="map_icon_car"
-  user_point__icon:t="map_icon_car"
-
-  "turret_gun_flash_fx__flashFx:shared:array"{
-    turret_gun_flash_fx__flashFx:t="muzzle_ground_20mm"
-  }
-
-  "turretsInitialComponents:array"{
-    "turretsInitialComponents:object"{
-      gun__reloadTime:r=1.05
-    }
-  }
-
-  "turret_control__turretInfo:shared:array"{
-    "turret_control__turretInfo:object"{
-      salt:i=1
-      gun:t="as_42_metropolitana_turret_01_20mm_breda_20_65_m35+base_37mm_flak36+turret_with_several_types_of_shells+main_turret"
-      barrelDm:t="gun_barrel"
-      breechDm:t="cannon_breech"
-      turretName:t="turret_01"
-      verDriveDm:t="drive_turret_v"
-      horDriveDm:t="drive_turret_h"
-    }
-  }
-
-  "vehicle_seats__seats:shared:array"{
-    "vehicle_seats__seats:object"{
-      receiveDamageFromDMPart:t="driver"
-      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0.25, -0.25, 0]]
-      name:t="driver"
-      seatComponent:t="isDriver"
-      cameraNodeName:t="bone_camera_driver"
-      attachNode:t="driver"
-      seatOwnsEntityControl:b=yes
-      nextSeat:t="main_gunner"
-      locName:t="vehicle_seats/driver"
-      ignoreAttachNodeRotation:b=yes
-      shouldHideOwner:b=no
-    }
-
-    "vehicle_seats__seats:object"{
-      receiveDamageFromDMPart:t="gunner"
-      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0.25, -0.5, 0]]
-      cameraOffset:p3=-2.2, 0.6, 0
-      name:t="main_gunner"
-      seatComponent:t="isGunner"
-      cameraNodeName:t="bone_camera_gunner"
-      cameraType:t="machinegunner_cockpit"
-      attachNode:t="gunner"
-      nextSeat:t="driver"
-      locName:t="vehicle_seats/gunner"
-      ignoreAttachNodeRotation:b=yes
-      shouldHideOwner:b=no
-
-      "turretNames:array"{
-        turretNames:t="turret_01"
-      }
-    }
-
-    "vehicle_seats__seats:object"{
-      receiveDamageFromDMPart:t="commander"
-      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0, 0.1, 0.1]]
-      cameraOffset:p3=-5, 0.29, 0
-      name:t="commander"
-      seatComponent:t="isDriver"
-      cameraType:t="machinegunner_cockpit"
-      attachNode:t="commander"
-      locName:t="vehicle_seats/commander"
-      ignoreAttachNodeRotation:b=yes
-      maxPosWithOpenHatch:r=0.4
-      shouldHideOwner:b=no
-    }
-
-    "vehicle_seats__seats:object"{
-      receiveDamageFromDMPart:t="loader"
-      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0, -0, 0]]
-      seatComponent:t="isPassenger"
-      cameraNodeName:t="bone_camera_driver"
-      attachNode:t="loader"
-      locName:t="vehicle_seats/loader"
-      ignoreAttachNodeRotation:b=yes
-      shouldHideOwner:b=no
-
-      "loaderTurretNames:array"{
-        loaderTurretNames:t="turret_01"
-      }
-    }
-  }
-}
-
-entity{
-  _template:t="germ_flak_36_sdkfz_6_2+resupply_for_ground_vehicle_zone"
-  transform:m=[[0.488893, -0.00663881, 0.872319] [0.0691382, 0.99712, -0.03116] [-0.8696, 0.0755444, 0.487944] [-987.742, 4.90698, -1649.42]]
-  team:i=2
-  vehicle_seats__restrictToTeam:i=2
-  vehicle_seats__autoDetectRestrictToTeam:b=no
-  resupply_zone__team:i=2
-  sphere_zone__radius:r=12
-  vehicle__mapIcon:t="map_icon_car"
-  user_point__icon:t="map_icon_car"
-
-  "turret_gun_flash_fx__flashFx:shared:array"{
-    turret_gun_flash_fx__flashFx:t="muzzle_ground_20mm"
-  }
-
-  "turretsInitialComponents:array"{
-    "turretsInitialComponents:object"{
-      gun__reloadTime:r=1.05
-    }
-  }
-
-  "turret_control__turretInfo:shared:array"{
-    "turret_control__turretInfo:object"{
-      salt:i=1
-      gun:t="as_42_metropolitana_turret_01_20mm_breda_20_65_m35+base_37mm_flak36+turret_with_several_types_of_shells+main_turret"
-      barrelDm:t="gun_barrel"
-      breechDm:t="cannon_breech"
-      turretName:t="turret_01"
-      verDriveDm:t="drive_turret_v"
-      horDriveDm:t="drive_turret_h"
-    }
-  }
-
-  "vehicle_seats__seats:shared:array"{
-    "vehicle_seats__seats:object"{
-      receiveDamageFromDMPart:t="driver"
-      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0.25, -0.25, 0]]
-      name:t="driver"
-      seatComponent:t="isDriver"
-      cameraNodeName:t="bone_camera_driver"
-      attachNode:t="driver"
-      seatOwnsEntityControl:b=yes
-      nextSeat:t="main_gunner"
-      locName:t="vehicle_seats/driver"
-      ignoreAttachNodeRotation:b=yes
-      shouldHideOwner:b=no
-    }
-
-    "vehicle_seats__seats:object"{
-      receiveDamageFromDMPart:t="gunner"
-      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0.25, -0.5, 0]]
-      cameraOffset:p3=-2.2, 0.6, 0
-      name:t="main_gunner"
-      seatComponent:t="isGunner"
-      cameraNodeName:t="bone_camera_gunner"
-      cameraType:t="machinegunner_cockpit"
-      attachNode:t="gunner"
-      nextSeat:t="driver"
-      locName:t="vehicle_seats/gunner"
-      ignoreAttachNodeRotation:b=yes
-      shouldHideOwner:b=no
-
-      "turretNames:array"{
-        turretNames:t="turret_01"
-      }
-    }
-
-    "vehicle_seats__seats:object"{
-      receiveDamageFromDMPart:t="commander"
-      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0, 0.1, 0.1]]
-      cameraOffset:p3=-5, 0.29, 0
-      name:t="commander"
-      seatComponent:t="isDriver"
-      cameraType:t="machinegunner_cockpit"
-      attachNode:t="commander"
-      locName:t="vehicle_seats/commander"
-      ignoreAttachNodeRotation:b=yes
-      maxPosWithOpenHatch:r=0.4
-      shouldHideOwner:b=no
-    }
-
-    "vehicle_seats__seats:object"{
-      receiveDamageFromDMPart:t="loader"
-      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0, -0, 0]]
-      seatComponent:t="isPassenger"
-      cameraNodeName:t="bone_camera_driver"
-      attachNode:t="loader"
-      locName:t="vehicle_seats/loader"
-      ignoreAttachNodeRotation:b=yes
-      shouldHideOwner:b=no
-
-      "loaderTurretNames:array"{
-        loaderTurretNames:t="turret_01"
-      }
-    }
-  }
-}
-
-entity{
-  _template:t="germ_flak_36_sdkfz_6_2+resupply_for_ground_vehicle_zone"
-  transform:m=[[-0.710512, -0.00560438, 0.703663] [-0.0156226, 0.999847, -0.00781131] [-0.703512, -0.0165431, -0.710491] [1687.58, 4.82189, 453.718]]
-  team:i=2
-  vehicle_seats__autoDetectRestrictToTeam:b=no
-  vehicle_seats__restrictToTeam:i=2
-  resupply_zone__team:i=2
-  sphere_zone__radius:r=12
-  vehicle__mapIcon:t="map_icon_car"
-  user_point__icon:t="map_icon_car"
-  resupply_zone__resupplyFuel:b=yes
-
-  "turret_gun_flash_fx__flashFx:shared:array"{
-    turret_gun_flash_fx__flashFx:t="muzzle_ground_20mm"
-  }
-
-  "turretsInitialComponents:array"{
-    "turretsInitialComponents:object"{
-      gun__reloadTime:r=1.05
-    }
-  }
-
-  "turret_control__turretInfo:shared:array"{
-    "turret_control__turretInfo:object"{
-      salt:i=1
-      gun:t="as_42_metropolitana_turret_01_20mm_breda_20_65_m35+base_37mm_flak36+turret_with_several_types_of_shells+main_turret"
-      barrelDm:t="gun_barrel"
-      breechDm:t="cannon_breech"
-      turretName:t="turret_01"
-      verDriveDm:t="drive_turret_v"
-      horDriveDm:t="drive_turret_h"
-    }
-  }
-
-  "vehicle_seats__seats:shared:array"{
-    "vehicle_seats__seats:object"{
-      receiveDamageFromDMPart:t="driver"
-      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0.25, -0.25, 0]]
-      name:t="driver"
-      seatComponent:t="isDriver"
-      cameraNodeName:t="bone_camera_driver"
-      attachNode:t="driver"
-      seatOwnsEntityControl:b=yes
-      nextSeat:t="main_gunner"
-      locName:t="vehicle_seats/driver"
-      ignoreAttachNodeRotation:b=yes
-      shouldHideOwner:b=no
-    }
-
-    "vehicle_seats__seats:object"{
-      receiveDamageFromDMPart:t="gunner"
-      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0.25, -0.5, 0]]
-      cameraOffset:p3=-2.2, 0.6, 0
-      name:t="main_gunner"
-      seatComponent:t="isGunner"
-      cameraNodeName:t="bone_camera_gunner"
-      cameraType:t="machinegunner_cockpit"
-      attachNode:t="gunner"
-      nextSeat:t="driver"
-      locName:t="vehicle_seats/gunner"
-      ignoreAttachNodeRotation:b=yes
-      shouldHideOwner:b=no
-
-      "turretNames:array"{
-        turretNames:t="turret_01"
-      }
-    }
-
-    "vehicle_seats__seats:object"{
-      receiveDamageFromDMPart:t="commander"
-      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0, 0.1, 0.1]]
-      cameraOffset:p3=-5, 0.29, 0
-      name:t="commander"
-      seatComponent:t="isDriver"
-      cameraType:t="machinegunner_cockpit"
-      attachNode:t="commander"
-      locName:t="vehicle_seats/commander"
-      ignoreAttachNodeRotation:b=yes
-      maxPosWithOpenHatch:r=0.4
-      shouldHideOwner:b=no
-    }
-
-    "vehicle_seats__seats:object"{
-      receiveDamageFromDMPart:t="loader"
-      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0, -0, 0]]
-      seatComponent:t="isPassenger"
-      cameraNodeName:t="bone_camera_driver"
-      attachNode:t="loader"
-      locName:t="vehicle_seats/loader"
-      ignoreAttachNodeRotation:b=yes
-      shouldHideOwner:b=no
-
-      "loaderTurretNames:array"{
-        loaderTurretNames:t="turret_01"
-      }
-    }
-  }
-}
-
-entity{
-  _template:t="germ_flak_36_sdkfz_6_2+resupply_for_ground_vehicle_zone"
-  transform:m=[[0.0619881, 0.000484282, -0.998077] [-0.00781226, 0.999969, 0] [0.998046, 0.00779724, 0.06199] [908.719, 6.27775, 1445.3]]
-  team:i=2
-  vehicle_seats__autoDetectRestrictToTeam:b=no
-  vehicle_seats__restrictToTeam:i=2
-  resupply_zone__team:i=2
-  sphere_zone__radius:r=12
-  vehicle__mapIcon:t="map_icon_car"
-  user_point__icon:t="map_icon_car"
-  resupply_zone__resupplyFuel:b=yes
-
-  "turret_gun_flash_fx__flashFx:shared:array"{
-    turret_gun_flash_fx__flashFx:t="muzzle_ground_20mm"
-  }
-
-  "turretsInitialComponents:array"{
-    "turretsInitialComponents:object"{
-      gun__reloadTime:r=1.05
-    }
-  }
-
-  "turret_control__turretInfo:shared:array"{
-    "turret_control__turretInfo:object"{
-      salt:i=1
-      gun:t="as_42_metropolitana_turret_01_20mm_breda_20_65_m35+base_37mm_flak36+turret_with_several_types_of_shells+main_turret"
-      barrelDm:t="gun_barrel"
-      breechDm:t="cannon_breech"
-      turretName:t="turret_01"
-      verDriveDm:t="drive_turret_v"
-      horDriveDm:t="drive_turret_h"
-    }
-  }
-
-  "vehicle_seats__seats:shared:array"{
-    "vehicle_seats__seats:object"{
-      receiveDamageFromDMPart:t="driver"
-      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0.25, -0.25, 0]]
-      name:t="driver"
-      seatComponent:t="isDriver"
-      cameraNodeName:t="bone_camera_driver"
-      attachNode:t="driver"
-      seatOwnsEntityControl:b=yes
-      nextSeat:t="main_gunner"
-      locName:t="vehicle_seats/driver"
-      ignoreAttachNodeRotation:b=yes
-      shouldHideOwner:b=no
-    }
-
-    "vehicle_seats__seats:object"{
-      receiveDamageFromDMPart:t="gunner"
-      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0.25, -0.5, 0]]
-      cameraOffset:p3=-2.2, 0.6, 0
-      name:t="main_gunner"
-      seatComponent:t="isGunner"
-      cameraNodeName:t="bone_camera_gunner"
-      cameraType:t="machinegunner_cockpit"
-      attachNode:t="gunner"
-      nextSeat:t="driver"
-      locName:t="vehicle_seats/gunner"
-      ignoreAttachNodeRotation:b=yes
-      shouldHideOwner:b=no
-
-      "turretNames:array"{
-        turretNames:t="turret_01"
-      }
-    }
-
-    "vehicle_seats__seats:object"{
-      receiveDamageFromDMPart:t="commander"
-      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0, 0.1, 0.1]]
-      cameraOffset:p3=-5, 0.29, 0
-      name:t="commander"
-      seatComponent:t="isDriver"
-      cameraType:t="machinegunner_cockpit"
-      attachNode:t="commander"
-      locName:t="vehicle_seats/commander"
-      ignoreAttachNodeRotation:b=yes
-      maxPosWithOpenHatch:r=0.4
-      shouldHideOwner:b=no
-    }
-
-    "vehicle_seats__seats:object"{
-      receiveDamageFromDMPart:t="loader"
-      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0, -0, 0]]
-      seatComponent:t="isPassenger"
-      cameraNodeName:t="bone_camera_driver"
-      attachNode:t="loader"
-      locName:t="vehicle_seats/loader"
-      ignoreAttachNodeRotation:b=yes
-      shouldHideOwner:b=no
-
-      "loaderTurretNames:array"{
-        loaderTurretNames:t="turret_01"
-      }
-    }
   }
 }
 
@@ -14679,7 +14241,7 @@ entity{
 
 entity{
   _template:t="germ_pzkpfw_II_ausf_C+base_gaz_mm_72k+anti_aircraft_cannon_common+resupply_vehicle"
-  transform:m=[[-0.862659, -0.00566195, 0.505755] [-0.0140723, 0.999819, -0.0128099] [-0.505591, -0.0181678, -0.862582] [-171.199, 6.76598, 920.475]]
+  transform:m=[[-0.926176, 0.0203175, 0.376543] [0.0156015, 0.999757, -0.0155702] [-0.376768, -0.00854615, -0.926268] [-121.941, 6.46642, 920.084]]
   vehicle_net_phys__blk:t="content/e_ww2_common/empty.blk"
   animchar__res:t="tgdgb_m40_lv_char"
   collres__res:t="tgdgb_m40_lv_collision"
@@ -16145,17 +15707,7 @@ entity{
 
 entity{
   _template:t="bonfire_effect"
-  transform:m=[[1.84623, 0, 0] [0, 1.84623, 0] [0, 0, 1.84623] [-267.288, 5.86865, -516.8]]
-}
-
-entity{
-  _template:t="bonfire_effect"
   transform:m=[[1.84623, 0, 0] [0, 1.84623, 0] [0, 0, 1.84623] [-238.841, 5.82042, -466.466]]
-}
-
-entity{
-  _template:t="bonfire_effect"
-  transform:m=[[1.84623, 0, 0] [0, 1.84623, 0] [0, 0, 1.84623] [-382.212, 5.01344, -522.77]]
 }
 
 entity{
@@ -16164,6 +15716,61 @@ entity{
 }
 
 entity{
-  _template:t="bonfire_effect"
-  transform:m=[[1.84623, 0, 0] [0, 1.84623, 0] [0, 0, 1.84623] [-417.471, 0.513167, -652.134]]
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+ammunition_box_grenade_resupply+resource_box_base+game_rendinst_decor+undestroyable_building"
+  transform:m=[[0.24015, 0, 0.970736] [0, 1, -0] [-0.970736, 0, 0.24015] [596.807, 20.3047, -490.684]]
+  ri_extra__name:t="ammunition_box_piles_c"
+  grenadeResupplyItem:t="f1_grenade_item"
+  buildingRadius:r=5
+  useful_box__maxUseCount:i=2300
+  useful_box__hintFull:t="Ammo Box With F1 grenade and Engineer Resource;可补给F1手雷以及工兵材料的大型弹药箱"
+  team:i=1
+  builder_info__team:i=1
+}
+
+entity{
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+ammunition_box_grenade_resupply+resource_box_base+game_rendinst_decor+undestroyable_building"
+  transform:m=[[0.24015, 0, 0.970736] [0, 1, -0] [-0.970736, 0, 0.24015] [669.454, 13.8797, -467.444]]
+  ri_extra__name:t="ammunition_box_piles_c"
+  grenadeResupplyItem:t="f1_grenade_item"
+  buildingRadius:r=5
+  useful_box__maxUseCount:i=2300
+  useful_box__hintFull:t="Ammo Box With F1 grenade and Engineer Resource;可补给F1手雷以及工兵材料的大型弹药箱"
+  team:i=1
+  builder_info__team:i=1
+}
+
+entity{
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+ammunition_box_grenade_resupply+resource_box_base+game_rendinst_decor+undestroyable_building"
+  transform:m=[[0.24015, 0, 0.970736] [0, 1, -0] [-0.970736, 0, 0.24015] [696.562, 13.4491, -513.146]]
+  ri_extra__name:t="ammunition_box_piles_c"
+  grenadeResupplyItem:t="f1_grenade_item"
+  buildingRadius:r=5
+  useful_box__maxUseCount:i=2300
+  useful_box__hintFull:t="Ammo Box With F1 grenade and Engineer Resource;可补给F1手雷以及工兵材料的大型弹药箱"
+  team:i=1
+  builder_info__team:i=1
+}
+
+entity{
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+ammunition_box_grenade_resupply+resource_box_base+game_rendinst_decor+undestroyable_building"
+  transform:m=[[-0.234458, 0, 0.972126] [0, 1, 0] [-0.972126, 0, -0.234458] [680.284, 14.2923, -504.502]]
+  ri_extra__name:t="ammunition_box_piles_c"
+  grenadeResupplyItem:t="f1_grenade_item"
+  buildingRadius:r=5
+  useful_box__maxUseCount:i=2300
+  useful_box__hintFull:t="Ammo Box With F1 grenade and Engineer Resource;可补给F1手雷以及工兵材料的大型弹药箱"
+  team:i=1
+  builder_info__team:i=1
+}
+
+entity{
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+ammunition_box_grenade_resupply+resource_box_base+game_rendinst_decor+undestroyable_building"
+  transform:m=[[0.24015, 0, 0.970736] [0, 1, -0] [-0.970736, 0, 0.24015] [753.88, 14.7031, -500.126]]
+  ri_extra__name:t="ammunition_box_piles_c"
+  grenadeResupplyItem:t="f1_grenade_item"
+  buildingRadius:r=5
+  useful_box__maxUseCount:i=2300
+  useful_box__hintFull:t="Ammo Box With F1 grenade and Engineer Resource;可补给F1手雷以及工兵材料的大型弹药箱"
+  team:i=1
+  builder_info__team:i=1
 }

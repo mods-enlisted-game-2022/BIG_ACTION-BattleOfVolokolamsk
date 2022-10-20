@@ -1,0 +1,466 @@
+entity{
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+ammunition_box_grenade_resupply+resource_box_base+game_rendinst_decor+undestroyable_building"
+  transform:m=[[0.988113, 0, 0.15373] [0, 1, -0] [-0.15373, 0, 0.988113] [-166.868, 9.17945, 356.876]]
+  ri_extra__name:t="ammunition_box_piles_d"
+  grenadeResupplyItem:t="f1_grenade_item"
+  buildingRadius:r=5
+  useful_box__maxUseCount:i=2300
+  useful_box__hintFull:t="Ammo Box With F1 grenade and Engineer Resource;可补给F1手雷以及工兵材料的大型弹药箱"
+  team:i=1
+  builder_info__team:i=1
+}
+
+entity{
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+ammunition_box_grenade_resupply+resource_box_base+game_rendinst_decor+undestroyable_building"
+  transform:m=[[0.655976, 0, 0.754782] [0, 1, -0] [-0.754782, 0, 0.655976] [-84.6886, 4.33858, 104.835]]
+  ri_extra__name:t="ammunition_box_piles_c"
+  grenadeResupplyItem:t="f1_grenade_item"
+  buildingRadius:r=5
+  useful_box__maxUseCount:i=2300
+  useful_box__hintFull:t="Ammo Box With F1 grenade and Engineer Resource;可补给F1手雷以及工兵材料的大型弹药箱"
+  team:i=1
+  builder_info__team:i=1
+}
+
+entity{
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+ammunition_box_grenade_resupply+resource_box_base+game_rendinst_decor+undestroyable_building"
+  transform:m=[[0.923408, 0, 0.383821] [0, 1, -0] [-0.383821, 0, 0.923408] [10.4872, 4.11328, 179.428]]
+  ri_extra__name:t="ammunition_box_piles_a"
+  grenadeResupplyItem:t="f1_grenade_item"
+  buildingRadius:r=5
+  useful_box__maxUseCount:i=2300
+  useful_box__hintFull:t="Ammo Box With F1 grenade and Engineer Resource;可补给F1手雷以及工兵材料的大型弹药箱"
+  team:i=1
+  builder_info__team:i=1
+}
+
+entity{
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+ammunition_box_grenade_resupply+resource_box_base+game_rendinst_decor+undestroyable_building"
+  transform:m=[[0.24015, 0, 0.970736] [0, 1, -0] [-0.970736, 0, 0.24015] [-90.9245, 26.2, -132.623]]
+  ri_extra__name:t="ammunition_box_piles_c"
+  grenadeResupplyItem:t="f1_grenade_item"
+  buildingRadius:r=5
+  useful_box__maxUseCount:i=2300
+  useful_box__hintFull:t="Ammo Box With F1 grenade and Engineer Resource;可补给F1手雷以及工兵材料的大型弹药箱"
+  team:i=1
+  builder_info__team:i=1
+}
+
+entity{
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+ammunition_box_grenade_resupply+resource_box_base+game_rendinst_decor+undestroyable_building"
+  transform:m=[[-0.016754, 0, 0.99986] [0, 1, 0] [-0.99986, 0, -0.016754] [-176.436, 14.0623, -143.175]]
+  ri_extra__name:t="ammunition_box_piles_f"
+  grenadeResupplyItem:t="f1_grenade_item"
+  buildingRadius:r=5
+  useful_box__maxUseCount:i=2300
+  useful_box__hintFull:t="Ammo Box With F1 grenade and Engineer Resource;可补给F1手雷以及工兵材料的大型弹药箱"
+  team:i=1
+  builder_info__team:i=1
+}
+
+entity{
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+ammunition_box_grenade_resupply+resource_box_base+game_rendinst_decor+undestroyable_building"
+  transform:m=[[0.24015, 0, 0.970736] [0, 1, -0] [-0.970736, 0, 0.24015] [-92.3518, 26.2, -113.748]]
+  ri_extra__name:t="ammunition_box_piles_a"
+  grenadeResupplyItem:t="explosion_pack_item"
+  buildingRadius:r=5
+  useful_box__maxUseCount:i=2300
+  useful_box__hintFull:t="Ammo Box With F1 grenade and Engineer Resource;可补给F1手雷以及工兵材料的大型弹药箱"
+  team:i=1
+  builder_info__team:i=1
+}
+
+entity{
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+ammunition_box_grenade_resupply+resource_box_base+game_rendinst_decor+undestroyable_building"
+  transform:m=[[0.24015, 0, 0.970736] [0, 1, -0] [-0.970736, 0, 0.24015] [-83.6277, 26.2, -127.194]]
+  ri_extra__name:t="ammunition_box_piles_b"
+  grenadeResupplyItem:t="f1_grenade_item"
+  buildingRadius:r=5
+  useful_box__maxUseCount:i=2300
+  useful_box__hintFull:t="Ammo Box With F1 grenade and Engineer Resource;可补给F1手雷以及工兵材料的大型弹药箱"
+  team:i=1
+  builder_info__team:i=1
+}
+
+entity{
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+ammunition_box_grenade_resupply+resource_box_base+game_rendinst_decor+undestroyable_building"
+  transform:m=[[-0.016754, 0, 0.99986] [0, 1, 0] [-0.99986, 0, -0.016754] [-175.36, 16.6166, -79.7875]]
+  ri_extra__name:t="ammunition_box_piles_f"
+  grenadeResupplyItem:t="f1_grenade_item"
+  buildingRadius:r=5
+  useful_box__maxUseCount:i=2300
+  useful_box__hintFull:t="Ammo Box With F1 grenade and Engineer Resource;可补给F1手雷以及工兵材料的大型弹药箱"
+  team:i=1
+  builder_info__team:i=1
+}
+
+entity{
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+ammunition_box_grenade_resupply+resource_box_base+game_rendinst_decor+undestroyable_building"
+  transform:m=[[0.988113, 0, 0.15373] [0, 1, -0] [-0.15373, 0, 0.988113] [-3.19172, 3.59435, 972.481]]
+  ri_extra__name:t="ammunition_box_piles_d"
+  grenadeResupplyItem:t="explosion_pack_item"
+  buildingRadius:r=5
+  useful_box__maxUseCount:i=2300
+  useful_box__hintFull:t="Ammo Box With F1 grenade and Engineer Resource;可补给炸药包以及工兵材料的大型弹药箱"
+  team:i=1
+  builder_info__team:i=1
+}
+
+entity{
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+ammunition_box_grenade_resupply+game_rendinst_decor+undestroyable_building"
+  transform:m=[[0.988113, 0, 0.15373] [0, 1, -0] [-0.15373, 0, 0.988113] [-287.169, 5.39298, -1552.98]]
+  ri_extra__name:t="ammunition_box_n"
+  grenadeResupplyItem:t="ussr_molotov_item"
+  buildingRadius:r=5
+  useful_box__maxUseCount:i=600
+  useful_box__hintFull:t="Ammo Box With Molotov;可补给莫洛托夫燃烧瓶的小型弹药箱"
+  team:i=1
+  builder_info__team:i=1
+}
+
+entity{
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+ammunition_box_grenade_resupply+game_rendinst_decor+undestroyable_building"
+  transform:m=[[0.988113, 0, 0.15373] [0, 1, -0] [-0.15373, 0, 0.988113] [-234.113, 5.57571, -1580.04]]
+  ri_extra__name:t="ammunition_box_n"
+  grenadeResupplyItem:t="ussr_molotov_item"
+  buildingRadius:r=5
+  useful_box__maxUseCount:i=600
+  useful_box__hintFull:t="Ammo Box With Molotov;可补给莫洛托夫燃烧瓶的小型弹药箱"
+  team:i=1
+  builder_info__team:i=1
+}
+
+entity{
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+ammunition_box_grenade_resupply+game_rendinst_decor+undestroyable_building"
+  transform:m=[[0.988113, 0, 0.15373] [0, 1, -0] [-0.15373, 0, 0.988113] [1268.86, 7.40288, -1007.77]]
+  ri_extra__name:t="ammunition_box_n"
+  grenadeResupplyItem:t="ussr_molotov_item"
+  buildingRadius:r=5
+  useful_box__maxUseCount:i=600
+  useful_box__hintFull:t="Ammo Box With Molotov;可补给莫洛托夫燃烧瓶的小型弹药箱"
+  team:i=1
+  builder_info__team:i=1
+}
+
+entity{
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+ammunition_box_grenade_resupply+game_rendinst_decor+undestroyable_building"
+  transform:m=[[0.988113, -0, 0.15373] [0, 1, 0] [-0.15373, 0, 0.988113] [1302.82, 11.5391, -1009.71]]
+  ri_extra__name:t="ammunition_box_n"
+  grenadeResupplyItem:t="ussr_molotov_item"
+  buildingRadius:r=5
+  useful_box__maxUseCount:i=600
+  useful_box__hintFull:t="Ammo Box With Molotov;可补给莫洛托夫燃烧瓶的小型弹药箱"
+  team:i=1
+  builder_info__team:i=1
+}
+
+entity{
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+ammunition_box_grenade_resupply+game_rendinst_decor+undestroyable_building"
+  transform:m=[[0.988113, -0, 0.15373] [0, 1, 0] [-0.15373, 0, 0.988113] [1279.22, 11.664, -969.758]]
+  ri_extra__name:t="ammunition_box_n"
+  grenadeResupplyItem:t="ussr_molotov_item"
+  buildingRadius:r=5
+  useful_box__maxUseCount:i=600
+  useful_box__hintFull:t="Ammo Box With Molotov;可补给莫洛托夫燃烧瓶的小型弹药箱"
+  team:i=1
+  builder_info__team:i=1
+}
+
+entity{
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+ammunition_box_grenade_resupply+game_rendinst_decor+undestroyable_building"
+  transform:m=[[0.988113, -0, 0.15373] [0, 1, 0] [-0.15373, 0, 0.988113] [695.083, 9.72127, 540.797]]
+  ri_extra__name:t="ammunition_box_n"
+  grenadeResupplyItem:t="ussr_molotov_item"
+  buildingRadius:r=5
+  useful_box__maxUseCount:i=600
+  useful_box__hintFull:t="Ammo Box With Molotov;可补给莫洛托夫燃烧瓶的小型弹药箱"
+  team:i=1
+  builder_info__team:i=1
+}
+
+entity{
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+ammunition_box_grenade_resupply+game_rendinst_decor+undestroyable_building"
+  transform:m=[[0.988113, -0, 0.15373] [0, 1, 0] [-0.15373, 0, 0.988113] [680.333, 9.03093, 496.392]]
+  ri_extra__name:t="ammunition_box_n"
+  grenadeResupplyItem:t="ussr_molotov_item"
+  buildingRadius:r=5
+  useful_box__maxUseCount:i=600
+  useful_box__hintFull:t="Ammo Box With Molotov;可补给莫洛托夫燃烧瓶的小型弹药箱"
+  team:i=1
+  builder_info__team:i=1
+}
+
+entity{
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+ammunition_box_grenade_resupply+game_rendinst_decor+undestroyable_building"
+  transform:m=[[0.988113, -0, 0.15373] [0, 1, 0] [-0.15373, 0, 0.988113] [-227.585, 7.95434, 719.599]]
+  ri_extra__name:t="ammunition_box_n"
+  grenadeResupplyItem:t="ussr_molotov_item"
+  buildingRadius:r=5
+  useful_box__maxUseCount:i=600
+  useful_box__hintFull:t="Ammo Box With Molotov;可补给莫洛托夫燃烧瓶的小型弹药箱"
+  team:i=1
+  builder_info__team:i=1
+}
+
+entity{
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+ammunition_box_grenade_resupply+game_rendinst_decor+undestroyable_building"
+  transform:m=[[0.988113, -0, 0.15373] [0, 1, 0] [-0.15373, 0, 0.988113] [-217.549, 7.95434, 724.443]]
+  ri_extra__name:t="ammunition_box_n"
+  grenadeResupplyItem:t="ussr_molotov_item"
+  buildingRadius:r=5
+  useful_box__maxUseCount:i=600
+  useful_box__hintFull:t="Ammo Box With Molotov;可补给莫洛托夫燃烧瓶的小型弹药箱"
+  team:i=1
+  builder_info__team:i=1
+}
+
+entity{
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+ammunition_box_grenade_resupply+game_rendinst_decor+undestroyable_building"
+  transform:m=[[0.988113, -0, 0.15373] [0, 1, 0] [-0.15373, 0, 0.988113] [-159.98, 9.074, 665.363]]
+  ri_extra__name:t="ammunition_box_n"
+  grenadeResupplyItem:t="ussr_molotov_item"
+  buildingRadius:r=5
+  useful_box__maxUseCount:i=600
+  useful_box__hintFull:t="Ammo Box With Molotov;可补给莫洛托夫燃烧瓶的小型弹药箱"
+  team:i=1
+  builder_info__team:i=1
+}
+
+entity{
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+ammunition_box_grenade_resupply+game_rendinst_decor+undestroyable_building"
+  transform:m=[[0.988115, 0.00518396, 0.153631] [-0.00221338, 0.999807, -0.0195005] [-0.153702, 0.0189287, 0.987936] [242.566, 17.7732, 1285.45]]
+  ri_extra__name:t="ammunition_box_n"
+  grenadeResupplyItem:t="ussr_molotov_item"
+  buildingRadius:r=5
+  useful_box__maxUseCount:i=600
+  useful_box__hintFull:t="Ammo Box With Molotov;可补给莫洛托夫燃烧瓶的小型弹药箱"
+  team:i=1
+  builder_info__team:i=1
+}
+
+entity{
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+ammunition_box_grenade_resupply+game_rendinst_decor+undestroyable_building"
+  transform:m=[[0.638781, 0.00872966, 0.769339] [-0.0131968, 0.999913, -0.000388705] [-0.769275, -0.0099045, 0.638841] [289.129, 18.4815, 1250.03]]
+  ri_extra__name:t="ammunition_box_n"
+  grenadeResupplyItem:t="ussr_molotov_item"
+  buildingRadius:r=5
+  useful_box__maxUseCount:i=600
+  useful_box__hintFull:t="Ammo Box With Molotov;可补给莫洛托夫燃烧瓶的小型弹药箱"
+  team:i=1
+  builder_info__team:i=1
+}
+
+entity{
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+ammunition_box_grenade_resupply+game_rendinst_decor+undestroyable_building"
+  transform:m=[[0.638781, 0.00872966, 0.769339] [-0.0131968, 0.999913, -0.000388705] [-0.769275, -0.0099045, 0.638841] [233.409, 21.2936, 1169.04]]
+  ri_extra__name:t="ammunition_box_n"
+  grenadeResupplyItem:t="ussr_molotov_item"
+  buildingRadius:r=5
+  useful_box__maxUseCount:i=600
+  useful_box__hintFull:t="Ammo Box With Molotov;可补给莫洛托夫燃烧瓶的小型弹药箱"
+  team:i=1
+  builder_info__team:i=1
+}
+
+entity{
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+ammunition_box_grenade_resupply+game_rendinst_decor+undestroyable_building"
+  transform:m=[[0.514257, 0.00872966, 0.857592] [-0.0129839, 0.999913, -0.00239255] [-0.857538, -0.0099045, 0.514326] [209.608, 20.288, 1199.25]]
+  ri_extra__name:t="ammunition_box_n"
+  grenadeResupplyItem:t="ussr_molotov_item"
+  buildingRadius:r=5
+  useful_box__maxUseCount:i=600
+  useful_box__hintFull:t="Ammo Box With Molotov;可补给莫洛托夫燃烧瓶的小型弹药箱"
+  team:i=1
+  builder_info__team:i=1
+}
+
+entity{
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+ammunition_box_grenade_resupply+game_rendinst_decor+undestroyable_building"
+  transform:m=[[0.785142, 0.00872966, 0.619255] [-0.0129878, 0.999913, 0.0023712] [-0.61918, -0.0099045, 0.785186] [283.602, 19.7732, 1113.43]]
+  ri_extra__name:t="ammunition_box_n"
+  grenadeResupplyItem:t="ussr_molotov_item"
+  buildingRadius:r=5
+  useful_box__maxUseCount:i=600
+  useful_box__hintFull:t="Ammo Box With Molotov;可补给莫洛托夫燃烧瓶的小型弹药箱"
+  team:i=1
+  builder_info__team:i=1
+}
+
+entity{
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+ammunition_box_grenade_resupply+game_rendinst_decor+undestroyable_building"
+  transform:m=[[0.830841, 0.00872966, 0.556443] [-0.0127646, 0.999913, 0.00337219] [-0.556365, -0.0099045, 0.830879] [163.941, 19.1348, 1249.28]]
+  ri_extra__name:t="ammunition_box_n"
+  grenadeResupplyItem:t="ussr_molotov_item"
+  buildingRadius:r=5
+  useful_box__maxUseCount:i=600
+  useful_box__hintFull:t="Ammo Box With Molotov;可补给莫洛托夫燃烧瓶的小型弹药箱"
+  team:i=1
+  builder_info__team:i=1
+}
+
+entity{
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+ammunition_box_grenade_resupply+game_rendinst_decor+undestroyable_building"
+  transform:m=[[0.988113, -0, 0.15373] [0, 1, 0] [-0.15373, 0, 0.988113] [-217.805, 9.23876, 325.561]]
+  ri_extra__name:t="ammunition_box_n"
+  grenadeResupplyItem:t="ussr_molotov_item"
+  buildingRadius:r=5
+  useful_box__maxUseCount:i=600
+  useful_box__hintFull:t="Ammo Box With Molotov;可补给莫洛托夫燃烧瓶的小型弹药箱"
+  team:i=1
+  builder_info__team:i=1
+}
+
+entity{
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+ammunition_box_grenade_resupply+game_rendinst_decor+undestroyable_building"
+  transform:m=[[0.500429, 0, 0.865778] [0, 1, -0] [-0.865778, 0, 0.500429] [-228.812, 10.4907, 394.132]]
+  ri_extra__name:t="ammunition_box_n"
+  grenadeResupplyItem:t="ussr_molotov_item"
+  buildingRadius:r=5
+  useful_box__maxUseCount:i=600
+  useful_box__hintFull:t="Ammo Box With Molotov;可补给莫洛托夫燃烧瓶的小型弹药箱"
+  team:i=1
+  builder_info__team:i=1
+}
+
+entity{
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+ammunition_box_grenade_resupply+game_rendinst_decor+undestroyable_building"
+  transform:m=[[0.500429, 0, 0.865778] [0, 1, -0] [-0.865778, 0, 0.500429] [-170.704, 8.85402, 397.017]]
+  ri_extra__name:t="ammunition_box_n"
+  grenadeResupplyItem:t="ussr_molotov_item"
+  buildingRadius:r=5
+  useful_box__maxUseCount:i=600
+  useful_box__hintFull:t="Ammo Box With Molotov;可补给莫洛托夫燃烧瓶的小型弹药箱"
+  team:i=1
+  builder_info__team:i=1
+}
+
+entity{
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+ammunition_box_grenade_resupply+game_rendinst_decor+undestroyable_building"
+  transform:m=[[0.500429, 0, 0.865778] [0, 1, -0] [-0.865778, 0, 0.500429] [-146.004, 6.02921, 295.636]]
+  ri_extra__name:t="ammunition_box_n"
+  grenadeResupplyItem:t="ussr_molotov_item"
+  buildingRadius:r=5
+  useful_box__maxUseCount:i=600
+  useful_box__hintFull:t="Ammo Box With Molotov;可补给莫洛托夫燃烧瓶的小型弹药箱"
+  team:i=1
+  builder_info__team:i=1
+}
+
+entity{
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+ammunition_box_grenade_resupply+game_rendinst_decor+undestroyable_building"
+  transform:m=[[0.500429, 0, 0.865778] [0, 1, -0] [-0.865778, 0, 0.500429] [-131.398, 5.6302, 291.17]]
+  ri_extra__name:t="ammunition_box_n"
+  grenadeResupplyItem:t="ussr_molotov_item"
+  buildingRadius:r=5
+  useful_box__maxUseCount:i=600
+  useful_box__hintFull:t="Ammo Box With Molotov;可补给莫洛托夫燃烧瓶的小型弹药箱"
+  team:i=1
+  builder_info__team:i=1
+}
+
+entity{
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+ammunition_box_grenade_resupply+game_rendinst_decor+undestroyable_building"
+  transform:m=[[0.970398, 0, -0.241512] [0, 1, 0] [0.241512, -0, 0.970398] [-37.1544, 31.0185, -42.9302]]
+  ri_extra__name:t="ammunition_box_n"
+  grenadeResupplyItem:t="ussr_molotov_item"
+  buildingRadius:r=5
+  useful_box__maxUseCount:i=600
+  useful_box__hintFull:t="Ammo Box With Molotov;可补给莫洛托夫燃烧瓶的小型弹药箱"
+  team:i=1
+  builder_info__team:i=1
+}
+
+entity{
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+ammunition_box_grenade_resupply+game_rendinst_decor+undestroyable_building"
+  transform:m=[[0.959359, 0, 0.28219] [0, 1, -0] [-0.28219, 0, 0.959359] [-62.7146, 18.65, -91.4723]]
+  ri_extra__name:t="ammunition_box_n"
+  grenadeResupplyItem:t="ussr_molotov_item"
+  buildingRadius:r=5
+  useful_box__maxUseCount:i=600
+  useful_box__hintFull:t="Ammo Box With Molotov;可补给莫洛托夫燃烧瓶的小型弹药箱"
+  team:i=1
+  builder_info__team:i=1
+}
+
+entity{
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+ammunition_box_grenade_resupply+game_rendinst_decor+undestroyable_building"
+  transform:m=[[0.959359, 0, 0.28219] [0, 1, -0] [-0.28219, 0, 0.959359] [-125.501, 18.4, -46.3357]]
+  ri_extra__name:t="ammunition_box_n"
+  grenadeResupplyItem:t="ussr_molotov_item"
+  buildingRadius:r=5
+  useful_box__maxUseCount:i=600
+  useful_box__hintFull:t="Ammo Box With Molotov;可补给莫洛托夫燃烧瓶的小型弹药箱"
+  team:i=1
+  builder_info__team:i=1
+}
+
+entity{
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+ammunition_box_grenade_resupply+game_rendinst_decor+undestroyable_building"
+  transform:m=[[0.988113, 0, 0.15373] [0, 1, -0] [-0.15373, 0, 0.988113] [17.2997, 51.8962, -1090.21]]
+  ri_extra__name:t="ammunition_box_n"
+  grenadeResupplyItem:t="ussr_molotov_item"
+  buildingRadius:r=5
+  useful_box__maxUseCount:i=600
+  useful_box__hintFull:t="Ammo Box With Molotov;可补给莫洛托夫燃烧瓶的小型弹药箱"
+  team:i=1
+  builder_info__team:i=1
+}
+entity{
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+ammunition_box_grenade_resupply+game_rendinst_decor+undestroyable_building"
+  transform:m=[[0.955212, 0, -0.295922] [0, 1, 0] [0.295922, -0, 0.955212] [-172.726, 43.6768, -1073.9]]
+  ri_extra__name:t="ammunition_box_n"
+  grenadeResupplyItem:t="ussr_molotov_item"
+  buildingRadius:r=5
+  useful_box__maxUseCount:i=600
+  useful_box__hintFull:t="Ammo Box With Molotov;可补给莫洛托夫燃烧瓶的小型弹药箱"
+  team:i=1
+  builder_info__team:i=1
+}
+
+entity{
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+ammunition_box_grenade_resupply+game_rendinst_decor+undestroyable_building"
+  transform:m=[[0.941992, 0, -0.335636] [0, 1, 0] [0.335636, -0, 0.941992] [-79.7735, 57.9694, -1053.07]]
+  ri_extra__name:t="ammunition_box_n"
+  grenadeResupplyItem:t="ussr_molotov_item"
+  buildingRadius:r=5
+  useful_box__maxUseCount:i=600
+  useful_box__hintFull:t="Ammo Box With Molotov;可补给莫洛托夫燃烧瓶的小型弹药箱"
+  team:i=1
+  builder_info__team:i=1
+}
+
+entity{
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+ammunition_box_grenade_resupply+game_rendinst_decor+undestroyable_building"
+  transform:m=[[0.988113, 0, 0.15373] [0, 1, -0] [-0.15373, 0, 0.988113] [-53.8589, 57.9694, -1043.68]]
+  ri_extra__name:t="ammunition_box_n"
+  grenadeResupplyItem:t="ussr_molotov_item"
+  buildingRadius:r=5
+  useful_box__maxUseCount:i=600
+  useful_box__hintFull:t="Ammo Box With Molotov;可补给莫洛托夫燃烧瓶的小型弹药箱"
+  team:i=1
+  builder_info__team:i=1
+}
+
+entity{
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+ammunition_box_grenade_resupply+game_rendinst_decor+undestroyable_building"
+  transform:m=[[0.928432, 0, 0.371502] [0, 1, -0] [-0.371502, 0, 0.928432] [-72.7907, 57.0445, -1032.31]]
+  ri_extra__name:t="ammunition_box_n"
+  grenadeResupplyItem:t="ussr_molotov_item"
+  buildingRadius:r=5
+  useful_box__maxUseCount:i=600
+  useful_box__hintFull:t="Ammo Box With Molotov;可补给莫洛托夫燃烧瓶的小型弹药箱"
+  team:i=1
+  builder_info__team:i=1
+}
+
+entity{
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+ammunition_box_grenade_resupply+game_rendinst_decor+undestroyable_building"
+  transform:m=[[0.934971, 0, 0.354725] [0, 1, -0] [-0.354725, 0, 0.934971] [-92.0499, 58.5081, -1041.89]]
+  ri_extra__name:t="ammunition_box_n"
+  grenadeResupplyItem:t="ussr_molotov_item"
+  buildingRadius:r=5
+  useful_box__maxUseCount:i=600
+  useful_box__hintFull:t="Ammo Box With Molotov;可补给莫洛托夫燃烧瓶的小型弹药箱"
+  team:i=1
+  builder_info__team:i=1
+}

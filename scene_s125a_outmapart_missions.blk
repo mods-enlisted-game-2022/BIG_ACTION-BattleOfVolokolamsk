@@ -180,28 +180,6 @@ entity{
 }
 
 entity{
-  _template:t="t17e2+base_moon_soldier"
-  transform:m=[[-0.272246, 0.00712711, 0.962201] [0.101871, 0.994566, 0.0214566] [-0.95682, 0.103862, -0.271492] [492.235, 16.9102, 2564.37]]
-  vehicle_net_phys__blk:t="content/e_ww2_common/empty.blk"
-  auto_gun_controller__targetTeam:i=4
-  team:i=2
-  animchar_render__enabled:b=no
-  auto_gun_controller__enabled:b=no
-  collres__res:t="grenade_f1_collision"
-}
-
-entity{
-  _template:t="t17e2+base_moon_soldier"
-  transform:m=[[-0.220699, 0.00710823, 0.975316] [0.102798, 0.994573, 0.016013] [-0.969909, 0.103795, -0.220232] [523.086, 13.6605, 2564.23]]
-  vehicle_net_phys__blk:t="content/e_ww2_common/empty.blk"
-  auto_gun_controller__targetTeam:i=4
-  team:i=2
-  animchar_render__enabled:b=no
-  auto_gun_controller__enabled:b=no
-  collres__res:t="grenade_f1_collision"
-}
-
-entity{
   _template:t="placebale_rendinst+add_score_to_destroyable_ri+fortification_builder_info+ammunition_box_a+undestroyable_building+resupply_for_ground_vehicle_zone"
   transform:m=[[-2.27305, -0.204162, -0.17375] [-0.212775, 2.27629, 0.108875] [0.163088, 0.124278, -2.2796] [-2449.16, 18.4387, -754.105]]
   ri_extra__name:t="ammunition_box_b"
@@ -438,7 +416,7 @@ entity{
   groupName:t="s5a"
   sphere_zone__radius:r=8
   active:b=no
-  resupply_zone__duration:r=50
+  resupply_zone__duration:r=60
 }
 
 entity{
@@ -1603,6 +1581,28 @@ entity{
 }
 
 entity{
+  _template:t="t17e2+base_moon_soldier"
+  transform:m=[[-0.272246, 0.00711994, 0.962201] [0.101868, 0.994566, 0.0214632] [-0.95682, 0.103861, -0.271492] [492.017, 16.9095, 2564.37]]
+  vehicle_net_phys__blk:t="content/e_ww2_common/empty.blk"
+  auto_gun_controller__targetTeam:i=4
+  team:i=2
+  animchar_render__enabled:b=no
+  auto_gun_controller__enabled:b=no
+  collres__res:t="grenade_f1_collision"
+}
+
+entity{
+  _template:t="t17e2+base_moon_soldier"
+  transform:m=[[-0.220699, 0.0071078, 0.975316] [0.102802, 0.994573, 0.0160145] [-0.969909, 0.103799, -0.220232] [522.113, 12.8898, 2564.22]]
+  vehicle_net_phys__blk:t="content/e_ww2_common/empty.blk"
+  auto_gun_controller__targetTeam:i=4
+  team:i=2
+  animchar_render__enabled:b=no
+  auto_gun_controller__enabled:b=no
+  collres__res:t="grenade_f1_collision"
+}
+
+entity{
   _template:t="base_vehicle+builded_auto_turret+tank_ammo_distribution_default+resupply_vehicle"
   transform:m=[[0.426357, -0.0241622, -0.904233] [0.101869, 0.994567, 0.0214563] [0.898801, -0.101261, 0.426501] [488.896, 11.0732, 2594.25]]
   team:i=1
@@ -1676,17 +1676,16 @@ entity{
       gun_spread__maxDeltaAngle:r=2
       gun_deviation__onShotDeviationChange:r=0.1
       turret_ai__attackTimerr:r=0.3
-      gun__ammoToRessuply:i=15
+      gun__ammoToRessuply:i=24
       turret_ai__sleepTimer:r=0.06
       turret_ai__atackDist:r=60
       turret_ai__period:p2=0, 0
       turret__pitchSpeed:r=99
       turret_ai__pauseTimer:r=1
-      gun__reloadTime:r=15.0
-      gun__reloadTime:r=2.0
+      gun__reloadTime:r=12.6
 
       "gun__shellsAmmo:array"{
-        gun__shellsAmmo:i=24
+        gun__shellsAmmo:i=36
       }
     }
   }
@@ -1776,17 +1775,255 @@ entity{
       gun_spread__maxDeltaAngle:r=2
       gun_deviation__onShotDeviationChange:r=0.1
       turret_ai__attackTimerr:r=0.3
-      gun__ammoToRessuply:i=15
-      gun__reloadTime:r=16.0
+      gun__ammoToRessuply:i=24
+      gun__reloadTime:r=6.6
       turret_ai__sleepTimer:r=0.06
       turret_ai__atackDist:r=60
       turret_ai__period:p2=0, 0
       turret__pitchSpeed:r=99
       turret_ai__pauseTimer:r=1
-      gun__reloadTime:r=2.0
+      gun__reloadTime:r=20.0
+      // gun__projectileDebugTemplate:t="rbs_132_rocket_projectile+bomb_projectile_debug"
+      // gun__projectileTemplate:t="rbs_132_rocket_projectile"
 
       "gun__shellsAmmo:array"{
-        gun__shellsAmmo:i=24
+        gun__shellsAmmo:i=36
+      }
+    }
+  }
+
+  "turret_control__turretInfo:shared:array"{
+    "turret_control__turretInfo:object"{
+      turretGroup:t="main_turrets"
+      salt:i=1
+      gun:t="builded_sg_gun+bm_8_24_rocket"
+      turretName:t="turret_01"
+    }
+  }
+}
+
+// group2 bm8
+
+entity{
+  _template:t="t17e2+base_moon_soldier"
+  transform:m=[[0.662094, 0, 0.749421] [0, 1, 0] [-0.749421, 0, 0.662094] [-495.34, 52.1844, 2445.5]]
+  vehicle_net_phys__blk:t="content/e_ww2_common/empty.blk"
+  auto_gun_controller__targetTeam:i=4
+  team:i=2
+  animchar_render__enabled:b=no
+  auto_gun_controller__enabled:b=no
+  collres__res:t="grenade_f1_collision"
+}
+
+entity{
+  _template:t="t17e2+base_moon_soldier"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-455.231, 53.7446, 2455.08]]
+  vehicle_net_phys__blk:t="content/e_ww2_common/empty.blk"
+  auto_gun_controller__targetTeam:i=4
+  team:i=2
+  animchar_render__enabled:b=no
+  auto_gun_controller__enabled:b=no
+  collres__res:t="grenade_f1_collision"
+}
+
+entity{
+  _template:t="placebale_rendinst+add_score_to_destroyable_ri+fortification_builder_info+ammunition_box_a+undestroyable_building+resupply_for_ground_vehicle_zone"
+  transform:m=[[-1.31524, -0.340888, -2.20505] [-0.0335643, 2.56236, -0.376107] [2.23098, -0.162414, -1.3056] [-476.76, 50.4334, 2473.86]]
+  ri_extra__name:t="ammunition_box_d"
+  destroyable_ri__group:i=54171
+  team:i=1
+  buildingRadius:r=1
+  builder_info__team:i=1
+  animchar__minDtThreshold:r=0.5
+  building_menu__image:t="map_icon_cannon_at"
+  hud_icon__image:t="map_icon_cannon_at"
+  minimap__visibleRadius:r=50
+  hud_icon__maxDistance:r=2000
+  resupply_zone__team:i=1
+  groupName:t="s5a"
+  sphere_zone__radius:r=8
+  active:b=no
+  resupply_zone__duration:r=36
+}
+
+entity{
+  _template:t="placebale_rendinst+add_score_to_destroyable_ri+fortification_builder_info+ammunition_box_a+undestroyable_building+resupply_for_ground_vehicle_zone"
+  transform:m=[[-1.33017, -0.179036, -2.21514] [-0.217702, 2.5797, -0.0777725] [2.21168, 0.146249, -1.33991] [-514.228, 47.3285, 2466.67]]
+  ri_extra__name:t="ammunition_box_d"
+  destroyable_ri__group:i=54171
+  team:i=1
+  buildingRadius:r=1
+  builder_info__team:i=1
+  animchar__minDtThreshold:r=0.5
+  building_menu__image:t="map_icon_cannon_at"
+  hud_icon__image:t="map_icon_cannon_at"
+  minimap__visibleRadius:r=50
+  hud_icon__maxDistance:r=2000
+  resupply_zone__team:i=1
+  groupName:t="s5a"
+  sphere_zone__radius:r=8
+  active:b=no
+  resupply_zone__duration:r=39
+}
+
+entity{
+  _template:t="base_vehicle+builded_auto_turret+tank_ammo_distribution_default+resupply_vehicle"
+  transform:m=[[0.757046, 0.0442351, -0.651863] [-0.0840536, 0.996009, -0.0300276] [0.647933, 0.0775237, 0.757742] [-509.016, 47.7604, 2466.4]]
+  team:i=1
+  hitpoints__hp:r=90
+  hitpoints__maxHp:r=90
+  phys_obj_net_phys__blk:t="content/e_ww2_common/gamedata/units/cannons/germ_20mm_flak38_flakvierling.blk"
+  animchar__res:t="bm_8_24_char"
+  collres__res:t="cannon_germ_20mm_flak38_flakvierling_collision"
+  turret__enemyTeamLight:c=233, 233, 233, 1
+  turret__allyTeamLight:c=233, 233, 233, 1
+  phys__maxMassRatioForPushOnCollision:r=999
+  turret__teamLightTemplate:t=""
+  vehicle_seats__autoDetectRestrictToTeam:b=no
+
+  "net_sound__descs:object"{
+    "resupplyStart:object"{
+      path:t="aircraft/effects/part_destroy_by_fire"
+      toPlayer:b=no
+    }
+
+    "resupplyEnd:object"{
+      path:t="aircraft/effects/part_destroy_by_fire"
+      toPlayer:b=no
+    }
+  }
+
+  "animchar__objTexReplace:object"{
+    "ussr_camo_green*":t="ger_camo_dark_grey*"
+  }
+
+  "turret_gun_flash_fx__flashFx:shared:array"{
+    turret_gun_flash_fx__flashFx:t="muzzle_ground_8mm"
+  }
+
+  "turret_gun_flash_fx__flashNodes:shared:array"{
+    turret_gun_flash_fx__flashNodes:t="emtr_gun_flame_01"
+  }
+
+  "turret_control__emitterNodes:shared:array"{
+    turret_control__emitterNodes:t="bone_rocket_01"
+  }
+
+  "turrets__initAmmoDistribution:array"{
+    "turrets__initAmmoDistribution:object"{
+      slot:i=0
+      fill:b=yes
+    }
+  }
+
+  "turretsInitialComponents:array"{
+    "turretsInitialComponents:object"{
+      gun__shotFreq:r=2
+      gun__maxAmmo:i=24
+      turret__yawSpeed:r=99
+      turret_ai__amplitude:p2=0, 0
+      gun__reloadTime:r=16
+      gun_deviation__maxDeviation:r=2.3
+      gun__ammo:i=24
+      turret__limit:p4=-60, 60, -3, 40
+      gun_spread__maxDeltaAngle:r=2
+      gun_deviation__onShotDeviationChange:r=0.1
+      turret_ai__attackTimerr:r=0.3
+      gun__ammoToRessuply:i=24
+      turret_ai__sleepTimer:r=0.06
+      turret_ai__atackDist:r=60
+      turret_ai__period:p2=0, 0
+      turret__pitchSpeed:r=99
+      turret_ai__pauseTimer:r=1
+
+      "gun__shellsAmmo:array"{
+        gun__shellsAmmo:i=36
+      }
+    }
+  }
+
+  "turret_control__turretInfo:shared:array"{
+    "turret_control__turretInfo:object"{
+      turretGroup:t="main_turrets"
+      salt:i=1
+      gun:t="builded_sg_gun+bm_8_24_rocket"
+      turretName:t="turret_01"
+    }
+  }
+}
+
+entity{
+  _template:t="base_vehicle+builded_auto_turret+tank_ammo_distribution_default+resupply_vehicle"
+  transform:m=[[0.830082, -0.0703247, -0.55319] [-0.012959, 0.989315, -0.145213] [0.557491, 0.127707, 0.820301] [-471.099, 50.2642, 2472.2]]
+  team:i=1
+  hitpoints__hp:r=90
+  hitpoints__maxHp:r=90
+  phys_obj_net_phys__blk:t="content/e_ww2_common/gamedata/units/cannons/germ_20mm_flak38_flakvierling.blk"
+  animchar__res:t="bm_8_24_char"
+  collres__res:t="cannon_germ_20mm_flak38_flakvierling_collision"
+  turret__enemyTeamLight:c=233, 233, 233, 1
+  turret__allyTeamLight:c=233, 233, 233, 1
+  phys__maxMassRatioForPushOnCollision:r=999
+  turret__teamLightTemplate:t=""
+  vehicle_seats__autoDetectRestrictToTeam:b=no
+
+  "net_sound__descs:object"{
+    "resupplyStart:object"{
+      path:t="aircraft/effects/part_destroy_by_fire"
+      toPlayer:b=no
+    }
+
+    "resupplyEnd:object"{
+      path:t="aircraft/effects/part_destroy_by_fire"
+      toPlayer:b=no
+    }
+  }
+
+  "animchar__objTexReplace:object"{
+    "ussr_camo_green*":t="ger_camo_dark_grey*"
+  }
+
+  "turret_gun_flash_fx__flashFx:shared:array"{
+    turret_gun_flash_fx__flashFx:t="muzzle_ground_8mm"
+  }
+
+  "turret_gun_flash_fx__flashNodes:shared:array"{
+    turret_gun_flash_fx__flashNodes:t="emtr_gun_flame_01"
+  }
+
+  "turret_control__emitterNodes:shared:array"{
+    turret_control__emitterNodes:t="bone_rocket_01"
+  }
+
+  "turrets__initAmmoDistribution:array"{
+    "turrets__initAmmoDistribution:object"{
+      slot:i=0
+      fill:b=yes
+    }
+  }
+
+  "turretsInitialComponents:array"{
+    "turretsInitialComponents:object"{
+      gun__shotFreq:r=2
+      gun__maxAmmo:i=24
+      turret__yawSpeed:r=99
+      turret_ai__amplitude:p2=0, 0
+      gun__reloadTime:r=17
+      gun_deviation__maxDeviation:r=2.3
+      gun__ammo:i=24
+      turret__limit:p4=-60, 60, -3, 40
+      gun_spread__maxDeltaAngle:r=2
+      gun_deviation__onShotDeviationChange:r=0.1
+      turret_ai__attackTimerr:r=0.3
+      gun__ammoToRessuply:i=24
+      turret_ai__sleepTimer:r=0.06
+      turret_ai__atackDist:r=60
+      turret_ai__period:p2=0, 0
+      turret__pitchSpeed:r=99
+      turret_ai__pauseTimer:r=1
+
+      "gun__shellsAmmo:array"{
+        gun__shellsAmmo:i=36
       }
     }
   }

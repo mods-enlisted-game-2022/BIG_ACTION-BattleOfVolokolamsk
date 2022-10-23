@@ -1,7 +1,22 @@
 
 entity{
-  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+resource_box_base+ammunition_box_grenade_resupply+undestroyable_building+germ_flak_36_sdkfz_6_2+resupply_for_ground_vehicle_zone"
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+resource_box_base+ammunition_box_grenade_resupply+undestroyable_building+opel_blitz_kfz_305+base_sdkfz_251_10+flak_36_sdkfz_6_2_ammo_stowages+resupply_for_ground_vehicle_zone"
   transform:m=[[-0.596454, 0.00931413, -0.802594] [0.015548, 0.999879, 4.9049e-05] [0.802497, -0.0124494, -0.596526] [-1652.97, 0.695873, -889.011]]
+  killLogName:t="germ_sdkfz_6_2_flak36"
+  animchar__res:t="flak_36_sdkfz_6_2_char"
+  collres__res:t="flak_36_sdkfz_6_2_collision"
+  vehicle_net_phys__blk:t="gamedata/gen/units/tanks/flak_36_sdkfz_6_2.blk:VehiclePhys"
+  particle_phys__blk:t="gamedata/suspension/empty.blk"
+  dmg_animchar__res:t="flak_36_sdkfz_6_2_dmg_char"
+  xray_resource__modelName:t="flak_36_sdkfz_6_2"
+  cockpit__zoomOutFov:r=2.7475
+  cockpit__zoomInFov:r=5.3955
+  cockpit__sightName:t="sight_model/default_tank_spg"
+  cockpit__sightFov:r=20.0
+  drowningHeight:r=2.24
+  damage_model__blk:t="gamedata/gen/units/tanks/flak_36_sdkfz_6_2.blk"
+  item__name:t="items/germ_sdkfz_6_2_flak36"
+  skin__template:t="flak_36_sdkfz_6_2_skins"
   team:i=2
   resupply_zone__team:i=2
   vehicle_seats__autoDetectRestrictToTeam:b=no
@@ -19,6 +34,7 @@ entity{
   useful_box__maxUseCount:i=9999999
   building_menu__image:t="map_icon_train"
   grenadeResupplyItem:t="type_91_incendiary_grenade_item"
+  ri_extra__name:t="barbedwire_a_dmg"
 
   "turret_gun_flash_fx__flashFx:shared:array"{
     turret_gun_flash_fx__flashFx:t="muzzle_ground_20mm"
@@ -44,20 +60,6 @@ entity{
 
   "vehicle_seats__seats:shared:array"{
     "vehicle_seats__seats:object"{
-      receiveDamageFromDMPart:t="driver"
-      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0.25, -0.25, 0]]
-      name:t="driver"
-      seatComponent:t="isDriver"
-      cameraNodeName:t="bone_camera_driver"
-      attachNode:t="driver"
-      seatOwnsEntityControl:b=yes
-      nextSeat:t="main_gunner"
-      locName:t="vehicle_seats/driver"
-      ignoreAttachNodeRotation:b=yes
-      shouldHideOwner:b=no
-    }
-
-    "vehicle_seats__seats:object"{
       receiveDamageFromDMPart:t="gunner"
       attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0.25, -0.5, 0]]
       cameraOffset:p3=-2.2, 0.6, 0
@@ -66,7 +68,7 @@ entity{
       cameraNodeName:t="bone_camera_gunner"
       cameraType:t="machinegunner_cockpit"
       attachNode:t="gunner"
-      nextSeat:t="driver"
+      nextSeat:t="commander"
       locName:t="vehicle_seats/gunner"
       ignoreAttachNodeRotation:b=yes
       shouldHideOwner:b=no
@@ -79,14 +81,29 @@ entity{
     "vehicle_seats__seats:object"{
       receiveDamageFromDMPart:t="commander"
       attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0, 0.1, 0.1]]
-      cameraOffset:p3=-5, 0.29, 0
+      cameraOffset:p3=-3.6, 0.16, 0
       name:t="commander"
       seatComponent:t="isDriver"
       cameraType:t="machinegunner_cockpit"
       attachNode:t="commander"
+      nextSeat:t="main_gunner"
       locName:t="vehicle_seats/commander"
       ignoreAttachNodeRotation:b=yes
       maxPosWithOpenHatch:r=0.4
+      shouldHideOwner:b=no
+      seatOwnsEntityControl:b=yes
+    }
+
+    "vehicle_seats__seats:object"{
+      receiveDamageFromDMPart:t="driver"
+      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0.25, -0.25, 0]]
+      name:t="passenger"
+      seatComponent:t="isDriver"
+      attachNode:t="char_driver_pivot"
+      entranceNode:t="char_driver_landing"
+      seatOwnsEntityControl:b=yes
+      locName:t="vehicle_seats/driver"
+      ignoreAttachNodeRotation:b=yes
       shouldHideOwner:b=no
     }
 
@@ -105,11 +122,49 @@ entity{
       }
     }
   }
+
+  "disableDMParts:list<t>"{
+    item:t="ammo_body_01"
+    item:t="ammo_body_02"
+    item:t="ammo_body_03"
+    item:t="ammo_body_04"
+    item:t="ammo_body_05"
+    item:t="ammo_body_06"
+    item:t="ammo_body_07"
+    item:t="ammo_body_08"
+    item:t="ammo_body_09"
+    item:t="ammo_body_10"
+    item:t="ammo_body_11"
+    item:t="ammo_body_12"
+    item:t="ammo_body_13"
+    item:t="ammo_turret_01"
+    item:t="ammo_turret_02"
+    item:t="fuel_tank"
+    item:t="fuel_tank_r_01"
+    item:t="fuel_tank_l_01"
+    item:t="engine"
+    item:t="transmission"
+  }
 }
 
 entity{
-  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+resource_box_base+ammunition_box_grenade_resupply+undestroyable_building+germ_flak_36_sdkfz_6_2+resupply_for_ground_vehicle_zone"
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+resource_box_base+ammunition_box_grenade_resupply+undestroyable_building+opel_blitz_kfz_305+base_sdkfz_251_10+flak_36_sdkfz_6_2_ammo_stowages+resupply_for_ground_vehicle_zone"
   transform:m=[[-0.57985, 0, -0.814723] [0, 1, 0] [0.814723, 0, -0.57985] [-1648.38, 0.678677, -893.201]]
+  killLogName:t="germ_sdkfz_6_2_flak36"
+  animchar__res:t="flak_36_sdkfz_6_2_char"
+  collres__res:t="flak_36_sdkfz_6_2_collision"
+  vehicle_net_phys__blk:t="gamedata/gen/units/tanks/flak_36_sdkfz_6_2.blk:VehiclePhys"
+  particle_phys__blk:t="gamedata/suspension/empty.blk"
+  dmg_animchar__res:t="flak_36_sdkfz_6_2_dmg_char"
+  xray_resource__modelName:t="flak_36_sdkfz_6_2"
+  cockpit__zoomOutFov:r=2.7475
+  cockpit__zoomInFov:r=5.3955
+  cockpit__sightName:t="sight_model/default_tank_spg"
+  cockpit__sightFov:r=20.0
+  drowningHeight:r=2.24
+  damage_model__blk:t="gamedata/gen/units/tanks/flak_36_sdkfz_6_2.blk"
+  item__name:t="items/germ_sdkfz_6_2_flak36"
+  skin__template:t="flak_36_sdkfz_6_2_skins"
   team:i=2
   vehicle_seats__autoDetectRestrictToTeam:b=no
   vehicle_seats__restrictToTeam:i=2
@@ -127,6 +182,7 @@ entity{
   useful_box__maxUseCount:i=9999999
   building_menu__image:t="map_icon_train"
   grenadeResupplyItem:t="type_91_incendiary_grenade_item"
+  ri_extra__name:t="barbedwire_a_dmg"
 
   "turret_gun_flash_fx__flashFx:shared:array"{
     turret_gun_flash_fx__flashFx:t="muzzle_ground_20mm"
@@ -152,20 +208,6 @@ entity{
 
   "vehicle_seats__seats:shared:array"{
     "vehicle_seats__seats:object"{
-      receiveDamageFromDMPart:t="driver"
-      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0.25, -0.25, 0]]
-      name:t="driver"
-      seatComponent:t="isDriver"
-      cameraNodeName:t="bone_camera_driver"
-      attachNode:t="driver"
-      seatOwnsEntityControl:b=yes
-      nextSeat:t="main_gunner"
-      locName:t="vehicle_seats/driver"
-      ignoreAttachNodeRotation:b=yes
-      shouldHideOwner:b=no
-    }
-
-    "vehicle_seats__seats:object"{
       receiveDamageFromDMPart:t="gunner"
       attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0.25, -0.5, 0]]
       cameraOffset:p3=-2.2, 0.6, 0
@@ -174,7 +216,7 @@ entity{
       cameraNodeName:t="bone_camera_gunner"
       cameraType:t="machinegunner_cockpit"
       attachNode:t="gunner"
-      nextSeat:t="driver"
+      nextSeat:t="commander"
       locName:t="vehicle_seats/gunner"
       ignoreAttachNodeRotation:b=yes
       shouldHideOwner:b=no
@@ -187,14 +229,29 @@ entity{
     "vehicle_seats__seats:object"{
       receiveDamageFromDMPart:t="commander"
       attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0, 0.1, 0.1]]
-      cameraOffset:p3=-5, 0.29, 0
+      cameraOffset:p3=-3.6, 0.16, 0
       name:t="commander"
       seatComponent:t="isDriver"
       cameraType:t="machinegunner_cockpit"
       attachNode:t="commander"
+      nextSeat:t="main_gunner"
       locName:t="vehicle_seats/commander"
       ignoreAttachNodeRotation:b=yes
       maxPosWithOpenHatch:r=0.4
+      shouldHideOwner:b=no
+      seatOwnsEntityControl:b=yes
+    }
+
+    "vehicle_seats__seats:object"{
+      receiveDamageFromDMPart:t="driver"
+      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0.25, -0.25, 0]]
+      name:t="passenger"
+      seatComponent:t="isDriver"
+      attachNode:t="char_driver_pivot"
+      entranceNode:t="char_driver_landing"
+      seatOwnsEntityControl:b=yes
+      locName:t="vehicle_seats/driver"
+      ignoreAttachNodeRotation:b=yes
       shouldHideOwner:b=no
     }
 
@@ -213,11 +270,49 @@ entity{
       }
     }
   }
+
+  "disableDMParts:list<t>"{
+    item:t="ammo_body_01"
+    item:t="ammo_body_02"
+    item:t="ammo_body_03"
+    item:t="ammo_body_04"
+    item:t="ammo_body_05"
+    item:t="ammo_body_06"
+    item:t="ammo_body_07"
+    item:t="ammo_body_08"
+    item:t="ammo_body_09"
+    item:t="ammo_body_10"
+    item:t="ammo_body_11"
+    item:t="ammo_body_12"
+    item:t="ammo_body_13"
+    item:t="ammo_turret_01"
+    item:t="ammo_turret_02"
+    item:t="fuel_tank"
+    item:t="fuel_tank_r_01"
+    item:t="fuel_tank_l_01"
+    item:t="engine"
+    item:t="transmission"
+  }
 }
 
 entity{
-  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+resource_box_base+ammunition_box_grenade_resupply+undestroyable_building+germ_flak_36_sdkfz_6_2+resupply_for_ground_vehicle_zone"
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+resource_box_base+ammunition_box_grenade_resupply+undestroyable_building+opel_blitz_kfz_305+base_sdkfz_251_10+flak_36_sdkfz_6_2_ammo_stowages+resupply_for_ground_vehicle_zone"
   transform:m=[[0.991948, 0, -0.126647] [0, 1, 0] [0.126647, -0, 0.991948] [593.689, 7.23755, -1586.33]]
+  killLogName:t="germ_sdkfz_6_2_flak36"
+  animchar__res:t="flak_36_sdkfz_6_2_char"
+  collres__res:t="flak_36_sdkfz_6_2_collision"
+  vehicle_net_phys__blk:t="gamedata/gen/units/tanks/flak_36_sdkfz_6_2.blk:VehiclePhys"
+  particle_phys__blk:t="gamedata/suspension/empty.blk"
+  dmg_animchar__res:t="flak_36_sdkfz_6_2_dmg_char"
+  xray_resource__modelName:t="flak_36_sdkfz_6_2"
+  cockpit__zoomOutFov:r=2.7475
+  cockpit__zoomInFov:r=5.3955
+  cockpit__sightName:t="sight_model/default_tank_spg"
+  cockpit__sightFov:r=20.0
+  drowningHeight:r=2.24
+  damage_model__blk:t="gamedata/gen/units/tanks/flak_36_sdkfz_6_2.blk"
+  item__name:t="items/germ_sdkfz_6_2_flak36"
+  skin__template:t="flak_36_sdkfz_6_2_skins"
   team:i=2
   user_point__icon:t="map_icon_train"
   vehicle__mapIcon:t="map_icon_train"
@@ -236,6 +331,7 @@ entity{
   useful_box__maxUseCount:i=9999999
   building_menu__image:t="map_icon_train"
   grenadeResupplyItem:t="type_91_incendiary_grenade_item"
+  ri_extra__name:t="barbedwire_a_dmg"
 
   "turret_gun_flash_fx__flashFx:shared:array"{
     turret_gun_flash_fx__flashFx:t="muzzle_ground_20mm"
@@ -261,20 +357,6 @@ entity{
 
   "vehicle_seats__seats:shared:array"{
     "vehicle_seats__seats:object"{
-      receiveDamageFromDMPart:t="driver"
-      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0.25, -0.25, 0]]
-      name:t="driver"
-      seatComponent:t="isDriver"
-      cameraNodeName:t="bone_camera_driver"
-      attachNode:t="driver"
-      seatOwnsEntityControl:b=yes
-      nextSeat:t="main_gunner"
-      locName:t="vehicle_seats/driver"
-      ignoreAttachNodeRotation:b=yes
-      shouldHideOwner:b=no
-    }
-
-    "vehicle_seats__seats:object"{
       receiveDamageFromDMPart:t="gunner"
       attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0.25, -0.5, 0]]
       cameraOffset:p3=-2.2, 0.6, 0
@@ -283,7 +365,7 @@ entity{
       cameraNodeName:t="bone_camera_gunner"
       cameraType:t="machinegunner_cockpit"
       attachNode:t="gunner"
-      nextSeat:t="driver"
+      nextSeat:t="commander"
       locName:t="vehicle_seats/gunner"
       ignoreAttachNodeRotation:b=yes
       shouldHideOwner:b=no
@@ -296,14 +378,29 @@ entity{
     "vehicle_seats__seats:object"{
       receiveDamageFromDMPart:t="commander"
       attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0, 0.1, 0.1]]
-      cameraOffset:p3=-5, 0.29, 0
+      cameraOffset:p3=-3.6, 0.16, 0
       name:t="commander"
       seatComponent:t="isDriver"
       cameraType:t="machinegunner_cockpit"
       attachNode:t="commander"
+      nextSeat:t="main_gunner"
       locName:t="vehicle_seats/commander"
       ignoreAttachNodeRotation:b=yes
       maxPosWithOpenHatch:r=0.4
+      shouldHideOwner:b=no
+      seatOwnsEntityControl:b=yes
+    }
+
+    "vehicle_seats__seats:object"{
+      receiveDamageFromDMPart:t="driver"
+      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0.25, -0.25, 0]]
+      name:t="passenger"
+      seatComponent:t="isDriver"
+      attachNode:t="char_driver_pivot"
+      entranceNode:t="char_driver_landing"
+      seatOwnsEntityControl:b=yes
+      locName:t="vehicle_seats/driver"
+      ignoreAttachNodeRotation:b=yes
       shouldHideOwner:b=no
     }
 
@@ -322,11 +419,49 @@ entity{
       }
     }
   }
+
+  "disableDMParts:list<t>"{
+    item:t="ammo_body_01"
+    item:t="ammo_body_02"
+    item:t="ammo_body_03"
+    item:t="ammo_body_04"
+    item:t="ammo_body_05"
+    item:t="ammo_body_06"
+    item:t="ammo_body_07"
+    item:t="ammo_body_08"
+    item:t="ammo_body_09"
+    item:t="ammo_body_10"
+    item:t="ammo_body_11"
+    item:t="ammo_body_12"
+    item:t="ammo_body_13"
+    item:t="ammo_turret_01"
+    item:t="ammo_turret_02"
+    item:t="fuel_tank"
+    item:t="fuel_tank_r_01"
+    item:t="fuel_tank_l_01"
+    item:t="engine"
+    item:t="transmission"
+  }
 }
 
 entity{
-  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+resource_box_base+ammunition_box_grenade_resupply+undestroyable_building+germ_flak_36_sdkfz_6_2+resupply_for_ground_vehicle_zone"
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+resource_box_base+ammunition_box_grenade_resupply+undestroyable_building+opel_blitz_kfz_305+base_sdkfz_251_10+flak_36_sdkfz_6_2_ammo_stowages+resupply_for_ground_vehicle_zone"
   transform:m=[[0.992136, -0.01584, -0.124157] [0.0181873, 0.999676, 0.017795] [0.123835, -0.0199132, 0.992103] [582.457, 7.33092, -1584.3]]
+  killLogName:t="germ_sdkfz_6_2_flak36"
+  animchar__res:t="flak_36_sdkfz_6_2_char"
+  collres__res:t="flak_36_sdkfz_6_2_collision"
+  vehicle_net_phys__blk:t="gamedata/gen/units/tanks/flak_36_sdkfz_6_2.blk:VehiclePhys"
+  particle_phys__blk:t="gamedata/suspension/empty.blk"
+  dmg_animchar__res:t="flak_36_sdkfz_6_2_dmg_char"
+  xray_resource__modelName:t="flak_36_sdkfz_6_2"
+  cockpit__zoomOutFov:r=2.7475
+  cockpit__zoomInFov:r=5.3955
+  cockpit__sightName:t="sight_model/default_tank_spg"
+  cockpit__sightFov:r=20.0
+  drowningHeight:r=2.24
+  damage_model__blk:t="gamedata/gen/units/tanks/flak_36_sdkfz_6_2.blk"
+  item__name:t="items/germ_sdkfz_6_2_flak36"
+  skin__template:t="flak_36_sdkfz_6_2_skins"
   team:i=2
   vehicle_seats__autoDetectRestrictToTeam:b=no
   vehicle_seats__restrictToTeam:i=2
@@ -345,6 +480,7 @@ entity{
   useful_box__maxUseCount:i=9999999
   building_menu__image:t="map_icon_train"
   grenadeResupplyItem:t="type_91_incendiary_grenade_item"
+  ri_extra__name:t="barbedwire_a_dmg"
 
   "turret_gun_flash_fx__flashFx:shared:array"{
     turret_gun_flash_fx__flashFx:t="muzzle_ground_20mm"
@@ -370,20 +506,6 @@ entity{
 
   "vehicle_seats__seats:shared:array"{
     "vehicle_seats__seats:object"{
-      receiveDamageFromDMPart:t="driver"
-      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0.25, -0.25, 0]]
-      name:t="driver"
-      seatComponent:t="isDriver"
-      cameraNodeName:t="bone_camera_driver"
-      attachNode:t="driver"
-      seatOwnsEntityControl:b=yes
-      nextSeat:t="main_gunner"
-      locName:t="vehicle_seats/driver"
-      ignoreAttachNodeRotation:b=yes
-      shouldHideOwner:b=no
-    }
-
-    "vehicle_seats__seats:object"{
       receiveDamageFromDMPart:t="gunner"
       attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0.25, -0.5, 0]]
       cameraOffset:p3=-2.2, 0.6, 0
@@ -392,7 +514,7 @@ entity{
       cameraNodeName:t="bone_camera_gunner"
       cameraType:t="machinegunner_cockpit"
       attachNode:t="gunner"
-      nextSeat:t="driver"
+      nextSeat:t="commander"
       locName:t="vehicle_seats/gunner"
       ignoreAttachNodeRotation:b=yes
       shouldHideOwner:b=no
@@ -405,14 +527,29 @@ entity{
     "vehicle_seats__seats:object"{
       receiveDamageFromDMPart:t="commander"
       attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0, 0.1, 0.1]]
-      cameraOffset:p3=-5, 0.29, 0
+      cameraOffset:p3=-3.6, 0.16, 0
       name:t="commander"
       seatComponent:t="isDriver"
       cameraType:t="machinegunner_cockpit"
       attachNode:t="commander"
+      nextSeat:t="main_gunner"
       locName:t="vehicle_seats/commander"
       ignoreAttachNodeRotation:b=yes
       maxPosWithOpenHatch:r=0.4
+      shouldHideOwner:b=no
+      seatOwnsEntityControl:b=yes
+    }
+
+    "vehicle_seats__seats:object"{
+      receiveDamageFromDMPart:t="driver"
+      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0.25, -0.25, 0]]
+      name:t="passenger"
+      seatComponent:t="isDriver"
+      attachNode:t="char_driver_pivot"
+      entranceNode:t="char_driver_landing"
+      seatOwnsEntityControl:b=yes
+      locName:t="vehicle_seats/driver"
+      ignoreAttachNodeRotation:b=yes
       shouldHideOwner:b=no
     }
 
@@ -431,11 +568,49 @@ entity{
       }
     }
   }
+
+  "disableDMParts:list<t>"{
+    item:t="ammo_body_01"
+    item:t="ammo_body_02"
+    item:t="ammo_body_03"
+    item:t="ammo_body_04"
+    item:t="ammo_body_05"
+    item:t="ammo_body_06"
+    item:t="ammo_body_07"
+    item:t="ammo_body_08"
+    item:t="ammo_body_09"
+    item:t="ammo_body_10"
+    item:t="ammo_body_11"
+    item:t="ammo_body_12"
+    item:t="ammo_body_13"
+    item:t="ammo_turret_01"
+    item:t="ammo_turret_02"
+    item:t="fuel_tank"
+    item:t="fuel_tank_r_01"
+    item:t="fuel_tank_l_01"
+    item:t="engine"
+    item:t="transmission"
+  }
 }
 
 entity{
-  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+resource_box_base+ammunition_box_grenade_resupply+undestroyable_building+germ_flak_36_sdkfz_6_2+resupply_for_ground_vehicle_zone"
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+resource_box_base+ammunition_box_grenade_resupply+undestroyable_building+opel_blitz_kfz_305+base_sdkfz_251_10+flak_36_sdkfz_6_2_ammo_stowages+resupply_for_ground_vehicle_zone"
   transform:m=[[0.481642, -0.0267654, 0.875959] [0.0836834, 0.996371, -0.0155683] [-0.872364, 0.0808016, 0.482134] [-979.157, 4.82203, -1641.4]]
+  killLogName:t="germ_sdkfz_6_2_flak36"
+  animchar__res:t="flak_36_sdkfz_6_2_char"
+  collres__res:t="flak_36_sdkfz_6_2_collision"
+  vehicle_net_phys__blk:t="gamedata/gen/units/tanks/flak_36_sdkfz_6_2.blk:VehiclePhys"
+  particle_phys__blk:t="gamedata/suspension/empty.blk"
+  dmg_animchar__res:t="flak_36_sdkfz_6_2_dmg_char"
+  xray_resource__modelName:t="flak_36_sdkfz_6_2"
+  cockpit__zoomOutFov:r=2.7475
+  cockpit__zoomInFov:r=5.3955
+  cockpit__sightName:t="sight_model/default_tank_spg"
+  cockpit__sightFov:r=20.0
+  drowningHeight:r=2.24
+  damage_model__blk:t="gamedata/gen/units/tanks/flak_36_sdkfz_6_2.blk"
+  item__name:t="items/germ_sdkfz_6_2_flak36"
+  skin__template:t="flak_36_sdkfz_6_2_skins"
   team:i=2
   vehicle_seats__restrictToTeam:i=2
   vehicle_seats__autoDetectRestrictToTeam:b=no
@@ -453,6 +628,7 @@ entity{
   useful_box__maxUseCount:i=9999999
   building_menu__image:t="map_icon_train"
   grenadeResupplyItem:t="type_91_incendiary_grenade_item"
+  ri_extra__name:t="barbedwire_a_dmg"
 
   "turret_gun_flash_fx__flashFx:shared:array"{
     turret_gun_flash_fx__flashFx:t="muzzle_ground_20mm"
@@ -478,20 +654,6 @@ entity{
 
   "vehicle_seats__seats:shared:array"{
     "vehicle_seats__seats:object"{
-      receiveDamageFromDMPart:t="driver"
-      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0.25, -0.25, 0]]
-      name:t="driver"
-      seatComponent:t="isDriver"
-      cameraNodeName:t="bone_camera_driver"
-      attachNode:t="driver"
-      seatOwnsEntityControl:b=yes
-      nextSeat:t="main_gunner"
-      locName:t="vehicle_seats/driver"
-      ignoreAttachNodeRotation:b=yes
-      shouldHideOwner:b=no
-    }
-
-    "vehicle_seats__seats:object"{
       receiveDamageFromDMPart:t="gunner"
       attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0.25, -0.5, 0]]
       cameraOffset:p3=-2.2, 0.6, 0
@@ -500,7 +662,7 @@ entity{
       cameraNodeName:t="bone_camera_gunner"
       cameraType:t="machinegunner_cockpit"
       attachNode:t="gunner"
-      nextSeat:t="driver"
+      nextSeat:t="commander"
       locName:t="vehicle_seats/gunner"
       ignoreAttachNodeRotation:b=yes
       shouldHideOwner:b=no
@@ -513,14 +675,29 @@ entity{
     "vehicle_seats__seats:object"{
       receiveDamageFromDMPart:t="commander"
       attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0, 0.1, 0.1]]
-      cameraOffset:p3=-5, 0.29, 0
+      cameraOffset:p3=-3.6, 0.16, 0
       name:t="commander"
       seatComponent:t="isDriver"
       cameraType:t="machinegunner_cockpit"
       attachNode:t="commander"
+      nextSeat:t="main_gunner"
       locName:t="vehicle_seats/commander"
       ignoreAttachNodeRotation:b=yes
       maxPosWithOpenHatch:r=0.4
+      shouldHideOwner:b=no
+      seatOwnsEntityControl:b=yes
+    }
+
+    "vehicle_seats__seats:object"{
+      receiveDamageFromDMPart:t="driver"
+      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0.25, -0.25, 0]]
+      name:t="passenger"
+      seatComponent:t="isDriver"
+      attachNode:t="char_driver_pivot"
+      entranceNode:t="char_driver_landing"
+      seatOwnsEntityControl:b=yes
+      locName:t="vehicle_seats/driver"
+      ignoreAttachNodeRotation:b=yes
       shouldHideOwner:b=no
     }
 
@@ -539,11 +716,49 @@ entity{
       }
     }
   }
+
+  "disableDMParts:list<t>"{
+    item:t="ammo_body_01"
+    item:t="ammo_body_02"
+    item:t="ammo_body_03"
+    item:t="ammo_body_04"
+    item:t="ammo_body_05"
+    item:t="ammo_body_06"
+    item:t="ammo_body_07"
+    item:t="ammo_body_08"
+    item:t="ammo_body_09"
+    item:t="ammo_body_10"
+    item:t="ammo_body_11"
+    item:t="ammo_body_12"
+    item:t="ammo_body_13"
+    item:t="ammo_turret_01"
+    item:t="ammo_turret_02"
+    item:t="fuel_tank"
+    item:t="fuel_tank_r_01"
+    item:t="fuel_tank_l_01"
+    item:t="engine"
+    item:t="transmission"
+  }
 }
 
 entity{
-  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+resource_box_base+ammunition_box_grenade_resupply+undestroyable_building+germ_flak_36_sdkfz_6_2+resupply_for_ground_vehicle_zone"
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+resource_box_base+ammunition_box_grenade_resupply+undestroyable_building+opel_blitz_kfz_305+base_sdkfz_251_10+flak_36_sdkfz_6_2_ammo_stowages+resupply_for_ground_vehicle_zone"
   transform:m=[[0.488893, -0.00663881, 0.872319] [0.0691382, 0.99712, -0.03116] [-0.8696, 0.0755444, 0.487944] [-987.742, 4.90698, -1649.42]]
+  killLogName:t="germ_sdkfz_6_2_flak36"
+  animchar__res:t="flak_36_sdkfz_6_2_char"
+  collres__res:t="flak_36_sdkfz_6_2_collision"
+  vehicle_net_phys__blk:t="gamedata/gen/units/tanks/flak_36_sdkfz_6_2.blk:VehiclePhys"
+  particle_phys__blk:t="gamedata/suspension/empty.blk"
+  dmg_animchar__res:t="flak_36_sdkfz_6_2_dmg_char"
+  xray_resource__modelName:t="flak_36_sdkfz_6_2"
+  cockpit__zoomOutFov:r=2.7475
+  cockpit__zoomInFov:r=5.3955
+  cockpit__sightName:t="sight_model/default_tank_spg"
+  cockpit__sightFov:r=20.0
+  drowningHeight:r=2.24
+  damage_model__blk:t="gamedata/gen/units/tanks/flak_36_sdkfz_6_2.blk"
+  item__name:t="items/germ_sdkfz_6_2_flak36"
+  skin__template:t="flak_36_sdkfz_6_2_skins"
   team:i=2
   vehicle_seats__restrictToTeam:i=2
   vehicle_seats__autoDetectRestrictToTeam:b=no
@@ -561,6 +776,7 @@ entity{
   useful_box__maxUseCount:i=9999999
   building_menu__image:t="map_icon_train"
   grenadeResupplyItem:t="type_91_incendiary_grenade_item"
+  ri_extra__name:t="barbedwire_a_dmg"
 
   "turret_gun_flash_fx__flashFx:shared:array"{
     turret_gun_flash_fx__flashFx:t="muzzle_ground_20mm"
@@ -586,20 +802,6 @@ entity{
 
   "vehicle_seats__seats:shared:array"{
     "vehicle_seats__seats:object"{
-      receiveDamageFromDMPart:t="driver"
-      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0.25, -0.25, 0]]
-      name:t="driver"
-      seatComponent:t="isDriver"
-      cameraNodeName:t="bone_camera_driver"
-      attachNode:t="driver"
-      seatOwnsEntityControl:b=yes
-      nextSeat:t="main_gunner"
-      locName:t="vehicle_seats/driver"
-      ignoreAttachNodeRotation:b=yes
-      shouldHideOwner:b=no
-    }
-
-    "vehicle_seats__seats:object"{
       receiveDamageFromDMPart:t="gunner"
       attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0.25, -0.5, 0]]
       cameraOffset:p3=-2.2, 0.6, 0
@@ -608,7 +810,7 @@ entity{
       cameraNodeName:t="bone_camera_gunner"
       cameraType:t="machinegunner_cockpit"
       attachNode:t="gunner"
-      nextSeat:t="driver"
+      nextSeat:t="commander"
       locName:t="vehicle_seats/gunner"
       ignoreAttachNodeRotation:b=yes
       shouldHideOwner:b=no
@@ -621,14 +823,29 @@ entity{
     "vehicle_seats__seats:object"{
       receiveDamageFromDMPart:t="commander"
       attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0, 0.1, 0.1]]
-      cameraOffset:p3=-5, 0.29, 0
+      cameraOffset:p3=-3.6, 0.16, 0
       name:t="commander"
       seatComponent:t="isDriver"
       cameraType:t="machinegunner_cockpit"
       attachNode:t="commander"
+      nextSeat:t="main_gunner"
       locName:t="vehicle_seats/commander"
       ignoreAttachNodeRotation:b=yes
       maxPosWithOpenHatch:r=0.4
+      shouldHideOwner:b=no
+      seatOwnsEntityControl:b=yes
+    }
+
+    "vehicle_seats__seats:object"{
+      receiveDamageFromDMPart:t="driver"
+      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0.25, -0.25, 0]]
+      name:t="passenger"
+      seatComponent:t="isDriver"
+      attachNode:t="char_driver_pivot"
+      entranceNode:t="char_driver_landing"
+      seatOwnsEntityControl:b=yes
+      locName:t="vehicle_seats/driver"
+      ignoreAttachNodeRotation:b=yes
       shouldHideOwner:b=no
     }
 
@@ -647,11 +864,49 @@ entity{
       }
     }
   }
+
+  "disableDMParts:list<t>"{
+    item:t="ammo_body_01"
+    item:t="ammo_body_02"
+    item:t="ammo_body_03"
+    item:t="ammo_body_04"
+    item:t="ammo_body_05"
+    item:t="ammo_body_06"
+    item:t="ammo_body_07"
+    item:t="ammo_body_08"
+    item:t="ammo_body_09"
+    item:t="ammo_body_10"
+    item:t="ammo_body_11"
+    item:t="ammo_body_12"
+    item:t="ammo_body_13"
+    item:t="ammo_turret_01"
+    item:t="ammo_turret_02"
+    item:t="fuel_tank"
+    item:t="fuel_tank_r_01"
+    item:t="fuel_tank_l_01"
+    item:t="engine"
+    item:t="transmission"
+  }
 }
 
 entity{
-  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+resource_box_base+ammunition_box_grenade_resupply+undestroyable_building+germ_flak_36_sdkfz_6_2+resupply_for_ground_vehicle_zone"
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+resource_box_base+ammunition_box_grenade_resupply+undestroyable_building+opel_blitz_kfz_305+base_sdkfz_251_10+flak_36_sdkfz_6_2_ammo_stowages+resupply_for_ground_vehicle_zone"
   transform:m=[[-0.710512, -0.00560438, 0.703663] [-0.0156226, 0.999847, -0.00781131] [-0.703512, -0.0165431, -0.710491] [1687.58, 4.82189, 453.718]]
+  killLogName:t="germ_sdkfz_6_2_flak36"
+  animchar__res:t="flak_36_sdkfz_6_2_char"
+  collres__res:t="flak_36_sdkfz_6_2_collision"
+  vehicle_net_phys__blk:t="gamedata/gen/units/tanks/flak_36_sdkfz_6_2.blk:VehiclePhys"
+  particle_phys__blk:t="gamedata/suspension/empty.blk"
+  dmg_animchar__res:t="flak_36_sdkfz_6_2_dmg_char"
+  xray_resource__modelName:t="flak_36_sdkfz_6_2"
+  cockpit__zoomOutFov:r=2.7475
+  cockpit__zoomInFov:r=5.3955
+  cockpit__sightName:t="sight_model/default_tank_spg"
+  cockpit__sightFov:r=20.0
+  drowningHeight:r=2.24
+  damage_model__blk:t="gamedata/gen/units/tanks/flak_36_sdkfz_6_2.blk"
+  item__name:t="items/germ_sdkfz_6_2_flak36"
+  skin__template:t="flak_36_sdkfz_6_2_skins"
   team:i=2
   vehicle_seats__autoDetectRestrictToTeam:b=no
   vehicle_seats__restrictToTeam:i=2
@@ -670,6 +925,7 @@ entity{
   useful_box__maxUseCount:i=9999999
   building_menu__image:t="map_icon_train"
   grenadeResupplyItem:t="type_91_incendiary_grenade_item"
+  ri_extra__name:t="barbedwire_a_dmg"
 
   "turret_gun_flash_fx__flashFx:shared:array"{
     turret_gun_flash_fx__flashFx:t="muzzle_ground_20mm"
@@ -695,20 +951,6 @@ entity{
 
   "vehicle_seats__seats:shared:array"{
     "vehicle_seats__seats:object"{
-      receiveDamageFromDMPart:t="driver"
-      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0.25, -0.25, 0]]
-      name:t="driver"
-      seatComponent:t="isDriver"
-      cameraNodeName:t="bone_camera_driver"
-      attachNode:t="driver"
-      seatOwnsEntityControl:b=yes
-      nextSeat:t="main_gunner"
-      locName:t="vehicle_seats/driver"
-      ignoreAttachNodeRotation:b=yes
-      shouldHideOwner:b=no
-    }
-
-    "vehicle_seats__seats:object"{
       receiveDamageFromDMPart:t="gunner"
       attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0.25, -0.5, 0]]
       cameraOffset:p3=-2.2, 0.6, 0
@@ -717,7 +959,7 @@ entity{
       cameraNodeName:t="bone_camera_gunner"
       cameraType:t="machinegunner_cockpit"
       attachNode:t="gunner"
-      nextSeat:t="driver"
+      nextSeat:t="commander"
       locName:t="vehicle_seats/gunner"
       ignoreAttachNodeRotation:b=yes
       shouldHideOwner:b=no
@@ -730,14 +972,29 @@ entity{
     "vehicle_seats__seats:object"{
       receiveDamageFromDMPart:t="commander"
       attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0, 0.1, 0.1]]
-      cameraOffset:p3=-5, 0.29, 0
+      cameraOffset:p3=-3.6, 0.16, 0
       name:t="commander"
       seatComponent:t="isDriver"
       cameraType:t="machinegunner_cockpit"
       attachNode:t="commander"
+      nextSeat:t="main_gunner"
       locName:t="vehicle_seats/commander"
       ignoreAttachNodeRotation:b=yes
       maxPosWithOpenHatch:r=0.4
+      shouldHideOwner:b=no
+      seatOwnsEntityControl:b=yes
+    }
+
+    "vehicle_seats__seats:object"{
+      receiveDamageFromDMPart:t="driver"
+      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0.25, -0.25, 0]]
+      name:t="passenger"
+      seatComponent:t="isDriver"
+      attachNode:t="char_driver_pivot"
+      entranceNode:t="char_driver_landing"
+      seatOwnsEntityControl:b=yes
+      locName:t="vehicle_seats/driver"
+      ignoreAttachNodeRotation:b=yes
       shouldHideOwner:b=no
     }
 
@@ -755,12 +1012,50 @@ entity{
         loaderTurretNames:t="turret_01"
       }
     }
+  }
+
+  "disableDMParts:list<t>"{
+    item:t="ammo_body_01"
+    item:t="ammo_body_02"
+    item:t="ammo_body_03"
+    item:t="ammo_body_04"
+    item:t="ammo_body_05"
+    item:t="ammo_body_06"
+    item:t="ammo_body_07"
+    item:t="ammo_body_08"
+    item:t="ammo_body_09"
+    item:t="ammo_body_10"
+    item:t="ammo_body_11"
+    item:t="ammo_body_12"
+    item:t="ammo_body_13"
+    item:t="ammo_turret_01"
+    item:t="ammo_turret_02"
+    item:t="fuel_tank"
+    item:t="fuel_tank_r_01"
+    item:t="fuel_tank_l_01"
+    item:t="engine"
+    item:t="transmission"
   }
 }
 
 entity{
-  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+resource_box_base+ammunition_box_grenade_resupply+undestroyable_building+germ_flak_36_sdkfz_6_2+resupply_for_ground_vehicle_zone"
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+resource_box_base+ammunition_box_grenade_resupply+undestroyable_building+opel_blitz_kfz_305+base_sdkfz_251_10+flak_36_sdkfz_6_2_ammo_stowages+resupply_for_ground_vehicle_zone"
   transform:m=[[0.0619881, 0.000484282, -0.998077] [-0.00781226, 0.999969, 0] [0.998046, 0.00779724, 0.06199] [908.719, 6.27775, 1445.3]]
+  killLogName:t="germ_sdkfz_6_2_flak36"
+  animchar__res:t="flak_36_sdkfz_6_2_char"
+  collres__res:t="flak_36_sdkfz_6_2_collision"
+  vehicle_net_phys__blk:t="gamedata/gen/units/tanks/flak_36_sdkfz_6_2.blk:VehiclePhys"
+  particle_phys__blk:t="gamedata/suspension/empty.blk"
+  dmg_animchar__res:t="flak_36_sdkfz_6_2_dmg_char"
+  xray_resource__modelName:t="flak_36_sdkfz_6_2"
+  cockpit__zoomOutFov:r=2.7475
+  cockpit__zoomInFov:r=5.3955
+  cockpit__sightName:t="sight_model/default_tank_spg"
+  cockpit__sightFov:r=20.0
+  drowningHeight:r=2.24
+  damage_model__blk:t="gamedata/gen/units/tanks/flak_36_sdkfz_6_2.blk"
+  item__name:t="items/germ_sdkfz_6_2_flak36"
+  skin__template:t="flak_36_sdkfz_6_2_skins"
   team:i=2
   vehicle_seats__autoDetectRestrictToTeam:b=no
   vehicle_seats__restrictToTeam:i=2
@@ -779,6 +1074,7 @@ entity{
   useful_box__maxUseCount:i=9999999
   building_menu__image:t="map_icon_train"
   grenadeResupplyItem:t="type_91_incendiary_grenade_item"
+  ri_extra__name:t="barbedwire_a_dmg"
 
   "turret_gun_flash_fx__flashFx:shared:array"{
     turret_gun_flash_fx__flashFx:t="muzzle_ground_20mm"
@@ -804,20 +1100,6 @@ entity{
 
   "vehicle_seats__seats:shared:array"{
     "vehicle_seats__seats:object"{
-      receiveDamageFromDMPart:t="driver"
-      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0.25, -0.25, 0]]
-      name:t="driver"
-      seatComponent:t="isDriver"
-      cameraNodeName:t="bone_camera_driver"
-      attachNode:t="driver"
-      seatOwnsEntityControl:b=yes
-      nextSeat:t="main_gunner"
-      locName:t="vehicle_seats/driver"
-      ignoreAttachNodeRotation:b=yes
-      shouldHideOwner:b=no
-    }
-
-    "vehicle_seats__seats:object"{
       receiveDamageFromDMPart:t="gunner"
       attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0.25, -0.5, 0]]
       cameraOffset:p3=-2.2, 0.6, 0
@@ -826,7 +1108,7 @@ entity{
       cameraNodeName:t="bone_camera_gunner"
       cameraType:t="machinegunner_cockpit"
       attachNode:t="gunner"
-      nextSeat:t="driver"
+      nextSeat:t="commander"
       locName:t="vehicle_seats/gunner"
       ignoreAttachNodeRotation:b=yes
       shouldHideOwner:b=no
@@ -839,14 +1121,29 @@ entity{
     "vehicle_seats__seats:object"{
       receiveDamageFromDMPart:t="commander"
       attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0, 0.1, 0.1]]
-      cameraOffset:p3=-5, 0.29, 0
+      cameraOffset:p3=-3.6, 0.16, 0
       name:t="commander"
       seatComponent:t="isDriver"
       cameraType:t="machinegunner_cockpit"
       attachNode:t="commander"
+      nextSeat:t="main_gunner"
       locName:t="vehicle_seats/commander"
       ignoreAttachNodeRotation:b=yes
       maxPosWithOpenHatch:r=0.4
+      shouldHideOwner:b=no
+      seatOwnsEntityControl:b=yes
+    }
+
+    "vehicle_seats__seats:object"{
+      receiveDamageFromDMPart:t="driver"
+      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0.25, -0.25, 0]]
+      name:t="passenger"
+      seatComponent:t="isDriver"
+      attachNode:t="char_driver_pivot"
+      entranceNode:t="char_driver_landing"
+      seatOwnsEntityControl:b=yes
+      locName:t="vehicle_seats/driver"
+      ignoreAttachNodeRotation:b=yes
       shouldHideOwner:b=no
     }
 
@@ -864,5 +1161,28 @@ entity{
         loaderTurretNames:t="turret_01"
       }
     }
+  }
+
+  "disableDMParts:list<t>"{
+    item:t="ammo_body_01"
+    item:t="ammo_body_02"
+    item:t="ammo_body_03"
+    item:t="ammo_body_04"
+    item:t="ammo_body_05"
+    item:t="ammo_body_06"
+    item:t="ammo_body_07"
+    item:t="ammo_body_08"
+    item:t="ammo_body_09"
+    item:t="ammo_body_10"
+    item:t="ammo_body_11"
+    item:t="ammo_body_12"
+    item:t="ammo_body_13"
+    item:t="ammo_turret_01"
+    item:t="ammo_turret_02"
+    item:t="fuel_tank"
+    item:t="fuel_tank_r_01"
+    item:t="fuel_tank_l_01"
+    item:t="engine"
+    item:t="transmission"
   }
 }

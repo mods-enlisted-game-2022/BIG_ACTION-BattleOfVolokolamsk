@@ -180,9 +180,9 @@ entity{
 }
 
 entity{
-  _template:t="placebale_rendinst+add_score_to_destroyable_ri+fortification_builder_info+ammunition_box_a+undestroyable_building+resupply_for_ground_vehicle_zone"
-  transform:m=[[-2.27305, -0.204162, -0.17375] [-0.212775, 2.27629, 0.108875] [0.163088, 0.124278, -2.2796] [-2449.16, 18.4387, -754.105]]
-  ri_extra__name:t="ammunition_box_b"
+  _template:t="placebale_rendinst+human_hidden_ui_battle_area+add_score_to_destroyable_ri+fortification_builder_info+ammunition_box_a+undestroyable_building+resupply_for_ground_vehicle_zone"
+  transform:m=[[-0.995124, -0.064399, -0.0747044] [-0.0607991, 0.996922, -0.0495025] [0.0776623, -0.0447191, -0.995976] [-2477.89, 29.1354, -1534.05]]
+  ri_extra__name:t="military_tent_b_a"
   destroyable_ri__group:i=14172
   team:i=2
   buildingRadius:r=1
@@ -194,15 +194,17 @@ entity{
   hud_icon__maxDistance:r=2000
   resupply_zone__team:i=3
   groupName:t="s1"
-  sphere_zone__radius:r=8
+  sphere_zone__radius:r=16
   active:b=yes
-  resupply_zone__duration:r=30
+  resupply_zone__duration:r=10
+  animchar__res:t="medkit_char"
+  collres__res:t="medkit_collision"
 }
 
 entity{
-  _template:t="placebale_rendinst+add_score_to_destroyable_ri+fortification_builder_info+ammunition_box_a+undestroyable_building+resupply_for_ground_vehicle_zone"
-  transform:m=[[-2.4038, -0.215905, -0.183745] [-0.225014, 2.40723, 0.115138] [0.172469, 0.131427, -2.41073] [-2449.36, 16.9207, -722.752]]
-  ri_extra__name:t="ammunition_box_c"
+  _template:t="placebale_rendinst+human_hidden_ui_battle_area+add_score_to_destroyable_ri+fortification_builder_info+ammunition_box_a+undestroyable_building+resupply_for_ground_vehicle_zone"
+  transform:m=[[-0.995124, -0.064399, -0.0747045] [-0.0607991, 0.996922, -0.0495025] [0.0776624, -0.0447191, -0.995976] [-2469.46, 28.317, -1560.88]]
+  ri_extra__name:t="military_tent_b_a"
   destroyable_ri__group:i=14172
   team:i=2
   buildingRadius:r=1
@@ -214,15 +216,17 @@ entity{
   hud_icon__maxDistance:r=2000
   resupply_zone__team:i=3
   groupName:t="s1"
-  sphere_zone__radius:r=8
+  sphere_zone__radius:r=16
   active:b=yes
-  resupply_zone__duration:r=30
+  resupply_zone__duration:r=10
+  animchar__res:t="medkit_char"
+  collres__res:t="medkit_collision"
 }
 
 entity{
-  _template:t="placebale_rendinst+add_score_to_destroyable_ri+fortification_builder_info+ammunition_box_a+undestroyable_building+resupply_for_ground_vehicle_zone"
-  transform:m=[[-2.33674, -0.151221, -0.17542] [-0.142768, 2.34096, -0.116241] [0.182366, -0.105009, -2.33874] [-2471.87, 29.431, -1535.49]]
-  ri_extra__name:t="ammunition_box_c"
+  _template:t="placebale_rendinst+human_hidden_ui_battle_area+add_score_to_destroyable_ri+fortification_builder_info+ammunition_box_a+undestroyable_building+resupply_for_ground_vehicle_zone"
+  transform:m=[[-0.995114, -0.0644047, -0.0748317] [-0.0607991, 0.996922, -0.0495025] [0.0777896, -0.0447109, -0.995967] [-2456.33, 25.666, -1630.4]]
+  ri_extra__name:t="military_tent_b_a"
   destroyable_ri__group:i=14172
   team:i=2
   buildingRadius:r=1
@@ -234,15 +238,17 @@ entity{
   hud_icon__maxDistance:r=2000
   resupply_zone__team:i=3
   groupName:t="s1"
-  sphere_zone__radius:r=8
+  sphere_zone__radius:r=16
   active:b=yes
-  resupply_zone__duration:r=30
+  resupply_zone__duration:r=10
+  animchar__res:t="medkit_char"
+  collres__res:t="medkit_collision"
 }
 
 entity{
-  _template:t="placebale_rendinst+add_score_to_destroyable_ri+fortification_builder_info+ammunition_box_a+undestroyable_building+resupply_for_ground_vehicle_zone"
-  transform:m=[[-2.54224, -0.16452, -0.190847] [-0.155324, 2.54683, -0.126464] [0.198404, -0.114244, -2.54442] [-2468.57, 28.5771, -1556.74]]
-  ri_extra__name:t="ammunition_box_e"
+  _template:t="placebale_rendinst+human_hidden_ui_battle_area+add_score_to_destroyable_ri+fortification_builder_info+ammunition_box_a+undestroyable_building+resupply_for_ground_vehicle_zone"
+  transform:m=[[-0.995124, -0.064399, -0.0747044] [-0.0607991, 0.996922, -0.0495025] [0.0776623, -0.0447191, -0.995976] [-2477.89, 29.1354, -1534.05]]
+  ri_extra__name:t="military_tent_b_a"
   destroyable_ri__group:i=14172
   team:i=2
   buildingRadius:r=1
@@ -254,15 +260,17 @@ entity{
   hud_icon__maxDistance:r=2000
   resupply_zone__team:i=3
   groupName:t="s1"
-  sphere_zone__radius:r=8
+  sphere_zone__radius:r=16
   active:b=yes
-  resupply_zone__duration:r=30
+  resupply_zone__duration:r=10
+  animchar__res:t="medkit_char"
+  collres__res:t="medkit_collision"
 }
 
 entity{
-  _template:t="placebale_rendinst+add_score_to_destroyable_ri+fortification_builder_info+ammunition_box_a+undestroyable_building+resupply_for_ground_vehicle_zone"
-  transform:m=[[-2.3947, 0.0354949, -0.18863] [0.0433002, 2.39999, -0.0980964] [0.186993, -0.101183, -2.39295] [-2452.4, 25.5979, -1633.18]]
-  ri_extra__name:t="ammunition_box_f"
+  _template:t="placebale_rendinst+human_hidden_ui_battle_area+add_score_to_destroyable_ri+fortification_builder_info+ammunition_box_a+undestroyable_building+resupply_for_ground_vehicle_zone"
+  transform:m=[[-0.598503, 0.214089, 0.771985] [0.153329, 0.976428, -0.151913] [-0.786311, 0.0274475, -0.617222] [-1078.28, 17.768, -2638.2]]
+  ri_extra__name:t="military_tent_b_a"
   destroyable_ri__group:i=14172
   team:i=2
   buildingRadius:r=1
@@ -274,15 +282,17 @@ entity{
   hud_icon__maxDistance:r=2000
   resupply_zone__team:i=3
   groupName:t="s1"
-  sphere_zone__radius:r=8
+  sphere_zone__radius:r=20
   active:b=yes
-  resupply_zone__duration:r=30
+  resupply_zone__duration:r=10
+  animchar__res:t="medkit_char"
+  collres__res:t="medkit_collision"
 }
 
 entity{
-  _template:t="placebale_rendinst+add_score_to_destroyable_ri+fortification_builder_info+ammunition_box_a+undestroyable_building+resupply_for_ground_vehicle_zone"
-  transform:m=[[-2.6827, 0.38206, -0.252] [0.417279, 2.65731, -0.413425] [0.18802, -0.446175, -2.67805] [-1077.33, 18.1969, -2634.48]]
-  ri_extra__name:t="ammunition_box_b"
+  _template:t="placebale_rendinst+human_hidden_ui_battle_area+add_score_to_destroyable_ri+fortification_builder_info+ammunition_box_a+undestroyable_building+resupply_for_ground_vehicle_zone"
+  transform:m=[[-0.577607, 0.179612, 0.79631] [0.0762074, 0.983098, -0.166466] [-0.81275, -0.035467, -0.581532] [-1046.23, 18.4907, -2615.16]]
+  ri_extra__name:t="military_tent_b_a"
   destroyable_ri__group:i=14172
   team:i=2
   buildingRadius:r=1
@@ -294,15 +304,17 @@ entity{
   hud_icon__maxDistance:r=2000
   resupply_zone__team:i=3
   groupName:t="s1"
-  sphere_zone__radius:r=8
+  sphere_zone__radius:r=20
   active:b=yes
-  resupply_zone__duration:r=30
+  resupply_zone__duration:r=10
+  animchar__res:t="medkit_char"
+  collres__res:t="medkit_collision"
 }
 
 entity{
-  _template:t="placebale_rendinst+add_score_to_destroyable_ri+fortification_builder_info+ammunition_box_a+undestroyable_building+resupply_for_ground_vehicle_zone"
-  transform:m=[[-2.42452, 0.154754, -0.196003] [0.185744, 2.39615, -0.405734] [0.166929, -0.418536, -2.39533] [-1046.82, 19.3308, -2610.47]]
-  ri_extra__name:t="ammunition_box_b"
+  _template:t="placebale_rendinst+human_hidden_ui_battle_area+add_score_to_destroyable_ri+fortification_builder_info+ammunition_box_a+undestroyable_building+resupply_for_ground_vehicle_zone"
+  transform:m=[[-0.993116, -0.0892, -0.075913] [-0.0929633, 0.994532, 0.0475687] [0.0712549, 0.0542984, -0.995979] [-2453.57, 17.8741, -750.92]]
+  ri_extra__name:t="military_tent_b_a"
   destroyable_ri__group:i=14172
   team:i=2
   buildingRadius:r=1
@@ -314,15 +326,39 @@ entity{
   hud_icon__maxDistance:r=2000
   resupply_zone__team:i=3
   groupName:t="s1"
-  sphere_zone__radius:r=8
+  sphere_zone__radius:r=20
   active:b=yes
-  resupply_zone__duration:r=30
+  resupply_zone__duration:r=10
+  animchar__res:t="medkit_char"
+  collres__res:t="medkit_collision"
 }
 
 entity{
-  _template:t="placebale_rendinst+add_score_to_destroyable_ri+fortification_builder_info+ammunition_box_a+undestroyable_building+resupply_for_ground_vehicle_zone"
-  transform:m=[[-2.43098, 0.144541, -0.179961] [0.134382, 2.4342, 0.139819] [0.187668, 0.129289, -2.43126] [221.114, 9.77735, -3157]]
-  ri_extra__name:t="ammunition_box_h"
+  _template:t="placebale_rendinst+human_hidden_ui_battle_area+add_score_to_destroyable_ri+fortification_builder_info+ammunition_box_a+undestroyable_building+resupply_for_ground_vehicle_zone"
+  transform:m=[[-0.993117, -0.0892, -0.0759129] [-0.0929633, 0.994532, 0.0475687] [0.0712547, 0.0542984, -0.995979] [-2453.42, 16.3464, -718.683]]
+  ri_extra__name:t="military_tent_b_a"
+  destroyable_ri__group:i=14172
+  team:i=2
+  buildingRadius:r=1
+  builder_info__team:i=2
+  animchar__minDtThreshold:r=0.5
+  building_menu__image:t="map_icon_cannon_at"
+  hud_icon__image:t="map_icon_cannon_at"
+  minimap__visibleRadius:r=50
+  hud_icon__maxDistance:r=2000
+  resupply_zone__team:i=3
+  groupName:t="s1"
+  sphere_zone__radius:r=20
+  active:b=yes
+  resupply_zone__duration:r=10
+  animchar__res:t="medkit_char"
+  collres__res:t="medkit_collision"
+}
+
+entity{
+  _template:t="placebale_rendinst+human_hidden_ui_battle_area+add_score_to_destroyable_ri+fortification_builder_info+ammunition_box_a+undestroyable_building+resupply_for_ground_vehicle_zone"
+  transform:m=[[0.0341682, 0.00120652, -0.999415] [-0.0822789, 0.996608, -0.00160983] [0.996024, 0.0822859, 0.0341516] [170.139, 8.25889, -3158.18]]
+  ri_extra__name:t="military_tent_b_a"
   destroyable_ri__group:i=24172
   team:i=2
   buildingRadius:r=1
@@ -334,15 +370,17 @@ entity{
   hud_icon__maxDistance:r=2000
   resupply_zone__team:i=3
   groupName:t="s2"
-  sphere_zone__radius:r=8
+  sphere_zone__radius:r=20
   active:b=no
-  resupply_zone__duration:r=30
+  resupply_zone__duration:r=10
+  animchar__res:t="medkit_char"
+  collres__res:t="medkit_collision"
 }
 
 entity{
-  _template:t="placebale_rendinst+add_score_to_destroyable_ri+fortification_builder_info+ammunition_box_a+undestroyable_building+resupply_for_ground_vehicle_zone"
-  transform:m=[[-2.17459, 0.0122733, -0.163932] [0.000759552, 2.17544, 0.152795] [0.164389, 0.152303, -2.16925] [195.953, 10.3041, -3156.87]]
-  ri_extra__name:t="ammunition_box_i"
+  _template:t="placebale_rendinst+human_hidden_ui_battle_area+add_score_to_destroyable_ri+fortification_builder_info+ammunition_box_a+undestroyable_building+resupply_for_ground_vehicle_zone"
+  transform:m=[[0.0341711, 0.00116932, -0.999415] [-0.082316, 0.996605, -0.00164845] [0.99602, 0.0823242, 0.0341514] [195.317, 10.3369, -3158.65]]
+  ri_extra__name:t="military_tent_b_a"
   destroyable_ri__group:i=24172
   team:i=2
   buildingRadius:r=1
@@ -354,15 +392,17 @@ entity{
   hud_icon__maxDistance:r=2000
   resupply_zone__team:i=3
   groupName:t="s2"
-  sphere_zone__radius:r=8
+  sphere_zone__radius:r=20
   active:b=no
-  resupply_zone__duration:r=30
+  resupply_zone__duration:r=10
+  animchar__res:t="medkit_char"
+  collres__res:t="medkit_collision"
 }
 
 entity{
-  _template:t="placebale_rendinst+add_score_to_destroyable_ri+fortification_builder_info+ammunition_box_a+undestroyable_building+resupply_for_ground_vehicle_zone"
-  transform:m=[[-1.96824, -0.162755, -0.160583] [-0.163034, 1.97475, -0.00318983] [0.1603, 0.0100441, -1.97495] [167.218, 8.03581, -3155.81]]
-  ri_extra__name:t="ammunition_box_c"
+  _template:t="placebale_rendinst+human_hidden_ui_battle_area+add_score_to_destroyable_ri+fortification_builder_info+ammunition_box_a+undestroyable_building+resupply_for_ground_vehicle_zone"
+  transform:m=[[0.0357039, 0.03486, -0.998754] [0.073794, 0.996571, 0.0374219] [0.996634, -0.0750382, 0.033009] [222.104, 9.82597, -3158.89]]
+  ri_extra__name:t="military_tent_b_a"
   destroyable_ri__group:i=24172
   team:i=2
   buildingRadius:r=1
@@ -374,15 +414,17 @@ entity{
   hud_icon__maxDistance:r=2000
   resupply_zone__team:i=3
   groupName:t="s2"
-  sphere_zone__radius:r=8
+  sphere_zone__radius:r=20
   active:b=no
-  resupply_zone__duration:r=30
+  resupply_zone__duration:r=10
+  animchar__res:t="medkit_char"
+  collres__res:t="medkit_collision"
 }
 
 entity{
-  _template:t="placebale_rendinst+add_score_to_destroyable_ri+fortification_builder_info+ammunition_box_a+undestroyable_building+resupply_for_ground_vehicle_zone"
-  transform:m=[[-2.56791, 0.26747, -0.206228] [0.263844, 2.57596, 0.055573] [0.210846, 0.0340905, -2.58121] [490.492, 10.8353, 2598.1]]
-  ri_extra__name:t="ammunition_box_d"
+  _template:t="placebale_rendinst+human_hidden_ui_battle_area+add_score_to_destroyable_ri+fortification_builder_info+ammunition_box_a+undestroyable_building+resupply_for_ground_vehicle_zone"
+  transform:m=[[0.237623, -0.0033829, -0.971352] [0.101869, 0.994566, 0.0214565] [0.966001, -0.104049, 0.236676] [487.56, 11.0788, 2600.57]]
+  ri_extra__name:t="military_tent_b_b"
   destroyable_ri__group:i=54171
   team:i=1
   buildingRadius:r=1
@@ -394,29 +436,77 @@ entity{
   hud_icon__maxDistance:r=2000
   resupply_zone__team:i=1
   groupName:t="s5a"
-  sphere_zone__radius:r=8
-  active:b=no
-  resupply_zone__duration:r=50
-}
-
-entity{
-  _template:t="placebale_rendinst+add_score_to_destroyable_ri+fortification_builder_info+ammunition_box_a+undestroyable_building+resupply_for_ground_vehicle_zone"
-  transform:m=[[-2.27777, 0.237249, -0.182926] [0.234032, 2.2849, 0.0492939] [0.187023, 0.0302387, -2.28956] [521.984, 7.57105, 2598.9]]
-  ri_extra__name:t="ammunition_box_d"
-  destroyable_ri__group:i=54171
-  team:i=1
-  buildingRadius:r=1
-  builder_info__team:i=1
-  animchar__minDtThreshold:r=0.5
-  building_menu__image:t="map_icon_cannon_at"
-  hud_icon__image:t="map_icon_cannon_at"
-  minimap__visibleRadius:r=50
-  hud_icon__maxDistance:r=2000
-  resupply_zone__team:i=1
-  groupName:t="s5a"
-  sphere_zone__radius:r=8
+  sphere_zone__radius:r=20
   active:b=no
   resupply_zone__duration:r=60
+  animchar__res:t="medkit_char"
+  collres__res:t="medkit_collision"
+}
+
+entity{
+  _template:t="placebale_rendinst+human_hidden_ui_battle_area+add_score_to_destroyable_ri+fortification_builder_info+ammunition_box_a+undestroyable_building+resupply_for_ground_vehicle_zone"
+  transform:m=[[-0.0556419, 0.0272315, -0.998079] [0.101869, 0.994567, 0.0214565] [0.99324, -0.100479, -0.0581136] [520.981, 7.64509, 2601.05]]
+  ri_extra__name:t="military_tent_b_b"
+  destroyable_ri__group:i=54171
+  team:i=1
+  buildingRadius:r=1
+  builder_info__team:i=1
+  animchar__minDtThreshold:r=0.5
+  building_menu__image:t="map_icon_cannon_at"
+  hud_icon__image:t="map_icon_cannon_at"
+  minimap__visibleRadius:r=50
+  hud_icon__maxDistance:r=2000
+  resupply_zone__team:i=1
+  groupName:t="s5a"
+  sphere_zone__radius:r=20
+  active:b=no
+  resupply_zone__duration:r=60
+  animchar__res:t="medkit_char"
+  collres__res:t="medkit_collision"
+}
+
+entity{
+  _template:t="placebale_rendinst+human_hidden_ui_battle_area+add_score_to_destroyable_ri+fortification_builder_info+ammunition_box_a+undestroyable_building+resupply_for_ground_vehicle_zone"
+  transform:m=[[0.702746, 0.0378869, -0.710432] [-0.0840535, 0.996008, -0.0300276] [0.706459, 0.0808161, 0.703125] [-514.106, 47.4788, 2471.31]]
+  ri_extra__name:t="military_tent_a_b"
+  destroyable_ri__group:i=54171
+  team:i=1
+  buildingRadius:r=1
+  builder_info__team:i=1
+  animchar__minDtThreshold:r=0.5
+  building_menu__image:t="map_icon_cannon_at"
+  hud_icon__image:t="map_icon_cannon_at"
+  minimap__visibleRadius:r=50
+  hud_icon__maxDistance:r=2000
+  resupply_zone__team:i=1
+  groupName:t="s5a"
+  sphere_zone__radius:r=23
+  active:b=no
+  resupply_zone__duration:r=36
+  animchar__res:t="medkit_char"
+  collres__res:t="medkit_collision"
+}
+
+entity{
+  _template:t="placebale_rendinst+human_hidden_ui_battle_area+add_score_to_destroyable_ri+fortification_builder_info+ammunition_box_a+undestroyable_building+resupply_for_ground_vehicle_zone"
+  transform:m=[[0.702746, 0.0378869, -0.710432] [-0.0840535, 0.996008, -0.0300276] [0.706459, 0.0808161, 0.703125] [-476.71, 50.8306, 2477.81]]
+  ri_extra__name:t="military_tent_a_a"
+  destroyable_ri__group:i=54171
+  team:i=1
+  buildingRadius:r=1
+  builder_info__team:i=1
+  animchar__minDtThreshold:r=0.5
+  building_menu__image:t="map_icon_cannon_at"
+  hud_icon__image:t="map_icon_cannon_at"
+  minimap__visibleRadius:r=50
+  hud_icon__maxDistance:r=2000
+  resupply_zone__team:i=1
+  groupName:t="s5a"
+  sphere_zone__radius:r=23
+  active:b=no
+  resupply_zone__duration:r=36
+  animchar__res:t="medkit_char"
+  collres__res:t="medkit_collision"
 }
 
 entity{
@@ -485,8 +575,8 @@ entity{
   "turretsInitialComponents:array"{
     "turretsInitialComponents:object"{
       gun__shotFreq:r=1.66
-      gun__maxAmmo:i=15
-      gun__ammo:i=15
+      gun__maxAmmo:i=9
+      gun__ammo:i=9
       gun_deviation__maxDeviation:r=1.2
       turret__limit:p4=-180, 180, -12, 76
       gun_spread__maxDeltaAngle:r=0.99
@@ -579,8 +669,8 @@ entity{
     "turretsInitialComponents:object"{
       gun__delayedAmmoSyncTime:r=1
       gun__shotFreq:r=1.66
-      gun__maxAmmo:i=15
-      gun__ammo:i=15
+      gun__maxAmmo:i=9
+      gun__ammo:i=9
       gun_deviation__maxDeviation:r=1.2
       turret__limit:p4=-180, 180, -12, 76
       gun_spread__maxDeltaAngle:r=0.99
@@ -676,8 +766,8 @@ entity{
   "turretsInitialComponents:array"{
     "turretsInitialComponents:object"{
       gun__shotFreq:r=1.66
-      gun__maxAmmo:i=15
-      gun__ammo:i=15
+      gun__maxAmmo:i=9
+      gun__ammo:i=9
       gun_deviation__maxDeviation:r=1.2
       turret__limit:p4=-180, 180, -12, 76
       gun_spread__maxDeltaAngle:r=0.99
@@ -773,8 +863,8 @@ entity{
   "turretsInitialComponents:array"{
     "turretsInitialComponents:object"{
       gun__shotFreq:r=1.66
-      gun__maxAmmo:i=15
-      gun__ammo:i=15
+      gun__maxAmmo:i=9
+      gun__ammo:i=9
       gun_deviation__maxDeviation:r=1.2
       turret__limit:p4=-180, 180, -12, 76
       gun_spread__maxDeltaAngle:r=0.99
@@ -870,8 +960,8 @@ entity{
   "turretsInitialComponents:array"{
     "turretsInitialComponents:object"{
       gun__shotFreq:r=1.66
-      gun__maxAmmo:i=15
-      gun__ammo:i=15
+      gun__maxAmmo:i=9
+      gun__ammo:i=9
       gun_deviation__maxDeviation:r=1.2
       turret__limit:p4=-180, 180, -12, 76
       gun_spread__maxDeltaAngle:r=0.99
@@ -967,8 +1057,8 @@ entity{
   "turretsInitialComponents:array"{
     "turretsInitialComponents:object"{
       gun__shotFreq:r=1.66
-      gun__maxAmmo:i=15
-      gun__ammo:i=15
+      gun__maxAmmo:i=9
+      gun__ammo:i=9
       gun_deviation__maxDeviation:r=1.2
       turret__limit:p4=-180, 180, -12, 76
       gun_spread__maxDeltaAngle:r=0.99
@@ -1064,8 +1154,8 @@ entity{
   "turretsInitialComponents:array"{
     "turretsInitialComponents:object"{
       gun__shotFreq:r=1.66
-      gun__maxAmmo:i=15
-      gun__ammo:i=15
+      gun__maxAmmo:i=9
+      gun__ammo:i=9
       gun_deviation__maxDeviation:r=1.2
       turret__limit:p4=-180, 180, -12, 76
       gun_spread__maxDeltaAngle:r=0.99
@@ -1673,16 +1763,18 @@ entity{
       gun_deviation__maxDeviation:r=2.3
       gun__ammo:i=24
       turret__limit:p4=-60, 60, -3, 40
-      gun_spread__maxDeltaAngle:r=2
+      gun_spread__maxDeltaAngle:r=5.075
       gun_deviation__onShotDeviationChange:r=0.1
       turret_ai__attackTimerr:r=0.3
       gun__ammoToRessuply:i=24
       turret_ai__sleepTimer:r=0.06
       turret_ai__atackDist:r=60
-      turret_ai__period:p2=0, 0
+      turret_ai__period:p2=1.0, 2.0
       turret__pitchSpeed:r=99
       turret_ai__pauseTimer:r=1
       gun__reloadTime:r=12.6
+      gun__projectileTemplate:t="bm_8_24_projectile+trail_plane_smoke_minor_effect"
+      gun__projectileDebugTemplate:t="bm_8_24_projectile+trail_plane_smoke_minor_effect+bomb_projectile_debug"
 
       "gun__shellsAmmo:array"{
         gun__shellsAmmo:i=36
@@ -1772,19 +1864,21 @@ entity{
       gun_deviation__maxDeviation:r=2.3
       gun__ammo:i=24
       turret__limit:p4=-60, 60, -3, 40
-      gun_spread__maxDeltaAngle:r=2
+      gun_spread__maxDeltaAngle:r=5.075
       gun_deviation__onShotDeviationChange:r=0.1
       turret_ai__attackTimerr:r=0.3
       gun__ammoToRessuply:i=24
       gun__reloadTime:r=6.6
       turret_ai__sleepTimer:r=0.06
       turret_ai__atackDist:r=60
-      turret_ai__period:p2=0, 0
+      turret_ai__period:p2=1.0, 2.0
       turret__pitchSpeed:r=99
       turret_ai__pauseTimer:r=1
       gun__reloadTime:r=20.0
       // gun__projectileDebugTemplate:t="rbs_132_rocket_projectile+bomb_projectile_debug"
       // gun__projectileTemplate:t="rbs_132_rocket_projectile"
+      gun__projectileTemplate:t="bm_8_24_projectile+trail_plane_smoke_minor_effect"
+      gun__projectileDebugTemplate:t="bm_8_24_projectile+trail_plane_smoke_minor_effect+bomb_projectile_debug"
 
       "gun__shellsAmmo:array"{
         gun__shellsAmmo:i=36
@@ -1824,46 +1918,6 @@ entity{
   animchar_render__enabled:b=no
   auto_gun_controller__enabled:b=no
   collres__res:t="grenade_f1_collision"
-}
-
-entity{
-  _template:t="placebale_rendinst+add_score_to_destroyable_ri+fortification_builder_info+ammunition_box_a+undestroyable_building+resupply_for_ground_vehicle_zone"
-  transform:m=[[-1.31524, -0.340888, -2.20505] [-0.0335643, 2.56236, -0.376107] [2.23098, -0.162414, -1.3056] [-476.76, 50.4334, 2473.86]]
-  ri_extra__name:t="ammunition_box_d"
-  destroyable_ri__group:i=54171
-  team:i=1
-  buildingRadius:r=1
-  builder_info__team:i=1
-  animchar__minDtThreshold:r=0.5
-  building_menu__image:t="map_icon_cannon_at"
-  hud_icon__image:t="map_icon_cannon_at"
-  minimap__visibleRadius:r=50
-  hud_icon__maxDistance:r=2000
-  resupply_zone__team:i=1
-  groupName:t="s5a"
-  sphere_zone__radius:r=8
-  active:b=no
-  resupply_zone__duration:r=36
-}
-
-entity{
-  _template:t="placebale_rendinst+add_score_to_destroyable_ri+fortification_builder_info+ammunition_box_a+undestroyable_building+resupply_for_ground_vehicle_zone"
-  transform:m=[[-1.33017, -0.179036, -2.21514] [-0.217702, 2.5797, -0.0777725] [2.21168, 0.146249, -1.33991] [-514.228, 47.3285, 2466.67]]
-  ri_extra__name:t="ammunition_box_d"
-  destroyable_ri__group:i=54171
-  team:i=1
-  buildingRadius:r=1
-  builder_info__team:i=1
-  animchar__minDtThreshold:r=0.5
-  building_menu__image:t="map_icon_cannon_at"
-  hud_icon__image:t="map_icon_cannon_at"
-  minimap__visibleRadius:r=50
-  hud_icon__maxDistance:r=2000
-  resupply_zone__team:i=1
-  groupName:t="s5a"
-  sphere_zone__radius:r=8
-  active:b=no
-  resupply_zone__duration:r=39
 }
 
 entity{
@@ -1926,15 +1980,17 @@ entity{
       gun_deviation__maxDeviation:r=2.3
       gun__ammo:i=24
       turret__limit:p4=-60, 60, -3, 40
-      gun_spread__maxDeltaAngle:r=2
+      gun_spread__maxDeltaAngle:r=5.075
       gun_deviation__onShotDeviationChange:r=0.1
       turret_ai__attackTimerr:r=0.3
       gun__ammoToRessuply:i=24
       turret_ai__sleepTimer:r=0.06
       turret_ai__atackDist:r=60
-      turret_ai__period:p2=0, 0
+      turret_ai__period:p2=1.0, 2.0
       turret__pitchSpeed:r=99
       turret_ai__pauseTimer:r=1
+      gun__projectileTemplate:t="bm_8_24_projectile+trail_plane_smoke_minor_effect"
+      gun__projectileDebugTemplate:t="bm_8_24_projectile+trail_plane_smoke_minor_effect+bomb_projectile_debug"
 
       "gun__shellsAmmo:array"{
         gun__shellsAmmo:i=36
@@ -2012,15 +2068,17 @@ entity{
       gun_deviation__maxDeviation:r=2.3
       gun__ammo:i=24
       turret__limit:p4=-60, 60, -3, 40
-      gun_spread__maxDeltaAngle:r=2
+      gun_spread__maxDeltaAngle:r=5.075
       gun_deviation__onShotDeviationChange:r=0.1
       turret_ai__attackTimerr:r=0.3
       gun__ammoToRessuply:i=24
       turret_ai__sleepTimer:r=0.06
       turret_ai__atackDist:r=60
-      turret_ai__period:p2=0, 0
+      turret_ai__period:p2=1.0, 2.0
       turret__pitchSpeed:r=99
       turret_ai__pauseTimer:r=1
+      gun__projectileTemplate:t="bm_8_24_projectile+trail_plane_smoke_minor_effect"
+      gun__projectileDebugTemplate:t="bm_8_24_projectile+trail_plane_smoke_minor_effect+bomb_projectile_debug"
 
       "gun__shellsAmmo:array"{
         gun__shellsAmmo:i=36

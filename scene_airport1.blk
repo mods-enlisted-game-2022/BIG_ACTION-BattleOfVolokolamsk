@@ -59,7 +59,7 @@ entity{
 
 entity{
   _template:t="respAircraftOnCarrier"
-  transform:m=[[-0.992521, 0, 0.122074] [0, 1, 0] [-0.122074, 0, -0.992521] [5.70835, 10.1308, -1433.06]]
+  transform:m=[[-0.990624, 0.06133, 0.122074] [0.0617922, 0.998089, 4.65661e-10] [-0.121841, 0.00754322, -0.992521] [5.70835, 10.1308, -1433.06]]
   maxVehicleOnSpawn:i=0
   landing_zone__maxSpeed:r=20
   team:i=2

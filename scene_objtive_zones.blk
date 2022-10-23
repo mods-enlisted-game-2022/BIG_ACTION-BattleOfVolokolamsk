@@ -34,7 +34,7 @@ entity{
   capzone_timer__timeLeft:r=-1
   capzone__capReward:r=18000
   capzone__capTimeTeam1:r=999999
-  capzone__capTimeTeam2:r=230
+  capzone__capTimeTeam2:r=170
   capzone__decapTimeTeam1:r=360
   capzone__decapTimeTeam2:r=120
   capzone__lockAfterActivate:b=yes
@@ -215,7 +215,7 @@ entity{
   capzone__alwaysShow:b=yes
   capzone__capReward:r=18000
   capzone__capTimeTeam1:r=9999999
-  capzone__capTimeTeam2:r=230
+  capzone__capTimeTeam2:r=170
   capzone__decapTimeTeam1:r=360
   capzone__decapTimeTeam2:r=120
   capzone__lockAfterActivate:b=yes
@@ -264,7 +264,7 @@ entity{
   capzone__maxCapDecapSpeedMult:r=1.2
   capzone_timer__timeLeft:r=-1
   capzone__capTimeTeam1:r=9999999
-  capzone__capTimeTeam2:r=230
+  capzone__capTimeTeam2:r=170
   capzone__decapTimeTeam1:r=120
   capzone__decapTimeTeam2:r=120
   capzone__lockAfterActivate:b=yes
@@ -501,7 +501,7 @@ entity{
   capzone__autoDecap:b=no
   capzone__autoCap:b=no
   capzone__capTimeTeam1:r=999999
-  capzone__capTimeTeam2:r=230
+  capzone__capTimeTeam2:r=170
   capzone__decapTimeTeam1:r=120
   capzone__decapTimeTeam2:r=120
   capzone__lockAfterActivate:b=yes
@@ -595,7 +595,7 @@ entity{
   capzone__autoDecap:b=no
   capzone__autoCap:b=no
   capzone__capTimeTeam1:r=999999
-  capzone__capTimeTeam2:r=230
+  capzone__capTimeTeam2:r=170
   capzone__decapTimeTeam1:r=120
   capzone__decapTimeTeam2:r=120
   capzone__lockAfterActivate:b=yes
@@ -690,7 +690,7 @@ entity{
   capzone__autoCap:b=no
   capzone__title:t="D"
   capzone__capTimeTeam1:r=999999
-  capzone__capTimeTeam2:r=230
+  capzone__capTimeTeam2:r=170
   capzone__decapTimeTeam1:r=120
   capzone__decapTimeTeam2:r=120
   capzone__lockAfterActivate:b=yes
@@ -1183,7 +1183,7 @@ entity{
   capzone__deactivateAfterCap:b=no
   capzone__caption:t="A;Manor (-500 to Allies;-2500 to Axis;Capture Disabled Defend Team Garrison For B;1mins Lock After Cap;占领B点后将开启C点;)"
   capzone__maxTeamPresence:i=3
-  capzone__maxCapDecapSpeedMult:r=3
+  capzone__maxCapDecapSpeedMult:r=2.3
   capzone__autoDecap:b=no
   capzone_timer__timeLeft:r=-1
   capzone__canCaptureOnVehicle:b=yes
@@ -1193,7 +1193,7 @@ entity{
   capzone__unlockAfterTime:r=90
   capzone__lockAfterCap:b=yes
   capzone__capTimeTeam2:r=90
-  capzone__capTimeTeam1:r=750
+  capzone__capTimeTeam1:r=690
   capzone__decapTimeTeam2:r=10
   capzone__decapTimeTeam1:r=3
   capzone__activateAfterCap:t="nil"
@@ -1267,7 +1267,7 @@ entity{
   capzone__canCaptureOnVehicle:b=yes
   capzone__caption:t="B;Vysokovo Villiage (Garrison For Defend Team By A;20% Capture To Push C;-500 to Allies;-2500 to Axis;2mins Lock After Cap;B,C,D点依次被前面防区的防守方控制;)"
   capzone__maxTeamPresence:i=3
-  capzone__maxCapDecapSpeedMult:r=3
+  capzone__maxCapDecapSpeedMult:r=2.3
   capzone_timer__timeLeft:r=-1
   capzone__canCaptureOnVehicle:b=yes
   capzone__title:t="B"
@@ -1275,7 +1275,7 @@ entity{
   capzone__unlockAfterTime:r=30
   capzone__lockAfterCap:b=yes
   capzone__capTimeTeam2:r=90
-  capzone__capTimeTeam1:r=750
+  capzone__capTimeTeam1:r=690
   capzone__decapTimeTeam2:r=30
   capzone__decapTimeTeam1:r=3
   capzone__activateAfterCap:t="nil"
@@ -1309,7 +1309,7 @@ entity{
   capzone__canCaptureOnVehicle:b=yes
   capzone__caption:t="C;Stable Trench (Garrison Defend Team By B;20% Capture To Push D;-500 to Allies;-2500 to Axis;6mins Lock;)"
   capzone__maxTeamPresence:i=3
-  capzone__maxCapDecapSpeedMult:r=3
+  capzone__maxCapDecapSpeedMult:r=2.3
   capzone_timer__timeLeft:r=-1
   capzone__canCaptureOnVehicle:b=yes
   effect__colorMult:c=255, 255, 255, 30
@@ -1319,7 +1319,7 @@ entity{
   capzone__unlockAfterTime:r=90
   capzone__lockAfterCap:b=yes
   capzone__capTimeTeam2:r=90
-  capzone__capTimeTeam1:r=750
+  capzone__capTimeTeam1:r=690
   capzone__decapTimeTeam2:r=60
   capzone__decapTimeTeam1:r=3
   capzone__activateAfterCap:t="nil"
@@ -1353,7 +1353,7 @@ entity{
   capzone__canCaptureOnVehicle:b=yes
   capzone__caption:t="D;Monastery HQ (指挥部; 进攻方占领即胜利; Final Zone For Defend Team! Hold The Position!)"
   capzone__maxTeamPresence:i=3
-  capzone__maxCapDecapSpeedMult:r=3
+  capzone__maxCapDecapSpeedMult:r=2.3
   capzone_timer__timeLeft:r=-1
   capzone__canCaptureOnVehicle:b=yes
   effect__colorMult:c=255, 255, 255, 30

@@ -1,6 +1,6 @@
 
 entity{
-  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+resource_box_base+ammunition_box_grenade_resupply+undestroyable_building+opel_blitz_kfz_305+base_sdkfz_251_10+flak_36_sdkfz_6_2_ammo_stowages+resupply_for_ground_vehicle_zone"
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+resource_box_base+ammunition_box_grenade_resupply+undestroyable_building+vw_kubelwagen+base_sdkfz_251_10+flak_36_sdkfz_6_2_ammo_stowages+resupply_for_ground_vehicle_zone"
   transform:m=[[-0.596454, 0.00931413, -0.802594] [0.015548, 0.999879, 4.9049e-05] [0.802497, -0.0124494, -0.596526] [-1652.97, 0.695873, -889.011]]
   killLogName:t="germ_sdkfz_6_2_flak36"
   animchar__res:t="flak_36_sdkfz_6_2_char"
@@ -148,7 +148,7 @@ entity{
 }
 
 entity{
-  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+resource_box_base+ammunition_box_grenade_resupply+undestroyable_building+opel_blitz_kfz_305+base_sdkfz_251_10+flak_36_sdkfz_6_2_ammo_stowages+resupply_for_ground_vehicle_zone"
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+resource_box_base+ammunition_box_grenade_resupply+undestroyable_building+vw_kubelwagen+base_sdkfz_251_10+flak_36_sdkfz_6_2_ammo_stowages+resupply_for_ground_vehicle_zone"
   transform:m=[[-0.57985, 0, -0.814723] [0, 1, 0] [0.814723, 0, -0.57985] [-1648.38, 0.678677, -893.201]]
   killLogName:t="germ_sdkfz_6_2_flak36"
   animchar__res:t="flak_36_sdkfz_6_2_char"
@@ -296,7 +296,7 @@ entity{
 }
 
 entity{
-  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+resource_box_base+ammunition_box_grenade_resupply+undestroyable_building+opel_blitz_kfz_305+base_sdkfz_251_10+flak_36_sdkfz_6_2_ammo_stowages+resupply_for_ground_vehicle_zone"
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+resource_box_base+ammunition_box_grenade_resupply+undestroyable_building+vw_kubelwagen+base_sdkfz_251_10+flak_36_sdkfz_6_2_ammo_stowages+resupply_for_ground_vehicle_zone"
   transform:m=[[0.991948, 0, -0.126647] [0, 1, 0] [0.126647, -0, 0.991948] [593.689, 7.23755, -1586.33]]
   killLogName:t="germ_sdkfz_6_2_flak36"
   animchar__res:t="flak_36_sdkfz_6_2_char"
@@ -445,7 +445,7 @@ entity{
 }
 
 entity{
-  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+resource_box_base+ammunition_box_grenade_resupply+undestroyable_building+opel_blitz_kfz_305+base_sdkfz_251_10+flak_36_sdkfz_6_2_ammo_stowages+resupply_for_ground_vehicle_zone"
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+resource_box_base+ammunition_box_grenade_resupply+undestroyable_building+vw_kubelwagen+base_sdkfz_251_10+flak_36_sdkfz_6_2_ammo_stowages+resupply_for_ground_vehicle_zone"
   transform:m=[[0.992136, -0.01584, -0.124157] [0.0181873, 0.999676, 0.017795] [0.123835, -0.0199132, 0.992103] [582.457, 7.33092, -1584.3]]
   killLogName:t="germ_sdkfz_6_2_flak36"
   animchar__res:t="flak_36_sdkfz_6_2_char"
@@ -594,7 +594,7 @@ entity{
 }
 
 entity{
-  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+resource_box_base+ammunition_box_grenade_resupply+undestroyable_building+opel_blitz_kfz_305+base_sdkfz_251_10+flak_36_sdkfz_6_2_ammo_stowages+resupply_for_ground_vehicle_zone"
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+resource_box_base+ammunition_box_grenade_resupply+undestroyable_building+vw_kubelwagen+base_sdkfz_251_10+flak_36_sdkfz_6_2_ammo_stowages+resupply_for_ground_vehicle_zone"
   transform:m=[[0.481642, -0.0267654, 0.875959] [0.0836834, 0.996371, -0.0155683] [-0.872364, 0.0808016, 0.482134] [-979.157, 4.82203, -1641.4]]
   killLogName:t="germ_sdkfz_6_2_flak36"
   animchar__res:t="flak_36_sdkfz_6_2_char"
@@ -742,7 +742,7 @@ entity{
 }
 
 entity{
-  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+resource_box_base+ammunition_box_grenade_resupply+undestroyable_building+opel_blitz_kfz_305+base_sdkfz_251_10+flak_36_sdkfz_6_2_ammo_stowages+resupply_for_ground_vehicle_zone"
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+resource_box_base+ammunition_box_grenade_resupply+undestroyable_building+vw_kubelwagen+base_sdkfz_251_10+flak_36_sdkfz_6_2_ammo_stowages+resupply_for_ground_vehicle_zone"
   transform:m=[[0.488893, -0.00663881, 0.872319] [0.0691382, 0.99712, -0.03116] [-0.8696, 0.0755444, 0.487944] [-987.742, 4.90698, -1649.42]]
   killLogName:t="germ_sdkfz_6_2_flak36"
   animchar__res:t="flak_36_sdkfz_6_2_char"
@@ -890,7 +890,7 @@ entity{
 }
 
 entity{
-  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+resource_box_base+ammunition_box_grenade_resupply+undestroyable_building+opel_blitz_kfz_305+base_sdkfz_251_10+flak_36_sdkfz_6_2_ammo_stowages+resupply_for_ground_vehicle_zone"
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+resource_box_base+ammunition_box_grenade_resupply+undestroyable_building+vw_kubelwagen+base_sdkfz_251_10+flak_36_sdkfz_6_2_ammo_stowages+resupply_for_ground_vehicle_zone"
   transform:m=[[-0.710512, -0.00560438, 0.703663] [-0.0156226, 0.999847, -0.00781131] [-0.703512, -0.0165431, -0.710491] [1687.58, 4.82189, 453.718]]
   killLogName:t="germ_sdkfz_6_2_flak36"
   animchar__res:t="flak_36_sdkfz_6_2_char"
@@ -1039,7 +1039,7 @@ entity{
 }
 
 entity{
-  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+resource_box_base+ammunition_box_grenade_resupply+undestroyable_building+opel_blitz_kfz_305+base_sdkfz_251_10+flak_36_sdkfz_6_2_ammo_stowages+resupply_for_ground_vehicle_zone"
+  _template:t="human_hidden_ui_battle_area+base_fortification_build+ammunition_box_base+resource_box_base+ammunition_box_grenade_resupply+undestroyable_building+vw_kubelwagen+base_sdkfz_251_10+flak_36_sdkfz_6_2_ammo_stowages+resupply_for_ground_vehicle_zone"
   transform:m=[[0.0619881, 0.000484282, -0.998077] [-0.00781226, 0.999969, 0] [0.998046, 0.00779724, 0.06199] [908.719, 6.27775, 1445.3]]
   killLogName:t="germ_sdkfz_6_2_flak36"
   animchar__res:t="flak_36_sdkfz_6_2_char"

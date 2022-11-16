@@ -214,7 +214,7 @@ entity{
   capzone__maxCapDecapSpeedMult:r=1.2
   capzone__alwaysShow:b=yes
   capzone__capReward:r=18000
-  capzone__capTimeTeam1:r=9999999
+  capzone__capTimeTeam1:r=999999
   capzone__capTimeTeam2:r=170
   capzone__decapTimeTeam1:r=360
   capzone__decapTimeTeam2:r=120
@@ -263,7 +263,7 @@ entity{
   capzone__maxTeamPresence:i=3
   capzone__maxCapDecapSpeedMult:r=1.2
   capzone_timer__timeLeft:r=-1
-  capzone__capTimeTeam1:r=9999999
+  capzone__capTimeTeam1:r=999999
   capzone__capTimeTeam2:r=170
   capzone__decapTimeTeam1:r=120
   capzone__decapTimeTeam2:r=120

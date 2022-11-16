@@ -1,0 +1,771 @@
+enlisted_player{
+  _override:b=yes
+  _tags:t="server"
+  friendly_fire__kickOnPenaltyScorePerSpawn:i=-100
+  friendly_fire__minimumPenaltyToKick:i=-3900
+}
+
+stationary_maxim_without_shell_ejection{
+  _override:b=yes
+  auto_gun_controller__targetTeam:i=1
+  auto_gun_controller__targetDist:r=150.0
+  auto_gun_controller__nextTraceTime:r=0.0
+  auto_gun_controller__traceTime:r=5.0
+  auto_gun_controller__nextChangeTargetTime:r=0.0
+  auto_gun_controller__changeTargetTime:r=1.0
+  auto_gun_controller__enabled:b=no
+  auto_gun_controller__targetOffset:p3=0.0, 0.2, 0.0
+  auto_gun_controller__lastTargetPos:p3=0.0, 0.0, 0.0
+
+  "auto_gun_controller__selectedTarget:eid"{
+  }
+}
+
+// 152
+adjustment_artillery_gun{
+  _override:b=yes
+  gun__shotFreq:r=0.16
+
+  "gun__ammoSetsInfo:shared:array"{
+    "SMOKE:array"{
+      "shell:object"{
+        blk:t="gamedata/gen/weapons/shells/152mm_ml20s_152mm_ussr_he.blk"
+        name:t="152mm_of_540"
+        type:t="he_frag_tank"
+      }
+    }
+  }
+}
+
+// 76
+artillery_gun{
+  _override:b=yes
+  gun__shotFreq:r=0.12
+
+  "gun__ammoSetsInfo:shared:array"{
+    "HE:array"{
+      "shell:object"{
+        // blk:t="gamedata/gen/weapons/shells/76mm_zis3_76mm_ussr_he.blk"
+        blk:t="gamedata/gen/weapons/shells/75mm_m2_howitzer_75mm_usa_he.blk"
+        name:t="76mm_of_350m"
+        type:t="he_frag_tank"
+      }
+    }
+  }
+}
+
+artillery_he{
+  _override:b=yes
+  _group {
+    _tags:t="gameClient"
+    artillery_zone__radius:r=39.0
+  }
+  artillery_zone__showOnMinimap:b=no
+  artillery__dispersion:r=23.0
+  artillery__adjustmentDispersion:r=18.0
+  artillery__adjustmentsShotsCount:i=12
+  artillery__shotsCount:i=15
+  artillery__timeToFirstShot:r=12.3
+  artillery__timeBetweenAdjustmentsShots:r=2.3
+  artillery__timeBetweenShots:r=1.2
+  artillery__gunTempl:t="smoke_artillery_gun"
+  artillery__adjustmentGunTempl:t="artillery_gun"
+}
+
+artillery_smoke{
+  _override:b=yes
+  _group {
+    _tags:t="gameClient"
+    artillery__maxLineLength:r=120.0
+  }
+  artillery_zone__showOnMinimap:b=no
+  artillery__name:t="artillery_smoke"
+  artillery__adjustmentsShotsCount:i=2
+  artillery__adjustmentDispersion:r=10.3
+  artillery__dispersion:r=6.0
+  artillery__shotsCount:i=12
+  artillery__timeToFirstShot:r=15.3
+  artillery__timeBetweenAdjustmentsShots:r=1.2
+  artillery__timeBetweenShots:r=1.0
+  artillery__gunTempl:t="adjustment_artillery_gun"
+  artillery__adjustmentGunTempl:t="smoke_artillery_gun"
+}
+
+stalingrad_ger_team_aircraft_request{
+  _override:b=yes
+  _tags:t="server"
+  aircraft_request__aircraftAfterBombingHeight:r=1200.0
+  aircraft_request__aircraftBombingHeight:r=690.0
+  aircraft_request__aircraftSpawnHeight:r=2000.0
+  aircraft_request__aircraftSpawnDistance:r=16000.0
+
+  aircraft_request__aircraftTemplate:t="ai_ju_88a_1+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect+ai_aircraft_crew_ger"
+
+  "aircraft_request__aircraftBiases:list<p3>"{
+    aircraftPos:p3=0.0, 200, 0.0
+    aircraftPos:p3=-20.0, 10, -30.0
+    aircraftPos:p3=-20.0, 20, 30.0
+    aircraftPos:p3=-90.0, 12, -55.0
+    aircraftPos:p3=-110.0, 26, -100.0
+    // aircraftPos:p3=-116.0, 19, -39.0
+    aircraftPos:p3=-90.0, 20, 50.0
+    // aircraftPos:p3=-116.0, 16, 23.0
+    aircraftPos:p3=-110.0, 23, 90.0
+  }
+}
+
+ai_ju_88a_1{
+  _override:b=yes
+  _tags:t="server"
+  ai_aircraft__wishSpeed:r=166.0
+
+  _group{
+    _tags:t="ui"
+    hud_aircraft_marker__isVisible:b=yes
+    hud_aircraft_marker__isIdentified:b=yes
+    _track:b=yes
+  }
+
+  "turretsInitialComponents:array"{
+    "turretsInitialComponents:object"{
+      gun__shootNodeName:t="bomb29"
+      slot_attach__slotName:t="bomb29"
+      gun__maxAmmo:i=1
+    }
+
+    "turretsInitialComponents:object"{
+      gun__shootNodeName:t="bomb30"
+      slot_attach__slotName:t="bomb30"
+      gun__maxAmmo:i=1
+    }
+  }
+
+  "turret_control__turretInfo:shared:array"{
+
+    // "turretInfo:object"{
+    //   turretName:t="turret_01"
+    //   turretGroup:t="bomb_turrets"
+    //   trigger:t="bombs"
+    //   gun:t="planegun_ai_ju_88a_1_sc_250_launcher_01"
+    // }
+
+    // "turretInfo:object"{
+    //   turretName:t="turret_02"
+    //   turretGroup:t="bomb_turrets"
+    //   trigger:t="bombs"
+    //   gun:t="planegun_ai_ju_88a_1_sc_250_launcher_02"
+    // }
+
+    "turretInfo:object"{
+      turretName:t="turret_03"
+      turretGroup:t="bomb_turrets"
+      trigger:t="bombs"
+      gun:t="planegun_ai_ju_88a_1_sc_250_launcher_03+base_ju_87r_2_sc_500_launcher"
+    }
+
+    "turretInfo:object"{
+      turretName:t="turret_04"
+      turretGroup:t="bomb_turrets"
+      trigger:t="bombs"
+      gun:t="planegun_ai_ju_88a_1_sc_250_launcher_04+base_ju_87r_2_sc_500_launcher"
+    }
+
+    "turretInfo:object"{
+      turretName:t="turret_05"
+      turretGroup:t="main_turrets"
+      trigger:t="machine_guns"
+      gun:t="planegun_ai_ju_88a_1_7_92mm_mg15_01"
+    }
+
+    "turretInfo:object"{
+      turretName:t="turret_06"
+      turretGroup:t="turrets_gunner0"
+      trigger:t="machine_guns"
+      gun:t="planegun_ai_ju_88a_1_7_92mm_mg15_turret_01"
+    }
+
+    "turretInfo:object"{
+      turretName:t="turret_07"
+      turretGroup:t="turrets_gunner1"
+      trigger:t="machine_guns"
+      gun:t="planegun_ai_ju_88a_1_7_92mm_mg15_turret_02"
+    }
+  }
+}
+
+stalingrad_ussr_team_aircraft_request{
+  _override:b=yes
+  _tags:t="server"
+  artillery_zone__radius:r=39.0
+  artillery_zone__bombingRadius:r=39.0
+  aircraft_request__aircraftStartRelativeSpeed:r=0.6
+  aircraft_request__aircraftAfterBombingHeight:r=1600.0
+  aircraft_request__aircraftBombingHeight:r=93.0
+  aircraft_request__aircraftSpawnHeight:r=2900.0
+  aircraft_request__aircraftTemplate:t="ai_il_2_1941+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect+ai_aircraft_crew_sov"
+  aircraft_request__aircraftSpawnDistance:r=6800.0
+  // aircraft_request__aircraftTargetMarkTemplate:t=""
+  artillery__name:t="IL2_Precision_Air_Strike"
+  artillery_siren__startDelay:r=120.0
+  artillery_siren__targetRadius:r=0.1
+
+  "aircraft_request__aircraftBiases:list<p3>"{
+    aircraftPos:p3=-23.0, 900, -6.0
+    aircraftPos:p3=-39.0, 30, 9.0
+  }
+}
+
+// rbs_132_launcher{
+//   _override:b=yes
+//   gun__projectileTemplate:t="rbs_132_rocket_projectile+trail_rocket_launch_smoke_effect"
+//   gun__projectileDebugTemplate:t="rbs_132_rocket_projectile+bomb_projectile_debug+trail_rocket_launch_smoke_effect"
+// }
+
+// rbs_82_launcher{
+//   _override:b=yes
+//   gun__projectileTemplate:t="rbs_82_rocket_projectile+trail_rocket_launch_smoke_effect"
+//   gun__projectileDebugTemplate:t="rbs_82_rocket_projectile+bomb_projectile_debug+trail_rocket_launch_smoke_effect"
+// }
+
+// ros_82_launcher{
+//   _override:b=yes
+//   gun__projectileTemplate:t="ros_82_rocket_projectile+trail_rocket_launch_smoke_effec"
+//   gun__projectileDebugTemplate:t="ros_82_rocket_projectile+bomb_projectile_debug+trail_rocket_launch_smoke_effec"
+// }
+
+ai_il_2_1941{
+  _override:b=yes
+  _tags:t="server"
+  _extends:t="squad_controlled_plane"
+  _extends:t="ai_aircraft"
+  ai_aircraft__shoot_angles:p2=0.49, 0.6
+  ai_aircraft__shootOffset:p3=0.0, 0.0, 0.0
+  ai_aircraft__minDistToHide:r=1000.0
+  ai_aircraft__wishSpeed:r=290.0
+  ai_aircraft__timeBetweenBombDrops:p2=0.06, 0.23
+
+  _group{
+    _tags:t="ui"
+    hud_aircraft_marker__isVisible:b=no
+    hud_aircraft_marker__isIdentified:b=no
+    _track:b=yes
+  }
+
+  "turretsInitialComponents:array"{
+    "turretsInitialComponents:object"{
+      gun__projectileTemplate:t="rbs_132_rocket_projectile+trail_rocket_launch_smoke_effect"
+      gun__projectileDebugTemplate:t="rbs_132_rocket_projectile+bomb_projectile_debug+trail_rocket_launch_smoke_effect"
+    }
+
+    "turretsInitialComponents:object"{
+      gun__projectileTemplate:t="rbs_132_rocket_projectile+trail_rocket_launch_smoke_effect"
+      gun__projectileDebugTemplate:t="rbs_132_rocket_projectile+bomb_projectile_debug+trail_rocket_launch_smoke_effect"
+    }
+
+    "turretsInitialComponents:object"{
+      gun__projectileTemplate:t="rbs_132_rocket_projectile+trail_rocket_launch_smoke_effect"
+      gun__projectileDebugTemplate:t="rbs_132_rocket_projectile+bomb_projectile_debug+trail_rocket_launch_smoke_effect"
+    }
+
+    "turretsInitialComponents:object"{
+      gun__projectileTemplate:t="rbs_132_rocket_projectile+trail_rocket_launch_smoke_effect"
+      gun__projectileDebugTemplate:t="rbs_132_rocket_projectile+bomb_projectile_debug+trail_rocket_launch_smoke_effect"
+    }
+
+    "turretsInitialComponents:object"{}
+
+    "turretsInitialComponents:object"{}
+
+    "turretsInitialComponents:object"{
+      gun__projectileTemplate:t="rbs_132_rocket_projectile+trail_rocket_launch_smoke_effect"
+      gun__projectileDebugTemplate:t="rbs_132_rocket_projectile+bomb_projectile_debug+trail_rocket_launch_smoke_effect"
+    }
+
+    "turretsInitialComponents:object"{
+      gun__projectileTemplate:t="rbs_132_rocket_projectile+trail_rocket_launch_smoke_effect"
+      gun__projectileDebugTemplate:t="rbs_132_rocket_projectile+bomb_projectile_debug+trail_rocket_launch_smoke_effect"
+    }
+  }
+
+  "turret_control__turretInfo:shared:array"{
+
+    "turretInfo:object"{
+      turretName:t="turret_05"
+      turretGroup:t="rocket_turrets"
+      trigger:t="rockets"
+      gun:t="ai_bomb_launcher+planegun_il_2m_type3_1945_rbs_132_launcher_01"
+    }
+
+    "turretInfo:object"{
+      turretName:t="turret_06"
+      turretGroup:t="rocket_turrets"
+      trigger:t="rockets"
+      gun:t="ai_bomb_launcher+planegun_il_2m_type3_1945_rbs_132_launcher_02"
+    }
+
+    "turretInfo:object"{
+      turretName:t="turret_07"
+      turretGroup:t="rocket_turrets"
+      trigger:t="rockets"
+      gun:t="ai_bomb_launcher+planegun_il_2m_type3_1945_rbs_132_launcher_03"
+    }
+
+    "turretInfo:object"{
+      turretName:t="turret_08"
+      turretGroup:t="rocket_turrets"
+      trigger:t="rockets"
+      gun:t="ai_bomb_launcher+planegun_il_2m_type3_1945_rbs_132_launcher_04"
+    }
+
+    "turretInfo:object"{
+      turretName:t="turret_01"
+      turretGroup:t="bomb_turrets"
+      trigger:t="bombs"
+      gun:t="planegun_ai_il_4_fab_100_launcher_01"
+    }
+
+    "turretInfo:object"{
+      turretName:t="turret_02"
+      turretGroup:t="bomb_turrets"
+      trigger:t="bombs"
+      gun:t="planegun_ai_il_4_fab_100_launcher_02"
+    }
+
+    "turretInfo:object"{
+      turretName:t="turret_09"
+      turretGroup:t="rocket_turrets"
+      trigger:t="rockets"
+      gun:t="ai_bomb_launcher+planegun_il_2m_type3_1945_rbs_132_launcher_01"
+    }
+
+    "turretInfo:object"{
+      turretName:t="turret_10"
+      turretGroup:t="rocket_turrets"
+      trigger:t="rockets"
+      gun:t="ai_bomb_launcher+planegun_il_2m_type3_1945_rbs_132_launcher_02"
+    }
+
+    "turretInfo:object"{
+      turretName:t="turret_03"
+      turretGroup:t="bomb_turrets"
+      trigger:t="bombs"
+      gun:t="planegun_ai_il_4_fab_100_launcher_03"
+    }
+
+    "turretInfo:object"{
+      turretName:t="turret_04"
+      turretGroup:t="bomb_turrets"
+      trigger:t="bombs"
+      gun:t="planegun_ai_il_4_fab_100_launcher_04"
+    }
+
+    "turretInfo:object"{
+      turretName:t="turret_13"
+      turretGroup:t="main_turrets"
+      trigger:t="machine_guns"
+      gun:t="planegun_il_2_1941_7_62mm_shkas_01"
+    }
+
+    "turretInfo:object"{
+      turretName:t="turret_14"
+      turretGroup:t="main_turrets"
+      trigger:t="machine_guns"
+      gun:t="planegun_il_2_1941_7_62mm_shkas_02"
+    }
+
+    "turretInfo:object"{
+      turretName:t="turret_15"
+      turretGroup:t="cannon_turrets"
+      trigger:t="cannons"
+      gun:t="planegun_il_2_1941_20mm_shvak_01"
+    }
+
+    "turretInfo:object"{
+      turretName:t="turret_16"
+      turretGroup:t="cannon_turrets"
+      trigger:t="cannons"
+      gun:t="planegun_il_2_1941_20mm_shvak_02"
+    }
+  }
+}
+
+normandy_ger_team_aircraft_request{
+  _override:b=yes
+  _extends:t="aircraft_request"
+  artillery__name:t="Ju87_Precision_Air_Strike"
+  artillery_siren__startDelay:r=120.0
+  artillery_siren__targetRadius:r=0.1
+
+  _group{
+    _tags:t="gameClient"
+    _tags:t="server"
+    artillery_zone__radius:r=32.0
+    artillery_zone__bombingRadius:r=32.0
+  }
+
+  _group{
+    _tags:t="server"
+    aircraft_request__aircraftStartRelativeSpeed:r=0.3
+    aircraft_request__aircraftAfterBombingHeight:r=2300.0
+    aircraft_request__aircraftBombingHeight:r=39.0
+    aircraft_request__aircraftSpawnHeight:r=3200.0
+    aircraft_request__aircraftTemplate:t="ai_ju_188+base_ju_87b_2+plane_dive_siren+plane_spawn_in_air+requested_aircraft+aircraft_with_gun_redirect+ai_aircraft_crew_ger"
+    aircraft_request__aircraftSpawnDistance:r=7200.0
+    // aircraft_request__aircraftTargetMarkTemplate:t=""
+  }
+
+  "aircraft_request__aircraftBiases:list<p3>"{
+    aircraftPos:p3=0.0, 900, -6.6
+    aircraftPos:p3=-12.0, 390, 6.0
+    aircraftPos:p3=-23.0, 60, -1.0
+  }
+}
+
+ai_ju_188{
+  _override:b=yes
+  _extends:t="base_ju_87b_2"
+  _extends:t="squad_controlled_plane"
+  _extends:t="ai_aircraft"
+  collres__res:t="ju_87b_2_collision"
+  plane_net_phys__blk:t="gamedata/units/ju_87b_2.blk"
+  damage_model__blk:t="gamedata/units/ju_87b_2.blk"
+  plane_collision__blk:t="gamedata/units/ju_87b_2.blk"
+  plane_anim__blk:t="gamedata/units/ju_87b_2.blk"
+  plane_sight__blk:t="gamedata/units/ju_87b_2.blk"
+  canUseRespawnbaseType:t="aircraft_assault"
+  is_seaplane:b=no
+  plane_wreckage__template:t="ju_87b_2_wreckage"
+  killLogName:t="ju_87b_2"
+  animchar__res:t="ju_87b_2_char"
+  vehicle_seats_camera_nodes__defaultNode:t=""
+
+  ai_aircraft__shoot_angles:p2=0.49, 0.6
+  ai_aircraft__shootOffset:p3=0.0, 0.0, 0.0
+  ai_aircraft__minDistToHide:r=1200.0
+  ai_aircraft__wishSpeed:r=260.0
+  ai_aircraft__timeBetweenBombDrops:p2=0.12, 0.26
+
+  _group{
+    _tags:t="ui"
+    hud_aircraft_marker__isVisible:b=no
+    hud_aircraft_marker__isIdentified:b=no
+    _track:b=yes
+  }
+
+  "vehicle_seats__seats:shared:array"{
+
+    "seats:object"{
+      name:t="driver"
+      locName:t="vehicle_seats/pilot"
+      seatOwnsEntityControl:b=yes
+      attachNode:t="pilot1"
+      ignoreAttachNodeRotation:b=yes
+      attachTm:m=[[1.0, 0.0, 0.0] [0.0, 1.0, 0.0] [0.0, 0.0, 1.0] [-0.15, 0.15, -0.15]]
+      seatComponent:t="isDriver"
+      receiveDamageFromDMPart:t="pilot_dm"
+      cameraNodeName:t=""
+      cameraOffset:p3=-0.628, 0.876, -0.052
+      cockpitTemplate:t="ju_87b_2_driver_cockpit"
+      roomSpace:i=0
+
+      "turretNames:array"{
+        turret:t="turret_01"
+        turret:t="turret_02"
+        turret:t="turret_03"
+        turret:t="turret_04"
+        turret:t="turret_05"
+        turret:t="turret_06"
+        turret:t="turret_07"
+      }
+    }
+
+    "seats:object"{
+      name:t="main_gunner"
+      locName:t="vehicle_seats/gunner"
+      attachNode:t="gunner1"
+      ignoreAttachNodeRotation:b=yes
+      attachTm:m=[[-1.0, 0.0, -8.74228e-08] [0.0, 1.0, 0.0] [8.74228e-08, 0.0, -1.0] [0.0, 0.0, 0.0]]
+      seatComponent:t="isGunner"
+      receiveDamageFromDMPart:t="gunner1_dm"
+      directTurretControl:b=yes
+      roomSpace:i=1
+
+      "turretNames:array"{
+        turret:t="turret_08"
+      }
+    }
+  }
+
+  "turret_control__emitterNodes:shared:array"{
+    node:t="bomb3"
+    node:t="bomb4"
+    node:t="bomb2"
+    node:t="bomb5"
+    node:t="bomb1"
+    node:t="flare1"
+    node:t="flare2"
+    node:t="flare3"
+  }
+
+  "turret_control__animVars:shared:array"{
+
+    "vars:object"{
+      curYawParamName:t="weapon_01_yaw"
+      curPitchParamName:t="weapon_01_pitch"
+    }
+
+    "vars:object"{
+      curYawParamName:t="weapon_02_yaw"
+      curPitchParamName:t="weapon_02_pitch"
+    }
+
+    "vars:object"{
+      curYawParamName:t="weapon_03_yaw"
+      curPitchParamName:t="weapon_03_pitch"
+    }
+
+    "vars:object"{
+      curYawParamName:t="weapon_04_yaw"
+      curPitchParamName:t="weapon_04_pitch"
+    }
+
+    "vars:object"{
+      curYawParamName:t="weapon_05_yaw"
+      curPitchParamName:t="weapon_05_pitch"
+    }
+
+    "vars:object"{
+      curYawParamName:t="weapon_06_yaw"
+      curPitchParamName:t="weapon_06_pitch"
+    }
+
+    "vars:object"{
+      curYawParamName:t="weapon_07_yaw"
+      curPitchParamName:t="weapon_07_pitch"
+    }
+
+    "vars:object"{
+      paramMinPitchAngle:t="turret1_min_pitch_angle"
+      wishPitchParamName:t="gun1_aim:targetPitch"
+      paramYawSpeedMul:t="turret1_yaw_mul"
+      paramYawSpeed:t="turret1_yaw_speed"
+      paramMaxYawAngle:t="turret1_max_yaw_angle"
+      aimActiveParamName:t="gun1_aim_active"
+      paramPitchSpeedMul:t="gun1_pitch_mul"
+      paramYawAccel:t="turret1_yaw_accel"
+      paramPitchAccel:t="gun1_pitch_accel"
+      paramPitchSpeed:t="gun1_pitch_speed"
+      wishYawParamName:t="gun1_aim:targetYaw"
+      paramMaxPitchAngle:t="turret1_max_pitch_angle"
+      curPitchParamName:t="gun1_pitch"
+      curYawParamName:t="turret1_yaw"
+      paramMinYawAngle:t="turret1_min_yaw_angle"
+    }
+  }
+
+  "turret_control__turretInfo:shared:array"{
+
+    "turretInfo:object"{
+      turretName:t="turret_05"
+      turretGroup:t="bomb_turrets"
+      trigger:t="bombs"
+      gun:t="ai_sc_250_launcher+planegun_ju_87d_3_sc_250_87_launcher_01"
+    }
+
+    "turretInfo:object"{
+      turretName:t="turret_06"
+      turretGroup:t="main_turrets"
+      trigger:t="machine_guns"
+      gun:t="planegun_ju_87b_2_7_92mm_mg17_01"
+    }
+
+    "turretInfo:object"{
+      turretName:t="turret_07"
+      turretGroup:t="main_turrets"
+      trigger:t="machine_guns"
+      gun:t="planegun_ju_87b_2_7_92mm_mg17_02"
+    }
+
+    "turretInfo:object"{
+      turretName:t="turret_08"
+      turretGroup:t="turrets_gunner0"
+      trigger:t="machine_guns"
+      gun:t="planegun_ju_87b_2_7_92mm_mg15_turret_01"
+    }
+  }
+
+  "turret_gun_flash_fx__flashNodes:shared:array"{
+    node:t="bomb3"
+    node:t="bomb4"
+    node:t="bomb2"
+    node:t="bomb5"
+    node:t="bomb1"
+    node:t="flare1"
+    node:t="flare2"
+    node:t="flare3"
+  }
+
+  "turret_gun_flash_fx__flashFx:shared:array"{
+    fx:t=""
+    fx:t=""
+    fx:t=""
+    fx:t=""
+    fx:t=""
+    fx:t="muzzle_air_8mm"
+    fx:t="muzzle_air_8mm"
+    fx:t="muzzle_air_8mm"
+  }
+
+  "turret_gun_flash_fx__flashFxScale:shared:array"{
+    scale:r=1.0
+    scale:r=1.0
+    scale:r=1.0
+    scale:r=1.0
+    scale:r=1.0
+    scale:r=1.0
+    scale:r=1.0
+    scale:r=1.0
+  }
+
+  "disableDMParts:list<t>"{
+    part:t="bomb_launcher3"
+    part:t="bomb_launcher4"
+  }
+}
+
+artillery_owner{
+  _override:b=yes
+
+  "artillery__allTemplates:array"{
+    
+    "unlock:object"{
+      template:t="normandy_ger_team_aircraft_request"
+      // unlockId:i=5
+      unlockId:i=11
+    }
+
+    "unlock:object"{
+      template:t="artillery_he"
+    }
+
+    "unlock:object"{
+      template:t="moscow_ger_team_aircraft_request"
+      unlockId:i=2
+    }
+
+    "unlock:object"{
+      template:t="moscow_ussr_team_aircraft_request"
+      unlockId:i=3
+    }
+
+    "unlock:object"{
+      template:t="normandy_usa_team_aircraft_request"
+      unlockId:i=4
+    }
+
+    "unlock:object"{
+      template:t="berlin_ussr_team_aircraft_request"
+      unlockId:i=6
+    }
+
+    "unlock:object"{
+      template:t="berlin_ger_team_aircraft_request"
+      unlockId:i=7
+    }
+
+    "unlock:object"{
+      template:t="tunisia_usa_team_aircraft_request"
+      unlockId:i=8
+    }
+
+    "unlock:object"{
+      template:t="tunisia_ger_team_aircraft_request"
+      unlockId:i=9
+    }
+
+    "unlock:object"{
+      template:t="stalingrad_ussr_team_aircraft_request"
+      unlockId:i=10
+    }
+
+    "unlock:object"{
+      template:t="stalingrad_ger_team_aircraft_request"
+      unlockId:i=11
+    }
+
+    "unlock:object"{
+      template:t="pacific_usa_team_aircraft_request"
+      unlockId:i=12
+    }
+
+    "unlock:object"{
+      template:t="pacific_japan_team_aircraft_request"
+      unlockId:i=13
+    }
+
+    "unlock:object"{
+      template:t="artillery_smoke"
+      unlockId:i=1
+    }
+  }
+}
+
+
+// not working yet?
+
+big_action_germ_flpz_i_ausf_a{
+  _extends:t="base_flpz_i_ausf_a"
+  _extends:t="anti_aircraft_cannon_common"
+  _extends:t="vehicle_effects_tracked"
+  _extends:t="tank_panzer3_engine_sound"
+  _extends:t="tank_light_vehicle_tracks_sound"
+  _tags:t="server"
+
+  "vehicle_seats__seats:shared:array"{
+    "vehicle_seats__seats:object"{
+      receiveDamageFromDMPart:t="driver"
+      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0.25, -0.25, 0]]
+      name:t="driver"
+      seatComponent:t="isDriver"
+      cameraNodeName:t="bone_camera_driver"
+      attachNode:t="driver"
+      seatOwnsEntityControl:b=yes
+      nextSeat:t="main_gunner"
+      locName:t="vehicle_seats/driver"
+      ignoreAttachNodeRotation:b=yes
+      shouldHideOwner:b=yes
+    }
+
+    "vehicle_seats__seats:object"{
+      receiveDamageFromDMPart:t="gunner"
+      attachTm:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-0.25, -0.5, 0]]
+      cameraOffset:p3=-3.2, 1, 0
+      name:t="main_gunner"
+      seatComponent:t="isGunner"
+      cameraNodeName:t="bone_camera_gunner"
+      cameraType:t="machinegunner_cockpit"
+      attachNode:t="gunner"
+      nextSeat:t="driver"
+      locName:t="vehicle_seats/gunner"
+      ignoreAttachNodeRotation:b=yes
+      shouldHideOwner:b=no
+
+      "turretNames:array"{
+        turretNames:t="turret_01"
+      }
+    }
+  }
+}
+
+
+base_bm_8_24{
+  _override:b=yes
+  
+  "turretsInitialComponents:array"{
+    "turretsInitialComponents:object"{
+      gun__shotFreq:r=2
+      gun__projectileTemplate:t="bm_8_24_projectile+base_bomb_projectile+trail_rocket_launch_smoke_effect"
+      gun__projectileDebugTemplate:t="bm_8_24_projectile+base_bomb_projectile+trail_rocket_launch_smoke_effect+bomb_projectile_debug"
+    }
+  }
+}

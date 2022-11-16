@@ -369,7 +369,7 @@ entity{
   minimap__visibleRadius:r=50
   hud_icon__maxDistance:r=2000
   resupply_zone__team:i=3
-  groupName:t="s2"
+  groupName:t="s1"
   sphere_zone__radius:r=20
   active:b=no
   resupply_zone__duration:r=10
@@ -391,7 +391,7 @@ entity{
   minimap__visibleRadius:r=50
   hud_icon__maxDistance:r=2000
   resupply_zone__team:i=3
-  groupName:t="s2"
+  groupName:t="s1"
   sphere_zone__radius:r=20
   active:b=no
   resupply_zone__duration:r=10
@@ -413,7 +413,7 @@ entity{
   minimap__visibleRadius:r=50
   hud_icon__maxDistance:r=2000
   resupply_zone__team:i=3
-  groupName:t="s2"
+  groupName:t="s1"
   sphere_zone__radius:r=20
   active:b=no
   resupply_zone__duration:r=10
@@ -423,7 +423,7 @@ entity{
 
 entity{
   _template:t="placebale_rendinst+human_hidden_ui_battle_area+add_score_to_destroyable_ri+fortification_builder_info+ammunition_box_a+undestroyable_building+resupply_for_ground_vehicle_zone"
-  transform:m=[[0.237623, -0.0033829, -0.971352] [0.101869, 0.994566, 0.0214565] [0.966001, -0.104049, 0.236676] [487.56, 11.0788, 2600.57]]
+  transform:m=[[0.701761, -0.0033829, -0.712405] [0.0764871, 0.994566, 0.0706216] [0.708295, -0.104049, 0.698207] [477.479, 11.0869, 2601.07]]
   ri_extra__name:t="military_tent_b_b"
   destroyable_ri__group:i=54171
   team:i=1
@@ -441,11 +441,12 @@ entity{
   resupply_zone__duration:r=60
   animchar__res:t="medkit_char"
   collres__res:t="medkit_collision"
+  battle_area__team:i=1
 }
 
 entity{
   _template:t="placebale_rendinst+human_hidden_ui_battle_area+add_score_to_destroyable_ri+fortification_builder_info+ammunition_box_a+undestroyable_building+resupply_for_ground_vehicle_zone"
-  transform:m=[[-0.0556419, 0.0272315, -0.998079] [0.101869, 0.994567, 0.0214565] [0.99324, -0.100479, -0.0581136] [520.981, 7.64509, 2601.05]]
+  transform:m=[[-0.0556419, 0.0272315, -0.998079] [0.101869, 0.994567, 0.0214565] [0.99324, -0.100479, -0.0581136] [515.712, 7.58819, 2607.08]]
   ri_extra__name:t="military_tent_b_b"
   destroyable_ri__group:i=54171
   team:i=1
@@ -463,11 +464,12 @@ entity{
   resupply_zone__duration:r=60
   animchar__res:t="medkit_char"
   collres__res:t="medkit_collision"
+  battle_area__team:i=1
 }
 
 entity{
   _template:t="placebale_rendinst+human_hidden_ui_battle_area+add_score_to_destroyable_ri+fortification_builder_info+ammunition_box_a+undestroyable_building+resupply_for_ground_vehicle_zone"
-  transform:m=[[0.702746, 0.0378869, -0.710432] [-0.0840535, 0.996008, -0.0300276] [0.706459, 0.0808161, 0.703125] [-514.106, 47.4788, 2471.31]]
+  transform:m=[[0.9325, 0.0680001, -0.354714] [-0.0840535, 0.996008, -0.0300276] [0.351256, 0.0578156, 0.934492] [-522.849, 46.6447, 2468.12]]
   ri_extra__name:t="military_tent_a_b"
   destroyable_ri__group:i=54171
   team:i=1
@@ -485,11 +487,12 @@ entity{
   resupply_zone__duration:r=36
   animchar__res:t="medkit_char"
   collres__res:t="medkit_collision"
+  battle_area__team:i=1
 }
 
 entity{
   _template:t="placebale_rendinst+human_hidden_ui_battle_area+add_score_to_destroyable_ri+fortification_builder_info+ammunition_box_a+undestroyable_building+resupply_for_ground_vehicle_zone"
-  transform:m=[[0.702746, 0.0378869, -0.710432] [-0.0840535, 0.996008, -0.0300276] [0.706459, 0.0808161, 0.703125] [-476.71, 50.8306, 2477.81]]
+  transform:m=[[0.179291, 0.260079, -0.948796] [-0.0201368, 0.965191, 0.260768] [0.983589, -0.0276476, 0.178287] [-471.975, 50.2543, 2490.18]]
   ri_extra__name:t="military_tent_a_a"
   destroyable_ri__group:i=54171
   team:i=1
@@ -507,6 +510,99 @@ entity{
   resupply_zone__duration:r=36
   animchar__res:t="medkit_char"
   collres__res:t="medkit_collision"
+  battle_area__team:i=1
+}
+
+entity{
+  _template:t="placebale_rendinst+human_hidden_ui_battle_area+add_score_to_destroyable_ri+fortification_builder_info+ammunition_box_a+undestroyable_building+resupply_for_ground_vehicle_zone"
+  transform:m=[[-0.0556419, 0.0272315, -0.998079] [0.101869, 0.994567, 0.0214565] [0.99324, -0.100479, -0.0581136] [527.329, 6.87718, 2606.51]]
+  ri_extra__name:t="military_tent_b_b"
+  destroyable_ri__group:i=54171
+  team:i=1
+  buildingRadius:r=1
+  builder_info__team:i=1
+  animchar__minDtThreshold:r=0.5
+  building_menu__image:t="map_icon_cannon_at"
+  hud_icon__image:t="map_icon_cannon_at"
+  minimap__visibleRadius:r=50
+  hud_icon__maxDistance:r=2000
+  resupply_zone__team:i=1
+  groupName:t="s5b"
+  sphere_zone__radius:r=20
+  active:b=no
+  resupply_zone__duration:r=60
+  animchar__res:t="medkit_char"
+  collres__res:t="medkit_collision"
+  battle_area__team:i=1
+}
+
+entity{
+  _template:t="placebale_rendinst+human_hidden_ui_battle_area+add_score_to_destroyable_ri+fortification_builder_info+ammunition_box_a+undestroyable_building+resupply_for_ground_vehicle_zone"
+  transform:m=[[0.241818, 0.0500021, -0.969033] [0.0718151, 0.99501, 0.0692637] [0.96766, -0.0863404, 0.23702] [486.412, 10.9601, 2606.45]]
+  ri_extra__name:t="military_tent_b_b"
+  destroyable_ri__group:i=54171
+  team:i=1
+  buildingRadius:r=1
+  builder_info__team:i=1
+  animchar__minDtThreshold:r=0.5
+  building_menu__image:t="map_icon_cannon_at"
+  hud_icon__image:t="map_icon_cannon_at"
+  minimap__visibleRadius:r=50
+  hud_icon__maxDistance:r=2000
+  resupply_zone__team:i=1
+  groupName:t="s5b"
+  sphere_zone__radius:r=20
+  active:b=no
+  resupply_zone__duration:r=60
+  animchar__res:t="medkit_char"
+  collres__res:t="medkit_collision"
+  battle_area__team:i=1
+}
+
+entity{
+  _template:t="placebale_rendinst+human_hidden_ui_battle_area+add_score_to_destroyable_ri+fortification_builder_info+ammunition_box_a+undestroyable_building+resupply_for_ground_vehicle_zone"
+  transform:m=[[0.702746, 0.037887, -0.710432] [-0.0840535, 0.996008, -0.0300276] [0.706458, 0.080816, 0.703125] [-515.977, 47.5303, 2478.26]]
+  ri_extra__name:t="military_tent_a_a"
+  destroyable_ri__group:i=54171
+  team:i=1
+  buildingRadius:r=1
+  builder_info__team:i=1
+  animchar__minDtThreshold:r=0.5
+  building_menu__image:t="map_icon_cannon_at"
+  hud_icon__image:t="map_icon_cannon_at"
+  minimap__visibleRadius:r=50
+  hud_icon__maxDistance:r=2000
+  resupply_zone__team:i=1
+  groupName:t="s5b"
+  sphere_zone__radius:r=23
+  active:b=no
+  resupply_zone__duration:r=36
+  animchar__res:t="medkit_char"
+  collres__res:t="medkit_collision"
+  battle_area__team:i=1
+}
+
+entity{
+  _template:t="placebale_rendinst+human_hidden_ui_battle_area+add_score_to_destroyable_ri+fortification_builder_info+ammunition_box_a+undestroyable_building+resupply_for_ground_vehicle_zone"
+  transform:m=[[0.696968, 0.16884, -0.696943] [-0.0899658, 0.984795, 0.148605] [0.711437, -0.0408721, 0.70156] [-481.701, 50.3397, 2484.89]]
+  ri_extra__name:t="military_tent_a_b"
+  destroyable_ri__group:i=54171
+  team:i=1
+  buildingRadius:r=1
+  builder_info__team:i=1
+  animchar__minDtThreshold:r=0.5
+  building_menu__image:t="map_icon_cannon_at"
+  hud_icon__image:t="map_icon_cannon_at"
+  minimap__visibleRadius:r=50
+  hud_icon__maxDistance:r=2000
+  resupply_zone__team:i=1
+  groupName:t="s5b"
+  sphere_zone__radius:r=23
+  active:b=no
+  resupply_zone__duration:r=36
+  animchar__res:t="medkit_char"
+  collres__res:t="medkit_collision"
+  battle_area__team:i=1
 }
 
 entity{
@@ -523,6 +619,7 @@ entity{
   phys__maxMassRatioForPushOnCollision:r=999
   turret__teamLightTemplate:t=""
   vehicle_seats__autoDetectRestrictToTeam:b=no
+  killLogName:t="GermanArtillery/德军炮兵营"
 
   "net_sound__descs:object"{
     "resupplyStart:object"{
@@ -628,6 +725,7 @@ entity{
   phys__maxMassRatioForPushOnCollision:r=999
   turret__teamLightTemplate:t=""
   vehicle_seats__autoDetectRestrictToTeam:b=no
+  killLogName:t="GermanArtillery/德军炮兵营"
 
   "net_sound__descs:object"{
     "resupplyStart:object"{
@@ -714,6 +812,7 @@ entity{
   phys__maxMassRatioForPushOnCollision:r=999
   turret__teamLightTemplate:t=""
   vehicle_seats__autoDetectRestrictToTeam:b=no
+  killLogName:t="GermanArtillery/德军炮兵营"
 
   "net_sound__descs:object"{
     "resupplyStart:object"{
@@ -811,6 +910,7 @@ entity{
   phys__maxMassRatioForPushOnCollision:r=999
   turret__teamLightTemplate:t=""
   vehicle_seats__autoDetectRestrictToTeam:b=no
+  killLogName:t="GermanArtillery/德军炮兵营"
 
   "net_sound__descs:object"{
     "resupplyStart:object"{
@@ -908,6 +1008,7 @@ entity{
   phys__maxMassRatioForPushOnCollision:r=999
   turret__teamLightTemplate:t=""
   vehicle_seats__autoDetectRestrictToTeam:b=no
+  killLogName:t="GermanArtillery/德军炮兵营"
 
   "net_sound__descs:object"{
     "resupplyStart:object"{
@@ -1005,6 +1106,7 @@ entity{
   phys__maxMassRatioForPushOnCollision:r=999
   turret__teamLightTemplate:t=""
   vehicle_seats__autoDetectRestrictToTeam:b=no
+  killLogName:t="GermanArtillery/德军炮兵营"
 
   "net_sound__descs:object"{
     "resupplyStart:object"{
@@ -1102,6 +1204,7 @@ entity{
   phys__maxMassRatioForPushOnCollision:r=999
   turret__teamLightTemplate:t=""
   vehicle_seats__autoDetectRestrictToTeam:b=no
+  killLogName:t="GermanArtillery/德军炮兵营"
 
   "net_sound__descs:object"{
     "resupplyStart:object"{
@@ -1199,6 +1302,7 @@ entity{
   phys__maxMassRatioForPushOnCollision:r=999
   turret__teamLightTemplate:t=""
   vehicle_seats__autoDetectRestrictToTeam:b=no
+  killLogName:t="GermanArtillery/德军炮兵营"
 
   "net_sound__descs:object"{
     "resupplyStart:object"{
@@ -1256,11 +1360,10 @@ entity{
   "turretsInitialComponents:array"{
     "turretsInitialComponents:object"{
       gun__shotFreq:r=1.23
-      gun__maxAmmo:i=15
+      gun__maxAmmo:i=230
       turret__yawSpeed:r=99
       turret_ai__amplitude:p2=0, 0
       gun_deviation__maxDeviation:r=0.633
-      gun__ammo:i=15
       turret__limit:p4=-30, 30, -12, 76
       gun_spread__maxDeltaAngle:r=0.666
       gun_deviation__onShotDeviationChange:r=0.1
@@ -1273,7 +1376,7 @@ entity{
 
       "gun__shellsAmmo:array"{
         gun__shellsAmmo:i=0
-        gun__shellsAmmo:i=16
+        gun__shellsAmmo:i=230
         gun__shellsAmmo:i=0
       }
     }
@@ -1303,6 +1406,7 @@ entity{
   phys__maxMassRatioForPushOnCollision:r=999
   turret__teamLightTemplate:t=""
   vehicle_seats__autoDetectRestrictToTeam:b=no
+  killLogName:t="GermanArtillery/德军炮兵营"
 
   "net_sound__descs:object"{
     "resupplyStart:object"{
@@ -1360,11 +1464,10 @@ entity{
   "turretsInitialComponents:array"{
     "turretsInitialComponents:object"{
       gun__shotFreq:r=1.23
-      gun__maxAmmo:i=16
+      gun__maxAmmo:i=230
       turret__yawSpeed:r=99
       turret_ai__amplitude:p2=0, 0
       gun_deviation__maxDeviation:r=0.633
-      gun__ammo:i=32
       turret__limit:p4=-30, 30, -12, 76
       gun_spread__maxDeltaAngle:r=0.666
       gun_deviation__onShotDeviationChange:r=0.1
@@ -1377,7 +1480,7 @@ entity{
 
       "gun__shellsAmmo:array"{
         gun__shellsAmmo:i=0
-        gun__shellsAmmo:i=16
+        gun__shellsAmmo:i=230
         gun__shellsAmmo:i=0
       }
     }
@@ -1407,6 +1510,7 @@ entity{
   phys__maxMassRatioForPushOnCollision:r=999
   turret__teamLightTemplate:t=""
   vehicle_seats__autoDetectRestrictToTeam:b=no
+  killLogName:t="GermanArtillery/德军炮兵营"
 
   "net_sound__descs:object"{
     "resupplyStart:object"{
@@ -1464,11 +1568,10 @@ entity{
   "turretsInitialComponents:array"{
     "turretsInitialComponents:object"{
       gun__shotFreq:r=1.23
-      gun__maxAmmo:i=16
+      gun__maxAmmo:i=230
       turret__yawSpeed:r=99
       turret_ai__amplitude:p2=0, 0
       gun_deviation__maxDeviation:r=0.633
-      gun__ammo:i=32
       turret__limit:p4=-30, 30, -12, 76
       gun_spread__maxDeltaAngle:r=0.666
       gun_deviation__onShotDeviationChange:r=0.1
@@ -1481,7 +1584,7 @@ entity{
 
       "gun__shellsAmmo:array"{
         gun__shellsAmmo:i=0
-        gun__shellsAmmo:i=16
+        gun__shellsAmmo:i=230
         gun__shellsAmmo:i=0
       }
     }
@@ -1516,6 +1619,7 @@ entity{
   turret__teamLightTemplate:t=""
   resupply_zone__team:i=2
   groupName:t="s1"
+  killLogName:t="AttackTeam/进攻方"
 
   "turret_gun_flash_fx__flashNodes:shared:array"{
     turret_gun_flash_fx__flashNodes:t="emtr_gun_flame"
@@ -1570,6 +1674,7 @@ entity{
   turret__teamLightTemplate:t=""
   resupply_zone__team:i=2
   groupName:t="s1"
+  killLogName:t="AttackTeam/进攻方"
 
   "turret_gun_flash_fx__flashNodes:shared:array"{
     turret_gun_flash_fx__flashNodes:t="emtr_gun_flame"
@@ -1624,6 +1729,7 @@ entity{
   turret__teamLightTemplate:t=""
   resupply_zone__team:i=2
   groupName:t="s1"
+  killLogName:t="AttackTeam/进攻方"
 
   "turret_gun_flash_fx__flashNodes:shared:array"{
     turret_gun_flash_fx__flashNodes:t="emtr_gun_flame"
@@ -1658,16 +1764,6 @@ entity{
       turretName:t="turret_01"
     }
   }
-}
-
-entity{
-  _template:t="bm_13n_gameobj"
-  transform:m=[[0.00376322, 0.0211833, -0.999769] [0.101869, 0.994567, 0.0214565] [0.994791, -0.101926, 0.00158485] [529.591, 6.85695, 2596.71]]
-}
-
-entity{
-  _template:t="bm_13n_gameobj"
-  transform:m=[[0.234347, -0.00303016, -0.972148] [0.101869, 0.994567, 0.0214565] [0.966801, -0.10406, 0.233382] [496.109, 10.1841, 2601.44]]
 }
 
 entity{
@@ -1706,6 +1802,7 @@ entity{
   phys__maxMassRatioForPushOnCollision:r=999
   turret__teamLightTemplate:t=""
   vehicle_seats__autoDetectRestrictToTeam:b=no
+  killLogName:t="DefendTeam/红军'喀秋莎'火炮团"
 
   "net_sound__descs:object"{
     "resupplyStart:object"{
@@ -1773,8 +1870,8 @@ entity{
       turret__pitchSpeed:r=99
       turret_ai__pauseTimer:r=1
       gun__reloadTime:r=12.6
-      gun__projectileTemplate:t="bm_8_24_projectile+trail_plane_smoke_minor_effect"
-      gun__projectileDebugTemplate:t="bm_8_24_projectile+trail_plane_smoke_minor_effect+bomb_projectile_debug"
+      gun__projectileTemplate:t="bm_8_24_projectile+trail_rocket_launch_smoke_effect"
+      gun__projectileDebugTemplate:t="bm_8_24_projectile+trail_rocket_launch_smoke_effect+bomb_projectile_debug"
 
       "gun__shellsAmmo:array"{
         gun__shellsAmmo:i=36
@@ -1807,6 +1904,7 @@ entity{
   phys__maxMassRatioForPushOnCollision:r=999
   turret__teamLightTemplate:t=""
   vehicle_seats__autoDetectRestrictToTeam:b=no
+  killLogName:t="DefendTeam/红军'喀秋莎'火炮团"
 
   "net_sound__descs:object"{
     "resupplyStart:object"{
@@ -1877,8 +1975,8 @@ entity{
       gun__reloadTime:r=20.0
       // gun__projectileDebugTemplate:t="rbs_132_rocket_projectile+bomb_projectile_debug"
       // gun__projectileTemplate:t="rbs_132_rocket_projectile"
-      gun__projectileTemplate:t="bm_8_24_projectile+trail_plane_smoke_minor_effect"
-      gun__projectileDebugTemplate:t="bm_8_24_projectile+trail_plane_smoke_minor_effect+bomb_projectile_debug"
+      gun__projectileTemplate:t="bm_8_24_projectile+trail_rocket_launch_smoke_effect"
+      gun__projectileDebugTemplate:t="bm_8_24_projectile+trail_rocket_launch_smoke_effect+bomb_projectile_debug"
 
       "gun__shellsAmmo:array"{
         gun__shellsAmmo:i=36
@@ -1934,6 +2032,7 @@ entity{
   phys__maxMassRatioForPushOnCollision:r=999
   turret__teamLightTemplate:t=""
   vehicle_seats__autoDetectRestrictToTeam:b=no
+  killLogName:t="DefendTeam/红军'喀秋莎'火炮团"
 
   "net_sound__descs:object"{
     "resupplyStart:object"{
@@ -1989,8 +2088,8 @@ entity{
       turret_ai__period:p2=1.0, 2.0
       turret__pitchSpeed:r=99
       turret_ai__pauseTimer:r=1
-      gun__projectileTemplate:t="bm_8_24_projectile+trail_plane_smoke_minor_effect"
-      gun__projectileDebugTemplate:t="bm_8_24_projectile+trail_plane_smoke_minor_effect+bomb_projectile_debug"
+      gun__projectileTemplate:t="bm_8_24_projectile+trail_rocket_launch_smoke_effect"
+      gun__projectileDebugTemplate:t="bm_8_24_projectile+trail_rocket_launch_smoke_effect+bomb_projectile_debug"
 
       "gun__shellsAmmo:array"{
         gun__shellsAmmo:i=36
@@ -2022,6 +2121,7 @@ entity{
   phys__maxMassRatioForPushOnCollision:r=999
   turret__teamLightTemplate:t=""
   vehicle_seats__autoDetectRestrictToTeam:b=no
+  killLogName:t="DefendTeam/红军'喀秋莎'火炮团"
 
   "net_sound__descs:object"{
     "resupplyStart:object"{
@@ -2077,8 +2177,8 @@ entity{
       turret_ai__period:p2=1.0, 2.0
       turret__pitchSpeed:r=99
       turret_ai__pauseTimer:r=1
-      gun__projectileTemplate:t="bm_8_24_projectile+trail_plane_smoke_minor_effect"
-      gun__projectileDebugTemplate:t="bm_8_24_projectile+trail_plane_smoke_minor_effect+bomb_projectile_debug"
+      gun__projectileTemplate:t="bm_8_24_projectile+trail_rocket_launch_smoke_effect"
+      gun__projectileDebugTemplate:t="bm_8_24_projectile+trail_rocket_launch_smoke_effect+bomb_projectile_debug"
 
       "gun__shellsAmmo:array"{
         gun__shellsAmmo:i=36

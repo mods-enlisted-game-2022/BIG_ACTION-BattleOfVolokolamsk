@@ -38,6 +38,10 @@ import{
   scene:t="%ugm/scene_resupply_base_sdkfz_6_2.blk"
 }
 
+import{
+  scene:t="%ugm/scene_s1_germ_defend_npc_at.blk"
+}
+
 entity{
   _template:t="battle_area_polygon_point"
   transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1349, 27.6372, -821.204]]
@@ -1120,7 +1124,7 @@ entity{
   hints_header:t="briefing/common_hints_header"
   hints:t="common/controls"
   mission_type:t="invasion"
-  mission_name:t="Big Action - Battle Of Volokolamsk(0.0.3.7.6b3nf.2) (F1 see tips in game!) (zh_CN)"
+  mission_name:t="Big Action - Battle Of Volokolamsk(0.0.3.7.6arc.2) (F1 see tips in game!) (zh_CN)"
 
   "loading_images:list<t>"{
     item:t="ui/volokolamsk_lake_01.jpg"
@@ -7207,187 +7211,6 @@ entity{
 }
 
 entity{
-  _template:t="auto_mg42"
-  transform:m=[[0.783063, -0.00200534, -0.621939] [-0.00661232, 0.999911, -0.0115494] [0.621907, 0.0131564, 0.78298] [-310.581, 5.99431, -527.904]]
-  gun__blk:t="content/e_ww2_common/gamedata/weapons/maxim_mounted.blk"
-  item__proto:t="content/e_ww2_common/gamedata/weapons/maxim_mounted.blk"
-  item__name:t="items/maxim_mounted"
-  animchar__res:t="maxim_gun_char"
-  collres__res:t="maxim_gun_collision"
-  interactable:b=no
-  auto_gun_controller__targetDist:r=500
-  gun_spread__maxDeltaAngle:r=0.12
-  team:i=1
-  auto_gun_controller__changeTargetTime:r=60
-  hitpoints__hp:r=99999
-  hitpoints__maxHp:r=99999
-  gun__timeBetweenShots:r=0.1
-  auto_gun_controller__traceTime:r=1
-  auto_gun_controller__targetTeam:i=2
-  mounted_gun__vert_limits:p2=-20, 6
-  mounted_gun__horz_limits:p2=-60, 60
-}
-
-entity{
-  _template:t="auto_mg42"
-  transform:m=[[0.798128, 0.14355, -0.585137] [-0.075238, 0.987345, 0.139598] [0.597772, -0.0673923, 0.798828] [-539.618, 9.10276, -486.312]]
-  gun__blk:t="content/e_ww2_common/gamedata/weapons/maxim_mounted.blk"
-  item__proto:t="content/e_ww2_common/gamedata/weapons/maxim_mounted.blk"
-  item__name:t="items/maxim_mounted"
-  animchar__res:t="maxim_gun_char"
-  collres__res:t="maxim_gun_collision"
-  interactable:b=no
-  auto_gun_controller__targetDist:r=500
-  gun_spread__maxDeltaAngle:r=0.12
-  team:i=1
-  auto_gun_controller__changeTargetTime:r=60
-  hitpoints__hp:r=99999
-  hitpoints__maxHp:r=99999
-  gun__timeBetweenShots:r=0.1
-  auto_gun_controller__traceTime:r=1
-  auto_gun_controller__targetTeam:i=2
-  mounted_gun__vert_limits:p2=-30, 5
-  mounted_gun__horz_limits:p2=-60, 60
-}
-
-entity{
-  _template:t="auto_mg42"
-  transform:m=[[0.375861, 0.00624724, 0.926656] [0.0105544, 0.999883, -0.0110219] [-0.926615, 0.013923, 0.375751] [-7.42922, 26.6369, -159.749]]
-  gun__blk:t="content/e_ww2_common/gamedata/weapons/maxim_mounted.blk"
-  item__proto:t="content/e_ww2_common/gamedata/weapons/maxim_mounted.blk"
-  item__name:t="items/maxim_mounted"
-  animchar__res:t="maxim_gun_char"
-  collres__res:t="maxim_gun_collision"
-  interactable:b=no
-  auto_gun_controller__targetDist:r=390
-  gun_spread__maxDeltaAngle:r=0.12
-  team:i=1
-  auto_gun_controller__changeTargetTime:r=60
-  hitpoints__hp:r=99999
-  hitpoints__maxHp:r=99999
-  gun__timeBetweenShots:r=0.1
-  auto_gun_controller__targetTeam:i=2
-  mounted_gun__vert_limits:p2=-30, 1
-  mounted_gun__horz_limits:p2=-50, 50
-  gun__shotFreq:r=8
-  interactAngleLimits:p2=-30, 30
-}
-
-entity{
-  _template:t="auto_mg42"
-  transform:m=[[0.631929, 0.0182604, -0.774812] [-0.0216423, 0.999748, 0.0059103] [0.774724, 0.0130339, 0.632164] [-329.382, 5.67106, -454.211]]
-  gun__blk:t="content/e_ww2_common/gamedata/weapons/maxim_mounted.blk"
-  item__proto:t="content/e_ww2_common/gamedata/weapons/maxim_mounted.blk"
-  item__name:t="items/maxim_mounted"
-  animchar__res:t="maxim_gun_char"
-  collres__res:t="maxim_gun_collision"
-  interactable:b=no
-  auto_gun_controller__targetDist:r=500
-  gun_spread__maxDeltaAngle:r=0.12
-  team:i=1
-  auto_gun_controller__changeTargetTime:r=60
-  hitpoints__hp:r=99999
-  hitpoints__maxHp:r=99999
-  gun__timeBetweenShots:r=0.1
-  auto_gun_controller__traceTime:r=1
-  auto_gun_controller__targetTeam:i=2
-  mounted_gun__vert_limits:p2=-20, 5
-  mounted_gun__horz_limits:p2=-60, 60
-}
-
-entity{
-  _template:t="auto_mg42"
-  transform:m=[[-0.629707, 0.0152085, 0.776684] [0.0105544, 0.999883, -0.0110219] [-0.776761, 0.00125687, -0.629793] [-8.51592, 26.7864, -147.224]]
-  gun__blk:t="content/e_ww2_common/gamedata/weapons/maxim_mounted.blk"
-  item__proto:t="content/e_ww2_common/gamedata/weapons/maxim_mounted.blk"
-  item__name:t="items/maxim_mounted"
-  animchar__res:t="maxim_gun_char"
-  collres__res:t="maxim_gun_collision"
-  interactable:b=no
-  auto_gun_controller__targetDist:r=360
-  gun_spread__maxDeltaAngle:r=0.12
-  team:i=1
-  auto_gun_controller__changeTargetTime:r=60
-  hitpoints__hp:r=99999
-  hitpoints__maxHp:r=99999
-  gun__timeBetweenShots:r=0.1
-  auto_gun_controller__targetTeam:i=2
-  mounted_gun__vert_limits:p2=-30, 1
-  mounted_gun__horz_limits:p2=-30, 30
-  gun__shotFreq:r=9
-}
-
-entity{
-  _template:t="auto_mg42"
-  transform:m=[[0.985439, -0.00853002, 0.169815] [0.0105544, 0.999883, -0.0110219] [-0.169701, 0.0126537, 0.985414] [-285.949, 26.7765, -153.47]]
-  gun__blk:t="content/e_ww2_common/gamedata/weapons/maxim_mounted.blk"
-  item__proto:t="content/e_ww2_common/gamedata/weapons/maxim_mounted.blk"
-  item__name:t="items/maxim_mounted"
-  animchar__res:t="maxim_gun_char"
-  collres__res:t="maxim_gun_collision"
-  interactable:b=no
-  auto_gun_controller__targetDist:r=390
-  gun_spread__maxDeltaAngle:r=0.12
-  team:i=1
-  auto_gun_controller__changeTargetTime:r=60
-  hitpoints__hp:r=99999
-  hitpoints__maxHp:r=99999
-  gun__timeBetweenShots:r=0.1
-  auto_gun_controller__targetTeam:i=2
-  mounted_gun__vert_limits:p2=-10, 1
-  mounted_gun__horz_limits:p2=-50, 50
-  gun__shotFreq:r=10
-}
-
-entity{
-  _template:t="auto_mg42"
-  transform:m=[[0.598219, -0.0151462, -0.801189] [0.0105544, 0.999883, -0.0110219] [0.801262, -0.00186255, 0.598309] [-297.833, 26.5492, -149.41]]
-  gun__blk:t="content/e_ww2_common/gamedata/weapons/maxim_mounted.blk"
-  item__proto:t="content/e_ww2_common/gamedata/weapons/maxim_mounted.blk"
-  item__name:t="items/maxim_mounted"
-  animchar__res:t="maxim_gun_char"
-  collres__res:t="maxim_gun_collision"
-  interactable:b=no
-  auto_gun_controller__targetDist:r=500
-  gun_spread__maxDeltaAngle:r=0.12
-  team:i=1
-  auto_gun_controller__changeTargetTime:r=60
-  hitpoints__hp:r=99999
-  hitpoints__maxHp:r=99999
-  gun__timeBetweenShots:r=0.1
-  auto_gun_controller__targetTeam:i=2
-  mounted_gun__vert_limits:p2=-30, 1
-  mounted_gun__horz_limits:p2=-30, 30
-  gun__shotFreq:r=6
-}
-
-entity{
-  _template:t="auto_mg42"
-  transform:m=[[0.898778, 0, 0.438405] [0, 0.999999, -0] [-0.438404, 0, 0.898777] [-376.254, 5.1604, -448.412]]
-  gun__blk:t="content/e_ww2_common/gamedata/weapons/maxim_mounted.blk"
-  item__proto:t="content/e_ww2_common/gamedata/weapons/maxim_mounted.blk"
-  item__name:t="items/maxim_mounted"
-  animchar__res:t="maxim_gun_char"
-  collres__res:t="maxim_gun_collision"
-  interactable:b=no
-  auto_gun_controller__targetDist:r=500
-  gun_spread__maxDeltaAngle:r=0.12
-  team:i=1
-  auto_gun_controller__changeTargetTime:r=60
-  hitpoints__hp:r=99999
-  hitpoints__maxHp:r=99999
-  gun__timeBetweenShots:r=0.1
-  auto_gun_controller__traceTime:r=1
-  auto_gun_controller__targetTeam:i=2
-  mounted_gun__vert_limits:p2=-30, 5
-  mounted_gun__horz_limits:p2=-60, 60
-
-  "gun__shells:array"{
-    gun__shells:t="gamedata/gen/weapons/shells/12_7mm_dshk_gaz_defaultset_bullet_1.blk"
-  }
-}
-
-entity{
   _template:t="tracer_launcher"
   transform:m=[[0.482676, 0, -0.875799] [0, 1, 0] [0.875799, -0, 0.482676] [1330.87, 32.986, -5271.07]]
   tracer_launcher__bullet_speed:r=1200
@@ -7617,6 +7440,11 @@ entity{
   turret__enemyTeamLight:c=233, 233, 233, 1
   turret__allyTeamLight:c=233, 233, 233, 1
   phys__maxMassRatioForPushOnCollision:r=999
+  killLogName:t="DefendTeam/防守方"
+
+  "turret_gun_flash_fx__flashFx:shared:array"{
+    turret_gun_flash_fx__flashFx:t="muzzle_ground_125mm"
+  }
 
   "turret_gun_flash_fx__flashNodes:shared:array"{
     turret_gun_flash_fx__flashNodes:t="emtr_gun_flame"
@@ -7638,13 +7466,9 @@ entity{
       gun__locName:t="85mm_52k"
 
       "gun__shellsAmmo:array"{
-        gun__shellsAmmo:i=9999999
+        gun__shellsAmmo:i=999999
       }
     }
-  }
-
-  "animchar__objTexReplace:object"{
-    "se_camo_green*":t="ussr_camo_green*"
   }
 
   "turret_control__turretInfo:shared:array"{
@@ -7672,6 +7496,11 @@ entity{
   phys__maxMassRatioForPushOnCollision:r=999
   death_desc__offenderTeam:i=2
   death_desc__victimTeam:i=1
+  killLogName:t="AttackTeam/进攻方"
+
+  "turret_gun_flash_fx__flashFx:shared:array"{
+    turret_gun_flash_fx__flashFx:t="muzzle_ground_20mm"
+  }
 
   "turret_gun_flash_fx__flashNodes:shared:array"{
     turret_gun_flash_fx__flashNodes:t="emtr_gun_flame"
@@ -7693,7 +7522,7 @@ entity{
       turret_ai__pauseTimer:r=1
 
       "gun__shellsAmmo:array"{
-        gun__shellsAmmo:i=9999999
+        gun__shellsAmmo:i=999999
       }
     }
   }
@@ -7723,6 +7552,11 @@ entity{
   phys__maxMassRatioForPushOnCollision:r=999
   death_desc__offenderTeam:i=2
   death_desc__victimTeam:i=1
+  killLogName:t="AttackTeam/进攻方"
+
+  "turret_gun_flash_fx__flashFx:shared:array"{
+    turret_gun_flash_fx__flashFx:t="muzzle_ground_20mm"
+  }
 
   "turret_gun_flash_fx__flashNodes:shared:array"{
     turret_gun_flash_fx__flashNodes:t="emtr_gun_flame"
@@ -7744,7 +7578,7 @@ entity{
       turret_ai__pauseTimer:r=1
 
       "gun__shellsAmmo:array"{
-        gun__shellsAmmo:i=9999999
+        gun__shellsAmmo:i=999999
       }
     }
   }
@@ -7774,6 +7608,11 @@ entity{
   phys__maxMassRatioForPushOnCollision:r=999
   death_desc__offenderTeam:i=2
   death_desc__victimTeam:i=1
+  killLogName:t="AttackTeam/进攻方"
+
+  "turret_gun_flash_fx__flashFx:shared:array"{
+    turret_gun_flash_fx__flashFx:t="muzzle_ground_20mm"
+  }
 
   "turret_gun_flash_fx__flashNodes:shared:array"{
     turret_gun_flash_fx__flashNodes:t="emtr_gun_flame"
@@ -7795,7 +7634,7 @@ entity{
       turret_ai__pauseTimer:r=1
 
       "gun__shellsAmmo:array"{
-        gun__shellsAmmo:i=9999999
+        gun__shellsAmmo:i=999999
       }
     }
   }
@@ -7825,6 +7664,11 @@ entity{
   phys__maxMassRatioForPushOnCollision:r=999
   death_desc__offenderTeam:i=2
   death_desc__victimTeam:i=1
+  killLogName:t="AttackTeam/进攻方"
+
+  "turret_gun_flash_fx__flashFx:shared:array"{
+    turret_gun_flash_fx__flashFx:t="muzzle_ground_20mm"
+  }
 
   "turret_gun_flash_fx__flashNodes:shared:array"{
     turret_gun_flash_fx__flashNodes:t="emtr_gun_flame"
@@ -7846,7 +7690,7 @@ entity{
       turret_ai__pauseTimer:r=1
 
       "gun__shellsAmmo:array"{
-        gun__shellsAmmo:i=9999999
+        gun__shellsAmmo:i=999999
       }
     }
   }
@@ -7876,6 +7720,11 @@ entity{
   phys__maxMassRatioForPushOnCollision:r=999
   death_desc__offenderTeam:i=2
   death_desc__victimTeam:i=1
+  killLogName:t="AttackTeam/进攻方"
+
+  "turret_gun_flash_fx__flashFx:shared:array"{
+    turret_gun_flash_fx__flashFx:t="muzzle_ground_20mm"
+  }
 
   "turret_gun_flash_fx__flashNodes:shared:array"{
     turret_gun_flash_fx__flashNodes:t="emtr_gun_flame"
@@ -7897,7 +7746,7 @@ entity{
       turret_ai__pauseTimer:r=1
 
       "gun__shellsAmmo:array"{
-        gun__shellsAmmo:i=9999999
+        gun__shellsAmmo:i=999999
       }
     }
   }
@@ -7927,9 +7776,14 @@ entity{
   turret__teamLightTemplate:t=""
   death_desc__victimTeam:i=2
   death_desc__offenderTeam:i=1
+  killLogName:t="DefendTeam/防守方"
 
   "animchar__objTexReplace:object"{
     "uk_camo_very_dark_drab*":t="ussr_camo_green*"
+  }
+
+  "turret_gun_flash_fx__flashFx:shared:array"{
+    turret_gun_flash_fx__flashFx:t="muzzle_ground_15mm"
   }
 
   "turret_gun_flash_fx__flashNodes:shared:array"{
@@ -7952,7 +7806,7 @@ entity{
       turret_ai__pauseTimer:r=1
 
       "gun__shellsAmmo:array"{
-        gun__shellsAmmo:i=9999999
+        gun__shellsAmmo:i=999999
       }
     }
   }
@@ -7982,9 +7836,14 @@ entity{
   turret__teamLightTemplate:t=""
   death_desc__victimTeam:i=2
   death_desc__offenderTeam:i=1
+  killLogName:t="DefendTeam/防守方"
 
   "animchar__objTexReplace:object"{
     "uk_camo_very_dark_drab*":t="ussr_camo_green*"
+  }
+
+  "turret_gun_flash_fx__flashFx:shared:array"{
+    turret_gun_flash_fx__flashFx:t="muzzle_ground_15mm"
   }
 
   "turret_gun_flash_fx__flashNodes:shared:array"{
@@ -8007,7 +7866,7 @@ entity{
       turret_ai__pauseTimer:r=1
 
       "gun__shellsAmmo:array"{
-        gun__shellsAmmo:i=9999999
+        gun__shellsAmmo:i=999999
       }
     }
   }
@@ -8037,9 +7896,14 @@ entity{
   turret__teamLightTemplate:t=""
   death_desc__victimTeam:i=2
   death_desc__offenderTeam:i=1
+  killLogName:t="DefendTeam/防守方"
 
   "animchar__objTexReplace:object"{
     "uk_camo_very_dark_drab*":t="ussr_camo_green*"
+  }
+
+  "turret_gun_flash_fx__flashFx:shared:array"{
+    turret_gun_flash_fx__flashFx:t="muzzle_ground_15mm"
   }
 
   "turret_gun_flash_fx__flashNodes:shared:array"{
@@ -8062,7 +7926,7 @@ entity{
       turret_ai__pauseTimer:r=1
 
       "gun__shellsAmmo:array"{
-        gun__shellsAmmo:i=9999999
+        gun__shellsAmmo:i=999999
       }
     }
   }
@@ -8093,6 +7957,11 @@ entity{
   death_desc__victimTeam:i=2
   death_desc__offenderTeam:i=1
   turret__teamLightTemplate:t=""
+  killLogName:t="DefendTeam/防守方"
+
+  "turret_gun_flash_fx__flashFx:shared:array"{
+    turret_gun_flash_fx__flashFx:t="muzzle_ground_20mm"
+  }
 
   "turret_gun_flash_fx__flashNodes:shared:array"{
     turret_gun_flash_fx__flashNodes:t="emtr_gun_flame"
@@ -8114,7 +7983,7 @@ entity{
       turret_ai__pauseTimer:r=1
 
       "gun__shellsAmmo:array"{
-        gun__shellsAmmo:i=9999999
+        gun__shellsAmmo:i=999999
       }
     }
   }
@@ -8145,6 +8014,11 @@ entity{
   death_desc__victimTeam:i=2
   death_desc__offenderTeam:i=1
   turret__teamLightTemplate:t=""
+  killLogName:t="DefendTeam/防守方"
+
+  "turret_gun_flash_fx__flashFx:shared:array"{
+    turret_gun_flash_fx__flashFx:t="muzzle_ground_20mm"
+  }
 
   "turret_gun_flash_fx__flashNodes:shared:array"{
     turret_gun_flash_fx__flashNodes:t="emtr_gun_flame"
@@ -8166,7 +8040,7 @@ entity{
       turret_ai__pauseTimer:r=1
 
       "gun__shellsAmmo:array"{
-        gun__shellsAmmo:i=9999999
+        gun__shellsAmmo:i=999999
       }
     }
   }
@@ -8197,6 +8071,11 @@ entity{
   death_desc__victimTeam:i=2
   death_desc__offenderTeam:i=1
   turret__teamLightTemplate:t=""
+  killLogName:t="DefendTeam/防守方"
+
+  "turret_gun_flash_fx__flashFx:shared:array"{
+    turret_gun_flash_fx__flashFx:t="muzzle_ground_20mm"
+  }
 
   "turret_gun_flash_fx__flashNodes:shared:array"{
     turret_gun_flash_fx__flashNodes:t="emtr_gun_flame"
@@ -8218,7 +8097,7 @@ entity{
       turret_ai__pauseTimer:r=1
 
       "gun__shellsAmmo:array"{
-        gun__shellsAmmo:i=9999999
+        gun__shellsAmmo:i=999999
       }
     }
   }
@@ -8248,6 +8127,11 @@ entity{
   phys__maxMassRatioForPushOnCollision:r=999
   death_desc__offenderTeam:i=2
   death_desc__victimTeam:i=1
+  killLogName:t="AttackTeam/进攻方"
+
+  "turret_gun_flash_fx__flashFx:shared:array"{
+    turret_gun_flash_fx__flashFx:t="muzzle_ground_20mm"
+  }
 
   "turret_gun_flash_fx__flashNodes:shared:array"{
     turret_gun_flash_fx__flashNodes:t="emtr_gun_flame"
@@ -8270,7 +8154,7 @@ entity{
       turret_ai__pauseTimer:r=1.2
 
       "gun__shellsAmmo:array"{
-        gun__shellsAmmo:i=9999999
+        gun__shellsAmmo:i=999999
       }
     }
   }
@@ -8300,6 +8184,11 @@ entity{
   phys__maxMassRatioForPushOnCollision:r=999
   death_desc__offenderTeam:i=2
   death_desc__victimTeam:i=1
+  killLogName:t="AttackTeam/进攻方"
+
+  "turret_gun_flash_fx__flashFx:shared:array"{
+    turret_gun_flash_fx__flashFx:t="muzzle_ground_20mm"
+  }
 
   "turret_gun_flash_fx__flashNodes:shared:array"{
     turret_gun_flash_fx__flashNodes:t="emtr_gun_flame"
@@ -8322,7 +8211,7 @@ entity{
       turret_ai__pauseTimer:r=1.2
 
       "gun__shellsAmmo:array"{
-        gun__shellsAmmo:i=9999999
+        gun__shellsAmmo:i=999999
       }
     }
   }
@@ -8352,6 +8241,11 @@ entity{
   phys__maxMassRatioForPushOnCollision:r=999
   death_desc__offenderTeam:i=2
   death_desc__victimTeam:i=1
+  killLogName:t="AttackTeam/进攻方"
+
+  "turret_gun_flash_fx__flashFx:shared:array"{
+    turret_gun_flash_fx__flashFx:t="muzzle_ground_20mm"
+  }
 
   "turret_gun_flash_fx__flashNodes:shared:array"{
     turret_gun_flash_fx__flashNodes:t="emtr_gun_flame"
@@ -8374,7 +8268,7 @@ entity{
       turret_ai__pauseTimer:r=1.2
 
       "gun__shellsAmmo:array"{
-        gun__shellsAmmo:i=9999999
+        gun__shellsAmmo:i=999999
       }
     }
   }
@@ -8404,6 +8298,11 @@ entity{
   phys__maxMassRatioForPushOnCollision:r=999
   death_desc__offenderTeam:i=2
   death_desc__victimTeam:i=1
+  killLogName:t="AttackTeam/进攻方"
+
+  "turret_gun_flash_fx__flashFx:shared:array"{
+    turret_gun_flash_fx__flashFx:t="muzzle_ground_20mm"
+  }
 
   "turret_gun_flash_fx__flashNodes:shared:array"{
     turret_gun_flash_fx__flashNodes:t="emtr_gun_flame"
@@ -8426,7 +8325,7 @@ entity{
       turret_ai__pauseTimer:r=1.2
 
       "gun__shellsAmmo:array"{
-        gun__shellsAmmo:i=9999999
+        gun__shellsAmmo:i=999999
       }
     }
   }
@@ -8456,6 +8355,11 @@ entity{
   phys__maxMassRatioForPushOnCollision:r=999
   death_desc__offenderTeam:i=2
   death_desc__victimTeam:i=1
+  killLogName:t="AttackTeam/进攻方"
+
+  "turret_gun_flash_fx__flashFx:shared:array"{
+    turret_gun_flash_fx__flashFx:t="muzzle_ground_20mm"
+  }
 
   "turret_gun_flash_fx__flashNodes:shared:array"{
     turret_gun_flash_fx__flashNodes:t="emtr_gun_flame"
@@ -8478,7 +8382,7 @@ entity{
       turret_ai__pauseTimer:r=1.2
 
       "gun__shellsAmmo:array"{
-        gun__shellsAmmo:i=9999999
+        gun__shellsAmmo:i=999999
       }
     }
   }
@@ -8508,6 +8412,11 @@ entity{
   phys__maxMassRatioForPushOnCollision:r=999
   death_desc__offenderTeam:i=2
   death_desc__victimTeam:i=1
+  killLogName:t="AttackTeam/进攻方"
+
+  "turret_gun_flash_fx__flashFx:shared:array"{
+    turret_gun_flash_fx__flashFx:t="muzzle_ground_20mm"
+  }
 
   "turret_gun_flash_fx__flashNodes:shared:array"{
     turret_gun_flash_fx__flashNodes:t="emtr_gun_flame"
@@ -8530,7 +8439,7 @@ entity{
       turret_ai__pauseTimer:r=1.2
 
       "gun__shellsAmmo:array"{
-        gun__shellsAmmo:i=9999999
+        gun__shellsAmmo:i=999999
       }
     }
   }
@@ -8561,6 +8470,11 @@ entity{
   death_desc__victimTeam:i=2
   death_desc__offenderTeam:i=1
   turret__teamLightTemplate:t=""
+  killLogName:t="DefendTeam/防守方"
+
+  "turret_gun_flash_fx__flashFx:shared:array"{
+    turret_gun_flash_fx__flashFx:t="muzzle_ground_20mm"
+  }
 
   "turret_gun_flash_fx__flashNodes:shared:array"{
     turret_gun_flash_fx__flashNodes:t="emtr_gun_flame"
@@ -8582,7 +8496,7 @@ entity{
       turret_ai__pauseTimer:r=1
 
       "gun__shellsAmmo:array"{
-        gun__shellsAmmo:i=9999999
+        gun__shellsAmmo:i=999999
       }
     }
   }
@@ -8613,6 +8527,11 @@ entity{
   death_desc__victimTeam:i=2
   death_desc__offenderTeam:i=1
   turret__teamLightTemplate:t=""
+  killLogName:t="DefendTeam/防守方"
+
+  "turret_gun_flash_fx__flashFx:shared:array"{
+    turret_gun_flash_fx__flashFx:t="muzzle_ground_20mm"
+  }
 
   "turret_gun_flash_fx__flashNodes:shared:array"{
     turret_gun_flash_fx__flashNodes:t="emtr_gun_flame"
@@ -8634,7 +8553,7 @@ entity{
       turret_ai__pauseTimer:r=1
 
       "gun__shellsAmmo:array"{
-        gun__shellsAmmo:i=9999999
+        gun__shellsAmmo:i=999999
       }
     }
   }
@@ -8653,7 +8572,7 @@ entity{
   _template:t="bofors_40mm_twin_go"
   transform:m=[[-0.482448, 0.0184382, 0.875731] [0.0387846, 0.999247, 0.000328] [-0.875065, 0.0341231, -0.4828] [3432.98, 8.84043, -1387.94]]
   team:i=1
-  killLogName:t="building_tool/auto_cannon"
+  killLogName:t="DefendTeamAirport/防守方机场"
 
   "turretsInitialComponents:array"{
     "turretsInitialComponents:object"{
@@ -8668,7 +8587,7 @@ entity{
       gun__locName:t="85mm_52k"
 
       "gun__shellsAmmo:array"{
-        gun__shellsAmmo:i=9999999
+        gun__shellsAmmo:i=999999
       }
     }
 
@@ -8684,7 +8603,7 @@ entity{
       gun__locName:t="85mm_52k"
 
       "gun__shellsAmmo:array"{
-        gun__shellsAmmo:i=9999999
+        gun__shellsAmmo:i=999999
       }
     }
   }
@@ -8710,7 +8629,7 @@ entity{
   _template:t="bofors_40mm_twin_go"
   transform:m=[[-0.479524, 0.081179, 0.873766] [0.0483727, 0.996644, -0.0660482] [-0.876195, 0.0105947, -0.481841] [3411.56, 4.62635, -1201.44]]
   team:i=1
-  killLogName:t="building_tool/auto_cannon"
+  killLogName:t="DefendTeamAirport/防守方机场"
 
   "turretsInitialComponents:array"{
     "turretsInitialComponents:object"{
@@ -8725,7 +8644,7 @@ entity{
       gun__locName:t="85mm_52k"
 
       "gun__shellsAmmo:array"{
-        gun__shellsAmmo:i=9999999
+        gun__shellsAmmo:i=999999
       }
     }
 
@@ -8741,7 +8660,7 @@ entity{
       gun__locName:t="85mm_52k"
 
       "gun__shellsAmmo:array"{
-        gun__shellsAmmo:i=9999999
+        gun__shellsAmmo:i=999999
       }
     }
   }
@@ -8767,7 +8686,7 @@ entity{
   _template:t="bofors_40mm_twin_go"
   transform:m=[[-0.481613, -0.00299013, 0.876379] [0.000594706, 0.999993, 0.00373871] [-0.876384, 0.0023218, -0.481608] [3619.13, 3.82579, -1222.28]]
   team:i=1
-  killLogName:t="building_tool/auto_cannon"
+  killLogName:t="DefendTeamAirport/防守方机场"
 
   "turretsInitialComponents:array"{
     "turretsInitialComponents:object"{
@@ -8782,7 +8701,7 @@ entity{
       gun__locName:t="85mm_52k"
 
       "gun__shellsAmmo:array"{
-        gun__shellsAmmo:i=9999999
+        gun__shellsAmmo:i=999999
       }
     }
 
@@ -8798,7 +8717,7 @@ entity{
       gun__locName:t="85mm_52k"
 
       "gun__shellsAmmo:array"{
-        gun__shellsAmmo:i=9999999
+        gun__shellsAmmo:i=999999
       }
     }
   }
@@ -9505,19 +9424,6 @@ entity{
 
 entity{
   _template:t="gaz_67"
-  transform:m=[[-0.987948, 0.130325, 0.0835071] [0.151123, 0.928804, 0.338355] [-0.0334655, 0.346897, -0.937306] [-664.139, 50.1428, -1002.71]]
-
-  "disableDMParts:list<t>"{
-    item:t="commander"
-    item:t="driver"
-    item:t="engine"
-    item:t="body"
-    item:t="transmission"
-  }
-}
-
-entity{
-  _template:t="gaz_67"
   transform:m=[[0.193246, 0.00301947, -0.981146] [-0.0156231, 0.999878, 0] [0.981026, 0.0153285, 0.19327] [-1041.08, 1.47205, -946.951]]
 
   "disableDMParts:list<t>"{
@@ -9557,33 +9463,7 @@ entity{
 
 entity{
   _template:t="gaz_67"
-  transform:m=[[-0.772023, -0.00091286, -0.635594] [0.14338, 0.973972, -0.175555] [0.619212, -0.226665, -0.751798] [-646.046, 50.7764, -977.871]]
-
-  "disableDMParts:list<t>"{
-    item:t="commander"
-    item:t="driver"
-    item:t="engine"
-    item:t="body"
-    item:t="transmission"
-  }
-}
-
-entity{
-  _template:t="gaz_67"
   transform:m=[[0.252275, 0.0036094, -0.967649] [0.0817787, 0.996336, 0.0250369] [0.964194, -0.0854493, 0.251055] [-673.18, 51.347, -954.338]]
-
-  "disableDMParts:list<t>"{
-    item:t="commander"
-    item:t="driver"
-    item:t="engine"
-    item:t="body"
-    item:t="transmission"
-  }
-}
-
-entity{
-  _template:t="gaz_67"
-  transform:m=[[-0.721088, -0.084526, -0.687668] [0.0620142, 0.980673, -0.185569] [0.690062, -0.176457, -0.70191] [-655.53, 51.2092, -981.63]]
 
   "disableDMParts:list<t>"{
     item:t="commander"
@@ -9765,19 +9645,6 @@ entity{
 
 entity{
   _template:t="gaz_67"
-  transform:m=[[0.995229, 0.0969946, -0.0105376] [-0.0973146, 0.994603, -0.0359946] [0.00698948, 0.0368483, 0.999297] [1672.18, 6.60146, 409.903]]
-
-  "disableDMParts:list<t>"{
-    item:t="commander"
-    item:t="driver"
-    item:t="engine"
-    item:t="body"
-    item:t="transmission"
-  }
-}
-
-entity{
-  _template:t="gaz_67"
   transform:m=[[0.64782, -0.0134827, 0.761674] [0.0151721, 0.999873, 0.00479505] [-0.761643, 0.00844986, 0.647942] [1677.81, 5.16773, 414.867]]
 
   "disableDMParts:list<t>"{
@@ -9857,19 +9724,6 @@ entity{
 entity{
   _template:t="gaz_67"
   transform:m=[[-0.98233, 8.70065e-06, 0.187156] [-0.00239014, 0.999918, -0.0125917] [-0.18714, -0.0128165, -0.98225] [1565.25, 4.78454, 875.237]]
-
-  "disableDMParts:list<t>"{
-    item:t="commander"
-    item:t="driver"
-    item:t="engine"
-    item:t="body"
-    item:t="transmission"
-  }
-}
-
-entity{
-  _template:t="gaz_67"
-  transform:m=[[0.0233972, -0.00966473, 0.99968] [0.0107437, 0.999898, 0.00941539] [-0.999669, 0.0105199, 0.0234987] [1529.35, 4.50445, 876.745]]
 
   "disableDMParts:list<t>"{
     item:t="commander"
@@ -10624,19 +10478,6 @@ entity{
 entity{
   _template:t="gaz_67"
   transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1378.4, 4.37622, -1335.19]]
-
-  "disableDMParts:list<t>"{
-    item:t="commander"
-    item:t="driver"
-    item:t="engine"
-    item:t="body"
-    item:t="transmission"
-  }
-}
-
-entity{
-  _template:t="gaz_67"
-  transform:m=[[0.999966, -0.00819946, -4.22768e-05] [0.00819946, 0.999913, 0.0103116] [-4.22768e-05, -0.0103116, 0.999947] [-1424.59, 4.94154, -1370.22]]
 
   "disableDMParts:list<t>"{
     item:t="commander"
@@ -11649,19 +11490,6 @@ entity{
 }
 
 entity{
-  _template:t="gaz_67"
-  transform:m=[[0.054314, 0.0753352, -0.995678] [-0.00778349, 0.997151, 0.0750221] [0.998494, 0.0036751, 0.0547457] [747.475, 7.76689, 1814.79]]
-
-  "disableDMParts:list<t>"{
-    item:t="commander"
-    item:t="driver"
-    item:t="engine"
-    item:t="body"
-    item:t="transmission"
-  }
-}
-
-entity{
   _template:t="ussr_t_26_1940"
   transform:m=[[0.292326, 0.0149451, -0.956202] [-1.0706e-05, 0.999878, 0.0156245] [0.956319, -0.00455722, 0.292291] [5.87716, 47.2053, -1003.11]]
   vehicle__isDestroyedWithoutCrew:b=no
@@ -11678,57 +11506,6 @@ entity{
   vehicle_seats__autoDetectRestrictToTeam:b=no
   team:i=1
   vehicle_seats__restrictToTeam:i=1
-
-  "animchar__objTexReplace:object"{}
-}
-
-entity{
-  _template:t="ussr_t_26_1940"
-  transform:m=[[0.999996, 0.00276212, 8.20382e-06] [-0.00276212, 0.999979, 0.00594017] [8.20382e-06, -0.00594017, 0.999982] [-1421.02, 5.48693, -1365.59]]
-  vehicle_seats__autoDetectRestrictToTeam:b=no
-  team:i=1
-  vehicle_seats__restrictToTeam:i=1
-
-  "animchar__objTexReplace:object"{}
-}
-
-entity{
-  _template:t="ussr_t_26_1940"
-  transform:m=[[0.999661, -0.0123032, 0.0229317] [0.0121965, 0.999914, 0.00478534] [-0.0229887, -0.00450403, 0.999726] [-1415.1, 5.39847, -1356.98]]
-  vehicle_seats__autoDetectRestrictToTeam:b=no
-  team:i=1
-  vehicle_seats__restrictToTeam:i=1
-
-  "animchar__objTexReplace:object"{}
-}
-
-entity{
-  _template:t="ussr_t_26_1940"
-  transform:m=[[0.756408, -0.00473706, 0.654082] [-7.06667e-05, 0.999973, 0.00732383] [-0.6541, -0.00558603, 0.756388] [-1403.3, 5.41061, -1370.4]]
-  vehicle_seats__autoDetectRestrictToTeam:b=no
-  team:i=1
-  vehicle_seats__restrictToTeam:i=1
-
-  "animchar__objTexReplace:object"{}
-}
-
-entity{
-  _template:t="ussr_t_26_1940"
-  transform:m=[[-0.813089, 0.0163434, 0.581909] [-0.00103142, 0.999564, -0.0295147] [-0.582138, -0.0245983, -0.812718] [-1416.04, 4.87646, -1346.32]]
-  vehicle_seats__autoDetectRestrictToTeam:b=no
-  vehicle_seats__restrictToTeam:i=1
-  team:i=1
-
-  "animchar__objTexReplace:object"{}
-}
-
-entity{
-  _template:t="ussr_t_26_1940"
-  transform:m=[[-0.554811, 0.200371, -0.807488] [0.316441, 0.948443, 0.0179266] [0.769448, -0.245576, -0.589612] [-987.827, 12.6052, -789.302]]
-  vehicle_view__fuelPct:r=0.2
-  vehicle_seats__restrictToTeam:i=1
-  vehicle_seats__autoDetectRestrictToTeam:b=no
-  team:i=1
 
   "animchar__objTexReplace:object"{}
 }
@@ -11773,36 +11550,6 @@ entity{
 
 entity{
   _template:t="ussr_t_26_1940"
-  transform:m=[[-0.630078, 0.00960393, -0.776472] [-0.00119386, 0.999911, 0.0133363] [0.776531, 0.00932992, -0.63001] [-1378.26, 4.66899, -1357.14]]
-  vehicle_seats__autoDetectRestrictToTeam:b=no
-  team:i=1
-  vehicle_seats__restrictToTeam:i=1
-
-  "animchar__objTexReplace:object"{}
-}
-
-entity{
-  _template:t="ussr_t_26_1940"
-  transform:m=[[-0.801076, -0.00836588, 0.598504] [0.00274814, 0.99984, 0.017654] [-0.598557, 0.015787, -0.800925] [-1389.58, 4.79833, -1336.37]]
-  vehicle_seats__autoDetectRestrictToTeam:b=no
-  team:i=1
-  vehicle_seats__restrictToTeam:i=1
-
-  "animchar__objTexReplace:object"{}
-}
-
-entity{
-  _template:t="ussr_t_26_1940"
-  transform:m=[[0.631984, -0.00426157, 0.774969] [-0.0124893, 0.999799, 0.0156829] [-0.77488, -0.0195901, 0.631804] [-1418.4, 4.88227, -1324.62]]
-  vehicle_seats__autoDetectRestrictToTeam:b=no
-  vehicle_seats__restrictToTeam:i=1
-  team:i=1
-
-  "animchar__objTexReplace:object"{}
-}
-
-entity{
-  _template:t="ussr_t_26_1940"
   transform:m=[[-0.0482411, -0.0141002, -0.998736] [0.0312249, 0.99939, -0.0156176] [0.998348, -0.0319388, -0.0477714] [5.64932, 47.3171, -1026.31]]
   vehicle_seats__restrictToTeam:i=1
   vehicle_seats__autoDetectRestrictToTeam:b=no
@@ -11823,7 +11570,88 @@ entity{
 }
 
 entity{
-  _template:t="ussr_t_26_1940"
+  _template:t="ussr_t_26_1940+base_moon_soldier"
+  transform:m=[[-0.813089, 0.0163434, 0.581909] [-0.00103142, 0.999564, -0.0295147] [-0.582138, -0.0245983, -0.812718] [-1416.04, 4.87646, -1346.32]]
+  vehicle_seats__autoDetectRestrictToTeam:b=no
+  vehicle_seats__restrictToTeam:i=1
+  team:i=1
+
+  "animchar__objTexReplace:object"{}
+}
+
+entity{
+  _template:t="ussr_t_26_1940+base_moon_soldier"
+  transform:m=[[0.999996, 0.00276212, 8.20382e-06] [-0.00276212, 0.999979, 0.00594017] [8.20382e-06, -0.00594017, 0.999982] [-1421.02, 5.48693, -1365.59]]
+  vehicle_seats__autoDetectRestrictToTeam:b=no
+  team:i=1
+  vehicle_seats__restrictToTeam:i=1
+
+  "animchar__objTexReplace:object"{}
+}
+
+entity{
+  _template:t="ussr_t_26_1940+base_moon_soldier"
+  transform:m=[[0.999661, -0.0123032, 0.0229317] [0.0121965, 0.999914, 0.00478534] [-0.0229887, -0.00450403, 0.999726] [-1415.1, 5.39847, -1356.98]]
+  vehicle_seats__autoDetectRestrictToTeam:b=no
+  team:i=1
+  vehicle_seats__restrictToTeam:i=1
+
+  "animchar__objTexReplace:object"{}
+}
+
+entity{
+  _template:t="ussr_t_26_1940+base_moon_soldier"
+  transform:m=[[0.756408, -0.00473706, 0.654082] [-7.06667e-05, 0.999973, 0.00732383] [-0.6541, -0.00558603, 0.756388] [-1403.3, 5.41061, -1370.4]]
+  vehicle_seats__autoDetectRestrictToTeam:b=no
+  team:i=1
+  vehicle_seats__restrictToTeam:i=1
+
+  "animchar__objTexReplace:object"{}
+}
+
+entity{
+  _template:t="ussr_t_26_1940+base_moon_soldier"
+  transform:m=[[-0.554811, 0.200371, -0.807488] [0.316441, 0.948443, 0.0179266] [0.769448, -0.245576, -0.589612] [-987.827, 12.6052, -789.302]]
+  vehicle_view__fuelPct:r=0.2
+  vehicle_seats__restrictToTeam:i=1
+  vehicle_seats__autoDetectRestrictToTeam:b=no
+  team:i=1
+
+  "animchar__objTexReplace:object"{}
+}
+
+entity{
+  _template:t="ussr_t_26_1940+base_moon_soldier"
+  transform:m=[[-0.630078, 0.00960393, -0.776472] [-0.00119386, 0.999911, 0.0133363] [0.776531, 0.00932992, -0.63001] [-1378.26, 4.66899, -1357.14]]
+  vehicle_seats__autoDetectRestrictToTeam:b=no
+  team:i=1
+  vehicle_seats__restrictToTeam:i=1
+
+  "animchar__objTexReplace:object"{}
+}
+
+entity{
+  _template:t="ussr_t_26_1940+base_moon_soldier"
+  transform:m=[[-0.801076, -0.00836588, 0.598504] [0.00274814, 0.99984, 0.017654] [-0.598557, 0.015787, -0.800925] [-1389.58, 4.79833, -1336.37]]
+  vehicle_seats__autoDetectRestrictToTeam:b=no
+  team:i=1
+  vehicle_seats__restrictToTeam:i=1
+
+  "animchar__objTexReplace:object"{}
+}
+
+entity{
+  _template:t="ussr_t_26_1940+base_moon_soldier"
+  transform:m=[[0.631984, -0.00426157, 0.774969] [-0.0124893, 0.999799, 0.0156829] [-0.77488, -0.0195901, 0.631804] [-1418.4, 4.88227, -1324.62]]
+  vehicle_seats__autoDetectRestrictToTeam:b=no
+  vehicle_seats__restrictToTeam:i=1
+  team:i=1
+
+  "animchar__objTexReplace:object"{}
+}
+
+entity{
+  _template:t="ussr_t_26_1940+base_moon_soldier"
   transform:m=[[0.634228, -0.0319284, 0.772486] [0.0312057, 0.99939, 0.0156863] [-0.772516, 0.0141573, 0.634837] [-1445.87, 5.12786, -1313.33]]
   vehicle_seats__autoDetectRestrictToTeam:b=no
   vehicle_seats__restrictToTeam:i=1
@@ -12655,25 +12483,7 @@ entity{
 
 entity{
   _template:t="wbm_r75"
-  transform:m=[[-0.996166, 0.0113015, -0.0867454] [0.0113227, 0.999936, 0.000247665] [0.0867426, -0.000735478, -0.99623] [1560.76, 5.35454, 925.725]]
-
-  "animchar__objTexReplace:object"{
-    "ger_camo_dunkelgelb_africa*":t="ger_camo_grey*"
-  }
-}
-
-entity{
-  _template:t="wbm_r75"
   transform:m=[[-0.997408, 0.0236444, -0.0679614] [0.0238463, 0.999713, -0.00216066] [0.0678908, -0.00377568, -0.997686] [1563.22, 4.93722, 897.72]]
-
-  "animchar__objTexReplace:object"{
-    "ger_camo_dunkelgelb_africa*":t="ger_camo_grey*"
-  }
-}
-
-entity{
-  _template:t="wbm_r75"
-  transform:m=[[-0.999885, -0.00906358, 0.0121227] [-0.00857829, 0.999183, 0.0395012] [-0.0124708, 0.0393927, -0.999146] [1560.3, 5.00154, 884.814]]
 
   "animchar__objTexReplace:object"{
     "ger_camo_dunkelgelb_africa*":t="ger_camo_grey*"
@@ -12683,18 +12493,6 @@ entity{
 entity{
   _template:t="vw_kubelwagen"
   transform:m=[[0.999539, -0, 0.0303626] [0, 1, 0] [-0.0303626, 0, 0.999539] [-1688.94, 0.740795, -898.764]]
-
-  "disableDMParts:list<t>"{
-    item:t="cls_body_01"
-    item:t="engine"
-    item:t="body"
-    item:t="transmission"
-  }
-}
-
-entity{
-  _template:t="vw_kubelwagen"
-  transform:m=[[0.984193, 0.0193553, 0.176039] [-0.0224525, 0.999626, 0.0156192] [-0.175671, -0.0193248, 0.984259] [-1199.87, 0.690277, -883.458]]
 
   "disableDMParts:list<t>"{
     item:t="cls_body_01"
@@ -13190,27 +12988,7 @@ entity{
 
 entity{
   _template:t="ussr_bt_7_1937"
-  transform:m=[[0.632145, -0.0124619, 0.77475] [0.0292607, 0.999541, -0.00779714] [-0.774297, 0.0275987, 0.63222] [-1437.52, 5.68633, -1338.74]]
-  vehicle_seats__autoDetectRestrictToTeam:b=no
-  vehicle_seats__restrictToTeam:i=1
-  team:i=1
-
-  "animchar__objTexReplace:object"{}
-}
-
-entity{
-  _template:t="ussr_bt_7_1937"
   transform:m=[[0.8714, 0.00853612, 0.490499] [-0.0311957, 0.998789, 0.0380392] [-0.489581, -0.0484488, 0.870611] [-690.686, 31.0942, 1235.86]]
-  vehicle_seats__autoDetectRestrictToTeam:b=no
-  team:i=1
-  vehicle_seats__restrictToTeam:i=1
-
-  "animchar__objTexReplace:object"{}
-}
-
-entity{
-  _template:t="ussr_bt_7_1937"
-  transform:m=[[0.656605, -0.0139405, 0.754106] [0.0267385, 0.999631, -0.00480203] [-0.753761, 0.0233167, 0.656735] [-1442.91, 5.56303, -1345.39]]
   vehicle_seats__autoDetectRestrictToTeam:b=no
   team:i=1
   vehicle_seats__restrictToTeam:i=1
@@ -13224,6 +13002,26 @@ entity{
   vehicle_seats__autoDetectRestrictToTeam:b=no
   team:i=1
   vehicle_seats__restrictToTeam:i=1
+}
+
+entity{
+  _template:t="ussr_bt_7_1937+base_moon_soldier"
+  transform:m=[[0.656605, -0.0139405, 0.754106] [0.0267385, 0.999631, -0.00480203] [-0.753761, 0.0233167, 0.656735] [-1442.91, 5.56303, -1345.39]]
+  vehicle_seats__autoDetectRestrictToTeam:b=no
+  team:i=1
+  vehicle_seats__restrictToTeam:i=1
+
+  "animchar__objTexReplace:object"{}
+}
+
+entity{
+  _template:t="ussr_bt_7_1937+base_moon_soldier"
+  transform:m=[[0.632145, -0.0124619, 0.77475] [0.0292607, 0.999541, -0.00779714] [-0.774297, 0.0275987, 0.63222] [-1437.52, 5.68633, -1338.74]]
+  vehicle_seats__autoDetectRestrictToTeam:b=no
+  vehicle_seats__restrictToTeam:i=1
+  team:i=1
+
+  "animchar__objTexReplace:object"{}
 }
 
 entity{
@@ -13525,47 +13323,6 @@ entity{
 entity{
   _template:t="it_ab_41_common"
   transform:m=[[-0.980489, 0.00534768, 0.196502] [-0.0181802, 0.992879, -0.117735] [-0.195732, -0.11901, -0.973409] [975.309, 6.87242, 1345.13]]
-  team:i=2
-  vehicle_seats__autoDetectRestrictToTeam:b=no
-  vehicle_seats__restrictToTeam:i=2
-  vehicle_net_phys__blk:t="gamedata/gen/units/tanks/as_42_metropolitana.blk:VehiclePhys"
-
-  "animchar__objTexReplace:object"{
-    "it_camo_olive_green*":t="ger_camo_grey*"
-  }
-
-  "turretsInitialComponents:array"{
-    "turretsInitialComponents:object"{}
-    "turretsInitialComponents:object"{
-      gun__overheatPerShot:r=0.006
-    }
-  }
-
-  "turret_control__turretInfo:shared:array"{
-    "turret_control__turretInfo:object"{
-      salt:i=1
-      gun:t="pzkpfw_ii_ausf_c_turret_01_20mm_kwk30+turret_with_several_types_of_shells+main_turret"
-      barrelDm:t="gun_barrel"
-      breechDm:t="cannon_breech"
-      turretName:t="turret_01"
-      verDriveDm:t="drive_turret_v"
-      horDriveDm:t="drive_turret_h"
-    }
-
-    "turret_control__turretInfo:object"{
-      salt:i=1
-      gun:t="pzkpfw_ii_ausf_c_turret_02_7_92mm_mg34+base_tankgun_machinegun_nooverheat"
-      barrelDm:t="gun_barrel_01"
-      turretName:t="turret_02"
-      verDriveDm:t="drive_turret_v"
-      horDriveDm:t="drive_turret_h"
-    }
-  }
-}
-
-entity{
-  _template:t="it_ab_41_common"
-  transform:m=[[-0.378783, 0.183914, -0.907028] [0.045098, 0.98256, 0.180396] [0.924386, 0.0274256, -0.380471] [923.044, 8.8983, 1411.61]]
   team:i=2
   vehicle_seats__autoDetectRestrictToTeam:b=no
   vehicle_seats__restrictToTeam:i=2
@@ -14023,7 +13780,7 @@ entity{
 }
 
 entity{
-  _template:t="ussr_ba_11_common"
+  _template:t="ussr_ba_11_common+base_moon_soldier"
   transform:m=[[-0.604367, 0.0260693, -0.79628] [0.0169929, 0.999659, 0.0198303] [0.796525, -0.00154633, -0.604604] [-1399.62, 4.92338, -1343.95]]
   team:i=1
   vehicle_seats__autoDetectRestrictToTeam:b=no
@@ -14360,7 +14117,7 @@ entity{
 }
 
 entity{
-  _template:t="us_m3a1_stuart_common"
+  _template:t="us_m3a1_stuart_common+base_moon_soldier"
   transform:m=[[-0.703872, -0.0107801, -0.710245] [-0.0442325, 0.99861, 0.0286787] [0.708948, 0.051602, -0.70337] [-818.931, 21.5859, -862.412]]
   team:i=1
   vehicle_seats__autoDetectRestrictToTeam:b=no
@@ -14372,7 +14129,7 @@ entity{
 }
 
 entity{
-  _template:t="uk_aec_mk_2_57mm_6pdr_common"
+  _template:t="uk_aec_mk_2_57mm_6pdr_common+base_moon_soldier"
   transform:m=[[-0.685591, -0.0220819, -0.727652] [-0.0156212, 0.999756, -0.0156212] [0.72782, 0.000657047, -0.685769] [-811.396, 21.7522, -852.643]]
   vehicle_seats__autoDetectRestrictToTeam:b=no
   vehicle_seats__restrictToTeam:i=1
@@ -14508,7 +14265,7 @@ entity{
 
 entity{
   _template:t="germ_dickermax_common"
-  transform:m=[[0.801758, 0.0472799, 0.595776] [-0.0130543, 0.998013, -0.0616332] [-0.597506, 0.0416374, 0.800782] [-1009.56, 5.90639, -1636.91]]
+  transform:m=[[0.80287, 0.00608403, 0.596124] [0.0156155, 0.99939, -0.0312309] [-0.59595, 0.0343831, 0.802285] [-1050.68, 5.25109, -1692.58]]
   gunnerFpsCamMaxAngle:p2=100, -20
   team:i=2
   vehicle_seats__autoDetectRestrictToTeam:b=no
@@ -16734,4 +16491,53 @@ entity{
       }
     }
   }
+}
+
+entity{
+  _template:t="stationary_maxim_without_shell_ejection"
+  transform:m=[[0.794239, 0.0983714, -0.599589] [-0.0622214, 0.994787, 0.0807886] [0.604411, -0.0268582, 0.79622] [-554.183, 6.14877, -486.255]]
+  auto_gun_controller__enabled:b=yes
+  auto_gun_controller__targetDist:r=590
+  hitpoints__maxHp:r=99999
+  hitpoints__hp:r=99999
+  auto_gun_controller__traceTime:r=3.6
+  team:i=1
+  auto_gun_controller__targetTeam:i=2
+  mounted_gun__active:b=yes
+  mounted_gun__vert_limits:p2=-10, 23
+  gun_deviation__maxDeviation:r=1.6
+  interactAngleLimits:p2=-80, 80
+}
+
+entity{
+  _template:t="stationary_maxim_without_shell_ejection"
+  transform:m=[[0.852346, 0.0190251, -0.522632] [-0.0123392, 0.999791, 0.0162711] [0.522832, -0.00741973, 0.852403] [-288.439, 5.59299, -465.002]]
+  auto_gun_controller__enabled:b=yes
+  auto_gun_controller__targetDist:r=550
+  hitpoints__maxHp:r=99999
+  hitpoints__hp:r=99999
+  auto_gun_controller__traceTime:r=3
+  team:i=1
+  auto_gun_controller__targetTeam:i=2
+  mounted_gun__active:b=yes
+  mounted_gun__vert_limits:p2=-10, 23
+  gun_deviation__maxDeviation:r=1.6
+  interactAngleLimits:p2=-80, 80
+}
+
+entity{
+  _template:t="stationary_maxim_without_shell_ejection"
+  transform:m=[[0.868679, -0.0156788, -0.495128] [0.0164345, 0.999861, -0.0028281] [0.495103, -0.00568048, 0.868816] [-229.756, 6.35413, -544.271]]
+  auto_gun_controller__enabled:b=yes
+  auto_gun_controller__targetDist:r=590
+  hitpoints__maxHp:r=99999
+  hitpoints__hp:r=99999
+  gun__shotFreq:r=10
+  auto_gun_controller__traceTime:r=3.2
+  team:i=1
+  auto_gun_controller__targetTeam:i=2
+  mounted_gun__active:b=yes
+  mounted_gun__vert_limits:p2=-10, 23
+  gun_deviation__maxDeviation:r=1.6
+  interactAngleLimits:p2=-80, 80
 }

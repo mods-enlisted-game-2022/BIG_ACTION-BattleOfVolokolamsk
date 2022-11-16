@@ -1,0 +1,162 @@
+
+entity{
+  _template:t="builded_auto_turret"
+  transform:m=[[-0.426969, -0.118371, 0.896485] [-0.193405, 0.980408, 0.0373398] [-0.883342, -0.157441, -0.441497] [-1086.26, 4.93797, -1637.16]]
+  team:i=2
+  hitpoints__hp:r=99990
+  hitpoints__maxHp:r=99990
+  phys_obj_net_phys__blk:t="content/e_ww2_common/gamedata/units/cannons/germ_20mm_flak38_flakvierling.blk"
+  animchar__res:t="towed_at_pak_char"
+  collres__res:t="cannon_germ_20mm_flak38_flakvierling_collision"
+  turret__enemyTeamLight:c=233, 233, 233, 1
+  turret__allyTeamLight:c=233, 233, 233, 1
+  phys__maxMassRatioForPushOnCollision:r=999
+  turret__teamLightTemplate:t=""
+  killLogName:t="AttackTeam/德军反坦克排"
+
+  "turret_gun_flash_fx__flashFx:shared:array"{
+    turret_gun_flash_fx__flashFx:t="muzzle_ground_40mm_slow"
+  }
+
+  "turret_gun_flash_fx__flashNodes:shared:array"{
+    turret_gun_flash_fx__flashNodes:t="emtr_gun_flame"
+  }
+
+  "turretsInitialComponents:array"{
+    "turretsInitialComponents:object"{
+      gun__shotFreq:r=1.2
+      item__name:t="guns/37mm_kwk36"
+      turret__yawSpeed:r=39
+      turret_ai__amplitude:p2=0, 0
+      gun_deviation__maxDeviation:r=0.05
+      turret__limit:p4=-80, 80, -5, 10
+      gun_spread__maxDeltaAngle:r=1
+      turret_ai__attackTimerr:r=0.1
+      turret_ai__sleepTimer:r=2.3
+      turret_ai__atackDist:r=333
+      turret_ai__period:p2=0, 0
+      turret__pitchSpeed:r=60
+
+      "gun__shellsAmmo:array"{
+        gun__shellsAmmo:i=999999
+      }
+    }
+  }
+
+  "turret_control__turretInfo:shared:array"{
+    "turret_control__turretInfo:object"{
+      turretGroup:t="main_turrets"
+      salt:i=1
+      gun:t="builded_sg_gun+towed_at_pak36_turret_01_37mm_kwk36+turret_with_several_types_of_shells+main_turret"
+      turretName:t="turret_01"
+    }
+  }
+}
+
+entity{
+  _template:t="builded_auto_turret"
+  transform:m=[[0.177783, -0.0375009, 0.983355] [0.0380398, 0.998789, 0.0312121] [-0.983334, 0.0318576, 0.178994] [-1055.06, 5.08923, -1639.89]]
+  team:i=2
+  hitpoints__hp:r=99990
+  hitpoints__maxHp:r=99990
+  phys_obj_net_phys__blk:t="content/e_ww2_common/gamedata/units/cannons/germ_20mm_flak38_flakvierling.blk"
+  animchar__res:t="towed_at_pak_char"
+  collres__res:t="cannon_germ_20mm_flak38_flakvierling_collision"
+  turret__enemyTeamLight:c=233, 233, 233, 1
+  turret__allyTeamLight:c=233, 233, 233, 1
+  phys__maxMassRatioForPushOnCollision:r=999
+  turret__teamLightTemplate:t=""
+  killLogName:t="AttackTeam/德军反坦克排"
+
+  "turret_gun_flash_fx__flashFx:shared:array"{
+    turret_gun_flash_fx__flashFx:t="muzzle_ground_40mm_slow"
+  }
+
+  "turret_gun_flash_fx__flashNodes:shared:array"{
+    turret_gun_flash_fx__flashNodes:t="emtr_gun_flame"
+  }
+
+  "turretsInitialComponents:array"{
+    "turretsInitialComponents:object"{
+      gun__shotFreq:r=1.2
+      item__name:t="guns/37mm_kwk36"
+      turret__yawSpeed:r=39
+      turret_ai__amplitude:p2=0, 0
+      gun_deviation__maxDeviation:r=0.05
+      turret__limit:p4=-80, 80, -5, 10
+      gun_spread__maxDeltaAngle:r=1
+      turret_ai__attackTimerr:r=0.1
+      turret_ai__sleepTimer:r=2.3
+      turret_ai__atackDist:r=333
+      turret_ai__period:p2=0, 0
+      turret__pitchSpeed:r=60
+
+      "gun__shellsAmmo:array"{
+        gun__shellsAmmo:i=999999
+      }
+    }
+  }
+
+  "turret_control__turretInfo:shared:array"{
+    "turret_control__turretInfo:object"{
+      turretGroup:t="main_turrets"
+      salt:i=1
+      gun:t="builded_sg_gun+towed_at_pak36_turret_01_37mm_kwk36+turret_with_several_types_of_shells+main_turret"
+      turretName:t="turret_01"
+    }
+  }
+}
+
+entity{
+  _template:t="builded_auto_turret"
+  transform:m=[[-0.25465, -0.0666096, 0.964736] [-0.0836024, 0.995406, 0.0466597] [-0.963413, -0.0687724, -0.259049] [-910.754, 5.33339, -1596.53]]
+  team:i=2
+  hitpoints__hp:r=99990
+  hitpoints__maxHp:r=99990
+  phys_obj_net_phys__blk:t="content/e_ww2_common/gamedata/units/cannons/germ_20mm_flak38_flakvierling.blk"
+  animchar__res:t="towed_at_pak_char"
+  collres__res:t="cannon_germ_20mm_flak38_flakvierling_collision"
+  turret__enemyTeamLight:c=233, 233, 233, 1
+  turret__allyTeamLight:c=233, 233, 233, 1
+  phys__maxMassRatioForPushOnCollision:r=999
+  turret__teamLightTemplate:t=""
+  killLogName:t="AttackTeam/德军反坦克排"
+
+  "turret_gun_flash_fx__flashFx:shared:array"{
+    turret_gun_flash_fx__flashFx:t="muzzle_ground_40mm_slow"
+  }
+
+  "turret_gun_flash_fx__flashNodes:shared:array"{
+    turret_gun_flash_fx__flashNodes:t="emtr_gun_flame"
+  }
+
+  "turretsInitialComponents:array"{
+    "turretsInitialComponents:object"{
+      gun__shotFreq:r=1.2
+      item__name:t="guns/37mm_kwk36"
+      turret__yawSpeed:r=39
+      turret_ai__amplitude:p2=0, 0
+      gun_deviation__maxDeviation:r=0.05
+      turret__limit:p4=-80, 80, -5, 10
+      gun_spread__maxDeltaAngle:r=1
+      turret_ai__attackTimerr:r=0.1
+      turret_ai__sleepTimer:r=2.3
+      turret_ai__atackDist:r=333
+      turret_ai__period:p2=0, 0
+      turret__pitchSpeed:r=60
+
+      "gun__shellsAmmo:array"{
+        gun__shellsAmmo:i=999999
+      }
+    }
+  }
+
+  "turret_control__turretInfo:shared:array"{
+    "turret_control__turretInfo:object"{
+      turretGroup:t="main_turrets"
+      salt:i=1
+      gun:t="builded_sg_gun+towed_at_pak36_turret_01_37mm_kwk36+turret_with_several_types_of_shells+main_turret"
+      turretName:t="turret_01"
+    }
+  }
+}

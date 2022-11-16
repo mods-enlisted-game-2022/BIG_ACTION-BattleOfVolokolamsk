@@ -101,6 +101,7 @@ entity{
   turret__teamLightTemplate:t=""
   resupply_zone__team:i=1
   groupName:t="s1"
+  killLogName:t="DefendTeam/防守方"
 
   "net_sound__descs:object"{
     "resupplyStart:object"{

@@ -331,7 +331,7 @@ entity{
   hints_header:t="Main Objective: Attack the D Point / Defend The D Point"
   hints:t="common/controls"
   mission_type:t="invasion"
-  mission_name:t="Big Action Enduring Confrontation | 1065.261003c"
+  mission_name:t="Big Action Enduring Confrontation | 1065.261003d"
 
   "loading_images:list<t>"{
     item:t="%ugm/assets/loading/ba_volmzk_tutorial_01.jpg"

@@ -1,0 +1,128 @@
+speed:r=10.0
+normalizationPreset:t="heat"
+ricochetPreset:t="he"
+groundRicochetPreset:t="he"
+secondaryShattersPreset:t="ap"
+stabilityThreshold:r=0.5
+stabilityCaliberToArmorThreshold:r=5.0
+stabilityReductionAfterRicochet:r=0.3
+stabilityReductionAfterPenetration:r=0.15
+bulletType:t="he_bomb"
+slopeEffectPreset:t="ap"
+fresnel:p3=0.23, 0.1, 2.0
+useEffectiveArmorThicknessForShatter:b=yes
+explodeOnRendinst:b=yes
+mass:r=252.2
+explosiveType:t="tnt"
+explosiveMass:r=122.25
+bombType:t="he_bomb"
+bombName:t="fab250_43"
+dragCx:r=0.07
+caliber:r=0.22
+length:r=1.766
+distFromCmToStab:r=0.7
+sound:t="weapon.bomb_std"
+waterExplosionEffect:t="bigesplashxplosion_fx"
+fxGroundDust:t="dust_ground_explosions_wave_dirt_small"
+fxGrassDust:t="dust_ground_explosions_wave_dirt_small"
+fxSandDust:t="dust_ground_explosions_wave_sand_small"
+fxSnowDust:t="dust_ground_explosions_wave_snow_small"
+fxConcreteDust:t="dust_ground_explosions_wave_concrete_small"
+fxWaterShockWave:t="dust_waterwave_big"
+fallToUnitFx:t="hit_81_105mm_metal_ap"
+explodeTreshold:r=0.0
+fallToWaterFx:t="bomb_reflection"
+explodeHitPower:r=400.0
+fallFx:t="hit_59_80mm_dirt_ap"
+explodeArmorPower:r=100.0
+shatterPatchRadius:r=0.0
+explodeRadius:p2=4.0, 10.0
+visualShattersWaterOffset:r=1.2
+visualShattersGroundOffset:r=1.2
+rendinstDamageRadius:r=18.0
+hitPowerMult:r=1.0
+nearHitPower:p2=1.0, 50.0
+shutterDamage:b=yes
+midHitPower:p2=0.9, 400.0
+shutterDamageRadius:r=80.0
+farHitPower:p2=0.1, 1000.0
+shutterAmount:i=3000
+endHitPower:p2=0.01, 1500.0
+shutterArmorPower:r=12.0
+relativeVelHitShift:p2=300.0, 1000.0
+shutterHit:r=15.0
+nearArmorPower:p2=10.0, 50.0
+iconType:t="bombs_large"
+midArmorPower:p2=7.0, 400.0
+farArmorPower:p2=0.2, 700.0
+relativeVelArmorShift:p2=200.0, 1000.0
+entityTemplate:t="sc_250_bomb_projectile"
+entityPhysTemplate:t=""
+
+stabilityRicochetModifier{
+  mod1:p2=0.0, 0.5
+  mod2:p2=15.0, 0.7
+  mod3:p2=30.0, 0.99
+}
+
+pressureDamage{
+  damageType:t="pressure"
+}
+
+DamageParts{
+
+  body{
+    hp:r=100.0
+    armorClass:t="tank_structural_steel"
+    armorThickness:r=15.0
+    explosionArmorQuality:r=1.0
+    shatterArmorQuality:r=1.0
+  }
+}
+
+DamageEffects{
+
+  part{
+    name:t="body"
+
+    onHit{
+      damageType:t="generic"
+      expl:r=0.2
+      break:r=0.8
+      damage:r=3.0
+      fHitCritical:b=yes
+    }
+
+    onHit{
+      damageType:t="generic"
+      expl:r=0.5
+      break:r=0.5
+      damage:r=30.0
+      fHitCritical:b=yes
+    }
+
+    onHit{
+      damageType:t="explosion"
+      expl:r=0.8
+      break:r=0.2
+      damage:r=50.0
+      fHitCritical:b=yes
+    }
+
+    onHit{
+      damageType:t="cumulative"
+      expl:r=1.0
+      damage:r=100.0
+      fHitCritical:b=yes
+    }
+
+    onKill{
+      expl:r=1.0
+      fHitCritical:b=yes
+    }
+  }
+}
+
+explFx{
+  effectTemplName:t="bomb_expl_200kg"
+}

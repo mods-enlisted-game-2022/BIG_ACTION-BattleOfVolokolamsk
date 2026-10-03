@@ -1,0 +1,24 @@
+import:t="%ugm/entities_big_action.blk"
+import:t="%ugm/entities_objective_zones.blk"
+import:t="%ugm/entities_config_global_hit_fx_info.blk"
+import:t="%ugm/entities_config.blk"
+
+// big_action_volfog_snow_affect{
+//   _override:b=yes
+//   game_effect__timeToDestroy:r=20.7
+// }
+
+// big_action_volfog_snow_medium_in_affect{
+//   _override:b=yes
+//   game_effect__timeToDestroy:r=10.7
+// }
+
+// big_action_volfog_snow_heavy_affect{
+//   _override:b=yes
+//   game_effect__timeToDestroy:r=10.7
+// }
+
+// big_action_volfog_snow_medium_out_affect{
+//   _override:b=yes
+//   game_effect__timeToDestroy:r=10.7
+// }

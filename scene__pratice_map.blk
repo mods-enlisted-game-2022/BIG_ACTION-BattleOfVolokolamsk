@@ -1,0 +1,13 @@
+// entity{
+//   _template:t="practice_map"
+// }
+
+// entity{
+//   _template:t="big_action_is_tutorial"
+// }
+
+// entity{
+//   _template:t="germ_flakpanzer_i_ausf_a_common"
+//   transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1867.27, 1.29129, -782.506]]
+//   vehicle_seats__autoDetectRestrictToTeam:b=yes
+// }

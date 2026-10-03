@@ -1,0 +1,53 @@
+mass:r=6.9
+momentOfInertia:p3=0.04, 0.008, 0.04
+caliber:r=1.0
+speed:r=0.0
+maxDistance:r=18.0
+physMat:t="grenadeRay"
+useFutureContacts:b=yes
+logCCD:b=no
+frictionGround:r=15.0
+angularDamping:r=0.85
+noSleepAtTheSlopeCos:r=0.766
+entityTemplate:t="big_action_tnt_explosive_6kg_explosion_pack"
+entityPhysTemplate:t="big_action_tnt_explosive_6kg_phys"
+explodeHitPower:r=390.0
+explodeArmorPower:r=130.0
+explodeRadius:p2=6.0, 17.0
+explosiveType:t="tnt"
+explosiveMass:r=6.9
+explosionPatchRadius:r=9.0
+shatterPatchRadius:r=0.0
+visualShattersWaterOffset:r=1.2
+explodeTreshold:r=0.0
+visualShattersGroundOffset:r=1.2
+shutterArmorPower:r=30.0
+
+pressureDamage{
+  damageType:t="pressure"
+}
+
+ccdSpheres{
+  ccd:p4=0.0, 0.05, 0.0, 0.015
+  ccd:p4=0.0, 0.2, 0.0, 0.015
+  ccd:p4=0.0, -0.05, 0.0, 0.015
+}
+
+explFx{
+  effectTemplName:t="explosion_250_500kg_dirt_effect"
+}
+
+explSound{
+  explSoundPath:t="[cal=0.6]impact/bomb_explode"
+}
+
+splashDamage{
+  radius:p2=1.0, 27.0
+  penetration:p2=15.0, 2.0
+  damage:r=70.0
+  dmgOffset:p3=0.0, 0.25, 0.0
+}
+
+solver{
+  energyConservation:r=0.15
+}

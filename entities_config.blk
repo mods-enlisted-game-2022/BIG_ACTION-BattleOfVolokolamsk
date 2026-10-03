@@ -1,0 +1,626 @@
+// enlisted_mission_time{
+//   _override:b=yes
+//   firstPlayerSpawnTime:r=3.0
+// }
+zombie_spawn_mode{
+  _override:b=yes
+  _use:t="game_effect_with_duration"
+  _use:t="client_game_effect_with_duration"
+  game_effect__timeToDestroy:r=2.0
+  
+  _group{
+    _tags:t="server"
+    game_effect__timeToDestroy:r=1.0
+  }
+}
+
+battle_music{
+  _override:b=yes
+  // battle_music__intro:t="ambient/enl_menu_01"
+  // battle_music__outro:t="music/battle"
+}
+
+poly_battle_area{
+  _override:b=yes
+  // _replicated:t="poly_area__points"
+}
+
+enlisted_player{
+  _override:b=yes
+  squads__respawnPenaltyTimeThreshold:r=50.0
+  // "respawner__scorePricePerSquad:list<i>"{
+  //   item:i=0
+  //   item:i=0
+  //   item:i=0
+  //   item:i=0
+  //   item:i=0
+  //   item:i=0
+  //   item:i=0
+  //   item:i=0
+  //   item:i=0
+  //   item:i=0
+  //   item:i=0
+  //   item:i=0
+  //   item:i=0
+  //   item:i=0
+  //   item:i=0
+  //   item:i=0
+  //   item:i=0
+  //   item:i=0
+  //   item:i=0
+  //   item:i=0
+  // }
+
+  // // "squads__respawnsToFullRestoreSquadBySquadsCount:object"{
+  // //   default:i=1
+  // //   1:i=0
+  // //   2:i=1
+  // // }
+
+  // "respawner__scorePricePerSquadPerSpawn:object"{
+  //   "3:array"{
+  //     0:i=0
+  //   }
+
+  //   "4:array"{
+  //     0:i=0
+  //   }
+
+  //   "5:array"{
+  //     0:i=0
+  //     0:i=60
+  //   }
+
+  //   "6:array"{
+  //     0:i=0
+  //     0:i=500
+  //   }
+
+  //   "7:array"{
+  //     0:i=0
+  //     0:i=500
+  //   }
+
+  //   "8:array"{
+  //     0:i=0
+  //     0:i=1000
+  //   }
+
+  //   "9:array"{
+  //     0:i=0
+  //     0:i=1000
+  //   }
+  // }
+}
+
+grenade_thrower{
+  _override:b=yes
+
+  "gun__shells:array"{
+    shells:t="content/enlisted/gamedata/weapons/grenades/m24.blk"
+    shells:t="content/enlisted/gamedata/weapons/grenades/m24_smoke.blk"
+    shells:t="content/enlisted/gamedata/weapons/grenades/m24_smoke_short_time.blk"
+    shells:t="content/enlisted/gamedata/weapons/grenades/usa_mk2.blk"
+    shells:t="content/enlisted/gamedata/weapons/grenades/uk_mills_grenade.blk"
+    shells:t="content/enlisted/gamedata/weapons/grenades/usa_anm8_smoke.blk"
+    shells:t="content/enlisted/gamedata/weapons/grenades/m24_flash.blk"
+    shells:t="content/enlisted/gamedata/weapons/grenades/f1.blk"
+    shells:t="content/enlisted/gamedata/weapons/grenades/rdg1_smoke.blk"
+    shells:t="content/enlisted/gamedata/weapons/grenades/signal_flare.blk"
+    shells:t="content/enlisted/gamedata/weapons/grenades/explosion_pack.blk"
+    shells:t="content/enlisted/gamedata/weapons/grenades/ger_molotov.blk"
+    shells:t="content/enlisted/gamedata/weapons/grenades/ussr_molotov.blk"
+    shells:t="content/enlisted/gamedata/weapons/grenades/jap_molotov.blk"
+    shells:t="content/enlisted/gamedata/weapons/grenades/srcm_mod_35fl.blk"
+    shells:t="content/enlisted/gamedata/weapons/grenades/no_69_impact_grenade.blk"
+    shells:t="content/enlisted/gamedata/weapons/grenades/srcm_mod_35_impact_grenade.blk"
+    shells:t="content/enlisted/gamedata/weapons/grenades/m_15_incendiary_grenade.blk"
+    shells:t="content/enlisted/gamedata/weapons/grenades/type_91_incendiary_grenade.blk"
+    shells:t="content/enlisted/gamedata/weapons/grenades/uk_no_77_incendiary_grenade.blk"
+    shells:t="content/enlisted/gamedata/weapons/grenades/srcm_mod_35_incendiary_grenade.blk"
+    shells:t="content/enlisted/gamedata/weapons/grenades/type_97_grenade.blk"
+    shells:t="content/enlisted/gamedata/weapons/grenades/type_94_smoke_grenade.blk"
+    shells:t="%ugm/data/weapons/mod_gernades/explosion_pack.blk"
+  }
+}
+
+plane_base_wreck_explode_self_team1{
+  // destroyable_score__addScoreForTeam:i=1
+  // destroyable_score__addScoreAmount:i=-6
+  // kill_empty_vehicle__hadCrewBefore:b=no
+  turrets__kineticDamageMult:r=3.0
+  builder_info__team:i=2
+}
+
+plane_base_wreck_explode_self_team2{
+  // destroyable_score__addScoreForTeam:i=2
+  // destroyable_score__addScoreAmount:i=-6
+  // kill_empty_vehicle__hadCrewBefore:b=no
+  turrets__kineticDamageMult:r=3.0
+  builder_info__team:i=1
+}
+
+il2_precision_air_strike_cd360{
+  _use:t="stalingrad_ussr_team_aircraft_request_il2"
+  aircraft_request__interval:r=340.0
+}
+
+il2_precision_air_strike_cd360_default_title{
+  _use:t="il2_precision_air_strike_cd360"
+  artillery__name:t="aircraft_request"
+}
+
+moscow_ussr_team_aircraft_request_cd4xx{
+  _use:t="moscow_ussr_team_aircraft_request"
+  aircraft_request__interval:r=420.0
+}
+
+berlin_ussr_team_aircraft_request_cd3xx{
+  _use:t="moscow_ussr_team_aircraft_request"
+  aircraft_request__interval:r=390.0
+}
+
+bm13_16_Rocket_Barrage_cd5xx{
+  _use:t="bm13_16_Rocket_Barrage"
+  aircraft_request__interval:r=429.0
+}
+
+bm13_16_Incendiary_Rocket_Barrage_cd5xx{
+  _use:t="bm13_16_Incendiary_Rocket_Barrage"
+  aircraft_request__interval:r=429.0
+}
+
+ju87_precision_air_strike_cd3xx{
+  _use:t="ju87_precision_air_strike"
+  aircraft_request__interval:r=270.0
+}
+
+// ju87_precision_air_strike_cd3xx_default_title{
+//   _use:t="ju87_precision_air_strike_cd3xx"
+//   artillery__name:t="aircraft_request"
+// }
+
+stalingrad_ger_team_aircraft_request_cd4xx{
+  _use:t="stalingrad_ger_team_aircraft_request"
+  aircraft_request__interval:r=420.0
+}
+
+tunisia_ger_team_aircraft_request_cd4xx{
+  _use:t="tunisia_ger_team_aircraft_request"
+  aircraft_request__interval:r=420.0
+}
+
+moscow_ger_team_aircraft_request_cd4xx{
+  _use:t="moscow_ger_team_aircraft_request"
+  aircraft_request__interval:r=430.0
+}
+
+sfh18_150mm_Artillery_Barrage_cd5xx{
+  _use:t="sfh18_150mm_Artillery_Barrage"
+  aircraft_request__interval:r=410.0
+}
+
+// sfh18_150mm_and_238mm_K5_Railway_Gun_Barrage_cd5xx{
+//   _use:t="sfh18_150mm_and_238mm_K5_Railway_Gun_Barrage"
+//   aircraft_request__interval:r=429.0
+// }
+
+// Zero_Timing_238mm_K5_Railway_Gun_x3_Barrage_cd5xx{
+//   _use:t="sfh18_150mm_and_238mm_K5_Railway_Gun_Barrage"
+//   aircraft_request__interval:r=539.0
+// }
+
+big_action_artillery_supply_cooldown{
+  _use:t="artillery_supply"
+  artillery__baseCooldown:r=160.0
+}
+
+big_action_artillery_supply_cooldown_20239{
+  _use:t="artillery_supply"
+  _use:t="artillery_smoke"
+  artillery__baseCooldown:r=100.0
+}
+
+big_action_artillery_supply_cooldown_partisans_rally{
+  _use:t="artillery_supply"
+  artillery__name:t="Partisans Rally"
+  artillery__baseCooldown:r=190.0
+}
+
+big_action_artillery_supply_cooldown_t_60{
+  _use:t="artillery_supply"
+  artillery__name:t="Air Drop T60"
+  artillery__baseCooldown:r=320.0
+}
+
+// attachable_wear_lp1_parachute_pilot_ussr_item{
+//   _override:b=yes
+
+//   "radio_use:tag"{
+//   }
+// }
+
+artillery_owner{
+  _override:b=yes
+  artillery__baseSpawnDelay:r=186.0
+  artillery__missionStartDelay:r=126.0
+  // artillery__baseInterval:r=136.0
+  artillery__baseInterval:r=166.0
+
+  // artillery__baseSpawnDelay:r=0.0
+  // artillery__missionStartDelay:r=0.0
+
+  "artillery_menu__namesBase:list<t>"{
+    item:t="artillery_he"
+    item:t="aircraft_request"
+  }
+
+  _group{
+    _tags:t="gameClient"
+    artillery_menu__active:b=no
+
+    "artillery_menu__icons:list<t>"{
+      icon:t="artillery_he"
+      icon:t="aircraft_request"
+    }
+
+    "artillery_menu__localization:list<t>"{
+      icon:t="artillery_type_unlock_1"
+      icon:t="artillery_type_unlock_2"
+    }
+  }
+
+  "artillery__allTemplates:array"{
+
+    // "unlock:object"{
+    //   template:t="artillery_he"
+    // }
+
+    // "unlock:object"{
+    //   template:t="bm13_16_Rocket_Barrage_hosted"
+    // }
+
+    "unlock:object"{
+      template:t="big_action_aircraft_called_artillery_creeping_smoke"
+      unlockId:i=2001
+    }
+
+    "unlock:object"{
+      template:t="big_action_aircraft_called_artillery_team1_152"
+      unlockId:i=2011
+    }
+
+    "unlock:object"{
+      template:t="big_action_aircraft_called_artillery_team2_150"
+      unlockId:i=2021
+    }
+
+    "unlock:object"{
+      template:t="artillery_283mm_Krupp_K5_heavy_railway_gun_2_shoots"
+      unlockId:i=2023
+    }
+
+    "unlock:object"{
+      template:t="big_action_artillery_supply_cooldown_20239"
+      unlockId:i=2023
+    }
+
+    "unlock:object"{
+      template:t="big_action_aircraft_called_artillery_team1_152_creeping"
+      unlockId:i=2012
+    }
+
+    "unlock:object"{
+      template:t="big_action_aircraft_called_artillery_team2_150_creeping"
+      unlockId:i=2022
+    }
+
+    "unlock:object"{
+      template:t="big_action_artillery_supply_cooldown_partisans_rally"
+      unlockId:i=1091
+    }
+
+    "unlock:object"{
+      template:t="big_action_artillery_supply_cooldown_t_60"
+      unlockId:i=1092
+    }
+
+    "unlock:object"{
+      template:t="big_action_artillery_smoke"
+      unlockId:i=1000
+    }
+
+    "unlock:object"{
+      template:t="il2_precision_air_strike_cd360"
+      unlockId:i=10101
+    }
+
+    // "unlock:object"{
+    //   template:t="il2_precision_air_strike_cd360_default_title"
+    //   unlockId:i=10101
+    // }
+
+    "unlock:object"{
+      template:t="moscow_ussr_team_aircraft_request_cd4xx"
+      unlockId:i=10102
+    }
+
+    "unlock:object"{
+      template:t="berlin_ussr_team_aircraft_request_cd3xx"
+      unlockId:i=10103
+    }
+
+    "unlock:object"{
+      template:t="bm13_16_Rocket_Barrage_cd5xx"
+      unlockId:i=10111
+    }
+
+    "unlock:object"{
+      template:t="bm13_16_Incendiary_Rocket_Barrage_cd5xx"
+      unlockId:i=10112
+    }
+
+    "unlock:object"{
+      template:t="ju87_precision_air_strike_cd3xx"
+      unlockId:i=10201
+    }
+
+    // "unlock:object"{
+    //   template:t="ju87_precision_air_strike_cd3xx_default_title"
+    //   unlockId:i=10201
+    // }
+
+    "unlock:object"{
+      template:t="stalingrad_ger_team_aircraft_request_cd4xx"
+      unlockId:i=10202
+    }
+
+    "unlock:object"{
+      template:t="tunisia_ger_team_aircraft_request_cd4xx"
+      unlockId:i=10203
+    }
+
+    "unlock:object"{
+      template:t="moscow_ger_team_aircraft_request_cd4xx"
+      unlockId:i=10204
+    }
+
+    "unlock:object"{
+      template:t="sfh18_150mm_Artillery_Barrage_cd5xx"
+      unlockId:i=10211
+    }
+
+    // "unlock:object"{
+    //   template:t="sfh18_150mm_Artillery_Barrage_cd5xx"
+    //   unlockId:i=10212
+    // }
+
+    "unlock:object"{
+      template:t="big_action_radio_marker_get_in_team1_host"
+      unlockId:i=1001
+    }
+
+    "unlock:object"{
+      template:t="big_action_radio_marker_get_in_team2_host"
+      unlockId:i=1002
+    }
+
+    "unlock:object"{
+      template:t="big_action_radio_marker_defend_team1_host"
+      unlockId:i=1001
+    }
+
+    "unlock:object"{
+      template:t="big_action_radio_marker_defend_team2_host"
+      unlockId:i=1002
+    }
+
+    "unlock:object"{
+      template:t="big_action_artillery_supply_cooldown"
+      unlockId:i=9999
+    }
+
+    ///////// ///////// ///////// ///////// ///////// /////////
+
+    ///////// ///////// ///////// ///////// ///////// /////////
+    
+    ///////// ///////// ///////// ///////// ///////// /////////
+
+    ///////// ///////// ///////// ///////// ///////// /////////
+
+    "unlock:object"{
+      template:t="big_action_artillery_smoke"
+      unlockId:i=1
+    }
+
+    // "unlock:object"{
+    //   template:t="moscow_ger_team_aircraft_request"
+    //   unlockId:i=2
+    // }
+
+    // "unlock:object"{
+    //   template:t="moscow_ussr_team_aircraft_request"
+    //   unlockId:i=3
+    // }
+
+    // "unlock:object"{
+    //   // template:t="normandy_usa_team_aircraft_request"
+    //   template:t="berlin_ussr_team_aircraft_request"
+    //   unlockId:i=4
+    // }
+
+    // // "unlock:object"{
+    // //   template:t="normandy_ger_team_aircraft_request"
+    // //   unlockId:i=5
+    // // }
+
+    // "unlock:object"{
+    //   // template:t="berlin_ussr_team_aircraft_request"
+    //   template:t="moscow_ussr_team_aircraft_request"
+    //   unlockId:i=6
+    // }
+
+    // "unlock:object"{
+    //   // template:t="berlin_ger_team_aircraft_request"
+    //   template:t="sfh18_150mm_and_238mm_K5_Railway_Gun_Barrage"
+    //   unlockId:i=7
+    // }
+
+    // "unlock:object"{
+    //   // template:t="tunisia_usa_team_aircraft_request"
+    //   template:t="berlin_ussr_team_aircraft_request"
+    //   unlockId:i=8
+    // }
+
+    // "unlock:object"{
+    //   template:t="tunisia_ger_team_aircraft_request"
+    //   unlockId:i=9
+    // }
+
+    // "unlock:object"{
+    //   template:t="stalingrad_ussr_team_aircraft_request"
+    //   unlockId:i=10
+    // }
+
+    // "unlock:object"{
+    //   template:t="stalingrad_ger_team_aircraft_request"
+    //   unlockId:i=11
+    // }
+
+    // "unlock:object"{
+    //   // template:t="rocket_artillery_us"
+    //   template:t="bm13_16_Incendiary_Rocket_Barrage"
+    //   unlockId:i=10
+    // }
+
+    // "unlock:object"{
+    //   // template:t="rocket_artillery_jp"
+    //   template:t="Zero_Timing_238mm_K5_Railway_Gun_x3_Barrage"
+    //   unlockId:i=11
+    // }
+
+    // "unlock:object"{
+    //   // template:t="pacific_usa_team_aircraft_request"
+    //   template:t="il2_precision_air_strike"
+    //   unlockId:i=12
+    // }
+
+    // "unlock:object"{
+    //   template:t="bm13_16_Rocket_Barrage"
+    //   unlockId:i=12
+    // }
+
+    // "unlock:object"{
+    //   // template:t="pacific_japan_team_aircraft_request"
+    //   template:t="ju87_precision_air_strike"
+    //   unlockId:i=13
+    // }
+
+    // "unlock:object"{
+    //   // template:t="pacific_japan_team_aircraft_request"
+    //   template:t="sfh18_150mm_and_238mm_K5_Railway_Gun_Barrage"
+    //   unlockId:i=13
+    // }
+
+    // "unlock:object"{
+    //   template:t="ju87_precision_air_strike"
+    //   unlockId:i=2
+    // }
+
+    // "unlock:object"{
+    //   template:t="sfh18_150mm_and_238mm_K5_Railway_Gun_Barrage"
+    //   unlockId:i=2
+    // }
+
+    // "unlock:object"{
+    //   template:t="il2_precision_air_strike"
+    //   unlockId:i=3
+    // }
+
+    // "unlock:object"{
+    //   template:t="il2_precision_air_strike"
+    //   unlockId:i=6
+    // }
+
+    // "unlock:object"{
+    //   template:t="ju87_precision_air_strike"
+    //   unlockId:i=5
+    // }
+
+    // "unlock:object"{
+    //   template:t="ju87_precision_air_strike"
+    //   unlockId:i=9
+    // }
+
+    // "unlock:object"{
+    //   template:t="il2_precision_air_strike"
+    //   unlockId:i=10
+    // }
+
+    // "unlock:object"{
+    //   template:t="ju87_precision_air_strike"
+    //   unlockId:i=11
+    // }
+
+    // "unlock:object"{
+    //   template:t="sfh18_150mm_and_238mm_K5_Railway_Gun_Barrage"
+    //   unlockId:i=11
+    // }
+
+    // "unlock:object"{
+    //   template:t="bm13_16_Rocket_Barrage"
+    //   unlockId:i=3
+    // }
+
+    // "unlock:object"{
+    //   template:t="bm13_16_Rocket_Barrage"
+    //   unlockId:i=4
+    // }
+
+    // "unlock:object"{
+    //   template:t="bm13_16_Rocket_Barrage"
+    //   unlockId:i=8
+    // }
+
+    // "unlock:object"{
+    //   template:t="bm13_16_Rocket_Barrage"
+    //   unlockId:i=10
+    // }
+
+    // "unlock:object"{
+    //   template:t="sfh18_150mm_and_238mm_K5_Railway_Gun_Barrage"
+    //   unlockId:i=9
+    // }
+    
+    // //
+
+    // "unlock:object"{
+    //   // template:t="rocket_artillery_ussr"
+    //   template:t="bm13_16_Incendiary_Rocket_Barrage"
+    //   unlockId:i=14
+    // }
+
+    // "unlock:object"{
+    //   // template:t="rocket_artillery_ger"
+    //   template:t="Zero_Timing_238mm_K5_Railway_Gun_x3_Barrage"
+    //   unlockId:i=15
+    // }
+
+    // // "unlock:object"{
+    // //   template:t="artillery_supply"
+    // //   unlockId:i=16
+    // // }
+
+    // "unlock:object"{
+    //   // template:t="rocket_artillery_us"
+    //   template:t="bm13_16_Incendiary_Rocket_Barrage"
+    //   unlockId:i=17
+    // }
+
+    // "unlock:object"{
+    //   // template:t="rocket_artillery_jp"
+    //   template:t="Zero_Timing_238mm_K5_Railway_Gun_x3_Barrage"
+    //   unlockId:i=18
+    // }
+  }
+}

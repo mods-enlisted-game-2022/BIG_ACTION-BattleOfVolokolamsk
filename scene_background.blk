@@ -1,0 +1,75 @@
+
+entity{
+  _template:t="envir_smoke_bg_massive_effect"
+  transform:m=[[1.33988, -0.259694, 0.519933] [0.297819, 1.42879, -0.0538353] [-0.499074, 0.155411, 1.36375] [-5985.22, 87.1333, -4094.73]]
+}
+
+entity{
+  _template:t="envir_smoke_bg_massive_effect"
+  transform:m=[[0.917063, 0.147713, 0.370374] [-0.215388, 0.965191, 0.14837] [-0.335566, -0.215838, 0.916957] [-4463.8, 71.2023, -4042.91]]
+}
+
+entity{
+  _template:t="envir_smoke_bg_massive_effect"
+  transform:m=[[0.635871, 0.0830365, 0.233593] [-0.0854226, 0.677075, -0.00815154] [-0.232731, -0.0216425, 0.641218] [-6918, 17.7769, -105.332]]
+}
+
+entity{
+  _template:t="envir_smoke_bg_massive_effect"
+  transform:m=[[0.994571, 0.162096, 0.328865] [-0.0836278, 1.02601, -0.252804] [-0.356978, 0.211254, 0.975468] [-4893, 118.543, 755.143]]
+}
+
+entity{
+  _template:t="envir_smoke_bg_massive_effect"
+  transform:m=[[1.60585, -0.0280078, 0.526569] [0.0189724, 1.68981, 0.0320202] [-0.526972, -0.0245114, 1.60578] [-4160.25, -46.6577, -5435.15]]
+}
+
+entity{
+  _template:t="envir_smoke_bg_massive_effect"
+  transform:m=[[0.938275, 0.152921, 0.31025] [-0.0788942, 0.967934, -0.238494] [-0.336772, 0.199296, 0.920253] [-6092.32, 86.2771, 434.762]]
+}
+
+entity{
+  _template:t="envir_smoke_bg_massive_effect"
+  transform:m=[[0.922046, 0.114773, 0.369675] [-0.134187, 0.990584, 0.0271426] [-0.363079, -0.0746321, 0.928765] [-1209.5, 16.349, -4281.57]]
+}
+
+entity{
+  _template:t="envir_smoke_bg_massive_effect"
+  transform:m=[[0.930728, -0.0070381, 0.365646] [-0.0142223, 0.998361, 0.0554188] [-0.365437, -0.0567802, 0.929103] [-1010.37, 25.9585, -6257.96]]
+}
+
+entity{
+  _template:t="envir_smoke_bg_massive_effect"
+  transform:m=[[0.9247, -0.0234171, 0.379977] [0.0450409, 0.997825, -0.0481164] [-0.378024, 0.0616078, 0.923744] [-898.73, 16.9584, -5215.8]]
+}
+
+entity{
+  _template:t="envir_smoke_bg_thin_effect"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-4045.95, 186.654, -4670.97]]
+}
+
+entity{
+  _template:t="envir_smoke_bg_thin_effect"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-6296.8, 185.946, -3372.94]]
+}
+
+entity{
+  _template:t="envir_smoke_bg_thin_effect"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-7082.98, 179.266, -3113.78]]
+}
+
+entity{
+  _template:t="envir_smoke_bg_thin_effect"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-7283.98, 292.23, 2316.67]]
+}
+
+entity{
+  _template:t="envir_smoke_bg_thin_effect"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-7507.88, 30.5507, -1913.28]]
+}
+
+entity{
+  _template:t="envir_smoke_bg_thin_effect"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-6992.57, 19.2471, -1232.14]]
+}

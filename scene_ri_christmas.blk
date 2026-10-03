@@ -1,0 +1,630 @@
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1310.89, 1.19095, -1237.95]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1303.83, 1.19095, -1241.97]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-1008.48, 16.5, -789.238]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [7.17118, 4.36554, -557.877]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [8.03549, 4.32679, -562.906]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-130.392, 25.2, -118.178]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-128.687, 25.2, -111.755]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [211.113, 25.5, -471.947]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [618.514, 17.234, -488.612]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [1133.98, 80.0615, 21.834]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [1129.78, 80.0615, 21.3452]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [286.834, 3.48138, 123.53]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [282.639, 3.48138, 123.424]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [242.04, 4.10935, 109.645]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [237.898, 4.10935, 109.936]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [-179.664, 7.09292, 240.005]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [-98.1414, 4.86786, 1148.32]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1.85839, -1.3728e-08, -7.70278e-16] [1.3728e-08, 1.85839, 1.04274e-07] [0, -1.04274e-07, 1.85839] [247.763, 20.5394, 1243.13]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[4.03867, -2.98337e-08, -1.67397e-15] [2.98337e-08, 4.03867, 2.2661e-07] [0, -2.2661e-07, 4.03867] [708.746, 1.34941, 552.074]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [697.415, 21.7184, 539.206]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [695.704, 21.7184, 542.823]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [699.187, 21.7184, 544.682]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [701.006, 21.7184, 540.959]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[2.9885, -2.20761e-08, -1.23869e-15] [2.20761e-08, 2.9885, 1.67685e-07] [0, -1.67685e-07, 2.9885] [413.485, 4.57094, 564.992]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [326.677, 4.57095, 661.163]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [241.543, 4.90093, 712.688]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [240.531, 4.89955, 716.705]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [261.079, 4.90683, 723.971]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [261.699, 4.89595, 721.391]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [-167.677, 4.14215, 689.201]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [-236.215, 3.60543, 691.463]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [-249.312, 3.02847, 724.714]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [-434.785, 6.08456, 628.391]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [-555.982, 6.04082, 582.799]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [-555.982, 6.04082, 582.799]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [-562.883, 6.04082, 582.87]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [-562.956, 6.04082, 589.716]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [-643.658, 5.48105, 591.579]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [-643.794, 5.48105, 582.602]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [-648.432, 5.57508, 582.396]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [-647.403, 5.67351, 591.875]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[3.21, -2.37123e-08, -1.3305e-15] [2.37123e-08, 3.21, 1.80113e-07] [0, -1.80113e-07, 3.21] [-694.736, 30.3404, 1225.42]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [-455.5, 64.9092, 1040.32]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [-451.627, 64.9092, 1038.04]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [-453.723, 64.3032, 1034.18]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [-457.786, 64.3755, 1036.49]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[2.50794, -1.85262e-08, -1.03951e-15] [1.85262e-08, 2.50794, 1.40721e-07] [0, -1.40721e-07, 2.50794] [-180.505, 14.8369, -151.788]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[2.50794, -1.85262e-08, -1.03951e-15] [1.85262e-08, 2.50794, 1.40721e-07] [0, -1.40721e-07, 2.50794] [-376.135, 3.46498, -411.976]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[2.50794, -1.85262e-08, -1.03951e-15] [1.85262e-08, 2.50794, 1.40721e-07] [0, -1.40721e-07, 2.50794] [-376.135, 3.46498, -411.976]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[2.50794, -1.85262e-08, -1.03951e-15] [1.85262e-08, 2.50794, 1.40721e-07] [0, -1.40721e-07, 2.50794] [-817.107, 2.22888, -335.712]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[2.50794, -1.85262e-08, -1.03951e-15] [1.85262e-08, 2.50794, 1.40721e-07] [0, -1.40721e-07, 2.50794] [-786.456, 3.11891, -249.431]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[2.50794, -1.85262e-08, -1.03951e-15] [1.85262e-08, 2.50794, 1.40721e-07] [0, -1.40721e-07, 2.50794] [-712.487, 5.65493, 255.407]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [-675.679, 2.22209, 382.013]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [-683.926, 2.22209, 383.579]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [-671.942, 2.18339, 400.89]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [-679.76, 2.18339, 402.736]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[2.58476, -1.90937e-08, -1.07135e-15] [1.90937e-08, 2.58476, 1.45031e-07] [0, -1.45031e-07, 2.58476] [-1226.81, 7.67343, 545.641]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[3.43485, -2.53733e-08, -1.4237e-15] [2.53733e-08, 3.43485, 1.9273e-07] [0, -1.9273e-07, 3.43485] [-1295.76, 4.88206, 637.861]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[2.33611, -1.72569e-08, -9.68286e-16] [1.72569e-08, 2.33611, 1.31079e-07] [0, -1.31079e-07, 2.33611] [-1346.97, 5.39141, 555.714]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[2.33611, -1.72569e-08, -9.68286e-16] [1.72569e-08, 2.33611, 1.31079e-07] [0, -1.31079e-07, 2.33611] [-1372.67, 2.47237, 1221.78]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[2.33611, -1.72569e-08, -9.68286e-16] [1.72569e-08, 2.33611, 1.31079e-07] [0, -1.31079e-07, 2.33611] [-1366.39, 1.97442, 1233.58]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[2.33611, -1.72569e-08, -9.68286e-16] [1.72569e-08, 2.33611, 1.31079e-07] [0, -1.31079e-07, 2.33611] [-809.548, 2.22476, 1497.91]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[7.55859, -5.58355e-08, -3.13293e-15] [5.58355e-08, 7.55859, 4.24113e-07] [0, -4.24113e-07, 7.55859] [-656.257, 4.55354, 1479.18]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[3.40825, -2.51768e-08, -1.41267e-15] [2.51768e-08, 3.40825, 1.91237e-07] [0, -1.91237e-07, 3.40825] [-509.935, 5.21207, 1375.45]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[3.43, -2.53375e-08, -1.42169e-15] [2.53375e-08, 3.43, 1.92458e-07] [0, -1.9171e-07, 3.41667] [-265.562, 5.19852, 1266.22]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[3.09084, -2.28321e-08, -1.28111e-15] [2.28321e-08, 3.09084, 1.73427e-07] [0, -1.73427e-07, 3.09084] [467.14, 2.84638, 1705.72]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [484.276, 0.428971, 1605.23]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [479.481, 0.37295, 1612.52]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [505.437, 1.06249, 1630.09]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [509.696, 1.34698, 1622.67]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[3.49836, -2.58425e-08, -1.45002e-15] [2.58425e-08, 3.49836, 1.96293e-07] [0, -1.96293e-07, 3.49836] [756.646, 50.2567, 1475.58]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[3.49836, -2.58425e-08, -1.45002e-15] [2.58425e-08, 3.49836, 1.96293e-07] [0, -1.96293e-07, 3.49836] [1092.86, 25.6373, 1111.36]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[3.49836, -2.58425e-08, -1.45002e-15] [2.58425e-08, 3.49836, 1.96293e-07] [0, -1.96293e-07, 3.49836] [1567.65, 4.1171, 883.55]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[3.49836, -2.58425e-08, -1.45002e-15] [2.58425e-08, 3.49836, 1.96293e-07] [0, -1.96293e-07, 3.49836] [1694.75, 5.00596, 378.244]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[3.49836, -2.58425e-08, -1.45002e-15] [2.58425e-08, 3.49836, 1.96293e-07] [0, -1.96293e-07, 3.49836] [1655.01, 4.89853, 465.265]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[3.49836, -2.58425e-08, -1.45002e-15] [2.58425e-08, 3.49836, 1.96293e-07] [0, -1.96293e-07, 3.49836] [1511.44, 46.9277, 122.321]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[3.49836, -2.58425e-08, -1.45002e-15] [2.58425e-08, 3.49836, 1.96293e-07] [0, -1.96293e-07, 3.49836] [1249.93, 66.9561, -219.49]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[3.49836, -2.58425e-08, -1.45002e-15] [2.58425e-08, 3.49836, 1.96293e-07] [0, -1.96293e-07, 3.49836] [1288.17, 1.30262, -1035.9]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[3.49836, -2.58425e-08, -1.45002e-15] [2.58425e-08, 3.49836, 1.96293e-07] [0, -1.96293e-07, 3.49836] [1273.11, 1.30262, -1036.08]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[3.49836, -2.58425e-08, -1.45002e-15] [2.58425e-08, 3.49836, 1.96293e-07] [0, -1.96293e-07, 3.49836] [1092.66, 1.56473, -951.221]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[3.49836, -2.58425e-08, -1.45002e-15] [2.58425e-08, 3.49836, 1.96293e-07] [0, -1.96293e-07, 3.49836] [1381.38, 2.02623, -1001.73]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[3.49836, -2.58425e-08, -1.45002e-15] [2.58425e-08, 3.49836, 1.96293e-07] [0, -1.96293e-07, 3.49836] [1353.04, 2.53095, -942.2]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [1299.94, 0.800834, -1183.65]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [1307.91, 1.0461, -1180.88]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [1306.68, 1.12456, -1202.27]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [1314.42, 0.800827, -1199.82]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[3.48, -2.57068e-08, -1.44241e-15] [2.57068e-08, 3.48, 1.95263e-07] [0, -1.95263e-07, 3.48] [1046.36, 5.34245, -1360.46]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[3.48, -2.57068e-08, -1.44241e-15] [2.57068e-08, 3.48, 1.95263e-07] [0, -1.95263e-07, 3.48] [1158.72, 4.89247, -1388.25]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[3.48, -2.57068e-08, -1.44241e-15] [2.57068e-08, 3.48, 1.95263e-07] [0, -1.95263e-07, 3.48] [1133.26, 4.98744, -1317.79]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[2.5752, -1.90231e-08, -1.06738e-15] [1.90231e-08, 2.5752, 1.44495e-07] [0, -1.44495e-07, 2.5752] [30.8761, 4.91127, -1614.35]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[2.5752, -1.90231e-08, -1.06738e-15] [1.90231e-08, 2.5752, 1.44495e-07] [0, -1.44495e-07, 2.5752] [44.6686, 4.91278, -1616.69]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[2.5752, -1.90231e-08, -1.06738e-15] [1.90231e-08, 2.5752, 1.44495e-07] [0, -1.44495e-07, 2.5752] [-273.318, 6.72337, -1572.26]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[2.5752, -1.90231e-08, -1.06738e-15] [1.90231e-08, 2.5752, 1.44495e-07] [0, -1.44495e-07, 2.5752] [-361.996, 7.38589, -1536.01]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[2.5752, -1.90231e-08, -1.06738e-15] [1.90231e-08, 2.5752, 1.44495e-07] [0, -1.44495e-07, 2.5752] [-413.674, 9.65776, -1581.2]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [-458.13, 9.48688, -1558.03]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [-801.435, 7.92696, -1455.9]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [-801.18, 7.92696, -1451.83]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, -7.38702e-09, -4.14486e-16] [7.38702e-09, 1, 5.61101e-08] [0, -5.61101e-08, 1] [-807.009, 6.52617, -1415.14]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[4.78615, 0.0375706, 0.011447] [-0.0373873, 4.78558, -0.0747747] [-0.0120322, 0.0746827, 4.78571] [-674.615, 49.1345, -983.535]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[0.998562, 0.0535814, 0.00167442] [-0.0536075, 0.998075, 0.0311898] [-2.30731e-10, -0.0312348, 0.999512] [-77.442, 57.8534, -1052.36]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[2.71651, 0.0429711, 0.0099686] [-0.042387, 2.71277, -0.143056] [-0.0122162, 0.142882, 2.71308] [0.285245, 45.6573, -1075.2]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[2.71552, 0.0851863, 0.00726462] [-0.0847752, 2.71281, -0.121864] [-0.0110748, 0.121577, 2.71412] [45.7799, 44.9501, -1193.11]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[0.998562, 0.0535814, 0.00167442] [-0.0536075, 0.998075, 0.0311898] [-2.30731e-10, -0.0312348, 0.999512] [-54.4444, 57.8534, -1043.39]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[0.999999, -0, 0.00167683] [0, 1, 0] [-0.00167683, 0, 0.999999] [17.1339, 48.6962, -1094.78]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[0.999999, -0, 0.00167683] [0, 1, 0] [-0.00167683, 0, 0.999999] [23.8733, 45.4962, -1093.31]]
+  ri_extra__name:t="tree_spruce_christmas_c"
+}

@@ -1,0 +1,92 @@
+
+entity{
+  _template:t="big_action_game_options"
+  game_option__allowSwitchChatMode:b=yes
+  // game_option__friendlyFire:b=yes
+  // game_option__friendlyFireKick:b=yes
+}
+
+entity{
+  _template:t="big_action_dummy_capzone_positioner"
+  transform:m=[[1.05682, 0, -0.310794] [0, 0.62184, 0] [0.201496, -0, 0.685165] [-159.817, -190.80538, -123.176]]
+  capzone_timer__timeLeft:r=5940
+  capzone__onlyTeamCanCapture:i=2
+  capzone__plantingTeam:i=2
+  sphere_zone__radius:r=1
+  capzone_timer__isSet:b=yes
+}
+
+entity{
+  _template:t="gamemodeCapzoneSmoke"
+}
+
+entity{
+  _template:t="spawnMode_unlimitedSpawns"
+}
+
+// turn on dm.dbg_friendly_fire 1
+entity{
+  _template:t="gamemodeFriendlyFire"
+}
+
+// turn off dm.dbg_friendly_fire 1 but keep gamemodeFriendlyFire scores penalty
+entity{
+  _template:t="gamemodeFriendlyFire+game_effect_with_duration"
+  game_effect__timeToDestroy:r=6.0
+}
+
+// entity{
+//   _template:t="disableTeamkillWeaponDrops+gamemodeFriendlyFire"
+// }
+
+// entity{
+//   _template:t="enable_gravity_zones"
+// }
+
+entity{
+  _template:t="random_low_tickrate"
+}
+
+entity{
+  _template:t="custom_bot_profile"
+  customBotProfile:t="%ugm/profiles/output_bot_profile.json"
+}
+
+entity{
+	_template:t="custom_profile"
+	customProfile:t="%ugm/profiles/custom_profile_big_action_players.json"
+}
+
+
+// entity{
+//   _template:t="custom_profile"
+//   customProfile:t="%enlSqGlob/data/lb_event_profile.json"
+// }
+
+// entity{
+//   _template:t="camera_snow_heavy_template"
+//   snow__length:r=0.5
+//   snow__alpha:r=0.5
+//   snow__density:r=6
+//   snow__maxDensity:r=9
+//   snow__speed:r=0.66
+//   snow__width:r=0.5
+// }
+
+// 循环的雨雪天气 废弃了20260503，另外寻找办法
+entity{
+  _template:t="big_action_volfog_snow_affect"
+  volfog_snow__intensityChangeTime:r=60.0
+  volfog_snow__intensity:r=0.01
+  volfog_snow__intensitySpeed:r=0.005
+  volfog_snow__maxIntensity:r=0.07
+  volfog_snow__maxIntensityRange:p2=0.01, 0.07
+}
+
+entity{
+  _template:t="hit_effect_group_big_action_tnt_explosive_6kg"
+}
+
+// entity{
+//   _template:t="tutorial_player_override"
+// }

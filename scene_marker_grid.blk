@@ -1,0 +1,343 @@
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [-1500, 0, -1500]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [-1500, 0, -1000]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [-1500, 0, -500]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [-1500, 0, 0]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [-1500, 0, 500]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [-1500, 0, 1000]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [-1500, 0, 1500]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [-1000, 0, -1500]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [-1000, 0, -1000]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [-1000, 0, -500]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [-1000, 0, 0]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [-1000, 0, 500]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [-1000, 0, 1000]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [-1000, 0, 1500]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [-500, 0, -1500]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [-500, 0, -1000]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [-500, 0, -500]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [-500, 0, 0]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [-500, 0, 500]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [-500, 0, 1000]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [-500, 0, 1500]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [0, 0, -1500]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [0, 0, -1000]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [0, 0, -500]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [0, 0, 0]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [0, 0, 500]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [0, 0, 1000]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [0, 0, 1500]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [500, 0, -1500]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [500, 0, -1000]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [500, 0, -500]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [500, 0, 0]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [500, 0, 500]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [500, 0, 1000]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [500, 0, 1500]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [1000, 0, -1500]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [1000, 0, -1000]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [1000, 0, -500]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [1000, 0, 0]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [1000, 0, 500]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [1000, 0, 1000]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [1000, 0, 1500]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [1500, 0, -1500]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [1500, 0, -1000]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [1500, 0, -500]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [1500, 0, 0]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [1500, 0, 500]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [1500, 0, 1000]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}
+entity{
+	_template:t="custom_marker"
+	transform:m=[[0.707107, 0, -0.707107] [0, 1, 0] [0.707107, -0, 0.707107] [1500, 0, 1500]]
+	custom_marker__icon:t="!ui/skin#actions/close_action_icon.svg"
+	custom_marker__iconColor:c=10, 10, 10, 120
+	custom_marker__iconSize:p2=23, 23
+}

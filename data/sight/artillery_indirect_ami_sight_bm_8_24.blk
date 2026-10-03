@@ -1,0 +1,179 @@
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r=0.7
+rangefinderVerticalOffset:r=0.0
+rangefinderHorizontalOffset:r=0.0
+fontSizeMult:r=1.0
+lineSizeMult:r=2.9
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+applyCorrectionToGun:b=no
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+distanceCorrectionPos:p2=-0.2, -0.05
+drawDistanceCorrection:b=no
+
+crosshair_distances{
+}
+
+crosshair_hor_ranges{
+}
+
+drawLines{
+  line{
+    line:p4=-200.0, 180.0, -200.0, -180.0
+    move:b=no
+    thousandth:b=yes
+  }
+
+  line{
+    line:p4=180.0, 0.0, -280.0, 0.0
+    move:b=no
+    thousandth:b=yes
+  }
+
+  line{
+    line:p4=0.0, 200.0, 0.0, 0.0
+    move:b=no
+    thousandth:b=yes
+  }
+
+  line{
+    line:p4=60.0, 45.0, -280.0, 45 // 500
+    move:b=no
+    thousandth:b=yes
+  }
+
+  line{
+    line:p4=60.0, 55.0, -280.0, 55
+    move:b=no
+    thousandth:b=yes
+  }
+
+  line{
+    line:p4=60.0, 65.5, -280.0, 65.5
+    move:b=no
+    thousandth:b=yes
+  }
+
+  line{
+    line:p4=60.0, 76, -280.0, 76.6
+    move:b=no
+    thousandth:b=yes
+  }
+
+  line{
+    line:p4=60.0, 88, -280.0, 90 // 900
+    move:b=no
+    thousandth:b=yes
+  }
+
+  line{
+    line:p4=60.0, 100, -280.0, 100
+    move:b=no
+    thousandth:b=yes
+  }
+
+  line{
+    line:p4=60.0, 113, -280.0, 113
+    move:b=no
+    thousandth:b=yes
+  }
+
+  line{
+    line:p4=60.0, 129, -280.0, 129
+    move:b=no
+    thousandth:b=yes
+  }
+
+  line{
+    line:p4=60.0, 150, -280.0, 150
+    move:b=no
+    thousandth:b=yes
+  }
+}
+
+drawCircles{
+}
+
+drawTexts{
+  text{
+    text:t="Выровняйте линейку по горизонту, чтобы прицелиться;Richten Sie das Lineal zum Zielen am Horizont aus;Align the ruler to the horizon to aim;将标尺对准到地平线"
+    align:i=0
+    pos:p2=-0.81, -0.01
+    move:b=no
+    size:r=0.5
+  }
+
+  text{
+    text:t="500"
+    align:i=0
+    pos:p2=0.06, 0.176
+    move:b=no
+    size:r=0.6
+  }
+
+  text{
+    text:t="600"
+    align:i=0
+    pos:p2=0.06, 0.218
+    move:b=no
+    size:r=0.6
+  }
+
+  text{
+    text:t="700"
+    align:i=0
+    pos:p2=0.06, 0.26
+    move:b=no
+    size:r=0.6
+  }
+
+  text{
+    text:t="800"
+    align:i=0
+    pos:p2=0.06, 0.307
+    move:b=no
+    size:r=0.6
+  }
+
+  text{
+    text:t="900"
+    align:i=0
+    pos:p2=0.06, 0.36
+    move:b=no
+    size:r=0.6
+  }
+
+  text{
+    text:t="1000"
+    align:i=0
+    pos:p2=0.06, 0.401
+    move:b=no
+    size:r=0.6
+  }
+
+  text{
+    text:t="1100"
+    align:i=0
+    pos:p2=0.06, 0.456
+    move:b=no
+    size:r=0.6
+  }
+
+  text{
+    text:t="1200"
+    align:i=0
+    pos:p2=0.06, 0.52
+    move:b=no
+    size:r=0.6
+  }
+
+  text{
+    text:t="1300"
+    align:i=0
+    pos:p2=0.06, 0.606
+    move:b=no
+    size:r=0.6
+  }
+}

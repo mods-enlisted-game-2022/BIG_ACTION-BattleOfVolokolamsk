@@ -1,0 +1,15 @@
+mass:r=0.1
+explosiveType:t="smoke_composition"
+explosiveMass:r=0.001
+bombType:t="he_bomb"
+bombName:t="fab50_43"
+caliber:r=0.01
+length:r=0.936
+
+pressureDamage{
+  damageType:t="pressure"
+}
+
+explSound{
+  explSoundPath:t="impact/mine"
+}

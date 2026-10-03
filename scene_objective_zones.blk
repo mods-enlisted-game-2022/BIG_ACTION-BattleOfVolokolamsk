@@ -1,0 +1,918 @@
+import{
+  scene:t="%ugm/scene_battle_area_s2n1c0.blk"
+}
+
+entity{
+  _template:t="big_action_objective_init_capzone_ingame"
+  // transform:m=[[5.41165, 0, -3.57008] [0, 1, 0] [2.45271, -0, 3.7179] [-1319.71, 3.41239, -1237.97]]
+  transform:m=[[1.3008, 0, -0.858141] [0, 1, 0] [0.55067, -0, 0.834723] [-1300.66, 2.77442, -1244.32]]
+  ui_order:i=101
+  capzone__maxTeamPresence:i=15
+  capzone__title:t="D"
+  capzone__caption:t="D; Beloe Trenches; (To Enemy -1000)"
+  active:b=yes
+  groupName:t="s0"
+  capzone__activateCap:t="s1"
+  capzone__activateAfterTeam1Cap:t="s1n1"
+  capzone__activateGroupNameAfterTeam1Cap:t="s1n1"
+  capzone__activateAfterTeam2Cap:t="s1"
+  capzone__activateGroupNameAfterTeam2Cap:t="s1"
+  capzone__createdRespawnBaseGroup:i=10101
+  capzone__capRewardTeam1:r=12000
+  capzone__capRewardTeam2:r=12000
+  capzone__lockAfterCap:b=no
+  // capzone__deactivateAfterTimeout:r=3.0
+  sphere_zone__radius:r=33
+}
+
+entity{
+  _template:t="big_action_objective_capzone_ingame"
+  transform:m=[[6.72111, 0, -3.15197] [0, 1, 0] [4.35954, -0, 9.29607] [-795.519, 8.47024, -1389.37]]
+  ui_order:i=109
+  capzone__maxTeamPresence:i=15
+  capzone__title:t="D"
+  capzone__caption:t="D; Beloe East; (Allies Cpatured +500; To Enemy -1000)"
+  respawnBaseGroup:i=666001
+  capzone__progress:r=0.01
+  active:b=no
+  groupName:t="s1"
+  capzone__lockAfterActivate:b=yes
+  capzone__activateCap:t="s2e1"
+  capzone__activateAfterTeam2Cap:t="s2e1"
+  capzone__activateGroupNameAfterTeam2Cap:t="s2e1"
+  capzone__activateAfterTeam1Cap:t="s2e1"
+  capzone__activateGroupNameAfterTeam1Cap:t="s2e1"
+  capzone__createdRespawnBaseGroup:i=101011
+  capzone__capPenalty:r=6000
+}
+
+entity{
+  _template:t="defend_zone_respawnbase+big_action_objective_deped_caplock_capzone_ingame"
+  transform:m=[[0.644404, 0.0634599, 0.762047] [-0.0613775, 0.997628, -0.0311759] [-0.972885, -0.0340575, 0.825529] [-1084.99, 1.4819, -974.736]]
+  ui_order:i=106
+  groupName:t="s1n1"
+  capzone__title:t="C"
+  capzone__caption:t="C; Beloe Town; Allies Captured +500/ Enemy -500 (Captureable By Any Team Unlock Different Sector!! Never UnLock If Taken!!)"
+  capzone__acivateRespawnGroup:i=666101
+  capzone__createdRespawnBaseGroup:i=101012
+  capzone__maxTeamPresence:i=2
+  sphere_zone__radius:r=47
+  capzone__capTimeTeam1:r=1090
+}
+
+entity{
+  _template:t="big_action_objective_capzone_ingame"
+  transform:m=[[0.802023, 0, -0.597294] [0, 1, 0] [0.999299, -0, 1.34182] [-787.559, 36.2708, -880.742]]
+  ui_order:i=108
+  capzone__maxTeamPresence:i=15
+  capzone__alwaysShow:b=no
+  capzone__title:t="D"
+  capzone__caption:t="D; Beloe Highland; (Axis To North; Allies To Push Back To South) (Allies Captured +500; To Enemy -1000)"
+  respawnBaseGroup:i=666101
+  active:b=no
+  groupName:t="s1n1"
+  capzone__activateCap:t="s2n1"
+  capzone__activateAfterTeam2Cap:t="s2n1"
+  capzone__activateGroupNameAfterTeam2Cap:t="s2n1"
+  capzone__activateAfterTeam1Cap:t="s1"
+  capzone__activateGroupNameAfterTeam1Cap:t="s1"
+  capzone__lockAfterActivate:b=yes
+  capzone__unlockAfterTime:r=390
+  decal__height:r=30
+  sphere_zone__radius:r=38
+  capzone__icon:t="!ui/skin#victories_battles.svg"
+  team:i=2
+  capzone__capPenalty:r=6000
+}
+
+entity{
+  _template:t="big_action_objective_capzone_ingame"
+  transform:m=[[5.24841, 0, -3.90867] [0, 4.64282, 0] [3.90867, -0, 5.24841] [-1009.02, 16.5, -788.457]]
+  ui_order:i=107
+  capzone__maxTeamPresence:i=15
+  capzone__alwaysShow:b=no
+  capzone__title:t="D"
+  capzone__caption:t="D; Beloe Church; (Push North Sector if captured By Any Team;) (Allies Captured +500; To Enemy -1000)"
+  respawnBaseGroup:i=666101
+  active:b=no
+  groupName:t="s1n1"
+  capzone__activateCap:t="s2n1w1"
+  capzone__activateAfterTeam2Cap:t="s2n1w1"
+  capzone__activateGroupNameAfterTeam2Cap:t="s2n1w1"
+  capzone__activateAfterTeam1Cap:t="s2n1"
+  capzone__activateGroupNameAfterTeam1Cap:t="s2n1"
+  capzone__lockAfterActivate:b=yes
+  capzone__unlockAfterTime:r=390
+  decal__height:r=30
+  capzone__icon:t="!ui/skin#building_mg_nest.svg"
+  team:i=1
+  capzone__capTimeTeam1:r=990
+  capzone__capPenalty:r=6000
+}
+
+entity{
+  _template:t="big_action_objective_deped_capzone_ingame"
+  transform:m=[[3.84126, 0.0286836, -1.70076] [-0.0550354, 1.76113, -0.0945988] [3.89114, 0.594201, 8.79838] [-396.258, 10.8569, -1535.87]]
+  ui_order:i=201
+  groupName:t="s2e1"
+  capzone__title:t="A"
+  capzone__caption:t="A; Collective Farm Trenches; Defend By Allies !!Unable To Re-Capture If Taken!!"
+  respawnBaseGroup:i=666200
+  capzone__lockAfterActivate:b=yes
+  capzone__acivateRespawnGroup:i=666201
+  capzone__activateRespawnOnProgress:r=0.96
+  capzone__createdRespawnBaseGroup:i=20101
+}
+
+entity{
+  _template:t="big_action_bomb_site_zone+big_action_bomb_site_zone_s2e1"
+  transform:m=[[1.91062, 0, -1.42483] [0, 1, 0] [1.42483, -0, 1.91062] [-206.473, 6.6079, -1631.91]]
+  active:b=yes
+}
+
+entity{
+  _template:t="big_action_objective_capzone_ingame"
+  transform:m=[[8.17289, 0.0375157, -0.586241] [-0.00782761, 1.00193, -0.0450088] [0.582982, 0.370721, 8.15118] [61.9301, 6.27256, -1590.5]]
+  ui_order:i=209
+  groupName:t="s2e1"
+  capzone__title:t="D"
+  capzone__caption:t="D; Farm Village; (Axis Cpatured To East; Allies Cpatured +500 To East; To Enemy -1000)"
+  respawnBaseGroup:i=666201
+  capzone__activateCap:t="s2e2"
+  capzone__activateAfterTeam2Cap:t="s2e2"
+  capzone__activateGroupNameAfterTeam2Cap:t="s2e2"
+  capzone__activateAfterTeam1Cap:t="s2e2"
+  capzone__activateGroupNameAfterTeam1Cap:t="s2e2"
+  capzone__capPenalty:r=6000
+  capzone__lockAfterActivate:b=yes
+  team:i=2
+  capzone__alwaysShow:b=no
+}
+
+entity{
+  _template:t="big_action_objective_init_capzone_ingame"
+  // transform:m=[[10.5585, 0.0199304, 0.42305] [0, 4.61281, -0.0956184] [-0.516, 0.407819, 8.65656] [1.90029, 45.6109, -1077.24]]
+  transform:m=[[1.42341, 0.00268685, 0.0570321] [0, 0.999785, -0.0207244] [-0.0688813, 0.0544401, 1.15557] [1.89506, 45.6109, -1077.24]]
+  ui_order:i=206
+  capzone__maxTeamPresence:i=15
+  capzone__alwaysShow:b=no
+  groupName:t="s2e1n1"
+  capzone__title:t="D"
+  capzone__caption:t="D; 316 Highland; (Axis Cpatured To North; Allies Cpatured +1000 Pull Back To North East; To Enemy -1000)"
+  capzone__progress:r=0
+  capzone__activateCap:t="s2e2"
+  capzone__activateAfterTeam1Cap:t="s2e2w1"
+  capzone__activateGroupNameAfterTeam1Cap:t="s2e2w1"
+  capzone__activateAfterTeam2Cap:t="s2e2"
+  capzone__activateGroupNameAfterTeam2Cap:t="s2e2"
+  capzone__createdRespawnBaseGroup:i=20102
+  capzone__lockAfterCap:b=no
+  // capzone__deactivateAfterTimeout:r=3.0
+  sphere_zone__radius:r=60
+}
+
+entity{
+  _template:t="defend_zone_respawnbase+big_action_objective_deped_caplock_capzone_ingame"
+  // transform:m=[[5.45975, -0.000750696, -4.9643] [-0.0025491, 3.43389, -0.00332278] [4.57677, 0.00826814, 5.03354] [-372.193, 3.88102, -405.115]]
+  transform:m=[[0.787154, 0.0353604, -0.615742] [-0.0448765, 0.998992, 2.79397e-08] [0.615122, 0.0276324, 0.787948] [-278.489, 2.09195, -659.788]]
+  sphere_zone__radius:r=60
+  ui_order:i=212
+  groupName:t="s2n1"
+  capzone__title:t="C"
+  capzone__caption:t="C; Wetland Park; Allies Captured +100 / Enemy -100 (Captureable By Any Team Unlock Different Sector!! Never UnLock If Taken!!)"
+  capzone__acivateRespawnGroup:i=666212
+  capzone__createdRespawnBaseGroup:i=21101
+  decal__height:r=20
+  decal__thickness:r=0.3
+  capzone__maxTeamPresence:i=2
+  capzone__capPenalty:r=600
+}
+
+entity{
+  _template:t="big_action_objective_capzone_ingame"
+  transform:m=[[6.05634, -0.260904, -10.6415] [0.0536415, 3.43305, -0.0536415] [6.45237, -0.0434236, 3.67326] [0.47796, 4.43524, -558.456]]
+  ui_order:i=213
+  groupName:t="s2n1"
+  capzone__title:t="D"
+  capzone__caption:t="D; Church Trenches; (Axis Cpatured To East; Allies Cpatured +500 To South; To Enemy -1000)"
+  respawnBaseGroup:i=666212
+  capzone__activateCap:t="s3n1"
+  capzone__activateAfterTeam2Cap:t="s3n1"
+  capzone__activateGroupNameAfterTeam2Cap:t="s3n1"
+  capzone__activateAfterTeam1Cap:t="s2e2w1"
+  capzone__activateGroupNameAfterTeam1Cap:t="s2e2w1"
+  team:i=1
+  capzone__icon:t="!ui/skin#victories_battles.svg"
+  capzone__capPenalty:r=6000
+  capzone__lockAfterActivate:b=yes
+}
+
+entity{
+  _template:t="big_action_objective_capzone_ingame"
+  // transform:m=[[4.20667, -0.198765, -8.51427] [0.0536415, 3.43305, -0.0536415] [5.16245, -0.0407949, 2.55158] [-521.689, 1.71281, 76.9998]]
+  transform:m=[[0.73988, -0.000101731, -0.672739] [-0.000742335, 0.999999, -0.000967642] [0.672739, 0.00121533, 0.739879] [-344.432, 4.39277, -351.367]]
+  sphere_zone__radius:r=55
+  ui_order:i=214
+  groupName:t="s2n1"
+  capzone__title:t="D"
+  capzone__caption:t="D; Vysokovo Westgate; (Axis Cpatured +500 To North East; Allies Cpatured +500 Pull Back To North; To Enemy -1000)"
+  respawnBaseGroup:i=666212
+  capzone__activateCap:t="s2n1w1"
+  capzone__activateAfterTeam2Cap:t="s2n1c0"
+  capzone__activateGroupNameAfterTeam2Cap:t="s2n1c0"
+  capzone__activateAfterTeam1Cap:t="s2n1c0"
+  capzone__activateGroupNameAfterTeam1Cap:t="s2n1c0"
+  team:i=2
+  capzone__icon:t="!ui/skin#building_mg_nest.svg"
+  capzone__capTimeTeam1:r=990
+  capzone__capPenalty:r=6000
+  capzone__lockAfterActivate:b=yes
+}
+
+entity{
+  _template:t="big_action_objective_init_capzone_ingame"
+  transform:m=[[0.963927, 0, -0.266166] [0, 1, 0] [0.169734, -0, 0.98549] [-799.155, 2.75496, -291.794]]
+  sphere_zone__radius:r=50
+  ui_order:i=219
+  capzone__maxTeamPresence:i=15
+  capzone__alwaysShow:b=no
+  groupName:t="s2n1w1"
+  capzone__title:t="D"
+  capzone__caption:t="D; Farranac Coast; (Push To East Sector) (Allies Captured +2000; To Enemy -1000)"
+  active:b=no
+  capzone__activateCap:t="s3w1"
+  capzone__activateAfterTeam2Cap:t="s3w1"
+  capzone__activateGroupNameAfterTeam2Cap:t="s3w1"
+  capzone__activateAfterTeam1Cap:t="s3w1"
+  capzone__activateGroupNameAfterTeam1Cap:t="s3w1"
+  capzone__createdRespawnBaseGroup:i=21111
+  capzone__lockAfterActivate:b=yes
+  capzone__capRewardTeam1:r=12000
+  capzone__capRewardTeam2:r=12000
+}
+
+entity{
+  _template:t="big_action_objective_deped_capzone_ingame"
+  transform:m=[[11.8541, 0.103257, -0.363427] [-0.00882986, 1.13022, 0.033112] [0.264121, -0.248262, 8.54444] [1104.71, 5.4553, -1374.28]]
+  ui_order:i=222
+  groupName:t="s2e2"
+  capzone__title:t="A"
+  capzone__caption:t="A; Market; Defend By Allies !!Unable To Re-Capture If Taken!!"
+  // respawnBaseGroup:i=662010
+  capzone__acivateRespawnGroup:i=662011
+  capzone__activateRespawnOnProgress:r=0.96
+  capzone__createdRespawnBaseGroup:i=22101
+}
+
+entity{
+  _template:t="big_action_bomb_site_zone+big_action_bomb_site_zone_s2e2"
+  transform:m=[[1.02843, 0.0169921, 0.33123] [-0.0138084, 1.08042, -0.0125525] [-0.331378, 0.00771391, 1.02849] [1307.25, 1.19022, -1192.27]]
+  ui_order:i=223
+  active:b=yes
+}
+
+entity{
+  _template:t="big_action_objective_capzone_ingame"
+  transform:m=[[12.3569, -0.0223477, -1.43025] [-4.97371e-09, 2.84791, -0.0444986] [1.08395, 0.146292, 9.36269] [1247.15, 2.6774, -968.815]]
+  ui_order:i=227
+  groupName:t="s2e2"
+  capzone__title:t="D"
+  capzone__caption:t="D; Food Warhous; (Axis Captured To North; Allies Cpatured +500 To East; To Enemy -1000)"
+  respawnBaseGroup:i=662011
+  capzone__activateCap:t="s3e1s0"
+  capzone__activateAfterTeam2Cap:t="s3e1s0"
+  capzone__activateGroupNameAfterTeam2Cap:t="s3e1s0"
+  capzone__activateAfterTeam1Cap:t="s2e2w1"
+  capzone__activateGroupNameAfterTeam1Cap:t="s2e2w1"
+  capzone__createdRespawnBaseGroup:i=22102
+  capzone__lockAfterActivate:b=yes
+  team:i=2
+  capzone__alwaysShow:b=no
+}
+
+entity{
+  _template:t="big_action_objective_capzone_ingame"
+  transform:m=[[8.25697, 0.411371, 11.2914] [-0.0163499, 3.5665, -0.11798] [-7.05569, 0.138166, 5.15451] [549.447, 20.1193, -563.796]]
+  ui_order:i=229
+  groupName:t="s2e2w1"
+  capzone__title:t="D"
+  capzone__caption:t="D; Moors Crossroad; (Axis Captured To East; Allies Cpatured +500 To North; To Enemy -1000)"
+  capzone__activateAfterTeam1Cap:t="s3e1w1"
+  capzone__activateGroupNameAfterTeam1Cap:t="s3e1w1"
+  capzone__activateAfterTeam2Cap:t="s3n1"
+  capzone__activateGroupNameAfterTeam2Cap:t="s3n1"
+  capzone__icon:t="!ui/skin#building_mg_nest.svg"
+  capzone__createdRespawnBaseGroup:i=31101
+  capzone__lockAfterActivate:b=yes
+}
+
+// entity{
+//   _template:t="big_action_bomb_site_zone+big_action_bomb_site_zone_s3w1"
+//   transform:m=[[-0.0769902, 0, 0.997032] [0, 1, 0] [-1.90844, 0, -0.147368] [-586.083, 2.19505, 105.36]]
+//   ui_order:i=303
+//   active:b=yes
+// }
+
+// "rirmv:object"{
+//   name:t="bridge_25000_wood_a_base"
+//   tm:m=[[-0.0794823, 0, 0.996836] [0, 1, 0] [-0.996836, 0, -0.0794823] [-587.4, 1.9, 105.4]]
+// }
+
+entity{
+  _template:t="big_action_rally_capzone_ingame"
+  transform:m=[[0.44286, -0.0209251, -0.896346] [0.0156212, 0.999756, -0.0156212] [0.896454, -0.00708399, 0.443079] [-530.629, 1.40302, 91.7312]]
+  ui_order:i=304
+  groupName:t="s3w1"
+  capzone__caption:t="Rally; Citizen Trenches; (Capturable Rally Position For Any Team;2mins lock)"
+  capzone__activateRespawnOnProgress:r=0.9
+  capzone__acivateRespawnGroup:i=2201100
+  sphere_zone__radius:r=39
+}
+
+entity{
+  _template:t="big_action_objective_resetable_capzone_ingame"
+  transform:m=[[6.44003, -0, -5.84577] [0, 3.43389, -0] [5.83503, 0, 6.4282] [-713.642, 5.59438, 267.674]]
+  ui_order:i=306
+  groupName:t="s3w1"
+  capzone__title:t="D"
+  capzone__caption:t="D; Cross Road Fortification; (Axis Captured To East; Allies Cpatured +500 And Push Back!; To Enemy -1000)"
+  capzone__activateCap:t="s6b"
+  capzone__activateAfterTeam2Cap:t="s6b"
+  capzone__activateGroupNameAfterTeam2Cap:t="s6b"
+  capzone__activateAfterTeam1Cap:t="s4w1"
+  capzone__activateGroupNameAfterTeam1Cap:t="s4w1"
+  capzone__createdRespawnBaseGroup:i=30101
+  capzone__lockAfterActivate:b=yes
+}
+
+entity{
+  _template:t="defend_zone_respawnbase+big_action_objective_deped_caplock_capzone_ingame"
+  transform:m=[[5.93277, 0.0854299, 2.92263] [0.0267296, 1.01227, -0.0838488] [-1.947, 0.377876, 3.94126] [1263.36, 67.0116, -238.225]]
+  ui_order:i=300
+  groupName:t="s3e1s0"
+  capzone__title:t="C"
+  capzone__caption:t="C; Terminus; +500/-500 (Captureable By Any Team Unlock Different Sector!! Never UnLock If Taken!!)"
+  capzone__acivateRespawnGroup:i=666323
+  capzone__createdRespawnBaseGroup:i=32100
+  capzone__maxTeamPresence:i=2
+  capzone__capTimeTeam1:r=1290
+}
+
+entity{
+  _template:t="big_action_objective_init_capzone_ingame"
+  transform:m=[[-0.561109, 0.193948, 9.25494] [-0.0505289, 2.93854, -0.0138253] [-13.3554, -0.556145, -0.384865] [1131.35, 80.2489, 69.3713]]
+  ui_order:i=302
+  capzone__maxTeamPresence:i=15
+  capzone__alwaysShow:b=no
+  capzone__title:t="D"
+  capzone__caption:t="D; Acrithia Town; (Axis Push East; Allies +1000 Counterattack To West) (Enemy -1000)"
+  respawnBaseGroup:i=666323
+  groupName:t="s3e1s0"
+  capzone__decapTimeTeam2:r=230
+  capzone__decapTimeTeam1:r=230
+  capzone__capTimeTeam2:r=360
+  capzone__capTimeTeam1:r=1570
+  team:i=2
+  capzone__activateCap:t="s3e1"
+  capzone__activateAfterTeam1Cap:t="s3e1"
+  capzone__activateGroupNameAfterTeam1Cap:t="s3e1"
+  capzone__activateAfterTeam2Cap:t="s3e1w1"
+  capzone__activateGroupNameAfterTeam2Cap:t="s3e1w1"
+  capzone__lockAfterActivate:b=yes
+  capzone__icon:t="!ui/skin#victories_battles.svg"
+  capzone__capPenalty:r=6000
+  capzone__unlockAfterTime:r=470
+}
+
+entity{
+  _template:t="big_action_objective_init_capzone_ingame"
+  transform:m=[[-0.561109, 0.193948, 9.25494] [-0.0505289, 2.93854, -0.0138253] [-13.3554, -0.556145, -0.384865] [1131.35, 80.2489, 69.3713]]
+  ui_order:i=303
+  capzone__maxTeamPresence:i=15
+  capzone__alwaysShow:b=no
+  capzone__title:t="D"
+  capzone__caption:t="D; Acrithia Town; (Axis Push West; Allies +1000 To East) (Enemy -1000)"
+  respawnBaseGroup:i=666323
+  groupName:t="s3e1s0"
+  capzone__decapTimeTeam2:r=230
+  capzone__decapTimeTeam1:r=230
+  capzone__capTimeTeam2:r=360
+  capzone__capTimeTeam1:r=1070
+  team:i=1
+  capzone__activateCap:t="s3e1"
+  capzone__activateAfterTeam1Cap:t="s3e1"
+  capzone__activateGroupNameAfterTeam1Cap:t="s3e1"
+  capzone__activateAfterTeam2Cap:t="s3e1w1"
+  capzone__activateGroupNameAfterTeam2Cap:t="s3e1w1"
+  capzone__lockAfterActivate:b=yes
+  capzone__icon:t="!ui/skin#building_mg_nest.svg"
+  capzone__capPenalty:r=6000
+  capzone__unlockAfterTime:r=470
+}
+
+entity{
+  _template:t="big_action_bomb_site_zone+big_action_bomb_site_zone_s3e1"
+  transform:m=[[-2.37261, 0, -0.226561] [0, 1, 0] [0.226561, 0, -2.37261] [1520.77, 47.4528, 121.477]]
+  ui_order:i=328
+  active:b=yes
+}
+
+entity{
+  _template:t="big_action_objective_capzone_ingame"
+  transform:m=[[8.68868, 0.135761, -9.79766] [-0.0277089, 1.77337, 0] [7.25034, 0.113287, 6.43127] [1683.8, 4.73584, 420.927]]
+  ui_order:i=329
+  groupName:t="s3e1"
+  capzone__title:t="D"
+  capzone__caption:t="D; Kalokai; (Axis Captured Push North; Allies Cpatured +500 Pull Back North; To Enemy -1000)"
+  capzone__lockAfterActivate:b=yes
+  capzone__unlockAfterTime:r=390
+  capzone__activateCap:t="s4e1"
+  capzone__activateAfterTeam2Cap:t="s4e1"
+  capzone__activateGroupNameAfterTeam2Cap:t="s4e1"
+  capzone__activateAfterTeam1Cap:t="s4e1"
+  capzone__activateGroupNameAfterTeam1Cap:t="s4e1"
+  capzone__capPenalty:r=6000
+  capzone__createdRespawnBaseGroup:i=32101
+}
+
+entity{
+  _template:t="defend_zone_respawnbase+big_action_objective_deped_caplock_capzone_ingame"
+  transform:m=[[5.01605, 0.027969, -4.55319] [0.0234777, 3.43349, 0.0469554] [4.54467, -0.099537, 5.00606] [197.345, 24.9904, -470.096]]
+  ui_order:i=310
+  groupName:t="s3n1"
+  capzone__title:t="A"
+  capzone__caption:t="A; South church; +500/-500 (Captureable By Any Team Unlock Different Sector!! Never UnLock If Taken!!)"
+  respawnBaseGroup:i=666310
+  capzone__acivateRespawnGroup:i=666312
+  capzone__createdRespawnBaseGroup:i=11083
+  decal__height:r=20
+  decal__thickness:r=0.3
+}
+
+entity{
+  _template:t="big_action_objective_capzone_ingame"
+  transform:m=[[-5.33699, -0.0391245, -5.53059] [-0.0267815, 3.43379, 0.00155267] [3.62556, 0.0298593, -3.49886] [439.074, 4.03686, -405.934]]
+  ui_order:i=312
+  groupName:t="s3n1"
+  capzone__title:t="D"
+  capzone__caption:t="D; Frontline Head Quarters; (Axis Captured Surround Allies To West; Allies Cpatured +500 Pull Back To East; To Enemy -1000)"
+  respawnBaseGroup:i=666312
+  capzone__activateCap:t="s3e1w1"
+  capzone__activateAfterTeam1Cap:t="s3e1w1"
+  capzone__activateGroupNameAfterTeam1Cap:t="s3e1w1"
+  capzone__activateAfterTeam2Cap:t="s3e1w1"
+  capzone__activateGroupNameAfterTeam2Cap:t="s3e1w1"
+  team:i=1
+  capzone__createdRespawnBaseGroup:i=31101
+  capzone__spawnAtZoneTimeout:r=360
+  capzone__capTimeTeam1:r=990
+  capzone__lockAfterActivate:b=yes
+}
+
+entity{
+  _template:t="defend_zone_respawnbase+big_action_objective_capzone_ingame"
+  transform:m=[[-0.0108954, -0.00509045, -0.999928] [-0.00598128, 0.99997, -0.00502549] [0.999923, 0.0059261, -0.0109255] [270.25, 3.36556, 115.085]]
+  sphere_zone__radius:r=55
+  ui_order:i=312
+  groupName:t="s3n1"
+  capzone__title:t="D"
+  capzone__caption:t="D; Frontline Head Quarters; (Axis Captured Surround Allies To West; Allies Cpatured +500 Pull Back To East; To Enemy -1000)"
+  respawnBaseGroup:i=666312
+  capzone__activateCap:t="s3e1w1"
+  capzone__activateAfterTeam1Cap:t="s3e1w1"
+  capzone__activateGroupNameAfterTeam1Cap:t="s3e1w1"
+  capzone__activateAfterTeam2Cap:t="s6b"
+  capzone__activateGroupNameAfterTeam2Cap:t="s6b"
+  team:i=2
+  capzone__icon:t="!ui/skin#building_mg_nest.svg"
+  capzone__createdRespawnBaseGroup:i=31102
+  capzone__spawnAtZoneTimeout:r=360
+  capzone__lockAfterActivate:b=yes
+}
+
+entity{
+  _template:t="big_action_objective_capzone_ingame"
+  transform:m=[[-2.89395, 0.0241811, -8.60159] [-0.0674915, 1.77209, 0.0276888] [6.56842, 0.284682, -2.2091] [570.226, 19.4194, 117.51]]
+  ui_order:i=329
+  groupName:t="s3e1w1"
+  capzone__title:t="D"
+  capzone__caption:t="D; East Wing Village; (Axis Captured Push North; Allies Cpatured +500 Pull Back North; To Enemy -1000)"
+  capzone__activateAfterTeam1Cap:t="s5n1"
+  capzone__activateGroupNameAfterTeam1Cap:t="s5n1"
+  capzone__activateAfterTeam2Cap:t="s5n1"
+  capzone__activateGroupNameAfterTeam2Cap:t="s5n1"
+  capzone__capPenalty:r=6000
+  capzone__createdRespawnBaseGroup:i=51101
+  capzone__lockAfterActivate:b=yes
+}
+
+entity{
+  _template:t="defend_zone_respawnbase+big_action_objective_deped_caplock_capzone_ingame"
+  transform:m=[[0.930047, 0, -0.367439] [0, 1, 0] [0.367439, -0, 0.930048] [-1345.39, 3.59566, 622.789]]
+  sphere_zone__radius:r=92
+  ui_order:i=402
+  groupName:t="s4w1"
+  capzone__title:t="P"
+  capzone__caption:t="P; Pokrovskoe Town; +500/-500 (Captureable By Any Team Unlock Different Sector!! Never UnLock If Taken!!)"
+  capzone__lockAfterActivate:b=no
+  capzone__acivateRespawnGroup:i=666407
+  capzone__spawnAtZoneTimeout:r=370
+  capzone__createdRespawnBaseGroup:i=40101
+  capzone__capTimeTeam1:r=1570
+}
+
+entity{
+  _template:t="big_action_objective_capzone_ingame"
+  transform:m=[[0.929984, 0.0116606, -0.367415] [-0.0156226, 0.999847, -0.00781131] [0.367268, 0.0130044, 0.930024] [-1025.04, 30.0281, 984.641]]
+  sphere_zone__radius:r=55
+  respawnBaseGroup:i=666407
+  ui_order:i=403
+  capzone__alwaysShow:b=no
+  capzone__maxTeamPresence:i=15
+  groupName:t="s4w1"
+  capzone__title:t="D"
+  capzone__caption:t="D; West Forest; (Axis Captured; If Allies Captured +500; To Enemy -1000)"
+  capzone__activateCap:t="s6a"
+  capzone__activateAfterTeam2Cap:t="s6a"
+  capzone__activateGroupNameAfterTeam2Cap:t="s6a"
+  capzone__activateAfterTeam1Cap:t="s4w1n2"
+  capzone__activateGroupNameAfterTeam1Cap:t="s4w1n2"
+  capzone__lockAfterActivate:b=yes
+  capzone__unlockAfterTime:r=390
+  decal__height:r=30
+  capzone__icon:t="!ui/skin#victories_battles.svg"
+  team:i=2
+  capzone__capPenalty:r=6000
+}
+
+entity{
+  _template:t="big_action_objective_capzone_ingame"
+  transform:m=[[0.929974, 0.013006, -0.367395] [-0.00781131, 0.999847, 0.0156226] [0.367542, -0.0116588, 0.929934] [-1365.23, 2.41554, 1225.61]]
+  sphere_zone__radius:r=23
+  respawnBaseGroup:i=666407
+  ui_order:i=403
+  capzone__alwaysShow:b=no
+  capzone__maxTeamPresence:i=15
+  groupName:t="s4w1"
+  capzone__title:t="D"
+  capzone__caption:t="D; Water Course; (Axis Captured; If Allies Captured +500; To Enemy -0)"
+  capzone__activateCap:t="s4w1n2"
+  capzone__activateAfterTeam2Cap:t="s4w1n2"
+  capzone__activateGroupNameAfterTeam2Cap:t="s4w1n2"
+  capzone__activateAfterTeam1Cap:t="s4w1n2"
+  capzone__activateGroupNameAfterTeam1Cap:t="s4w1n2"
+  capzone__lockAfterActivate:b=yes
+  capzone__unlockAfterTime:r=390
+  decal__height:r=30
+  capzone__icon:t="!ui/skin#building_christmas_tree.svg"
+  team:i=1
+  capzone__createRespawnBaseForTeam:i=2
+  capzone__createdRespawnBaseGroup:i=40121
+  capzone__spawnAtZoneTimeout:r=230
+  capzone__capTimeTeam1:r=1070
+  capzone__capPenalty:r=0
+}
+
+
+// entity{
+//   _template:t="big_action_rally_capzone_ingame"
+//   transform:m=[[6.48053, 0.0812559, -2.56031] [-0.0536463, 3.43337, -0.0268232] [2.55458, 0.0904537, 6.46891] [-1025.04, 30.0281, 984.641]]
+//   ui_order:i=405
+//   groupName:t="s4w1"
+//   capzone__caption:t="Rally; West Forest; (Capturable Rally Position For Any Team;2mins lock)"
+//   capzone__acivateRespawnGroup:i=2481100
+//   capzone__activateRespawnOnProgress:r=0.9
+//   capzone__unlockAfterTime:r=90
+// }
+
+entity{
+  _template:t="defend_zone_respawnbase+big_action_objective_deped_capzone_ingame"
+  transform:m=[[6.48003, 0.275452, -2.54803] [-0.0535231, 3.42548, 0.23419] [2.55587, -0.40148, 6.45656] [-759.599, 30.7058, 1178.35]]
+  ui_order:i=407
+  groupName:t="s4w1n2"
+  capzone__title:t="C"
+  capzone__caption:t="C; Woods Trenches; (C->D!!) (Defend By Allies !!Unable To Re-Capture If Taken!!)"
+  capzone__acivateRespawnGroup:i=666550
+  capzone__activateRespawnOnProgress:r=0.96
+  capzone__createdRespawnBaseGroup:i=40201
+}
+
+entity{
+  _template:t="big_action_bomb_site_zone+defend_zone_respawnbase+big_action_bomb_site_zone_s4w1n2"
+  transform:m=[[-2.35065, 0, -0.393728] [0, 1, 0] [0.393728, 0, -2.35065] [-622.439, 4.48503, 1526.92]]
+  active:b=yes
+}
+
+entity{
+  _template:t="big_action_objective_capzone_ingame"
+  transform:m=[[3.27398, 0.0786614, -3.15973] [0.0348133, 1.34459, 0.0695455] [5.28272, -0.419353, 5.4633] [-380.069, 5.25832, 1297.22]]
+  ui_order:i=409
+  groupName:t="s4w1n2"
+  capzone__title:t="D"
+  capzone__caption:t="D; Sableport Trenches; (Next to Eastern Town) (Axis Captured; If Allies +500; To Enemy -1000)"
+  respawnBaseGroup:i=666550
+  capzone__activateCap:t="s5w1w0"
+  capzone__activateAfterTeam2Cap:t="s5w1w0"
+  capzone__activateGroupNameAfterTeam2Cap:t="s5w1w0"
+  capzone__activateAfterTeam1Cap:t="s5w1w0"
+  capzone__activateGroupNameAfterTeam1Cap:t="s5w1w0"
+  capzone__capPenalty:r=6000
+  capzone__lockAfterActivate:b=yes
+  capzone__unlockAfterTime:r=390
+  capzone__createdRespawnBaseGroup:i=40202
+  capzone__alwaysShow:b=no
+  team:i=2
+}
+
+entity{
+  _template:t="defend_zone_respawnbase+big_action_objective_deped_caplock_capzone_ingame"
+  transform:m=[[0.157648, 0.00246325, 7.89368] [-0.0157747, 1.00958, 0] [-7.88769, -0.123245, 0.157567] [1550.8, 4.58376, 913.174]]
+  ui_order:i=561
+  groupName:t="s4e1"
+  capzone__title:t="C"
+  capzone__caption:t="C; Ash Fields; +500/-500 (Defend By Allies !! Never UnLock If Taken!!)"
+  capzone__acivateRespawnGroup:i=666691
+  capzone__createdRespawnBaseGroup:i=42100
+}
+
+entity{
+  _template:t="big_action_objective_capzone_ingame"
+  transform:m=[[2.99834, -0.599043, 7.30008] [-0.00634633, 2.60491, 0.0346836] [-7.29895, -0.384076, 2.99314] [929.409, 6.37774, 1453.23]]
+  ui_order:i=563
+  groupName:t="s4e1"
+  capzone__title:t="D"
+  capzone__caption:t="D; Westgate; (Axis Captured To South West Highland; If Allies +500 Pull Back To West; To Enemy -1000)"
+  respawnBaseGroup:i=666691
+  capzone__activateCap:t="s5w1"
+  capzone__activateAfterTeam2Cap:t="s5w1"
+  capzone__activateGroupNameAfterTeam2Cap:t="s5w1"
+  capzone__activateAfterTeam1Cap:t="s4e1n2"
+  capzone__activateGroupNameAfterTeam1Cap:t="s4e1n2"
+  capzone__capPenalty:r=6000
+  team:i=1
+  capzone__capTimeTeam1:r=990
+  capzone__icon:t="!ui/skin#building_mg_nest.svg"
+  capzone__lockAfterActivate:b=yes
+}
+
+entity{
+  _template:t="big_action_objective_capzone_ingame"
+  transform:m=[[-0.173641, 0, -3.20086] [0, 2.10518, 0] [3.20086, 0, -0.173641] [1092.27, 26.2538, 1114.36]]
+  ui_order:i=564
+  groupName:t="s4e1"
+  capzone__title:t="D"
+  capzone__caption:t="D; Sawmill; (Axis Captured To West Town; If Allies +500 To West Town; To Enemy -500)"
+  respawnBaseGroup:i=666691
+  capzone__activateCap:t="s5n1"
+  capzone__activateAfterTeam2Cap:t="s5n1"
+  capzone__activateGroupNameAfterTeam2Cap:t="s5n1"
+  capzone__activateAfterTeam1Cap:t="s4e1n2"
+  capzone__activateGroupNameAfterTeam1Cap:t="s4e1n2"
+  capzone__capPenalty:r=3600
+  team:i=2
+  capzone__icon:t="!ui/skin#building_christmas_tree.svg"
+  capzone__lockAfterActivate:b=yes
+}
+
+entity{
+  _template:t="defend_zone_respawnbase+big_action_objective_deped_caplock_capzone_ingame"
+  // transform:m=[[-6.92913, 0.0473371, 3.007] [0.0543227, 4.80689, 0.049506] [-3.76756, 0.132011, -8.68379] [639.555, 5.38762, 1085.82]]
+  transform:m=[[-0.0520706, -0.0162258, 0.998512] [-0.041121, 0.999055, 0.0140902] [-0.997796, -0.0403261, -0.0526886] [653.568, 10.7808, 1806.04]]
+  ui_order:i=565
+  groupName:t="s4e1n2"
+  capzone__title:t="C"
+  capzone__caption:t="C; Red River; +500/-500 (C->D! Captureable By Any Team Unlock Different Sector!! Never UnLock If Taken!!)"
+  capzone__acivateRespawnGroup:i=666693
+  capzone__createdRespawnBaseGroup:i=42101
+  sphere_zone__radius:r=50
+}
+
+entity{
+  _template:t="big_action_objective_resetable_capzone_ingame"
+  transform:m=[[-0.917326, 0.00626682, 0.398087] [0.0112997, 0.999883, 0.0102978] [-0.397976, 0.0139447, -0.91729] [506.693, 1.14511, 1626.56]]
+  ui_order:i=566
+  groupName:t="s4e1n2"
+  capzone__title:t="D"
+  capzone__caption:t="D; Loch Mor; (Next to South) (Axis Captured; If Allies +500 Wipe Out Axis Force In This Region; To Enemy -1000)"
+  respawnBaseGroup:i=666693
+  capzone__activateCap:t="s5n1"
+  capzone__activateAfterTeam2Cap:t="s5n1"
+  capzone__activateGroupNameAfterTeam2Cap:t="s5n1"
+  capzone__activateAfterTeam1Cap:t="s5w1"
+  capzone__activateGroupNameAfterTeam1Cap:t="s5w1"
+  capzone__icon:t="!ui/skin#building_mg_nest.svg"
+  team:i=2
+  sphere_zone__radius:r=50
+  capzone__lockAfterActivate:b=yes
+  capzone__unlockAfterTime:r=390
+}
+
+entity{
+  _template:t="big_action_objective_resetable_capzone_ingame"
+  transform:m=[[-0.347506, 0.0648684, 0.935431] [0.0698803, 0.996622, -0.043152] [-0.93507, 0.0503725, -0.350865] [301.857, 3.99645, 1683.96]]
+  ui_order:i=567
+  groupName:t="s4e1n2"
+  capzone__title:t="D"
+  capzone__caption:t="D; Stable; (Axis Captured To South Highland; If Allies +500 To South Town And Wipe Out Axis Force In Region; To Enemy -1000)"
+  respawnBaseGroup:i=666693
+  capzone__activateCap:t="s5w1"
+  capzone__activateAfterTeam1Cap:t="s5w1"
+  capzone__activateGroupNameAfterTeam1Cap:t="s5w1"
+  capzone__activateAfterTeam2Cap:t="s5w1w0"
+  capzone__activateGroupNameAfterTeam2Cap:t="s5w1w0"
+  team:i=1
+  sphere_zone__radius:r=60
+  capzone__capTimeTeam1:r=990
+  capzone__lockAfterActivate:b=yes
+  capzone__unlockAfterTime:r=390
+}
+
+entity{
+  // _template:t="big_action_rally_capzone_ingame"
+  _template:t="defend_zone_respawnbase+big_action_objective_deped_caplock_capzone_ingame"
+  transform:m=[[3.39139, 0.0311859, -6.74941] [0.0543226, 4.80689, 0.049506] [8.45832, -0.139352, 4.24943] [684.821, 2.12455, 517.958]]
+  ui_order:i=511
+  groupName:t="s5n1"
+  capzone__title:t="K"
+  capzone__caption:t="K; Kamenka River; +500/-500 (Captureable By Any Team Unlock Different Sector!! Never UnLock If Taken!!)"
+  capzone__acivateRespawnGroup:i=666411
+  capzone__maxTeamPresence:i=2
+}
+
+entity{
+  _template:t="big_action_objective_resetable_capzone_ingame"
+  transform:m=[[-7.08786, 0.106972, -2.60919] [0.0543226, 4.80689, 0.049506] [3.27105, 0.0545253, -8.88355] [372.719, 4.67277, 613.016]]
+  ui_order:i=515
+  groupName:t="s5n1"
+  capzone__title:t="D"
+  capzone__caption:t="D; Center Village Trenches; (Axis Captured Surround Allies To East; Allies Axis +500 To North; To Enemy -1000)"
+  respawnBaseGroup:i=666411
+  capzone__lockAfterActivate:b=yes
+  capzone__unlockAfterTime:r=390
+  capzone__activateCap:t="s6a"
+  capzone__activateAfterTeam2Cap:t="s6a"
+  capzone__activateGroupNameAfterTeam2Cap:t="s6a"
+  capzone__activateAfterTeam1Cap:t="s5w1w0"
+  capzone__activateGroupNameAfterTeam1Cap:t="s5w1w0"
+  team:i=2
+}
+
+entity{
+  _template:t="big_action_objective_resetable_capzone_ingame"
+  transform:m=[[-6.92913, 0.0473371, 3.007] [0.0543227, 4.80689, 0.049506] [-3.76756, 0.132011, -8.68379] [639.555, 5.38762, 1085.82]]
+  ui_order:i=516
+  groupName:t="s5n1"
+  capzone__title:t="D"
+  capzone__caption:t="D; Great March Village; (Axis Captured To North; Allies Captured +500 To West Highland; To Enemy -1000)"
+  respawnBaseGroup:i=666411
+  capzone__lockAfterActivate:b=yes
+  capzone__unlockAfterTime:r=390
+  capzone__activateCap:t="s6a"
+  capzone__activateAfterTeam2Cap:t="s6a"
+  capzone__activateGroupNameAfterTeam2Cap:t="s6a"
+  capzone__activateAfterTeam1Cap:t="s4e1n2"
+  capzone__activateGroupNameAfterTeam1Cap:t="s4e1n2"
+  team:i=1
+  capzone__capTimeTeam1:r=990
+}
+
+entity{
+  _template:t="big_action_objective_resetable_capzone_ingame"
+  transform:m=[[7.79256, -0.0888245, -6.49688] [-5.38858e-09, 3.85694, -0.0527316] [4.07855, 0.0668695, 4.89103] [-121.044, 4.13516, 1116.98]]
+  ui_order:i=571
+  groupName:t="s5w1w0"
+  capzone__title:t="D"
+  capzone__caption:t="D; Church Fortification (Axis Captured To South East; Allies Axis +500 To North Highland; To Enemy -1000)"
+  capzone__activateAfterTeam1Cap:t="s5w1"
+  capzone__activateGroupNameAfterTeam1Cap:t="s5w1"
+  capzone__activateAfterTeam2Cap:t="s6a"
+  capzone__activateGroupNameAfterTeam2Cap:t="s6a"
+  capzone__createdRespawnBaseGroup:i=50100
+  capzone__lockAfterActivate:b=yes
+}
+
+entity{
+  _template:t="big_action_objective_resetable_capzone_ingame"
+  transform:m=[[9.54455, 4.34866e-09, -6.02243] [1.42254e-08, 1.46, 2.35991e-08] [3.68346, -1.30248e-07, 5.83766] [230.428, 18.4071, 1243.58]]
+  ui_order:i=576
+  groupName:t="s5w1"
+  capzone__title:t="D"
+  capzone__caption:t="D; 233 Mountain; (Axis Captured To South East; Allies Axis +500 Push Back To South West Town; To Enemy -1000)"
+  capzone__lockAfterActivate:b=yes
+  capzone__unlockAfterTime:r=390
+  capzone__activateCap:t="s6a"
+  capzone__activateAfterTeam2Cap:t="s6a"
+  capzone__activateGroupNameAfterTeam2Cap:t="s6a"
+  capzone__activateAfterTeam1Cap:t="s6a"
+  capzone__activateGroupNameAfterTeam1Cap:t="s6a"
+  capzone__createdRespawnBaseGroup:i=50101
+}
+
+entity{
+  // _template:t="big_action_rally_capzone_ingame"
+  _template:t="defend_zone_respawnbase+big_action_objective_deped_caplock_capzone_ingame"
+  transform:m=[[-9.09627, -0.0359047, 2.78907] [-0.032471, 2.07815, -0.0791482] [-2.78577, -0.389748, -9.0905] [-191.87, 3.94862, 685.018]]
+  ui_order:i=603
+  groupName:t="s6a"
+  capzone__title:t="L"
+  capzone__caption:t="L; Labor Town; +500/-500 (Captureable By Any Team Unlock Different Sector!! Never UnLock If Taken!!)"
+  capzone__acivateRespawnGroup:i=666611
+  capzone__maxTeamPresence:i=2
+  capzone__createdRespawnBaseGroup:i=60101
+}
+
+entity{
+  _template:t="big_action_objective_resetable_capzone_ingame"
+  transform:m=[[-0.0248402, 0.000388128, -0.999691] [0.0156231, 0.999878, 0] [0.999569, -0.0156183, -0.0248432] [139.303, 16.7158, 375.436]]
+  sphere_zone__radius:r=52
+  ui_order:i=604
+  groupName:t="s6a"
+  capzone__title:t="D"
+  capzone__caption:t="D; Tempest Island; (Axis Captured Surround Allies To East; Allies Axis +500 To North; To Enemy -1000)"
+  respawnBaseGroup:i=666611
+  capzone__lockAfterActivate:b=yes
+  capzone__unlockAfterTime:r=390
+  capzone__activateCap:t="s5n1"
+  capzone__activateAfterTeam2Cap:t="s5n1"
+  capzone__activateGroupNameAfterTeam2Cap:t="s5n1"
+  capzone__activateAfterTeam1Cap:t="s3e1w1"
+  capzone__activateGroupNameAfterTeam1Cap:t="s3e1w1"
+  team:i=1
+  capzone__capTimeTeam1:r=990
+  capzone__capPenalty:r=6000
+}
+
+entity{
+  _template:t="big_action_objective_resetable_capzone_ingame"
+  transform:m=[[-0.0248402, 0.000388128, -0.999691] [0.0156231, 0.999878, 0] [0.999569, -0.0156183, -0.0248432] [-590.55, 5.98386, 587.112]]
+  sphere_zone__radius:r=69
+  ui_order:i=605
+  groupName:t="s6a"
+  capzone__title:t="D"
+  capzone__caption:t="D; Manor; (Axis Captured Surround Allies; Allies Axis +500 To North; To Enemy -1000)"
+  respawnBaseGroup:i=666611
+  capzone__lockAfterActivate:b=yes
+  capzone__unlockAfterTime:r=390
+  capzone__activateCap:t="s6b"
+  capzone__activateAfterTeam2Cap:t="s6b"
+  capzone__activateGroupNameAfterTeam2Cap:t="s6b"
+  capzone__activateAfterTeam1Cap:t="s5w1w0"
+  capzone__activateGroupNameAfterTeam1Cap:t="s5w1w0"
+  team:i=2
+}
+
+entity{
+  // _template:t="big_action_rally_capzone_ingame"
+  _template:t="defend_zone_respawnbase+big_action_objective_deped_caplock_capzone_ingame"
+  transform:m=[[-0.0248401, 0.000388127, -0.999691] [0.0156231, 0.999878, 0] [0.999569, -0.0156182, -0.0248433] [-222.88, 7.91163, 243.866]]
+  sphere_zone__radius:r=50
+  ui_order:i=606
+  groupName:t="s6b"
+  capzone__title:t="V"
+  capzone__caption:t="V; Vysokovo Emplacement; +500/-500 (Captureable By Any Team Unlock Different Sector!! Never UnLock If Taken!!)"
+  capzone__acivateRespawnGroup:i=666612
+  capzone__maxTeamPresence:i=2
+  capzone__createdRespawnBaseGroup:i=66102
+}
+
+entity{
+  _template:t="big_action_objective_resetable_capzone_ingame"
+  transform:m=[[-0.0248401, 0.000388127, -0.999691] [0.0156231, 0.999878, 0] [0.999569, -0.0156182, -0.0248433] [7.51826, 4.41859, 153.295]]
+  sphere_zone__radius:r=55
+  ui_order:i=607
+  groupName:t="s6b"
+  capzone__title:t="D"
+  capzone__caption:t="D; Vysokovo East; (Axis Captured; Allies Axis +500 To East; To Enemy -2000)"
+  respawnBaseGroup:i=666612
+  capzone__lockAfterActivate:b=yes
+  capzone__unlockAfterTime:r=390
+  capzone__activateCap:t="s6b"
+  capzone__activateAfterTeam2Cap:t="s6a"
+  capzone__activateGroupNameAfterTeam2Cap:t="s6a"
+  capzone__activateAfterTeam1Cap:t="s3e1w1"
+  capzone__activateGroupNameAfterTeam1Cap:t="s3e1w1"
+  team:i=1
+  capzone__createdRespawnBaseGroup:i=66103
+  capzone__capTimeTeam1:r=990
+  capzone__capPenalty:r=12000
+}
+
+entity{
+  _template:t="big_action_objective_resetable_capzone_ingame"
+  transform:m=[[-0.0248401, 0.000388127, -0.999691] [0.0156231, 0.999878, 0] [0.999569, -0.0156182, -0.0248433] [-103.553, 8.8029, 425.535]]
+  sphere_zone__radius:r=50
+  ui_order:i=607
+  groupName:t="s6b"
+  capzone__title:t="D"
+  capzone__caption:t="D; Vysokovo East; (Axis Captured; Allies Axis +500 To North; To Enemy -2000)"
+  respawnBaseGroup:i=666612
+  capzone__lockAfterActivate:b=yes
+  capzone__unlockAfterTime:r=390
+  capzone__activateCap:t="s6a"
+  capzone__activateAfterTeam2Cap:t="s6a"
+  capzone__activateGroupNameAfterTeam2Cap:t="s6a"
+  capzone__activateAfterTeam1Cap:t="s5w1w0"
+  capzone__activateGroupNameAfterTeam1Cap:t="s5w1w0"
+  team:i=2
+  capzone__capPenalty:r=12000
+}

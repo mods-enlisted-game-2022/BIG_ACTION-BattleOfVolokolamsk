@@ -1,0 +1,17 @@
+mass:r=1000.0
+momentOfInertia:p3=0.6, 0.3, 0.6
+centerOfMass:p3=0.0, 0.5, 0.0
+physMat:t="walkRay"
+useFutureContacts:b=yes
+logCCD:b=no
+addToWorld:b=yes
+skipUpdateOnSleep:b=yes
+sleepUpdateFrequency:i=10
+shouldTraceGround:b=yes
+
+collisionResource{
+
+  props{
+    cls_body:t="convex_hull"
+  }
+}

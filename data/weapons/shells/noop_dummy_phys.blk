@@ -1,0 +1,42 @@
+mass:r=1.0
+momentOfInertia:p3=0.0, 0.0, 0.0
+caliber:r=0.1
+speed:r=1.0
+speedPitch:r=0.0
+maxDistance:r=1.0
+physMat:t="walkRay"
+logCCD:b=no
+useFutureContacts:b=no
+frictionGround:r=100.0
+entityTemplate:t="rdg1_smoke_grenade"
+entityPhysTemplate:t="big_action_noop_phys"
+
+collisionResource{
+
+  props{
+    volumeBox:t="box"
+  }
+}
+
+ccdSpheres{
+  ccd:p4=0.0, 0.02, 0.0, 0.03
+}
+
+splashDamage{
+  radius:p2=0.1, 0.1
+  penetration:p2=1.0, 1.0
+  damage:r=1.0
+  dmgOffset:p3=0.0, 0.1, 0.0
+}
+
+damage{
+
+  explosive{
+    strengthEquivalent:r=1.0
+    brisanceEquivalent:r=1.0
+  }
+}
+
+solver{
+  energyConservation:r=0.85
+}

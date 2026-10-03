@@ -1,0 +1,236 @@
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r=0.7
+rangefinderVerticalOffset:r=0.0
+rangefinderHorizontalOffset:r=0.0
+fontSizeMult:r=1.0
+lineSizeMult:r=2.9
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+applyCorrectionToGun:b=no
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+distanceCorrectionPos:p2=-0.2, -0.05
+drawDistanceCorrection:b=no
+
+crosshair_distances{
+}
+
+crosshair_hor_ranges{
+}
+
+drawLines{
+  line{
+    line:p4=-200.0, 200.0, -200.0, -100.0
+    move:b=no
+    thousandth:b=yes
+  }
+
+  line{
+    line:p4=300.0, 0.0, -300.0, 0.0
+    move:b=no
+    thousandth:b=yes
+  }
+
+  line{
+    line:p4=0.0, 200.0, 0.0, 0.0
+    move:b=no
+    thousandth:b=yes
+  }
+
+  line{
+    line:p4=60, 21.9, -290.0, 21.9
+    move:b=no
+    thousandth:b=yes
+  }
+
+  line{
+    line:p4=60, 39.0, -285.0, 39.0
+    move:b=no
+    thousandth:b=yes
+  }
+
+  line{
+    line:p4=60, 45.9, -280.0, 45.9
+    move:b=no
+    thousandth:b=yes
+  }
+
+  line{
+    line:p4=60, 53.9, -275.0, 53.9
+    move:b=no
+    thousandth:b=yes
+  }
+
+  line{
+    line:p4=60, 63.2, -270.0, 63.2
+    move:b=no
+    thousandth:b=yes
+  }
+
+  line{
+    line:p4=60, 72.7, -265.0, 72.7
+    move:b=no
+    thousandth:b=yes
+  }
+
+  line{
+    line:p4=60, 83.6, -260.0, 83.6
+    move:b=no
+    thousandth:b=yes
+  }
+
+  line{
+    line:p4=60, 94.7, -255.0, 94.7
+    move:b=no
+    thousandth:b=yes
+  }
+
+  line{
+    line:p4=60, 104.9, -250.0, 104.9
+    move:b=no
+    thousandth:b=yes
+  }
+
+  line{
+    line:p4=60, 115.3, -245.0, 115.3
+    move:b=no
+    thousandth:b=yes
+  }
+
+  line{
+    line:p4=60, 126.9, -240.0, 126.9
+    move:b=no
+    thousandth:b=yes
+  }
+
+  line{
+    line:p4=60, 138.9, -235.0, 138.9
+    move:b=no
+    thousandth:b=yes
+  }
+
+  line{
+    line:p4=60, 155.6, -230.0, 155.6
+    move:b=no
+    thousandth:b=yes
+  }
+}
+
+drawCircles{
+}
+
+drawTexts{
+
+  text{
+    text:t="Выровняйте линейку по горизонту, чтобы прицелиться;Richten Sie das Lineal zum Zielen am Horizont aus;Align the ruler to the horizon to aim;将标尺对准到地平线"
+    align:i=0
+    pos:p2=-0.81, -0.01
+    move:b=no
+    size:r=0.5
+  }
+
+  text{
+    text:t="300"
+    align:i=0
+    pos:p2=0.06, 0.085
+    move:b=no
+    size:r=0.55
+  }
+
+  text{
+    text:t="500"
+    align:i=0
+    pos:p2=0.06, 0.155
+    move:b=no
+    size:r=0.55
+  }
+
+  text{
+    text:t="600"
+    align:i=0
+    pos:p2=0.06, 0.183
+    move:b=no
+    size:r=0.55
+  }
+
+  text{
+    text:t="700"
+    align:i=0
+    pos:p2=0.06, 0.217
+    move:b=no
+    size:r=0.55
+  }
+
+  text{
+    text:t="800"
+    align:i=0
+    pos:p2=0.06, 0.254
+    move:b=no
+    size:r=0.55
+  }
+
+  text{
+    text:t="900"
+    align:i=0
+    pos:p2=0.06, 0.292
+    move:b=no
+    size:r=0.55
+  }
+
+  text{
+    text:t="1000"
+    align:i=0
+    pos:p2=0.06, 0.337
+    move:b=no
+    size:r=0.55
+  }
+
+  text{
+    text:t="1100"
+    align:i=0
+    pos:p2=0.06, 0.382
+    move:b=no
+    size:r=0.55
+  }
+
+  text{
+    text:t="1200"
+    align:i=0
+    pos:p2=0.06, 0.423
+    move:b=no
+    size:r=0.55
+  }
+
+  text{
+    text:t="1300"
+    align:i=0
+    pos:p2=0.06, 0.467
+    move:b=no
+    size:r=0.55
+  }
+
+  text{
+    text:t="1400"
+    align:i=0
+    pos:p2=0.06, 0.512
+    move:b=no
+    size:r=0.55
+  }
+
+  text{
+    text:t="1500"
+    align:i=0
+    pos:p2=0.06, 0.562
+    move:b=no
+    size:r=0.55
+  }
+
+  text{
+    text:t="1600"
+    align:i=0
+    pos:p2=0.06, 0.63
+    move:b=no
+    size:r=0.55
+  }
+}

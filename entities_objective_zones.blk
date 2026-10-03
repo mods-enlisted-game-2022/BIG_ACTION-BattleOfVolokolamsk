@@ -1,0 +1,1177 @@
+big_action_capzone_ingame_patch{
+  capzone__advantageDivisor:r=6.0
+  capzone__maxCapDecapSpeedMult:r=3.0
+  respawnBaseGroup:i=-1666
+  respawnbaseType:t="nil"
+  capzone__alwaysShow:b=no
+  capzone__maxTeamPresence:i=12
+  capzone__title:t="D"
+  capzone__progress:r=0
+  capzone__locked:b=no
+  capzone__lockAfterActivate:b=no
+  capzone__lockAfterCap:b=no
+  capzone__unlockAfterTime:r=390
+  capzone__decapTimeTeam2:r=230
+  capzone__decapTimeTeam1:r=230
+  capzone__capTimeTeam2:r=270
+  capzone__capTimeTeam1:r=1230
+  capzone__checkAllZonesInGroup:b=no
+  capzone__icon:t="!ui/skin#victories_battles.svg"
+  capzone__progress:r=0
+  capzone__deactivateAfterCap:b=yes
+  builder_info__team:i=1
+  capzone__createRespawnBaseForTeam:i=1
+  capzone__createdRespawnBaseGroup:i=-9666
+  capzone__spawnAtZoneTimeout:r=190
+  capzone__createRespawnBase:t="respawnBaseGroupActivator"
+  capzone__capRewardTeam1:r=3000
+  capzone__capRewardTeam2:r=3000
+  capzone__capPenalty:r=6000
+  team:i=2
+  capzone__smokeDropHeight:r=5.0
+
+  _group{
+    _tags:t="sound"
+
+    "narrator__phrase:shared:object"{
+
+      "allies:object"{
+
+        "zone_captured:object"{
+          text:t="Our troops are back on defence, fighting the enemy"
+          phrase:t="pointCaptured"
+        }
+
+        "sector_captured:object"{
+          text:t="We have captured sector!"
+          phrase:t="sectorCapturedAlly"
+        }
+
+      }
+
+      "enemy:object"{
+
+        "zone_captured:object"{
+          text:t="Enemy troops are breaking through!"
+          phrase:t="pointCapturedEnemy"
+        }
+
+        "sector_captured:object"{
+          text:t="Enemy have captured zone!"
+          phrase:t="sectorCapturedEnemy"
+        }
+
+      }
+    }
+  }
+}
+
+big_action_team_narrator_axis{
+  _use:t="base_team_narrator"
+
+  "team__narrator:object"{
+    _tags:t="sound"
+
+    "briefing:object"{
+      path:t="vo/ui/enlisted/narrator/start_assault_attack"
+      cooldown:r=2.0
+    }
+
+    "win:object"{
+      path:t="vo/ui/enlisted/narrator/victory_invasion_attack"
+      cooldown:r=2.0
+    }
+
+    "lose:object"{
+      path:t="vo/ui/enlisted/narrator/defeat_invasion_attack"
+      cooldown:r=2.0
+    }
+
+    "bombPlanting:object"{
+      ally:t="vo/ui/enlisted/narrator/explosive_installing_ally"
+      enemy:t="vo/ui/enlisted/narrator/explosive_installing_enemy"
+      cooldown:r=5.0
+    }
+
+    "bombPlanted:object"{
+      ally:t="vo/ui/enlisted/narrator/explosive_installed_ally"
+      enemy:t="vo/ui/enlisted/narrator/explosive_installed_enemy"
+    }
+
+    "bombDefusing:object"{
+      ally:t="vo/ui/enlisted/narrator/explosive_deactivating_ally"
+      enemy:t="vo/ui/enlisted/narrator/explosive_deactivating_enemy"
+      cooldown:r=5.0
+    }
+
+    "bombDefused:object"{
+      ally:t="vo/ui/enlisted/narrator/explosive_deactivated_ally"
+      enemy:t="vo/ui/enlisted/narrator/explosive_deactivated_enemy"
+    }
+
+    "pointDCapturingAlly:object"{
+      path:t="vo/ui/enlisted/narrator/point_d_capturing_ally"
+      cooldown:r=15.0
+    }
+
+    "pointDCaptured:object"{
+      path:t="vo/ui/enlisted/narrator/point_d_captured_ally_invasion"
+      cooldown:r=2.0
+    }
+
+    "pointDCapturingEnemy:object"{
+      path:t="vo/ui/enlisted/narrator/point_d_capturing_enemy"
+      cooldown:r=15.0
+    }
+
+    "pointDCapturedEnemy:object"{
+      path:t="vo/ui/enlisted/narrator/point_d_captured_enemy_domination"
+      cooldown:r=2.0
+    }
+
+    "pointCapturingAlly:object"{
+      path:t="vo/ui/enlisted/narrator/point_capturing_ally"
+      cooldown:r=15.0
+    }
+
+    "pointCapturingEnemy:object"{
+      path:t="vo/ui/enlisted/narrator/point_capturing_enemy"
+      cooldown:r=15.0
+    }
+
+    "pointCapturingPlayer:object"{
+      path:t="vo/ui/enlisted/narrator/point_capturing_player"
+      cooldown:r=15.0
+    }
+
+    "sectorCapturedEnemy:object"{
+      path:t="vo/ui/enlisted/narrator/sector_captured_enemy_assault"
+      cooldown:r=2.0
+    }
+
+    "halfPointsCapturedEnemy:object"{
+      path:t="vo/ui/enlisted/narrator/half_points_invasion_defence"
+      cooldown:r=2.0
+    }
+
+    "oneSectorLeft:object"{
+      path:t="vo/ui/enlisted/narrator/last_sector_assault_defence"
+      cooldown:r=2.0
+    }
+
+    "loosingScores:object"{
+      ally:t=""
+      enemy:t="vo/ui/enlisted/narrator/loosing_scores_enemy"
+      cooldown:r=2.0
+    }
+
+    "leftBattleArea:object"{
+      path:t="vo/ui/enlisted/narrator/leave_area_warn"
+      cooldown:r=2.0
+    }
+
+    "bombPlanting:object"{
+      ally:t="vo/ui/enlisted/narrator/explosive_installing_ally"
+      enemy:t="vo/ui/enlisted/narrator/explosive_installing_enemy"
+      cooldown:r=5.0
+    }
+
+    "bombPlanted:object"{
+      ally:t="vo/ui/enlisted/narrator/explosive_installed_ally"
+      enemy:t="vo/ui/enlisted/narrator/explosive_installed_enemy"
+    }
+
+    "bombDefusing:object"{
+      ally:t="vo/ui/enlisted/narrator/explosive_deactivating_ally"
+      enemy:t="vo/ui/enlisted/narrator/explosive_deactivating_enemy"
+      cooldown:r=5.0
+    }
+
+    "bombDefused:object"{
+      ally:t="vo/ui/enlisted/narrator/explosive_deactivated_ally"
+      enemy:t="vo/ui/enlisted/narrator/explosive_deactivated_enemy"
+    }
+
+    "taskPoint:object"{
+      path:t="vo/ui/enlisted/narrator/task_point_defence"
+      cooldown:r=2.0
+    }
+
+    "pointCapturingAlly:object"{
+      path:t="vo/ui/enlisted/narrator/point_capturing_ally"
+      cooldown:r=15.0
+    }
+
+    "pointCapturingEnemy:object"{
+      path:t="vo/ui/enlisted/narrator/point_capturing_enemy"
+      cooldown:r=15.0
+    }
+
+    "pointCapturingPlayer:object"{
+      path:t="vo/ui/enlisted/narrator/point_capturing_player"
+      cooldown:r=15.0
+    }
+
+    "pointCaptured:object"{
+      path:t="vo/ui/enlisted/narrator/point_captured_ally_domination"
+    }
+
+    "pointCapturedEnemy:object"{
+      path:t="vo/ui/enlisted/narrator/point_captured_enemy_domination"
+    }
+
+    "sectorCapturedAlly:object"{
+      path:t="vo/ui/enlisted/narrator/sector_captured_ally_assault"
+      cooldown:r=2.0
+    }
+  }
+}
+
+big_action_team_narrator_allies{
+  _use:t="base_team_narrator"
+
+  "team__narrator:object"{
+    _tags:t="sound"
+
+    "briefing:object"{
+      path:t="vo/ui/enlisted/narrator/start_assault_defence"
+      cooldown:r=2.0
+    }
+
+    "win:object"{
+      path:t="vo/ui/enlisted/narrator/victory_invasion_defence"
+      cooldown:r=2.0
+    }
+
+    "lose:object"{
+      path:t="vo/ui/enlisted/narrator/defeat_invasion_defence"
+      cooldown:r=2.0
+    }
+
+    "bombPlanting:object"{
+      ally:t="vo/ui/enlisted/narrator/explosive_installing_ally"
+      enemy:t="vo/ui/enlisted/narrator/explosive_installing_enemy"
+      cooldown:r=5.0
+    }
+
+    "bombPlanted:object"{
+      ally:t="vo/ui/enlisted/narrator/explosive_installed_ally"
+      enemy:t="vo/ui/enlisted/narrator/explosive_installed_enemy"
+    }
+
+    "bombDefusing:object"{
+      ally:t="vo/ui/enlisted/narrator/explosive_deactivating_ally"
+      enemy:t="vo/ui/enlisted/narrator/explosive_deactivating_enemy"
+      cooldown:r=5.0
+    }
+
+    "bombDefused:object"{
+      ally:t="vo/ui/enlisted/narrator/explosive_deactivated_ally"
+      enemy:t="vo/ui/enlisted/narrator/explosive_deactivated_enemy"
+    }
+
+    "pointDCapturingAlly:object"{
+      path:t="vo/ui/enlisted/narrator/point_d_capturing_ally"
+      cooldown:r=15.0
+    }
+
+    "pointDCaptured:object"{
+      path:t="vo/ui/enlisted/narrator/point_d_captured_ally_invasion"
+      cooldown:r=2.0
+    }
+
+    "pointDCapturingEnemy:object"{
+      path:t="vo/ui/enlisted/narrator/point_d_capturing_enemy"
+      cooldown:r=15.0
+    }
+
+    "pointDCapturedEnemy:object"{
+      path:t="vo/ui/enlisted/narrator/point_d_captured_enemy_domination"
+      cooldown:r=2.0
+    }
+
+    "pointCapturingAlly:object"{
+      path:t="vo/ui/enlisted/narrator/point_capturing_ally"
+      cooldown:r=15.0
+    }
+
+    "pointCapturingEnemy:object"{
+      path:t="vo/ui/enlisted/narrator/point_capturing_enemy"
+      cooldown:r=15.0
+    }
+
+    "pointCapturingPlayer:object"{
+      path:t="vo/ui/enlisted/narrator/point_capturing_player"
+      cooldown:r=15.0
+    }
+
+    "sectorCapturedEnemy:object"{
+      path:t="vo/ui/enlisted/narrator/sector_captured_enemy_assault"
+      cooldown:r=2.0
+    }
+
+    "halfPointsCapturedEnemy:object"{
+      path:t="vo/ui/enlisted/narrator/half_points_invasion_defence"
+      cooldown:r=2.0
+    }
+
+    "oneSectorLeft:object"{
+      path:t="vo/ui/enlisted/narrator/last_sector_assault_defence"
+      cooldown:r=2.0
+    }
+
+    "loosingScores:object"{
+      ally:t=""
+      enemy:t="vo/ui/enlisted/narrator/loosing_scores_enemy"
+      cooldown:r=2.0
+    }
+
+    "leftBattleArea:object"{
+      path:t="vo/ui/enlisted/narrator/leave_area_warn"
+      cooldown:r=2.0
+    }
+
+    "bombPlanting:object"{
+      ally:t="vo/ui/enlisted/narrator/explosive_installing_ally"
+      enemy:t="vo/ui/enlisted/narrator/explosive_installing_enemy"
+      cooldown:r=5.0
+    }
+
+    "bombPlanted:object"{
+      ally:t="vo/ui/enlisted/narrator/explosive_installed_ally"
+      enemy:t="vo/ui/enlisted/narrator/explosive_installed_enemy"
+    }
+
+    "bombDefusing:object"{
+      ally:t="vo/ui/enlisted/narrator/explosive_deactivating_ally"
+      enemy:t="vo/ui/enlisted/narrator/explosive_deactivating_enemy"
+      cooldown:r=5.0
+    }
+
+    "bombDefused:object"{
+      ally:t="vo/ui/enlisted/narrator/explosive_deactivated_ally"
+      enemy:t="vo/ui/enlisted/narrator/explosive_deactivated_enemy"
+    }
+
+    "taskPoint:object"{
+      path:t="vo/ui/enlisted/narrator/task_point_defence"
+      cooldown:r=2.0
+    }
+
+    "pointCapturingAlly:object"{
+      path:t="vo/ui/enlisted/narrator/point_capturing_ally"
+      cooldown:r=15.0
+    }
+
+    "pointCapturingEnemy:object"{
+      path:t="vo/ui/enlisted/narrator/point_capturing_enemy"
+      cooldown:r=15.0
+    }
+
+    "pointCapturingPlayer:object"{
+      path:t="vo/ui/enlisted/narrator/point_capturing_player"
+      cooldown:r=15.0
+    }
+
+    "pointCaptured:object"{
+      path:t="vo/ui/enlisted/narrator/point_captured_ally_domination"
+    }
+
+    "pointCapturedEnemy:object"{
+      path:t="vo/ui/enlisted/narrator/point_captured_enemy_domination"
+    }
+
+    "sectorCapturedAlly:object"{
+      path:t="vo/ui/enlisted/narrator/sector_captured_ally_assault"
+      cooldown:r=2.0
+    }
+  }
+}
+
+big_action_objective_capzone_ingame{
+  // zone_bidirectional_two_chains
+  _use:t="big_action_objective_capzone"
+  _use:t="respawnBase"
+  _use:t="respawnChooser"
+  _use:t="defend_zone_respawnbase"
+  _use:t="big_action_capzone_ingame_patch"
+  capzone__advantageDivisor:r=6.0
+  capzone__maxCapDecapSpeedMult:r=3.0
+  capzone__smokeTemplateFriendly:t="capzone_signal_friendly_smoke_effect_big_action_D"
+  capzone__smokeTemplateNeutral:t="capzone_signal_neutral_smoke_effect_big_action_D"
+  capzone__smokeTemplateEnemy:t="capzone_signal_enemy_smoke_effect_big_action_D"
+  active:b=no
+  // capzone__deactivateAfterTimeout:r=1.0
+
+  _group{
+    _tags:t="sound"
+
+    "narrator__phrase:shared:object"{
+
+      "allies:object"{
+
+        "zone_captured:object"{
+          text:t="We have captured sector!"
+          phrase:t="sectorCapturedAlly"
+        }
+
+        "one_zone_to_capture:object"{
+          text:t="We have captured sector!"
+          phrase:t="sectorCapturedAlly"
+        }
+
+        "half_zones_captured:object"{
+          text:t="We have captured sector!"
+          phrase:t="sectorCapturedAlly"
+        }
+
+        "all_zones_captured:object"{
+          text:t="We have captured sector!"
+          phrase:t="sectorCapturedAlly"
+        }
+
+        "sector_captured:object"{
+          text:t="We have captured sector!"
+          phrase:t="sectorCapturedAlly"
+        }
+        
+      }
+
+      "enemy:object"{
+
+        "zone_captured:object"{
+          text:t="Enemy have captured zone!"
+          phrase:t="sectorCapturedEnemy"
+        }
+
+        "one_zone_to_capture:object"{
+          text:t="Enemy have captured zone!"
+          phrase:t="sectorCapturedEnemy"
+        }
+
+        "half_zones_captured:object"{
+          text:t="Enemy have captured zone!"
+          phrase:t="sectorCapturedEnemy"
+        }
+
+        "sector_captured:object"{
+          text:t="Enemy have captured zone!"
+          phrase:t="sectorCapturedEnemy"
+        }
+
+      }
+    }
+  }
+}
+
+big_action_objective_resetable_capzone_ingame{
+  _use:t="big_action_common_capzone"
+  _use:t="respawnBase"
+  _use:t="respawnChooser"
+  _use:t="defend_zone_respawnbase"
+  _use:t="big_action_capzone_ingame_patch"
+  capzone__smokeTemplateFriendly:t="capzone_signal_friendly_smoke_effect_big_action_D"
+  capzone__smokeTemplateNeutral:t="capzone_signal_neutral_smoke_effect_big_action_D"
+  capzone__smokeTemplateEnemy:t="capzone_signal_enemy_smoke_effect_big_action_D"
+  // capzone__deactivateAfterTimeout:r=1.0
+  capzone__capTimeTeam1:r=1390
+  capzone__lockAfterActivate:b=yes
+  capzone__unlockAfterTime:r=390
+
+  _group{
+    _tags:t="sound"
+
+    "narrator__phrase:shared:object"{
+
+      "allies:object"{
+
+        "zone_captured:object"{
+          text:t="We have captured sector!"
+          phrase:t="sectorCapturedAlly"
+        }
+
+        "one_zone_to_capture:object"{
+          text:t="We have captured sector!"
+          phrase:t="sectorCapturedAlly"
+        }
+
+        "half_zones_captured:object"{
+          text:t="We have captured sector!"
+          phrase:t="sectorCapturedAlly"
+        }
+
+        "all_zones_captured:object"{
+          text:t="We have captured sector!"
+          phrase:t="sectorCapturedAlly"
+        }
+
+        "sector_captured:object"{
+          text:t="We have captured sector!"
+          phrase:t="sectorCapturedAlly"
+        }
+        
+      }
+
+      "enemy:object"{
+
+        "zone_captured:object"{
+          text:t="Enemy have captured zone!"
+          phrase:t="sectorCapturedEnemy"
+        }
+
+        "one_zone_to_capture:object"{
+          text:t="Enemy have captured zone!"
+          phrase:t="sectorCapturedEnemy"
+        }
+
+        "half_zones_captured:object"{
+          text:t="Enemy have captured zone!"
+          phrase:t="sectorCapturedEnemy"
+        }
+
+        "sector_captured:object"{
+          text:t="Enemy have captured zone!"
+          phrase:t="sectorCapturedEnemy"
+        }
+
+      }
+    }
+  }
+}
+
+big_action_objective_init_capzone_ingame{
+  _use:t="big_action_objective_capzone"
+  _use:t="respawnBase"
+  _use:t="respawnChooser"
+  _use:t="defend_zone_respawnbase"
+  _use:t="big_action_capzone_ingame_patch"
+  capzone__icon:t="!ui/skin#fastaccessicons/horn_icon.svg"
+  capzone__lockAfterActivate:b=yes
+  capzone__unlockAfterTime:r=390
+  capzone__decapTimeTeam2:r=160
+  capzone__decapTimeTeam1:r=160
+  capzone__capTimeTeam2:r=270
+  capzone__capTimeTeam1:r=890
+  capzone__capRewardTeam1:r=6000
+  capzone__capRewardTeam2:r=6000
+  capzone__capPenalty:r=6000
+  team:i=2
+  capzone__smokeTemplateFriendly:t="capzone_signal_friendly_smoke_effect_big_action_D"
+  capzone__smokeTemplateNeutral:t="capzone_signal_neutral_smoke_effect_big_action_D"
+  capzone__smokeTemplateEnemy:t="capzone_signal_enemy_smoke_effect_big_action_D"
+  capzone__deactivateAfterTimeout:r=-1.0
+
+  _group{
+    _tags:t="sound"
+
+    "narrator__phrase:shared:object"{
+
+      "allies:object"{
+
+        "zone_captured:object"{
+          text:t="We have captured sector!"
+          phrase:t="sectorCapturedAlly"
+        }
+
+        "one_zone_to_capture:object"{
+          text:t="We have captured sector!"
+          phrase:t="sectorCapturedAlly"
+        }
+
+        "half_zones_captured:object"{
+          text:t="We have captured sector!"
+          phrase:t="sectorCapturedAlly"
+        }
+
+        "all_zones_captured:object"{
+          text:t="We have captured sector!"
+          phrase:t="sectorCapturedAlly"
+        }
+
+        "sector_captured:object"{
+          text:t="We have captured sector!"
+          phrase:t="sectorCapturedAlly"
+        }
+        
+      }
+
+      "enemy:object"{
+
+        "zone_captured:object"{
+          text:t="Enemy have captured zone!"
+          phrase:t="sectorCapturedEnemy"
+        }
+
+        "one_zone_to_capture:object"{
+          text:t="Enemy have captured zone!"
+          phrase:t="sectorCapturedEnemy"
+        }
+
+        "half_zones_captured:object"{
+          text:t="Enemy have captured zone!"
+          phrase:t="sectorCapturedEnemy"
+        }
+
+        "sector_captured:object"{
+          text:t="Enemy have captured zone!"
+          phrase:t="sectorCapturedEnemy"
+        }
+
+      }
+    }
+  }
+}
+
+big_action_objective_deped_capzone_ingame{
+  _use:t="big_action_common_capzone"
+  // _use:t="respawnBase"
+  // _use:t="respawnChooser"
+  _use:t="defend_zone_respawnbase"
+  capzone__advantageDivisor:r=6.0
+  capzone__maxCapDecapSpeedMult:r=3.0
+  active:b=no
+  capzone__acivateRespawnGroup:i=-5555
+  capzone__activateRespawnOnProgress:r=0.96
+  respawnBaseGroup:i=-6666
+  respawnbaseType:t="nil"
+  capzone__alwaysShow:b=no
+  capzone__maxTeamPresence:i=2
+  capzone__icon:t="!ui/skin#arrow_tutor.svg"
+  capzone__title:t="A"
+  capzone__lockAfterActivate:b=no
+  capzone__lockAfterCap:b=no
+  capzone__unlockAfterTime:r=370
+  capzone__decapTimeTeam2:r=999999
+  capzone__decapTimeTeam1:r=290
+  capzone__capTimeTeam2:r=200
+  capzone__capTimeTeam1:r=790
+  capzone__createRespawnBaseForTeam:i=1
+  capzone__createdRespawnBaseGroup:i=-9666
+  capzone__spawnAtZoneTimeout:r=160
+  capzone__createRespawnBase:t="respawnBaseGroupActivator"
+  capzone__checkAllZonesInGroup:b=no
+  capzone__deactivateAfterCap:b=no
+  team:i=2
+  capzone__capReward:r=0
+  capzone__capRewardTeam1:r=0
+  capzone__capRewardTeam2:r=0
+  capzone__capPenalty:r=0
+  capzone__smokeTemplateNeutral:t="capzone_signal_neutral_smoke_effect_big_action_D"
+  capzone__smokeDropHeight:r=5.0
+
+  "capzone__ownTeamIcon:object"{
+    team2:t="!ui/uiskin/ban_icon.svg"
+    team1:t="!ui/uiskin/victories_battles.svg"
+  }
+}
+
+big_action_objective_deped_caplock_capzone_ingame{
+  _use:t="big_action_objective_capzone"
+  _use:t="respawnBase"
+  _use:t="respawnChooser"
+  _use:t="defend_zone_respawnbase"
+  capzone__advantageDivisor:r=6.0
+  capzone__maxCapDecapSpeedMult:r=3.0
+  active:b=no
+  capzone__acivateRespawnGroup:i=-5555
+  capzone__activateRespawnOnProgress:r=0.99
+  respawnBaseGroup:i=-6666
+  respawnbaseType:t="nil"
+  capzone__alwaysShow:b=no
+  capzone__maxTeamPresence:i=3
+  capzone__lockAfterActivate:b=no
+  capzone__lockAfterCap:b=yes
+  capzone__unlockAfterTime:r=999999
+  capzone__decapTimeTeam2:r=290
+  capzone__decapTimeTeam1:r=290
+  capzone__capTimeTeam2:r=200
+  capzone__capTimeTeam1:r=1090
+  capzone__icon:t="!%ugm/assets/fa_arrow_left_right.svg"
+  capzone__createRespawnBaseForTeam:i=1
+  capzone__createdRespawnBaseGroup:i=-9666
+  capzone__spawnAtZoneTimeout:r=160
+  capzone__createRespawnBase:t="respawnBaseGroupActivator"
+  capzone__checkAllZonesInGroup:b=no
+  capzone__deactivateAfterCap:b=no
+  team:i=2
+  capzone__capReward:r=3000
+  capzone__capRewardTeam1:r=3000
+  capzone__capRewardTeam2:r=3000
+  capzone__capPenalty:r=3000
+  capzone__smokeTemplateNeutral:t="capzone_signal_neutral_smoke_effect_big_action_D"
+  capzone__smokeDropHeight:r=5.0
+
+  "capzone__domination:tag"{
+  }
+
+  "capzone__ownTeamIcon:object"{
+    team2:t="!ui/uiskin/ban_icon.svg"
+    team1:t="!ui/uiskin/ban_icon.svg"
+  }
+}
+
+big_action_rally_capzone_ingame{
+  _use:t="big_action_common_capzone"
+  _use:t="respawnBase"
+  _use:t="respawnChooser"
+  active:b=no
+  capzone__maxTeamPresence:i=3
+  capzone__acivateRespawnGroup:i=-5555
+  capzone__activateRespawnOnProgress:r=0.9
+  respawnBaseGroup:i=-6666
+  respawnbaseType:t="nil"
+  capzone__lockAfterActivate:b=yes
+  capzone__lockAfterCap:b=yes
+  capzone__unlockAfterTime:r=180
+  capzone__decapTimeTeam2:r=50
+  capzone__decapTimeTeam1:r=30
+  capzone__capTimeTeam2:r=90
+  capzone__capTimeTeam1:r=90
+  capzone__checkAllZonesInGroup:b=yes
+  capzone__createRespawnBaseForTeam:i=1
+  capzone__createdRespawnBaseGroup:i=-1000
+  capzone__spawnAtZoneTimeout:r=160
+  capzone__createRespawnBase:t="respawnBaseGroupActivator"
+  capzone__icon:t="!ui/skin#custom_spawn_point.svg"
+  capzone__capRewardTeam1:r=0
+  capzone__capRewardTeam2:r=0
+  capzone__capPenalty:r=0
+  capzone__title:t="R"
+
+  "capzone__domination:tag"{
+  }
+
+  "capzone__ownTeamIcon:object"{
+    team2:t="!%ugm/assets/army_icons/germany_army.svg"
+    team1:t="!%ugm/assets/army_icons/ussr_army.svg"
+  }
+}
+
+big_action_bomb_site_zone{
+  _override:b=yes
+  capzone__smokeTemplateFriendly:t="capzone_signal_friendly_smoke_effect_big_action_Q"
+  capzone__smokeTemplateNeutral:t="capzone_signal_neutral_smoke_effect_big_action_Q"
+  capzone__smokeTemplateEnemy:t="capzone_signal_enemy_smoke_effect_big_action_Q"
+}
+
+// big_action_bomb_site_zone_s1{
+//   transform:m=[[2.36825, 0.0626785, 0.260908] [-0.0378487, 0.993771, 0.104816] [-0.252713, -0.258105, 2.35587] [-1099.19, 1.19088, -1163.71]]
+//   ui_order:i=103
+//   active:b=no
+//   capzone__maxTeamPresence:i=2
+//   capzone__alwaysShow:b=yes
+//   capzone_timer__timeLeft:r=-1
+//   capzone__title:t="Q"
+//   capzone__bombTemplate:t="bomb_site_common+big_action_rendinst_zis_6_bz"
+//   capzone__bombTransformLocalPos:m=[[-0.890624, -0.0292857, -0.453794] [-0.0756808, 0.993553, 0.0844132] [0.448397, 0.109524, -0.887099] [-0.265625, -0.20, 1.47961]]
+//   capzone__caption:t="Bomb Site For Defender;; For Axis Team To Protect;Разрушен бомбой, заложенной защитниками;防守方安装炸弹销毁油料) Axis -9000 / +2000 Allies"
+//   groupName:t="s1"
+//   capzone__checkAllZonesInGroup:b=no
+//   capzone__canCaptureOnVehicle:b=yes
+//   capzone__plantingTeam:i=1
+//   capzone__deactivateAfterCap:b=yes
+//   capzone__iconOffsetY:r=1
+//   capzone__activateCap:t="s1n1"
+//   capzone__activateAfterTeam1Cap:t="s1n1"
+//   capzone__icon:t="!ui/skin#item_tnt_block_exploder.svg"
+//   capzone__decapTime:r=999999
+//   capzone__capTime:r=999999
+//   capzone__capTimeTeam2:r=999999
+//   capzone__capTimeTeam1:r=999999
+//   capzone__onlyTeamCanCapture:i=-9
+//   capzone__timeToPlant:r=30
+//   capzone__timeToResetPlant:r=15
+//   capzone__timeToExplosion:r=510
+//   capzone__timeToDefuse:r=60
+//   capzone__autoDecap:b=no
+//   capzone__autoCap:b=no
+//   capzone__presenceAdvantageToDominate:i=0
+//   capzone__maxCapDecapSpeedMult:r=0
+//   capzone__alwaysShow:b=yes
+//   capzone__capRewardTeam1:r=12000
+//   capzone__capPenalty:r=39000
+// }
+
+big_action_bomb_site_zone_s2e1{
+  transform:m=[[1.91062, 0, -1.42483] [0, 1, 0] [1.42483, -0, 1.91062] [-206.473, 6.6079, -1631.91]]
+  active:b=yes
+  capzone__maxTeamPresence:i=1
+  capzone__alwaysShow:b=no
+  capzone_timer__timeLeft:r=-1
+  capzone__title:t="Q"
+  capzone__bombTemplate:t="bomb_site_common+big_action_rendinst_ussr_tank_wagon_1931"
+  capzone__bombTransformLocalPos:m=[[-0.832516, 0.0109081, 0.553893] [0.00758533, 0.999938, -0.00829128] [-0.553948, -0.00270116, -0.832546] [-1.02603, 0.501421, -1.68005]]
+  capzone__caption:t="Bomb Site For Defender; Rail For Defender To Destroy; Разрушен бомбой, заложенной защитниками;防守方安装炸弹破坏铁路) Axis -9000 / Allies +2000"
+  groupName:t="s2e1"
+  capzone__checkAllZonesInGroup:b=no
+  capzone__canCaptureOnVehicle:b=yes
+  capzone__plantingTeam:i=1
+  capzone__iconOffsetY:r=1.6
+  capzone__activateCap:t="s2e1n1"
+  capzone__activateAfterTeam1Cap:t="s2e1n1"
+  capzone__icon:t="!ui/skin#item_tnt_block_exploder.svg"
+  capzone__deactivateAfterCap:b=yes
+  capzone__decapTime:r=999999
+  capzone__capTime:r=999999
+  capzone__capTimeTeam2:r=999999
+  capzone__capTimeTeam1:r=999999
+  capzone__onlyTeamCanCapture:i=-9
+  capzone__timeToPlant:r=30
+  capzone__timeToResetPlant:r=15
+  capzone__timeToExplosion:r=570
+  capzone__timeToDefuse:r=50
+  capzone__autoDecap:b=no
+  capzone__autoCap:b=no
+  capzone__presenceAdvantageToDominate:i=0
+  capzone__maxCapDecapSpeedMult:r=0
+  capzone__alwaysShow:b=no
+  capzone__capRewardTeam1:r=12000
+  capzone__capPenalty:r=54000
+}
+
+// big_action_bomb_site_zone_s2n1{
+//   transform:m=[[1.6179, 0, 1.75014] [0, 1, -0] [-1.75014, 0, 1.6179] [-566.17, 9.19226, -599.947]]
+//   active:b=no
+//   capzone__maxTeamPresence:i=1
+//   capzone__alwaysShow:b=no
+//   capzone_timer__timeLeft:r=-1
+//   ui_order:i=210
+//   capzone__title:t="Q"
+//   capzone__bombTemplate:t="bomb_site_common+big_action_rendinst_zis_6_bz"
+//   capzone__bombTransformLocalPos:m=[[0.79409, 0.0177989, -0.607537] [0, 0.999572, 0.0292843] [0.607799, -0.0232544, 0.79375] [0.0264893, -0.179605, 0.00531006]]
+//   capzone__caption:t="Bomb Site For Defender; Разрушен бомбой, заложенной защитниками;防守方安装炸弹销毁油料) Axis -9000 / +2000 Allies"
+//   groupName:t="s2n1"
+//   capzone__checkAllZonesInGroup:b=no
+//   capzone__canCaptureOnVehicle:b=yes
+//   capzone__plantingTeam:i=1
+//   capzone__deactivateAfterCap:b=yes
+//   capzone__iconOffsetY:r=1
+//   capzone__activateCap:t="s2n1w1"
+//   capzone__activateAfterTeam1Cap:t="s2n1w1"
+//   capzone__icon:t="!ui/skin#item_tnt_block_exploder.svg"
+//   capzone__decapTime:r=999999
+//   capzone__capTime:r=999999
+//   capzone__capTimeTeam2:r=999999
+//   capzone__capTimeTeam1:r=999999
+//   capzone__onlyTeamCanCapture:i=-9
+//   capzone__timeToPlant:r=30
+//   capzone__timeToResetPlant:r=15
+//   capzone__timeToExplosion:r=510
+//   capzone__timeToDefuse:r=60
+//   capzone__autoDecap:b=no
+//   capzone__autoCap:b=no
+//   capzone__presenceAdvantageToDominate:i=0
+//   capzone__maxCapDecapSpeedMult:r=0
+//   capzone__capRewardTeam1:r=12000
+//   capzone__capPenalty:r=39000
+// }
+
+big_action_bomb_site_zone_s2e2{
+  transform:m=[[1.02843, 0.0169921, 0.33123] [-0.0138084, 1.08042, -0.0125525] [-0.331378, 0.00771391, 1.02849] [1307.25, 1.19022, -1192.27]]
+  active:b=yes
+  capzone__maxTeamPresence:i=1
+  capzone__alwaysShow:b=no
+  capzone_timer__timeLeft:r=-1
+  ui_order:i=223
+  capzone__title:t="Q"
+  capzone__bombTemplate:t="bomb_site_bridge+big_action_rendinst_bridge_15000_wood_a_base"
+  capzone__bombTransformLocalPos:m=[[0.934013, 0.00135493, 0.357237] [-0.00364501, 0.999977, 0.00573734] [-0.35722, -0.00666088, 0.933996] [0.114624, -0.408274, 0.178833]]
+  capzone__caption:t="Bomb Site For Defender; (Разрушен бомбой, заложенной защитниками;防守方安装炸弹炸毁桥梁) Axis -9000 / +2000 Allies"
+  groupName:t="s2e2"
+  capzone__checkAllZonesInGroup:b=no
+  capzone__canCaptureOnVehicle:b=yes
+  capzone__plantingTeam:i=1
+  capzone__iconOffsetY:r=1
+  capzone__activateCap:t="s2e2w1"
+  capzone__activateAfterTeam1Cap:t="s2e2w1"
+  capzone__capRewardTeam1:r=6000
+  capzone__icon:t="!ui/skin#item_tnt_block_exploder.svg"
+  capzone__deactivateAfterCap:b=yes
+  capzone__decapTime:r=999999
+  capzone__capTime:r=999999
+  capzone__capTimeTeam2:r=999999
+  capzone__capTimeTeam1:r=999999
+  capzone__onlyTeamCanCapture:i=-9
+  capzone__timeToPlant:r=60
+  capzone__timeToResetPlant:r=15
+  capzone__timeToExplosion:r=570
+  capzone__timeToDefuse:r=50
+  capzone__autoDecap:b=no
+  capzone__autoCap:b=no
+  capzone__presenceAdvantageToDominate:i=0
+  capzone__maxCapDecapSpeedMult:r=0
+  capzone__alwaysShow:b=no
+  capzone__capRewardTeam1:r=12000
+  capzone__capPenalty:r=54000
+}
+
+// big_action_bomb_site_zone_s3w1{
+//   transform:m=[[-0.0769902, 0, 0.997032] [0, 1, 0] [-1.90844, 0, -0.147368] [-586.083, 2.19505, 105.36]]
+//   active:b=yes
+//   capzone__maxTeamPresence:i=1
+//   capzone__alwaysShow:b=no
+//   capzone_timer__timeLeft:r=-1
+//   ui_order:i=302
+//   capzone__title:t="Q"
+//   capzone__bombTemplate:t="bomb_site_bridge+big_action_rendinst_bridge_25000_wood_a_base"
+//   capzone__bombTransformLocalPos:m=[[-0.0700256, -0.00451014, 0.997533] [-0.000298327, 0.99999, 0.00450031] [-0.997545, 1.75458e-05, -0.0700264] [0.0681152, -0.283073, 0.0612335]]
+//   capzone__caption:t="Bomb Site Destroyable (Разрушен бомбой, заложенной защитниками;防守方安装炸弹炸毁桥梁) Axis -9000 / +1000 Allies"
+//   groupName:t="s3w1"
+//   capzone__checkAllZonesInGroup:b=no
+//   capzone__canCaptureOnVehicle:b=yes
+//   capzone__plantingTeam:i=1
+//   capzone__deactivateAfterCap:b=yes
+//   capzone__iconOffsetY:r=1
+//   capzone__activateCap:t="s4w1"
+//   capzone__activateAfterTeam1Cap:t="s4w1"
+//   capzone__icon:t="!ui/skin#item_tnt_block_exploder.svg"
+//   capzone__decapTime:r=999999
+//   capzone__capTime:r=999999
+//   capzone__capTimeTeam2:r=999999
+//   capzone__capTimeTeam1:r=999999
+//   capzone__onlyTeamCanCapture:i=-9
+//   capzone__timeToPlant:r=30
+//   capzone__timeToResetPlant:r=15
+//   capzone__timeToExplosion:r=600
+//   capzone__timeToDefuse:r=60
+//   capzone__autoDecap:b=no
+//   capzone__autoCap:b=no
+//   capzone__presenceAdvantageToDominate:i=0
+//   capzone__maxCapDecapSpeedMult:r=0
+//   capzone__capRewardTeam1:r=6000
+//   capzone__capPenalty:r=39000
+// }
+
+// big_action_bomb_site_zone_s3n1{
+//   transform:m=[[1.73297, 0, 1.63628] [0, 1, -0] [-1.63628, 0, 1.73297] [388.285, 6.88008, -158.18]]
+//   active:b=yes
+//   capzone__maxTeamPresence:i=1
+//   capzone__alwaysShow:b=no
+//   capzone_timer__timeLeft:r=-1
+//   ui_order:i=311
+//   capzone__title:t="Q"
+//   capzone__bombTemplate:t="bomb_site_common+big_action_rendinst_zis_6_bz"
+//   capzone__bombTransformLocalPos:m=[[-0.352585, 0.100758, 0.930338] [0.374501, 0.926293, 0.0416108] [-0.857573, 0.363084, -0.36433] [1.71298, -0.642272, -0.314941]]
+//   capzone__caption:t="Bomb Site For Defender; Разрушен бомбой, заложенной защитниками;防守方安装炸弹销毁油料) Axis -9000 / +1000 Allies"
+//   groupName:t="s3n1"
+//   capzone__checkAllZonesInGroup:b=no
+//   capzone__canCaptureOnVehicle:b=yes
+//   capzone__plantingTeam:i=1
+//   capzone__deactivateAfterCap:b=yes
+//   capzone__iconOffsetY:r=1
+//   capzone__activateCap:t="s3e1"
+//   capzone__activateAfterTeam1Cap:t="s3e1"
+//   capzone__icon:t="!ui/skin#item_tnt_block_exploder.svg"
+//   capzone__decapTime:r=999999
+//   capzone__capTime:r=999999
+//   capzone__capTimeTeam2:r=999999
+//   capzone__capTimeTeam1:r=999999
+//   capzone__onlyTeamCanCapture:i=-9
+//   capzone__timeToPlant:r=30
+//   capzone__timeToResetPlant:r=15
+//   capzone__timeToExplosion:r=600
+//   capzone__timeToDefuse:r=60
+//   capzone__autoDecap:b=no
+//   capzone__autoCap:b=no
+//   capzone__presenceAdvantageToDominate:i=0
+//   capzone__maxCapDecapSpeedMult:r=0
+//   capzone__alwaysShow:b=no
+//   capzone__capRewardTeam1:r=6000
+//   capzone__capPenalty:r=39000
+//   capzone__createRespawnBaseForTeam:i=1
+//   capzone__createdRespawnBaseGroup:i=31102
+//   capzone__spawnAtZoneTimeout:r=960
+//   capzone__createRespawnBase:t="respawnBaseGroupActivator"
+// }
+
+big_action_bomb_site_zone_s3e1{
+  transform:m=[[-2.37261, 0, -0.226561] [0, 1, 0] [0.226561, 0, -2.37261] [1520.77, 47.4528, 121.477]]
+  active:b=no
+  capzone__maxTeamPresence:i=1
+  capzone__alwaysShow:b=no
+  capzone_timer__timeLeft:r=-1
+  ui_order:i=325
+  capzone__title:t="Q"
+  capzone__bombTemplate:t="bomb_site_common+big_action_rendinst_storage_tank_e"
+  capzone__bombTransformLocalPos:m=[[-0.999475, -0.00470645, -0.0320157] [-0.00524203, 0.999848, 0.016665] [0.0319324, 0.0168241, -0.999348] [2.82214, -0.43784, 0.0242462]]
+  capzone__caption:t="Bomb Site For Defender; Разрушен бомбой, заложенной защитниками;防守方安装炸弹销毁油料) Axis -9000 / +2000 Allies"
+  groupName:t="s3e1"
+  capzone__checkAllZonesInGroup:b=no
+  capzone__canCaptureOnVehicle:b=yes
+  capzone__plantingTeam:i=1
+  capzone__deactivateAfterCap:b=yes
+  capzone__iconOffsetY:r=1
+  capzone__activateCap:t="s4e1"
+  capzone__activateAfterTeam1Cap:t="s4e1"
+  capzone__icon:t="!ui/skin#item_tnt_block_exploder.svg"
+  capzone__decapTime:r=999999
+  capzone__capTime:r=999999
+  capzone__capTimeTeam2:r=999999
+  capzone__capTimeTeam1:r=999999
+  capzone__onlyTeamCanCapture:i=-9
+  capzone__timeToPlant:r=60
+  capzone__timeToResetPlant:r=15
+  capzone__timeToExplosion:r=570
+  capzone__timeToDefuse:r=50
+  capzone__autoDecap:b=no
+  capzone__autoCap:b=no
+  capzone__presenceAdvantageToDominate:i=0
+  capzone__maxCapDecapSpeedMult:r=0
+  capzone__alwaysShow:b=no
+  capzone__capRewardTeam1:r=12000
+  capzone__capPenalty:r=54000
+}
+
+// big_action_bomb_site_zone_s4w1{
+//   transform:m=[[-2.17568, 0, 0.97314] [0, 1, 0] [-0.97314, 0, -2.17568] [-1240.97, 5.04696, 666.188]]
+//   active:b=no
+//   capzone__maxTeamPresence:i=1
+//   capzone__alwaysShow:b=no
+//   capzone_timer__timeLeft:r=-1
+//   ui_order:i=403
+//   capzone__title:t="Q"
+//   capzone__bombTemplate:t="bomb_site_common+big_action_rendinst_t_34_stz_1942_covered"
+//   capzone__bombTransformLocalPos:m=[[0.35793, 0.014588, 0.933634] [0, 0.999879, -0.0156231] [-0.933748, 0.00559197, 0.357886] [2.10791, 0.0164394, -0.920593]]
+//   capzone__caption:t="Bomb Site For Defender;; For Axis Team To Protect;Разрушен бомбой, заложенной защитниками;防守方安装炸弹销毁设备) Axis -9000 / +1000 Allies"
+//   groupName:t="s4w1"
+//   capzone__checkAllZonesInGroup:b=no
+//   capzone__canCaptureOnVehicle:b=yes
+//   capzone__plantingTeam:i=1
+//   capzone__deactivateAfterCap:b=yes
+//   capzone__iconOffsetY:r=1
+//   capzone__activateCap:t="s6a"
+//   capzone__activateAfterTeam1Cap:t="s6a"
+//   capzone__icon:t="!ui/skin#item_tnt_block_exploder.svg"
+//   capzone__decapTime:r=999999
+//   capzone__capTime:r=999999
+//   capzone__capTimeTeam2:r=999999
+//   capzone__capTimeTeam1:r=999999
+//   capzone__onlyTeamCanCapture:i=-9
+//   capzone__timeToPlant:r=30
+//   capzone__timeToResetPlant:r=15
+//   capzone__timeToExplosion:r=600
+//   capzone__timeToDefuse:r=50
+//   capzone__autoDecap:b=no
+//   capzone__autoCap:b=no
+//   capzone__presenceAdvantageToDominate:i=0
+//   capzone__maxCapDecapSpeedMult:r=0
+//   capzone__alwaysShow:b=no
+//   capzone__capRewardTeam1:r=6000
+//   capzone__capPenalty:r=39000
+// }
+
+big_action_bomb_site_zone_s4w1n2{
+  transform:m=[[-2.35065, 0, -0.393728] [0, 1, 0] [0.393728, 0, -2.35065] [-622.439, 4.48503, 1526.92]]
+  active:b=yes
+  capzone__maxTeamPresence:i=1
+  capzone__alwaysShow:b=no
+  capzone_timer__timeLeft:r=-1
+  ui_order:i=408
+  capzone__title:t="Q"
+  capzone__bombTemplate:t="bomb_site_common+big_action_rendinst_storage_tank_e"
+  capzone__bombTransformLocalPos:m=[[-0.968894, 0.0141946, -0.247066] [0.0146488, 0.999893, 0] [0.24704, -0.00361922, -0.968999] [-2.60681, 0.117818, -0.40979]]
+  capzone__caption:t="Bomb Site For Defender;; For Axis Team To Protect;Разрушен бомбой, заложенной защитниками;防守方安装炸弹销毁油料) Axis -9000 / +1000 Allies"
+  groupName:t="s4w1n2"
+  capzone__checkAllZonesInGroup:b=no
+  capzone__canCaptureOnVehicle:b=yes
+  capzone__plantingTeam:i=1
+  capzone__deactivateAfterCap:b=yes
+  capzone__iconOffsetY:r=1
+  capzone__activateCap:t="s5w1w0"
+  capzone__activateAfterTeam1Cap:t="s5w1w0"
+  capzone__icon:t="!ui/skin#item_tnt_block_exploder.svg"
+  capzone__decapTime:r=999999
+  capzone__capTime:r=999999
+  capzone__capTimeTeam2:r=999999
+  capzone__capTimeTeam1:r=999999
+  capzone__onlyTeamCanCapture:i=-9
+  capzone__timeToPlant:r=30
+  capzone__timeToResetPlant:r=15
+  capzone__timeToExplosion:r=570
+  capzone__timeToDefuse:r=50
+  capzone__autoDecap:b=no
+  capzone__autoCap:b=no
+  capzone__presenceAdvantageToDominate:i=0
+  capzone__maxCapDecapSpeedMult:r=0
+  capzone__alwaysShow:b=no
+  capzone__capRewardTeam1:r=6000
+  capzone__capPenalty:r=54000
+  capzone__createRespawnBaseForTeam:i=1
+  capzone__createdRespawnBaseGroup:i=40202
+  capzone__spawnAtZoneTimeout:r=160
+  capzone__createRespawnBase:t="respawnBaseGroupActivator"
+}
+
+// big_action_bomb_site_zone_s4e1{
+//   transform:m=[[-0.353272, -0.0200097, 2.35699] [-9.76886e-11, 0.999964, 0.00848922] [-2.35707, 0.00299901, -0.353259] [1086.74, 26.2269, 1127.31]]
+//   active:b=no
+//   capzone__maxTeamPresence:i=1
+//   capzone__alwaysShow:b=no
+//   capzone_timer__timeLeft:r=-1
+//   ui_order:i=562
+//   capzone__title:t="Q"
+//   capzone__bombTemplate:t="bomb_site_common+big_action_rendinst_t_34_stz_1942_covered"
+//   capzone__bombTransformLocalPos:m=[[0.990428, 0.00280189, 0.137991] [-0.00719947, 0.999482, 0.0313798] [-0.137832, -0.0320729, 0.989936] [0.282837, 0.0286446, -2.39905]]
+//   capzone__caption:t="Bomb Site For Defender; Разрушен бомбой, заложенной защитниками;防守方安装炸弹销毁设备) Axis -9000 / +1000 Allies"
+//   groupName:t="s4e1"
+//   capzone__checkAllZonesInGroup:b=no
+//   capzone__canCaptureOnVehicle:b=yes
+//   capzone__plantingTeam:i=1
+//   capzone__deactivateAfterCap:b=yes
+//   capzone__iconOffsetY:r=1
+//   capzone__activateCap:t="s4e1n2"
+//   capzone__activateAfterTeam1Cap:t="s4e1n2"
+//   capzone__icon:t="!ui/skin#item_tnt_block_exploder.svg"
+//   capzone__decapTime:r=999999
+//   capzone__capTime:r=999999
+//   capzone__capTimeTeam2:r=999999
+//   capzone__capTimeTeam1:r=999999
+//   capzone__onlyTeamCanCapture:i=-9
+//   capzone__timeToPlant:r=30
+//   capzone__timeToResetPlant:r=15
+//   capzone__timeToExplosion:r=600
+//   capzone__timeToDefuse:r=60
+//   capzone__autoDecap:b=no
+//   capzone__autoCap:b=no
+//   capzone__presenceAdvantageToDominate:i=0
+//   capzone__maxCapDecapSpeedMult:r=0
+//   capzone__capRewardTeam1:r=6000
+//   capzone__capPenalty:r=39000
+//   capzone__createRespawnBaseForTeam:i=1
+//   capzone__createdRespawnBaseGroup:i=42101
+//   capzone__spawnAtZoneTimeout:r=1290
+//   capzone__createRespawnBase:t="respawnBaseGroupActivator"
+// }
+
+big_action_bomb_site_zone_s2n1c0{
+  active:b=no
+  capzone__maxTeamPresence:i=1
+  capzone__alwaysShow:b=no
+  capzone_timer__timeLeft:r=-1
+  capzone__title:t="Q"
+  capzone__bombTemplate:t="bomb_site_common+big_action_rendinst_storage_tank_f"
+  capzone__caption:t="Bomb Site For Defender; Разрушен бомбой, заложенной защитниками;防守方安装炸弹销毁物资) Axis -9000 / +2000 Allies"
+  groupName:t="s2n1c0"
+  capzone__checkAllZonesInGroup:b=no
+  capzone__canCaptureOnVehicle:b=yes
+  capzone__plantingTeam:i=1
+  capzone__deactivateAfterCap:b=yes
+  capzone__iconOffsetY:r=1
+  capzone__icon:t="!ui/skin#item_tnt_block_exploder.svg"
+  capzone__decapTime:r=999999
+  capzone__capTime:r=999999
+  capzone__capTimeTeam2:r=999999
+  capzone__capTimeTeam1:r=999999
+  capzone__onlyTeamCanCapture:i=-9
+  capzone__timeToPlant:r=60
+  capzone__timeToResetPlant:r=15
+  capzone__timeToExplosion:r=660
+  capzone__timeToDefuse:r=50
+  capzone__autoDecap:b=no
+  capzone__autoCap:b=no
+  capzone__presenceAdvantageToDominate:i=0
+  capzone__maxCapDecapSpeedMult:r=0
+  capzone__alwaysShow:b=no
+  capzone__capRewardTeam1:r=12000
+  capzone__capPenalty:r=54000
+}

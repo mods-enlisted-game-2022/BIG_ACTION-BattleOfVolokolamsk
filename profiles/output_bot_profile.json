@@ -1,0 +1,3909 @@
+{
+  "moscow_allies": {
+    "armyId": "moscow_allies",
+    "boosters": [],
+    "campaignId": "common",
+    "classBonus": {},
+    "country": "moscow_allies",
+    "curSquadId": "ussr_moscow_rifle_1",
+    "exp": 0,
+    "expToLevel": [
+      1
+    ],
+    "freemiumExpMult": 1,
+    "globalData": {
+      "globalGifts": {},
+      "globalGiftsCfg": [
+        {
+          "army": "common_army",
+          "basetpl": "enlisted_silver",
+          "loopCount": 5,
+          "loopExp": 47,
+          "startCount": 5,
+          "startExp": 47
+        }
+      ]
+    },
+    "growthExp": 0,
+    "growthProgress": {
+      "exp": 0,
+      "growthCfg": {
+        "expRequired": 1,
+        "id": "toz_b",
+        "reward": {
+          "armyId": "moscow_allies",
+          "itemTemplate": "blaster_ussr",
+          "squadId": ""
+        }
+      },
+      "item": {
+        "gametemplate": "blaster_ussr_gun",
+        "itemsubtype": "blaster_ussr",
+        "itemtype": "submgun",
+        "tier": 1
+      },
+      "status": 1
+    },
+    "isArmyProgressLocked": false,
+    "isFakeSquads": false,
+    "level": 0,
+    "squads": [
+      {
+        "artilleryCooldownMul": 1,
+        "artilleryTypeUnlocks": [],
+        "curVehicle": null,
+        "engineerUnlocks": [],
+        "exp": 1000,
+        "expBonus": 1,
+        "isRented": false,
+        "level": 0,
+        "squad": [
+          {
+            "appearance__rndSeed": 5360,
+            "availPerks": 1,
+            "bodyScale": {
+              "height": 1,
+              "width": 1
+            },
+            "callname": "",
+            "equipment": {
+              "belt_1": {
+                "gametemplate": "attachable_wear_belt_nkvd_ussr_winter_item",
+                "slot": "belt_1"
+              },
+              "belt_2": {
+                "gametemplate": "attachable_wear_belt_shoulder_nkvd_ussr_winter_item",
+                "slot": "belt_2"
+              },
+              "chest": {
+                "gametemplate": "attachable_wear_bandolier_nkvd_ussr_winter_item",
+                "slot": "chest"
+              },
+              "face": {
+                "gametemplate": "attachable_wear_head_male_18b_us_item",
+                "slot": "face"
+              },
+              "flask_r": {
+                "gametemplate": "attachable_wear_flask_nkvd_ussr_winter_item",
+                "slot": "flask_r"
+              },
+              "front_belt_r": {
+                "gametemplate": "attachable_wear_pouch_ppsh_r_07_ussr_winter_item",
+                "slot": "front_belt_r"
+              },
+              "gloves": {
+                "gametemplate": "attachable_wear_nkvd_gloves_ussr_winter_item",
+                "slot": "gloves"
+              },
+              "skined_helmet": {
+                "gametemplate": "nkvd_cap_ussr_winter_item",
+                "slot": "skined_helmet"
+              },
+              "pants": {
+                "gametemplate": "attachable_wear_pants_04_ussr_winter_item",
+                "slot": "pants"
+              },
+              "tunic": {
+                "gametemplate": "attachable_wear_nkvd_overcoat_m35_ussr_winter_item",
+                "slot": "tunic"
+              }
+            },
+            "exp": 0,
+            "gametemplate": "ussr_base_soldier",
+            "guid": "human_4087020",
+            "heroTpl": "",
+            "human_weap__weapInfo": [
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 9,
+                "reserveAmmoTemplate": "tt_magazine"
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              }
+            ],
+            "human_weap__weapInitialComponents": [
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "human_weap__weapTemplates": {
+              "grenade": "grenade_thrower",
+              "melee": "axe_weapon",
+              "primary": "",
+              "secondary": "ussr_building_tool_gun_bot",
+              "tertiary": "tt_33_gun"
+            },
+            "id": 0,
+            "inventory": [
+              {
+                "gametemplate": "tnt_block_exploder"
+              },
+              {
+                "gametemplate": "ussr_molotov_item"
+              },
+              {
+                "gametemplate": "ussr_medkit_item"
+              },
+              {
+                "gametemplate": "explosion_pack_item"
+              },
+              {
+                "gametemplate": "explosion_pack_item"
+              }
+            ],
+            "isPremium": false,
+            "level": 3,
+            "maxLevel": 3,
+            "name": "Zahar",
+            "perkPoints": {
+              "vitality": 16,
+              "speed": 16,
+              "weapon": 12
+            },
+            "perks": [
+              {
+                "name": "starter_rifle",
+                "stats": [
+                  {
+                    "statKey": "sprint_speed",
+                    "statValue": 0.02
+                  },
+                  {
+                    "statValue": 0.2,
+                    "statKey": "faster_self_fire_putout"
+                  },
+                  {
+                    "statValue": 0.05,
+                    "statKey": "crawl_crouch_speed"
+                  }
+                ]
+              }
+            ],
+            "perksCount": 1,
+            "sClass": "engineer",
+            "sKind": "engineer",
+            "surname": "Alekseev",
+            "tier": 1,
+            "weaponPreset": "",
+            "country": "",
+            "__squadType": "assault",
+            "__squadId": "ussr_moscow_assault_1",
+            "__faction": "moscow_allies",
+            "__currIndex": 5
+          },
+          {
+            "appearance__rndSeed": 25270,
+            "availPerks": 2,
+            "bodyScale": {
+              "height": 1,
+              "width": 1
+            },
+            "callname": "",
+            "equipment": {
+              "bag_l": {
+                "gametemplate": "attachable_wear_gasmask_nkvd_ussr_winter_item",
+                "slot": "bag_l"
+              },
+              "belt_1": {
+                "gametemplate": "attachable_wear_belt_nkvd_ussr_winter_item",
+                "slot": "belt_1"
+              },
+              "belt_2": {
+                "gametemplate": "attachable_wear_belt_shoulder_nkvd_ussr_winter_item",
+                "slot": "belt_2"
+              },
+              "chest": {
+                "gametemplate": "attachable_wear_bandolier_nkvd_ussr_winter_item",
+                "slot": "chest"
+              },
+              "face": {
+                "gametemplate": "attachable_wear_head_male_31_us_item",
+                "slot": "face"
+              },
+              "flask_r": {
+                "gametemplate": "attachable_wear_flask_nkvd_ussr_winter_item",
+                "slot": "flask_r"
+              },
+              "front_belt_r": {
+                "gametemplate": "attachable_wear_pouch_ppsh_r_07_ussr_winter_item",
+                "slot": "front_belt_r"
+              },
+              "gloves": {
+                "gametemplate": "attachable_wear_nkvd_gloves_ussr_winter_item",
+                "slot": "gloves"
+              },
+              "hair": {
+                "gametemplate": "hair_02_us_summer_item",
+                "slot": "hair"
+              },
+              "skined_helmet": {
+                "gametemplate": "nkvd_cap_ussr_winter_item",
+                "slot": "skined_helmet"
+              },
+              "pants": {
+                "gametemplate": "attachable_wear_pants_04_ussr_winter_item",
+                "slot": "pants"
+              },
+              "rear_belt_l": {
+                "gametemplate": "attachable_wear_nkvd_tablet_ussr_winter_item",
+                "slot": "rear_belt_l"
+              },
+              "tunic": {
+                "gametemplate": "attachable_wear_nkvd_overcoat_m35_ussr_winter_item",
+                "slot": "tunic"
+              }
+            },
+            "exp": 0,
+            "gametemplate": "ussr_base_soldier",
+            "guid": "human_3929510",
+            "heroTpl": "",
+            "human_weap__weapInfo": [
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 4,
+                "reserveAmmoTemplate": "ppsh_magazine"
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              }
+            ],
+            "human_weap__weapInitialComponents": [
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "human_weap__weapTemplates": {
+              "grenade": "grenade_thrower",
+              "melee": "axe_weapon",
+              "primary": "ppsh_41_box_gun",
+              "secondary": "ussr_building_tool_gun_bot",
+              "tertiary": ""
+            },
+            "id": 1,
+            "inventory": [
+              {
+                "gametemplate": "tnt_block_exploder"
+              },
+              {
+                "gametemplate": "ussr_molotov_item"
+              },
+              {
+                "gametemplate": "ussr_medkit_item"
+              },
+              {
+                "gametemplate": "medic_medkit_item"
+              },
+              {
+                "gametemplate": "medic_medkit_item"
+              }
+            ],
+            "isPremium": false,
+            "level": 3,
+            "maxLevel": 3,
+            "name": "Kirill",
+            "perkPoints": {
+              "vitality": 16,
+              "speed": 16,
+              "weapon": 12
+            },
+            "perks": [
+              {
+                "name": "starter_rifle",
+                "stats": [
+                  {
+                    "statKey": "sprint_speed",
+                    "statValue": 0.02
+                  },
+                  {
+                    "statValue": 0.2,
+                    "statKey": "faster_self_fire_putout"
+                  },
+                  {
+                    "statValue": 0.05,
+                    "statKey": "crawl_crouch_speed"
+                  }
+                ]
+              }
+            ],
+            "perksCount": 1,
+            "sClass": "medic",
+            "sKind": "medic",
+            "surname": "Suslov",
+            "tier": 2,
+            "weaponPreset": "",
+            "country": "",
+            "__squadType": "assault",
+            "__squadId": "ussr_moscow_assault_1",
+            "__faction": "moscow_allies",
+            "__currIndex": 4
+          },
+          {
+            "appearance__rndSeed": 7690,
+            "availPerks": 2,
+            "bodyScale": {
+              "height": 1,
+              "width": 1
+            },
+            "callname": "",
+            "equipment": {
+              "bag_l": {
+                "gametemplate": "attachable_wear_gasmask_nkvd_ussr_winter_item",
+                "slot": "bag_l"
+              },
+              "belt_1": {
+                "gametemplate": "attachable_wear_belt_nkvd_ussr_winter_item",
+                "slot": "belt_1"
+              },
+              "belt_2": {
+                "gametemplate": "attachable_wear_belt_shoulder_nkvd_ussr_winter_item",
+                "slot": "belt_2"
+              },
+              "chest": {
+                "gametemplate": "attachable_wear_bandolier_nkvd_ussr_winter_item",
+                "slot": "chest"
+              },
+              "face": {
+                "gametemplate": "attachable_wear_head_male_31_us_item",
+                "slot": "face"
+              },
+              "flask_r": {
+                "gametemplate": "attachable_wear_flask_nkvd_ussr_winter_item",
+                "slot": "flask_r"
+              },
+              "front_belt_r": {
+                "gametemplate": "attachable_wear_pouch_ppsh_r_07_ussr_winter_item",
+                "slot": "front_belt_r"
+              },
+              "gloves": {
+                "gametemplate": "attachable_wear_nkvd_gloves_ussr_winter_item",
+                "slot": "gloves"
+              },
+              "hair": {
+                "gametemplate": "hair_02_us_summer_item",
+                "slot": "hair"
+              },
+              "skined_helmet": {
+                "gametemplate": "nkvd_cap_ussr_winter_item",
+                "slot": "skined_helmet"
+              },
+              "pants": {
+                "gametemplate": "attachable_wear_pants_04_ussr_winter_item",
+                "slot": "pants"
+              },
+              "rear_belt_l": {
+                "gametemplate": "attachable_wear_nkvd_tablet_ussr_winter_item",
+                "slot": "rear_belt_l"
+              },
+              "tunic": {
+                "gametemplate": "attachable_wear_nkvd_overcoat_m35_ussr_winter_item",
+                "slot": "tunic"
+              }
+            },
+            "exp": 0,
+            "gametemplate": "ussr_base_soldier",
+            "guid": "human_7916631",
+            "heroTpl": "",
+            "human_weap__weapInfo": [
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {
+                  "bayonet": "mosin_m1930_bayonet_item"
+                },
+                "numReserveAmmo": 5,
+                "reserveAmmoTemplate": "mosin_magazine"
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              }
+            ],
+            "human_weap__weapInitialComponents": [
+              {
+                "gun__reloadTime": -1,
+                "gun_spread__maxDeltaAngle": -6,
+                "gun__kineticDamageMult": 3
+              },
+              {},
+              {},
+              {},
+              {}
+            ],
+            "human_weap__weapTemplates": {
+              "grenade": "grenade_thrower",
+              "melee": "knife_weapon",
+              "primary": "",
+              "secondary": "mosin_dragoon_gun",
+              "tertiary": ""
+            },
+            "id": 2,
+            "inventory": [
+              {
+                "gametemplate": "tnt_block_exploder"
+              },
+              {
+                "gametemplate": "ussr_molotov_item"
+              },
+              {
+                "gametemplate": "ussr_medkit_item"
+              }
+            ],
+            "isPremium": false,
+            "level": 3,
+            "maxLevel": 3,
+            "name": "Kirill",
+            "perkPoints": {
+              "vitality": 16,
+              "speed": 16,
+              "weapon": 12
+            },
+            "perks": [
+              {
+                "name": "starter_rifle",
+                "stats": [
+                  {
+                    "statKey": "sprint_speed",
+                    "statValue": 0.02
+                  },
+                  {
+                    "statValue": 0.2,
+                    "statKey": "faster_self_fire_putout"
+                  },
+                  {
+                    "statValue": 0.05,
+                    "statKey": "crawl_crouch_speed"
+                  }
+                ]
+              }
+            ],
+            "perksCount": 1,
+            "sClass": "rifle",
+            "sKind": "rifle",
+            "surname": "Suslov",
+            "tier": 2,
+            "weaponPreset": "",
+            "country": "",
+            "__squadType": "assault",
+            "__squadId": "ussr_moscow_assault_1",
+            "__faction": "moscow_allies",
+            "__currIndex": 4
+          },
+          {
+            "bodyScale": {
+              "height": 1,
+              "width": 1
+            },
+            "callname": "",
+            "country": "ussr",
+            "equipment": {
+              "bag_l": {
+                "gametemplate": "attachable_wear_gasmask_01_ussr_winter_item",
+                "slot": "bag_l"
+              },
+              "belt_1": {
+                "gametemplate": "attachable_wear_belt_1_01_ussr_winter_item",
+                "slot": "belt_1"
+              },
+              "belt_2": {
+                "gametemplate": "attachable_wear_belt_2_01_ussr_winter_item",
+                "slot": "belt_2"
+              },
+              "chest": {
+                "gametemplate": "attachable_wear_bandolier_01_ussr_winter_item",
+                "slot": "chest"
+              },
+              "face": {
+                "gametemplate": "attachable_wear_head_male_30_ussr_item",
+                "slot": "face"
+              },
+              "flask_r": {
+                "gametemplate": "attachable_wear_flask_01_ussr_winter_item",
+                "slot": "flask_r"
+              },
+              "front_belt_l": {
+                "gametemplate": "attachable_wear_nagan_holster_l_01_ussr_winter_item",
+                "slot": "front_belt_l"
+              },
+              "gloves": {
+                "gametemplate": "attachable_wear_hands_01_ussr_summer_item",
+                "slot": "gloves"
+              },
+              "hair": {
+                "gametemplate": "hair_01_us_summer_item",
+                "slot": "hair"
+              },
+              "pants": {
+                "gametemplate": "attachable_wear_pants_01_2_windings_ussr_winter_item",
+                "slot": "pants"
+              },
+              "rear_belt_l": {
+                "gametemplate": "attachable_wear_axe_pouch_01_ussr_winter_item",
+                "slot": "rear_belt_l"
+              },
+              "skined_helmet": {
+                "gametemplate": "helmet_05_ussr_summer_item",
+                "slot": "skined_helmet"
+              },
+              "tunic": {
+                "gametemplate": "attachable_wear_engineers_overcoat_ussr_winter_item",
+                "slot": "tunic"
+              }
+            },
+            "exp": 0,
+            "gametemplate": "ussr_base_soldier",
+            "guid": "human_480515",
+            "human_weap__weapInfo": [
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {
+                  "bayonet": "svt_40_bayonet"
+                },
+                "numReserveAmmo": 5,
+                "reserveAmmoTemplate": "svt_40_magazine"
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              }
+            ],
+            "human_weap__weapInitialComponents": [
+              {
+                "gun__reloadTime": -1,
+                "gun_spread__maxDeltaAngle": -6,
+                "gun__kineticDamageMult": 3
+              },
+              {},
+              {},
+              {},
+              {}
+            ],
+            "human_weap__weapTemplates": {
+              "grenade": "grenade_thrower",
+              "melee": "knife_weapon",
+              "primary": "",
+              "secondary": "svt_40_gun",
+              "tertiary": ""
+            },
+            "id": 3,
+            "inventory": [
+              {
+                "gametemplate": "tnt_block_exploder"
+              },
+              {
+                "gametemplate": "ussr_molotov_item"
+              },
+              {
+                "gametemplate": "ussr_medkit_item"
+              }
+            ],
+            "isHero": false,
+            "isPremium": false,
+            "level": 3,
+            "maxLevel": 3,
+            "name": "Aleksey",
+            "perkPoints": {
+              "vitality": 16,
+              "speed": 16,
+              "weapon": 12
+            },
+            "perks": [
+              {
+                "name": "starter_rifle",
+                "stats": [
+                  {
+                    "statKey": "sprint_speed",
+                    "statValue": 0.02
+                  },
+                  {
+                    "statValue": 0.2,
+                    "statKey": "faster_self_fire_putout"
+                  },
+                  {
+                    "statValue": 0.05,
+                    "statKey": "crawl_crouch_speed"
+                  }
+                ]
+              }
+            ],
+            "sClass": "rifle",
+            "sKind": "rifle",
+            "surname": "Popov",
+            "tier": 1,
+            "weaponPreset": "",
+            "__squadType": "engineer",
+            "__squadId": "ussr_moscow_engineer_1",
+            "__faction": "moscow_allies",
+            "__currIndex": 2,
+            "appearance__rndSeed": 12642,
+            "perksCount": 1
+          },
+          {
+            "appearance__rndSeed": 29440,
+            "availPerks": 2,
+            "bodyScale": {
+              "height": 1,
+              "width": 1
+            },
+            "callname": "",
+            "equipment": {
+              "belt_1": {
+                "gametemplate": "attachable_wear_belt_1_01_ussr_winter_item",
+                "slot": "belt_1"
+              },
+              "belt_2": {
+                "gametemplate": "attachable_wear_belt_2_01_ussr_winter_item",
+                "slot": "belt_2"
+              },
+              "face": {
+                "gametemplate": "attachable_wear_head_male_18b_us_item",
+                "slot": "face"
+              },
+              "flask_r": {
+                "gametemplate": "attachable_wear_flask_01_ussr_winter_item",
+                "slot": "flask_r"
+              },
+              "front_belt_r": {
+                "gametemplate": "attachable_wear_pouch_ppsh_r_07_ussr_winter_item",
+                "slot": "front_belt_r"
+              },
+              "gloves": {
+                "gametemplate": "attachable_wear_gloves_01_ussr_winter_item",
+                "slot": "gloves"
+              },
+              "hair": {
+                "gametemplate": "hair_02_us_summer_item",
+                "slot": "hair"
+              },
+              "skined_helmet": {
+                "gametemplate": "helmet_05_ussr_summer_item",
+                "slot": "skined_helmet"
+              },
+              "pants": {
+                "gametemplate": "attachable_wear_pants_01_2_windings_ussr_winter_item",
+                "slot": "pants"
+              },
+              "rear_belt_l": {
+                "gametemplate": "attachable_wear_axe_pouch_01_ussr_winter_item",
+                "slot": "rear_belt_l"
+              },
+              "tunic": {
+                "gametemplate": "attachable_wear_engineers_overcoat_2_ussr_winter_item",
+                "slot": "tunic"
+              }
+            },
+            "exp": 1186,
+            "gametemplate": "ussr_base_soldier",
+            "guid": "human_3133319",
+            "heroTpl": "",
+            "human_weap__weapInfo": [
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 10,
+                "reserveAmmoTemplate": "ptrd_41_magazine"
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 3,
+                "reserveAmmoTemplate": "tt_magazine"
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              }
+            ],
+            "human_weap__weapInitialComponents": [
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "human_weap__weapTemplates": {
+              "grenade": "grenade_thrower",
+              "melee": "knife_weapon",
+              "primary": "ptrd_41_gun",
+              "secondary": "",
+              "tertiary": "tt_33_gun"
+            },
+            "id": 4,
+            "inventory": [
+              {
+                "gametemplate": "tnt_block_exploder"
+              },
+              {
+                "gametemplate": "ussr_molotov_item"
+              },
+              {
+                "gametemplate": "ussr_medkit_item"
+              },
+              {
+                "gametemplate": "ussr_binoculars_item"
+              }
+            ],
+            "isPremium": false,
+            "level": 4,
+            "maxLevel": 4,
+            "name": "Kirill",
+            "perkPoints": {
+              "vitality": 17,
+              "speed": 13,
+              "weapon": 16
+            },
+            "perks": [
+              {
+                "name": "starter_rifle",
+                "stats": [
+                  {
+                    "statKey": "sprint_speed",
+                    "statValue": 0.02
+                  },
+                  {
+                    "statValue": 0.2,
+                    "statKey": "faster_self_fire_putout"
+                  },
+                  {
+                    "statValue": 0.05,
+                    "statKey": "crawl_crouch_speed"
+                  }
+                ]
+              }
+            ],
+            "perksCount": 1,
+            "sClass": "anti_tank",
+            "sKind": "anti_tank",
+            "surname": "Voroncov",
+            "tier": 4,
+            "weaponPreset": "",
+            "country": "",
+            "__squadType": "engineer",
+            "__squadId": "ussr_moscow_engineer_1",
+            "__faction": "moscow_allies",
+            "__currIndex": 1
+          }
+        ],
+        "squadId": "ussr_moscow_rifle_1",
+        "squadType": "rifle",
+        "toLevelExp": 9000,
+        "vehicleType": ""
+      },
+      {
+        "artilleryCooldownMul": 1,
+        "artilleryTypeUnlocks": [],
+        "curVehicle": null,
+        "engineerUnlocks": [],
+        "exp": 1000,
+        "expBonus": 1,
+        "isRented": false,
+        "level": 0,
+        "squad": [
+          {
+            "appearance__rndSeed": 22790,
+            "availPerks": 0,
+            "bodyScale": {
+              "height": 1,
+              "width": 1
+            },
+            "callname": "",
+            "equipment": {
+              "bag_l": {
+                "gametemplate": "attachable_wear_gasmask_nkvd_ussr_winter_item",
+                "slot": "bag_l"
+              },
+              "belt_1": {
+                "gametemplate": "attachable_wear_belt_nkvd_ussr_winter_item",
+                "slot": "belt_1"
+              },
+              "face": {
+                "gametemplate": "attachable_wear_head_male_31_us_item",
+                "slot": "face"
+              },
+              "flask_r": {
+                "gametemplate": "attachable_wear_flask_nkvd_ussr_winter_item",
+                "slot": "flask_r"
+              },
+              "gloves": {
+                "gametemplate": "attachable_wear_nkvd_gloves_ussr_winter_item",
+                "slot": "gloves"
+              },
+              "skined_helmet": {
+                "gametemplate": "nkvd_cap_ussr_winter_item",
+                "slot": "skined_helmet"
+              },
+              "pants": {
+                "gametemplate": "attachable_wear_pants_04_ussr_winter_item",
+                "slot": "pants"
+              },
+              "tunic": {
+                "gametemplate": "attachable_wear_nkvd_overcoat_m35_ussr_winter_item",
+                "slot": "tunic"
+              }
+            },
+            "exp": 0,
+            "gametemplate": "ussr_base_soldier",
+            "guid": "human_333275",
+            "heroTpl": "",
+            "human_weap__weapInfo": [
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 9,
+                "reserveAmmoTemplate": "tt_magazine"
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              }
+            ],
+            "human_weap__weapInitialComponents": [
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "human_weap__weapTemplates": {
+              "grenade": "grenade_thrower",
+              "melee": "axe_weapon",
+              "primary": "",
+              "secondary": "ussr_building_tool_gun_bot",
+              "tertiary": "tt_33_gun"
+            },
+            "id": 0,
+            "inventory": [
+              {
+                "gametemplate": "tnt_block_exploder"
+              },
+              {
+                "gametemplate": "ussr_molotov_item"
+              },
+              {
+                "gametemplate": "ussr_medkit_item"
+              },
+              {
+                "gametemplate": "explosion_pack_item"
+              },
+              {
+                "gametemplate": "explosion_pack_item"
+              }
+            ],
+            "isPremium": false,
+            "level": 3,
+            "maxLevel": 3,
+            "name": "Evsey",
+            "perkPoints": {
+              "vitality": 16,
+              "speed": 16,
+              "weapon": 12
+            },
+            "perks": [
+              {
+                "name": "starter_rifle",
+                "stats": [
+                  {
+                    "statKey": "sprint_speed",
+                    "statValue": 0.02
+                  },
+                  {
+                    "statValue": 0.2,
+                    "statKey": "faster_self_fire_putout"
+                  },
+                  {
+                    "statValue": 0.05,
+                    "statKey": "crawl_crouch_speed"
+                  }
+                ]
+              }
+            ],
+            "perksCount": 1,
+            "sClass": "engineer",
+            "sKind": "engineer",
+            "surname": "Ivanov",
+            "tier": 1,
+            "weaponPreset": "",
+            "country": "",
+            "__squadType": "assault",
+            "__squadId": "ussr_moscow_assault_1",
+            "__faction": "moscow_allies",
+            "__currIndex": 2
+          },
+          {
+            "bodyScale": {
+              "height": 1,
+              "width": 1
+            },
+            "callname": "",
+            "country": "ussr",
+            "equipment": {
+              "bag_l": {
+                "gametemplate": "attachable_wear_gasmask_01_ussr_winter_item",
+                "slot": "bag_l"
+              },
+              "belt_1": {
+                "gametemplate": "attachable_wear_belt_1_01_ussr_winter_item",
+                "slot": "belt_1"
+              },
+              "belt_2": {
+                "gametemplate": "attachable_wear_belt_2_01_ussr_winter_item",
+                "slot": "belt_2"
+              },
+              "chest": {
+                "gametemplate": "attachable_wear_bandolier_01_ussr_winter_item",
+                "slot": "chest"
+              },
+              "face": {
+                "gametemplate": "ussr_gen_head_02",
+                "slot": "face"
+              },
+              "flask_r": {
+                "gametemplate": "attachable_wear_flask_01_ussr_winter_item",
+                "slot": "flask_r"
+              },
+              "gloves": {
+                "gametemplate": "attachable_wear_gloves_01_ussr_winter_item",
+                "slot": "gloves"
+              },
+              "pants": {
+                "gametemplate": "attachable_wear_pants_01_windings_ussr_winter_item",
+                "slot": "pants"
+              },
+              "rear_belt_l": {
+                "gametemplate": "attachable_wear_officer_tablet_01_ussr_winter_item",
+                "slot": "rear_belt_l"
+              },
+              "skined_helmet": {
+                "gametemplate": "helmet_01_ussr_winter_item",
+                "slot": "skined_helmet"
+              },
+              "tunic": {
+                "gametemplate": "attachable_wear_overcoat_01_ussr_winter_item",
+                "slot": "tunic"
+              }
+            },
+            "exp": 0,
+            "gametemplate": "ussr_base_soldier",
+            "guid": "human_3332445",
+            "human_weap__weapInfo": [
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 4,
+                "reserveAmmoTemplate": "ppsh_magazine"
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              }
+            ],
+            "human_weap__weapInitialComponents": [
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "human_weap__weapTemplates": {
+              "grenade": "grenade_thrower",
+              "melee": "axe_weapon",
+              "primary": "ppsh_41_box_gun",
+              "secondary": "ussr_building_tool_gun_bot",
+              "tertiary": ""
+            },
+            "id": 1,
+            "inventory": [
+              {
+                "gametemplate": "tnt_block_exploder"
+              },
+              {
+                "gametemplate": "ussr_molotov_item"
+              },
+              {
+                "gametemplate": "ussr_medkit_item"
+              },
+              {
+                "gametemplate": "medic_medkit_item"
+              },
+              {
+                "gametemplate": "medic_medkit_item"
+              }
+            ],
+            "isHero": false,
+            "isPremium": false,
+            "level": 3,
+            "maxLevel": 3,
+            "name": "Egor",
+            "perkPoints": {
+              "vitality": 16,
+              "speed": 16,
+              "weapon": 12
+            },
+            "perks": [
+              {
+                "name": "starter_rifle",
+                "stats": [
+                  {
+                    "statKey": "sprint_speed",
+                    "statValue": 0.02
+                  },
+                  {
+                    "statValue": 0.2,
+                    "statKey": "faster_self_fire_putout"
+                  },
+                  {
+                    "statValue": 0.05,
+                    "statKey": "crawl_crouch_speed"
+                  }
+                ]
+              }
+            ],
+            "sClass": "medic",
+            "sKind": "medic",
+            "surname": "Petrov",
+            "tier": 1,
+            "weaponPreset": "",
+            "__squadType": "rifle",
+            "__squadId": "ussr_moscow_rifle_1",
+            "__faction": "moscow_allies",
+            "__currIndex": 4,
+            "appearance__rndSeed": 1335,
+            "perksCount": 1
+          },
+          {
+            "bodyScale": {
+              "height": 1,
+              "width": 1
+            },
+            "callname": "",
+            "country": "ussr",
+            "equipment": {
+              "bag_l": {
+                "gametemplate": "attachable_wear_gasmask_01_ussr_winter_item",
+                "slot": "bag_l"
+              },
+              "belt_1": {
+                "gametemplate": "attachable_wear_belt_1_01_ussr_winter_item",
+                "slot": "belt_1"
+              },
+              "belt_2": {
+                "gametemplate": "attachable_wear_belt_2_01_ussr_winter_item",
+                "slot": "belt_2"
+              },
+              "chest": {
+                "gametemplate": "attachable_wear_bandolier_01_ussr_winter_item",
+                "slot": "chest"
+              },
+              "face": {
+                "gametemplate": "ussr_gen_head_02",
+                "slot": "face"
+              },
+              "flask_r": {
+                "gametemplate": "attachable_wear_flask_01_ussr_winter_item",
+                "slot": "flask_r"
+              },
+              "gloves": {
+                "gametemplate": "attachable_wear_gloves_01_ussr_winter_item",
+                "slot": "gloves"
+              },
+              "pants": {
+                "gametemplate": "attachable_wear_pants_01_windings_ussr_winter_item",
+                "slot": "pants"
+              },
+              "rear_belt_l": {
+                "gametemplate": "attachable_wear_officer_tablet_01_ussr_winter_item",
+                "slot": "rear_belt_l"
+              },
+              "skined_helmet": {
+                "gametemplate": "helmet_01_ussr_winter_item",
+                "slot": "skined_helmet"
+              },
+              "tunic": {
+                "gametemplate": "attachable_wear_overcoat_01_ussr_winter_item",
+                "slot": "tunic"
+              }
+            },
+            "exp": 0,
+            "gametemplate": "ussr_base_soldier",
+            "guid": "human_735516",
+            "human_weap__weapInfo": [
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {
+                  "bayonet": "mosin_m1930_bayonet_item"
+                },
+                "numReserveAmmo": 5,
+                "reserveAmmoTemplate": "mosin_magazine"
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              }
+            ],
+            "human_weap__weapInitialComponents": [
+              {
+                "gun__reloadTime": -1,
+                "gun_spread__maxDeltaAngle": -6,
+                "gun__kineticDamageMult": 3
+              },
+              {},
+              {},
+              {},
+              {}
+            ],
+            "human_weap__weapTemplates": {
+              "grenade": "grenade_thrower",
+              "melee": "knife_weapon",
+              "primary": "",
+              "secondary": "mosin_m91_30_gun",
+              "tertiary": ""
+            },
+            "id": 2,
+            "inventory": [
+              {
+                "gametemplate": "tnt_block_exploder"
+              },
+              {
+                "gametemplate": "ussr_molotov_item"
+              },
+              {
+                "gametemplate": "ussr_medkit_item"
+              }
+            ],
+            "isHero": false,
+            "isPremium": false,
+            "level": 3,
+            "maxLevel": 3,
+            "name": "Egor",
+            "perkPoints": {
+              "vitality": 16,
+              "speed": 16,
+              "weapon": 12
+            },
+            "perks": [
+              {
+                "name": "starter_rifle",
+                "stats": [
+                  {
+                    "statKey": "sprint_speed",
+                    "statValue": 0.02
+                  },
+                  {
+                    "statValue": 0.2,
+                    "statKey": "faster_self_fire_putout"
+                  },
+                  {
+                    "statValue": 0.05,
+                    "statKey": "crawl_crouch_speed"
+                  }
+                ]
+              }
+            ],
+            "sClass": "rifle",
+            "sKind": "rifle",
+            "surname": "Petrov",
+            "tier": 1,
+            "weaponPreset": "",
+            "__squadType": "rifle",
+            "__squadId": "ussr_moscow_rifle_1",
+            "__faction": "moscow_allies",
+            "__currIndex": 4,
+            "appearance__rndSeed": 29422,
+            "perksCount": 1
+          },
+          {
+            "bodyScale": {
+              "height": 1,
+              "width": 1
+            },
+            "callname": "",
+            "country": "ussr",
+            "equipment": {
+              "bag_l": {
+                "gametemplate": "attachable_wear_gasmask_01_ussr_winter_item",
+                "slot": "bag_l"
+              },
+              "belt_1": {
+                "gametemplate": "attachable_wear_belt_1_01_ussr_winter_item",
+                "slot": "belt_1"
+              },
+              "belt_2": {
+                "gametemplate": "attachable_wear_belt_2_01_ussr_winter_item",
+                "slot": "belt_2"
+              },
+              "face": {
+                "gametemplate": "attachable_wear_head_male_31_us_item",
+                "slot": "face"
+              },
+              "flask_r": {
+                "gametemplate": "attachable_wear_flask_01_ussr_winter_item",
+                "slot": "flask_r"
+              },
+              "gloves": {
+                "gametemplate": "attachable_wear_hands_01_ussr_summer_item",
+                "slot": "gloves"
+              },
+              "hair": {
+                "gametemplate": "hair_02_us_summer_item",
+                "slot": "hair"
+              },
+              "pants": {
+                "gametemplate": "attachable_wear_pants_01_3_windings_ussr_winter_item",
+                "slot": "pants"
+              },
+              "rear_belt_l": {
+                "gametemplate": "attachable_wear_axe_pouch_01_ussr_winter_item",
+                "slot": "rear_belt_l"
+              },
+              "skined_helmet": {
+                "gametemplate": "helmet_07_02_ussr_winter_item",
+                "slot": "skined_helmet"
+              },
+              "tunic": {
+                "gametemplate": "attachable_wear_overcoat_01_ussr_winter_item",
+                "slot": "tunic"
+              }
+            },
+            "exp": 0,
+            "gametemplate": "ussr_base_soldier",
+            "guid": "human_9981411",
+            "human_weap__weapInfo": [
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 3,
+                "reserveAmmoTemplate": "dp_27_magazine"
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 3,
+                "reserveAmmoTemplate": "tt_magazine"
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              }
+            ],
+            "human_weap__weapInitialComponents": [
+              {
+                "gun__reloadTime": -5,
+                "gun__shotFreq": 1,
+                "gun_spread__maxDeltaAngle": -6,
+                "gun__kineticDamageMult": 5
+              },
+              {},
+              {},
+              {},
+              {}
+            ],
+            "human_weap__weapTemplates": {
+              "grenade": "grenade_thrower",
+              "melee": "knife_weapon",
+              "primary": "dp_27_gun",
+              "secondary": "",
+              "tertiary": "tt_33_gun"
+            },
+            "id": 3,
+            "inventory": [
+              {
+                "gametemplate": "tnt_block_exploder"
+              },
+              {
+                "gametemplate": "ussr_molotov_item"
+              },
+              {
+                "gametemplate": "ussr_medkit_item"
+              }
+            ],
+            "isHero": false,
+            "isPremium": false,
+            "level": 4,
+            "maxLevel": 4,
+            "name": "Vladimir",
+            "perkPoints": {
+              "vitality": 15,
+              "speed": 15,
+              "weapon": 16
+            },
+            "perks": [
+              {
+                "name": "starter_rifle",
+                "stats": [
+                  {
+                    "statKey": "sprint_speed",
+                    "statValue": 0.02
+                  },
+                  {
+                    "statValue": 0.2,
+                    "statKey": "faster_self_fire_putout"
+                  },
+                  {
+                    "statValue": 0.05,
+                    "statKey": "crawl_crouch_speed"
+                  }
+                ]
+              },
+              {
+                "name": "starter_mgun",
+                "stats": [
+                  {
+                    "statValue": 0.05,
+                    "statKey": "more_predictable_recoil"
+                  },
+                  {
+                    "statValue": 0.05,
+                    "statKey": "faster_aim_speed"
+                  }
+                ]
+              }
+            ],
+            "sClass": "mgun",
+            "sKind": "mgun",
+            "surname": "Kozin",
+            "tier": 1,
+            "weaponPreset": "",
+            "__squadType": "rifle",
+            "__squadId": "ussr_moscow_rifle_1",
+            "__faction": "moscow_allies",
+            "__currIndex": 2,
+            "appearance__rndSeed": 14334,
+            "perksCount": 2
+          },
+          {
+            "bodyScale": {
+              "height": 1,
+              "width": 1
+            },
+            "callname": "",
+            "country": "ussr",
+            "equipment": {
+              "bag_l": {
+                "gametemplate": "attachable_wear_gasmask_01_ussr_winter_item",
+                "slot": "bag_l"
+              },
+              "belt_1": {
+                "gametemplate": "attachable_wear_belt_1_01_ussr_winter_item",
+                "slot": "belt_1"
+              },
+              "belt_2": {
+                "gametemplate": "attachable_wear_belt_2_01_ussr_winter_item",
+                "slot": "belt_2"
+              },
+              "chest": {
+                "gametemplate": "attachable_wear_bandolier_01_ussr_winter_item",
+                "slot": "chest"
+              },
+              "face": {
+                "gametemplate": "attachable_wear_head_male_05_us_item",
+                "slot": "face"
+              },
+              "flask_r": {
+                "gametemplate": "attachable_wear_flask_01_ussr_winter_item",
+                "slot": "flask_r"
+              },
+              "front_belt_r": {
+                "gametemplate": "attachable_wear_nagan_holster_r_01_ussr_winter_item",
+                "slot": "front_belt_r"
+              },
+              "gloves": {
+                "gametemplate": "attachable_wear_gloves_01_ussr_winter_item",
+                "slot": "gloves"
+              },
+              "hair": {
+                "gametemplate": "hair_02_us_summer_item",
+                "slot": "hair"
+              },
+              "pants": {
+                "gametemplate": "attachable_wear_pants_01_8_windings_ussr_winter_item",
+                "slot": "pants"
+              },
+              "rear_belt_l": {
+                "gametemplate": "attachable_wear_officer_tablet_01_ussr_winter_item",
+                "slot": "rear_belt_l"
+              },
+              "skined_helmet": {
+                "gametemplate": "helmet_07_02_ussr_winter_item",
+                "slot": "skined_helmet"
+              },
+              "tunic": {
+                "gametemplate": "attachable_wear_overcoat_01_ussr_winter_item",
+                "slot": "tunic"
+              }
+            },
+            "exp": 0,
+            "gametemplate": "ussr_base_soldier",
+            "guid": "human_8233380",
+            "human_weap__weapInfo": [
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {
+                  "bayonet": "mosin_m1930_bayonet_item"
+                },
+                "numReserveAmmo": 5,
+                "reserveAmmoTemplate": "mosin_magazine"
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              }
+            ],
+            "human_weap__weapInitialComponents": [
+              {
+                "gun__reloadTime": -1,
+                "gun_spread__maxDeltaAngle": -6,
+                "gun__kineticDamageMult": 3
+              },
+              {},
+              {},
+              {},
+              {}
+            ],
+            "human_weap__weapTemplates": {
+              "grenade": "grenade_thrower",
+              "melee": "knife_weapon",
+              "primary": "",
+              "secondary": "mosin_m91_30_gun",
+              "tertiary": ""
+            },
+            "id": 4,
+            "inventory": [
+              {
+                "gametemplate": "tnt_block_exploder"
+              },
+              {
+                "gametemplate": "ussr_molotov_item"
+              },
+              {
+                "gametemplate": "ussr_medkit_item"
+              }
+            ],
+            "isHero": false,
+            "isPremium": false,
+            "level": 3,
+            "maxLevel": 3,
+            "name": "Yaroslav",
+            "perkPoints": {
+              "vitality": 16,
+              "speed": 16,
+              "weapon": 12
+            },
+            "perks": [
+              {
+                "name": "starter_rifle",
+                "stats": [
+                  {
+                    "statKey": "sprint_speed",
+                    "statValue": 0.02
+                  },
+                  {
+                    "statValue": 0.2,
+                    "statKey": "faster_self_fire_putout"
+                  },
+                  {
+                    "statValue": 0.05,
+                    "statKey": "crawl_crouch_speed"
+                  }
+                ]
+              }
+            ],
+            "sClass": "rifle",
+            "sKind": "rifle",
+            "surname": "Petrov",
+            "tier": 1,
+            "weaponPreset": "",
+            "__squadType": "rifle",
+            "__squadId": "ussr_moscow_rifle_1",
+            "__faction": "moscow_allies",
+            "__currIndex": 3,
+            "appearance__rndSeed": 16976,
+            "perksCount": 1
+          }
+        ],
+        "squadId": "ussr_moscow_engineer_1",
+        "squadType": "engineer",
+        "toLevelExp": 9000,
+        "vehicleType": ""
+      }
+    ],
+    "wallPosters": [],
+    "wallPostersCount": 0
+  },
+  "moscow_axis": {
+    "armyId": "moscow_axis",
+    "boosters": [],
+    "campaignId": "common",
+    "classBonus": {},
+    "country": "moscow_axis",
+    "curSquadId": "ger_moscow_rifle_1",
+    "exp": 0,
+    "expToLevel": [
+      1
+    ],
+    "freemiumExpMult": 1,
+    "globalData": {
+      "globalGifts": {},
+      "globalGiftsCfg": [
+        {
+          "army": "common_army",
+          "basetpl": "enlisted_silver",
+          "loopCount": 5,
+          "loopExp": 47,
+          "startCount": 5,
+          "startExp": 47
+        }
+      ]
+    },
+    "growthExp": 0,
+    "growthProgress": {
+      "exp": 0,
+      "growthCfg": {
+        "expRequired": 1,
+        "id": "toz_b",
+        "reward": {
+          "armyId": "moscow_axis",
+          "itemTemplate": "blaster_ussr",
+          "squadId": ""
+        }
+      },
+      "item": {
+        "gametemplate": "blaster_ussr_gun",
+        "itemsubtype": "blaster_ussr",
+        "itemtype": "submgun",
+        "tier": 1
+      },
+      "status": 1
+    },
+    "isArmyProgressLocked": false,
+    "isFakeSquads": false,
+    "level": 0,
+    "squads": [
+      {
+        "artilleryCooldownMul": 1,
+        "artilleryTypeUnlocks": [],
+        "curVehicle": null,
+        "engineerUnlocks": [],
+        "exp": 1000,
+        "expBonus": 1,
+        "isRented": false,
+        "level": 0,
+        "squad": [
+          {
+            "availPerks": 0,
+            "callname": "",
+            "country": "germany",
+            "equipment": {
+              "backpack": {
+                "gametemplate": "attachable_wear_pioniersturmgepack_01_ger_summer_item",
+                "slot": "backpack"
+              },
+              "belt_1": {
+                "gametemplate": "attachable_wear_belt_1_01_ger_summer_item",
+                "slot": "belt_1"
+              },
+              "belt_2": {
+                "gametemplate": "attachable_wear_belt_2_04_ger_summer_item",
+                "slot": "belt_2"
+              },
+              "chest": {
+                "gametemplate": "attachable_wear_gas_cape_pouch_01_ger_summer_item",
+                "slot": "chest"
+              },
+              "face": {
+                "gametemplate": "attachable_wear_head_male_21_us_item",
+                "slot": "face"
+              },
+              "gloves": {
+                "gametemplate": "attachable_wear_hands_01_ussr_summer_item",
+                "slot": "gloves"
+              },
+              "skined_helmet": {
+                "gametemplate": "helmet_01_ger_summer_item",
+                "slot": "skined_helmet"
+              },
+              "helmet_deco": {
+                "gametemplate": "helmet_grid_01_item",
+                "slot": "helmet_deco"
+              },
+              "pants": {
+                "gametemplate": "attachable_wear_pants_gray_01_ger_summer_item",
+                "slot": "pants"
+              },
+              "tunic": {
+                "gametemplate": "attachable_wear_tunic_01_gray_ger_summer_item",
+                "slot": "tunic"
+              }
+            },
+            "exp": 0,
+            "gametemplate": "ger_base_soldier",
+            "guid": "human_2070503",
+            "human_weap__weapInfo": [
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 5,
+                "reserveAmmoTemplate": "mp40_magazine"
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 5,
+                "reserveAmmoTemplate": "p38_walther_magazine"
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              }
+            ],
+            "human_weap__weapInitialComponents": [
+              {
+                "gun__reloadTime": -5,
+                "gun__shotFreq": 1,
+                "gun_spread__maxDeltaAngle": 1,
+                "gun__kineticDamageMult": 5
+              },
+              {},
+              {},
+              {},
+              {}
+            ],
+            "human_weap__weapTemplates": {
+              "grenade": "grenade_thrower",
+              "melee": "shovel_weapon",
+              "primary": "mp40_gun",
+              "secondary": "",
+              "tertiary": "p38_walther_gun"
+            },
+            "id": 0,
+            "inventory": [
+              {
+                "gametemplate": "tnt_block_exploder"
+              },
+              {
+                "gametemplate": "m24_grenade_item"
+              },
+              {
+                "gametemplate": "germ_medkit_item"
+              },
+              {
+                "gametemplate": "ger_binoculars_item"
+              },
+              {
+                "gametemplate": "ger_tnt_block"
+              },
+              {
+                "gametemplate": "explosion_pack_item"
+              }
+            ],
+            "isPremium": false,
+            "level": 3,
+            "maxLevel": 3,
+            "name": "Erdmann",
+            "perks": [
+              {
+                "name": "starter_rifle",
+                "stats": [
+                  {
+                    "statKey": "sprint_speed",
+                    "statValue": 0.02
+                  },
+                  {
+                    "statValue": 0.2,
+                    "statKey": "faster_self_fire_putout"
+                  },
+                  {
+                    "statValue": 0.05,
+                    "statKey": "crawl_crouch_speed"
+                  }
+                ]
+              }
+            ],
+            "perksCount": 1,
+            "sClass": "assault",
+            "sKind": "assault",
+            "surname": "Witte",
+            "tier": 3,
+            "weaponPreset": "",
+            "__squadType": "assault",
+            "__squadId": "ger_normandy_assault_2",
+            "__faction": "normandy_axis",
+            "__currIndex": 4,
+            "appearance__rndSeed": 36296,
+            "perkPoints": {
+              "vitality": 16,
+              "speed": 16,
+              "weapon": 12
+            },
+            "bodyScale": {
+              "height": 1,
+              "width": 1
+            }
+          },
+          {
+            "availPerks": 0,
+            "callname": "",
+            "country": "germany",
+            "equipment": {
+              "backpack": {
+                "gametemplate": "attachable_wear_pioniersturmgepack_01_ger_summer_item",
+                "slot": "backpack"
+              },
+              "belt_1": {
+                "gametemplate": "attachable_wear_belt_1_01_ger_summer_item",
+                "slot": "belt_1"
+              },
+              "belt_2": {
+                "gametemplate": "attachable_wear_belt_2_01_ger_summer_item",
+                "slot": "belt_2"
+              },
+              "face": {
+                "gametemplate": "attachable_wear_head_01_ger_summer_item",
+                "slot": "face"
+              },
+              "gloves": {
+                "gametemplate": "attachable_wear_hands_01_ussr_summer_item",
+                "slot": "gloves"
+              },
+              "hair": {
+                "gametemplate": "hair_02_ger_summer_item",
+                "slot": "hair"
+              },
+              "skined_helmet": {
+                "gametemplate": "helmet_01_ger_summer_item",
+                "slot": "skined_helmet"
+              },
+              "helmet_deco": {
+                "gametemplate": "helmet_grid_01_item",
+                "slot": "helmet_deco"
+              },
+              "pants": {
+                "gametemplate": "attachable_wear_pants_gray_01_ger_summer_item",
+                "slot": "pants"
+              },
+              "shovel": {
+                "gametemplate": "attachable_wear_shovel_01_ger_summer_item",
+                "slot": "shovel"
+              },
+              "tunic": {
+                "gametemplate": "attachable_wear_tunic_01_gray_ger_summer_item",
+                "slot": "tunic"
+              }
+            },
+            "exp": 0,
+            "gametemplate": "ger_base_soldier",
+            "guid": "human_7558850",
+            "human_weap__weapInfo": [
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {
+                  "bayonet": "sg_8498_III_bayonet_item"
+                },
+                "numReserveAmmo": 7,
+                "reserveAmmoTemplate": "mauser98k_magazine"
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              }
+            ],
+            "human_weap__weapInitialComponents": [
+              {},
+              {
+                "gun__reloadTime": -1,
+                "gun_spread__maxDeltaAngle": -6,
+                "gun__kineticDamageMult": 3
+              },
+              {},
+              {},
+              {}
+            ],
+            "human_weap__weapTemplates": {
+              "grenade": "grenade_thrower",
+              "melee": "knife_weapon",
+              "primary": "",
+              "secondary": "mauser_98k_gun",
+              "tertiary": ""
+            },
+            "id": 1,
+            "inventory": [
+              {
+                "gametemplate": "tnt_block_exploder"
+              },
+              {
+                "gametemplate": "m24_grenade_item"
+              },
+              {
+                "gametemplate": "germ_medkit_item"
+              }
+            ],
+            "isPremium": false,
+            "level": 3,
+            "maxLevel": 3,
+            "name": "Hubertus",
+            "perks": [
+              {
+                "name": "starter_rifle",
+                "stats": [
+                  {
+                    "statKey": "sprint_speed",
+                    "statValue": 0.02
+                  },
+                  {
+                    "statValue": 0.2,
+                    "statKey": "faster_self_fire_putout"
+                  },
+                  {
+                    "statValue": 0.05,
+                    "statKey": "crawl_crouch_speed"
+                  }
+                ]
+              }
+            ],
+            "perksCount": 1,
+            "sClass": "rifle",
+            "sKind": "rifle",
+            "surname": "Thumbeck",
+            "tier": 3,
+            "weaponPreset": "",
+            "__squadType": "assault",
+            "__squadId": "ger_normandy_assault_2",
+            "__faction": "normandy_axis",
+            "__currIndex": 2,
+            "appearance__rndSeed": 17246,
+            "perkPoints": {
+              "vitality": 16,
+              "speed": 16,
+              "weapon": 12
+            },
+            "bodyScale": {
+              "height": 1,
+              "width": 1
+            }
+          },
+          {
+            "availPerks": 0,
+            "callname": "",
+            "country": "germany",
+            "equipment": {
+              "backpack": {
+                "gametemplate": "attachable_wear_pioniersturmgepack_01_ger_summer_item",
+                "slot": "backpack"
+              },
+              "belt_1": {
+                "gametemplate": "attachable_wear_belt_1_01_ger_summer_item",
+                "slot": "belt_1"
+              },
+              "belt_2": {
+                "gametemplate": "attachable_wear_belt_2_04_ger_summer_item",
+                "slot": "belt_2"
+              },
+              "chest": {
+                "gametemplate": "attachable_wear_gas_cape_pouch_01_ger_summer_item",
+                "slot": "chest"
+              },
+              "face": {
+                "gametemplate": "attachable_wear_head_male_21_us_item",
+                "slot": "face"
+              },
+              "gloves": {
+                "gametemplate": "attachable_wear_hands_01_ussr_summer_item",
+                "slot": "gloves"
+              },
+              "skined_helmet": {
+                "gametemplate": "helmet_01_ger_summer_item",
+                "slot": "skined_helmet"
+              },
+              "helmet_deco": {
+                "gametemplate": "helmet_grid_01_item",
+                "slot": "helmet_deco"
+              },
+              "pants": {
+                "gametemplate": "attachable_wear_pants_gray_01_ger_summer_item",
+                "slot": "pants"
+              },
+              "tunic": {
+                "gametemplate": "attachable_wear_tunic_01_gray_ger_summer_item",
+                "slot": "tunic"
+              }
+            },
+            "exp": 0,
+            "gametemplate": "ger_base_soldier",
+            "guid": "human_767218",
+            "human_weap__weapInfo": [
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 3,
+                "reserveAmmoTemplate": "svt_40_magazine"
+              },
+              {},
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              }
+            ],
+            "human_weap__weapInitialComponents": [
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "human_weap__weapTemplates": {
+              "grenade": "grenade_thrower",
+              "melee": "knife_weapon",
+              "primary": "svt_40_gun",
+              "secondary": "ger_building_tool_gun_bot",
+              "tertiary": ""
+            },
+            "id": 2,
+            "inventory": [
+              {
+                "gametemplate": "tnt_block_exploder"
+              },
+              {
+                "gametemplate": "m24_grenade_item"
+              },
+              {
+                "gametemplate": "germ_medkit_item"
+              },
+              {
+                "gametemplate": "medic_medkit_item"
+              },
+              {
+                "gametemplate": "medic_medkit_item"
+              },
+              {
+                "gametemplate": "explosion_pack_item"
+              }
+            ],
+            "isPremium": false,
+            "level": 3,
+            "maxLevel": 3,
+            "name": "Erdmann",
+            "perks": [
+              {
+                "name": "starter_rifle",
+                "stats": [
+                  {
+                    "statKey": "sprint_speed",
+                    "statValue": 0.02
+                  },
+                  {
+                    "statValue": 0.2,
+                    "statKey": "faster_self_fire_putout"
+                  },
+                  {
+                    "statValue": 0.05,
+                    "statKey": "crawl_crouch_speed"
+                  }
+                ]
+              }
+            ],
+            "perksCount": 1,
+            "sClass": "medic",
+            "sKind": "medic",
+            "surname": "Witte",
+            "tier": 3,
+            "weaponPreset": "",
+            "__squadType": "assault",
+            "__squadId": "ger_normandy_assault_2",
+            "__faction": "normandy_axis",
+            "__currIndex": 4,
+            "appearance__rndSeed": 7081,
+            "perkPoints": {
+              "vitality": 16,
+              "speed": 16,
+              "weapon": 12
+            },
+            "bodyScale": {
+              "height": 1,
+              "width": 1
+            }
+          },
+          {
+            "availPerks": 0,
+            "callname": "",
+            "country": "germany",
+            "equipment": {
+              "backpack": {
+                "gametemplate": "attachable_wear_pioniersturmgepack_01_ger_summer_item",
+                "slot": "backpack"
+              },
+              "belt_1": {
+                "gametemplate": "attachable_wear_belt_1_01_ger_summer_item",
+                "slot": "belt_1"
+              },
+              "belt_2": {
+                "gametemplate": "attachable_wear_belt_2_04_ger_summer_item",
+                "slot": "belt_2"
+              },
+              "chest": {
+                "gametemplate": "attachable_wear_gas_cape_pouch_01_ger_summer_item",
+                "slot": "chest"
+              },
+              "face": {
+                "gametemplate": "attachable_wear_head_male_21_us_item",
+                "slot": "face"
+              },
+              "gloves": {
+                "gametemplate": "attachable_wear_hands_01_ussr_summer_item",
+                "slot": "gloves"
+              },
+              "skined_helmet": {
+                "gametemplate": "helmet_01_ger_summer_item",
+                "slot": "skined_helmet"
+              },
+              "helmet_deco": {
+                "gametemplate": "helmet_grid_01_item",
+                "slot": "helmet_deco"
+              },
+              "pants": {
+                "gametemplate": "attachable_wear_pants_gray_01_ger_summer_item",
+                "slot": "pants"
+              },
+              "tunic": {
+                "gametemplate": "attachable_wear_tunic_01_gray_ger_summer_item",
+                "slot": "tunic"
+              }
+            },
+            "exp": 0,
+            "gametemplate": "ger_base_soldier",
+            "guid": "human_2804389",
+            "human_weap__weapInfo": [
+              {
+                "gunSlots": {
+                  "scope": "scope_zf39_item",
+                  "bayonet": "sg_8498_III_bayonet_item"
+                },
+                "numReserveAmmo": 10,
+                "reserveAmmoTemplate": "mauser98k_magazine"
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              }
+            ],
+            "human_weap__weapInitialComponents": [
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "human_weap__weapTemplates": {
+              "grenade": "grenade_thrower",
+              "melee": "knife_weapon",
+              "primary": "pre_war_kar98k_with_scope_mount_gun",
+              "secondary": "ger_building_tool_gun_bot",
+              "tertiary": ""
+            },
+            "id": 3,
+            "inventory": [
+              {
+                "gametemplate": "tnt_block_exploder"
+              },
+              {
+                "gametemplate": "m24_grenade_item"
+              },
+              {
+                "gametemplate": "germ_medkit_item"
+              },
+              {
+                "gametemplate": "explosion_pack_item"
+              }
+            ],
+            "isPremium": false,
+            "level": 3,
+            "maxLevel": 3,
+            "name": "Erdmann",
+            "perks": [
+              {
+                "name": "starter_rifle",
+                "stats": [
+                  {
+                    "statKey": "sprint_speed",
+                    "statValue": 0.02
+                  },
+                  {
+                    "statValue": 0.2,
+                    "statKey": "faster_self_fire_putout"
+                  },
+                  {
+                    "statValue": 0.05,
+                    "statKey": "crawl_crouch_speed"
+                  }
+                ]
+              }
+            ],
+            "perksCount": 1,
+            "sClass": "engineer",
+            "sKind": "engineer",
+            "surname": "Witte",
+            "tier": 3,
+            "weaponPreset": "",
+            "__squadType": "assault",
+            "__squadId": "ger_normandy_assault_2",
+            "__faction": "normandy_axis",
+            "__currIndex": 4,
+            "appearance__rndSeed": 8074,
+            "perkPoints": {
+              "vitality": 16,
+              "speed": 16,
+              "weapon": 12
+            },
+            "bodyScale": {
+              "height": 1,
+              "width": 1
+            }
+          },
+          {
+            "availPerks": 0,
+            "callname": "",
+            "country": "germany",
+            "equipment": {
+              "backpack": {
+                "gametemplate": "attachable_wear_pioniersturmgepack_01_ger_summer_item",
+                "slot": "backpack"
+              },
+              "belt_1": {
+                "gametemplate": "attachable_wear_belt_1_01_ger_summer_item",
+                "slot": "belt_1"
+              },
+              "belt_2": {
+                "gametemplate": "attachable_wear_belt_2_01_ger_summer_item",
+                "slot": "belt_2"
+              },
+              "face": {
+                "gametemplate": "attachable_wear_head_male_40_ger_item",
+                "slot": "face"
+              },
+              "gloves": {
+                "gametemplate": "attachable_wear_hands_01_ussr_summer_item",
+                "slot": "gloves"
+              },
+              "skined_helmet": {
+                "gametemplate": "helmet_01_ger_summer_item",
+                "slot": "skined_helmet"
+              },
+              "helmet_deco": {
+                "gametemplate": "helmet_grid_01_item",
+                "slot": "helmet_deco"
+              },
+              "pants": {
+                "gametemplate": "attachable_wear_pants_gray_01_ger_summer_item",
+                "slot": "pants"
+              },
+              "tunic": {
+                "gametemplate": "attachable_wear_tunic_01_gray_ger_summer_item",
+                "slot": "tunic"
+              }
+            },
+            "exp": 0,
+            "gametemplate": "ger_base_soldier",
+            "guid": "human_9671861",
+            "human_weap__weapInfo": [
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 3,
+                "reserveAmmoTemplate": "mg_42_handheld_magazine"
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 5,
+                "reserveAmmoTemplate": "mauser_c96_magazine"
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              }
+            ],
+            "human_weap__weapInitialComponents": [
+              {
+                "gun__reloadTime": -5,
+                "gun__shotFreq": 1,
+                "gun_spread__maxDeltaAngle": -6,
+                "gun__kineticDamageMult": 5
+              },
+              {},
+              {},
+              {},
+              {}
+            ],
+            "human_weap__weapTemplates": {
+              "grenade": "grenade_thrower",
+              "melee": "it_axe_weapon",
+              "primary": "mg_34_gun",
+              "secondary": "",
+              "tertiary": "mauser_c96_gun"
+            },
+            "id": 4,
+            "inventory": [
+              {
+                "gametemplate": "tnt_block_exploder"
+              },
+              {
+                "gametemplate": "m24_grenade_item"
+              },
+              {
+                "gametemplate": "germ_medkit_item"
+              },
+              {
+                "gametemplate": "m24_grenade_item"
+              }
+            ],
+            "isPremium": false,
+            "level": 4,
+            "maxLevel": 4,
+            "name": "Alfons",
+            "perks": [
+              {
+                "name": "starter_rifle",
+                "stats": [
+                  {
+                    "statKey": "sprint_speed",
+                    "statValue": 0.02
+                  },
+                  {
+                    "statValue": 0.2,
+                    "statKey": "faster_self_fire_putout"
+                  },
+                  {
+                    "statValue": 0.05,
+                    "statKey": "crawl_crouch_speed"
+                  }
+                ]
+              },
+              {
+                "name": "starter_mgun",
+                "stats": [
+                  {
+                    "statValue": 0.05,
+                    "statKey": "more_predictable_recoil"
+                  },
+                  {
+                    "statValue": 0.05,
+                    "statKey": "faster_aim_speed"
+                  }
+                ]
+              }
+            ],
+            "perksCount": 2,
+            "sClass": "mgun",
+            "sKind": "mgun",
+            "surname": "Jochimsen",
+            "tier": 3,
+            "weaponPreset": "",
+            "__squadType": "assault",
+            "__squadId": "ger_normandy_assault_2",
+            "__faction": "normandy_axis",
+            "__currIndex": 0,
+            "appearance__rndSeed": 17069,
+            "perkPoints": {
+              "vitality": 15,
+              "speed": 15,
+              "weapon": 16
+            },
+            "bodyScale": {
+              "height": 1,
+              "width": 1
+            }
+          }
+        ],
+        "squadId": "ger_moscow_rifle_1",
+        "squadType": "rifle",
+        "toLevelExp": 9000,
+        "vehicleType": ""
+      },
+      {
+        "artilleryCooldownMul": 1,
+        "artilleryTypeUnlocks": [
+          2
+        ],
+        "curVehicle": null,
+        "engineerUnlocks": [],
+        "exp": 1000,
+        "expBonus": 1,
+        "isRented": false,
+        "level": 0,
+        "squad": [
+          {
+            "bodyScale": {
+              "height": 1,
+              "width": 1
+            },
+            "callname": "",
+            "country": "germany",
+            "equipment": {
+              "belt_1": {
+                "gametemplate": "attachable_wear_belt_1_01_ger_summer_item",
+                "slot": "belt_1"
+              },
+              "belt_2": {
+                "gametemplate": "attachable_wear_belt_2_04_ger_summer_item",
+                "slot": "belt_2"
+              },
+              "face": {
+                "gametemplate": "attachable_wear_head_male_21_us_item",
+                "slot": "face"
+              },
+              "gloves": {
+                "gametemplate": "attachable_wear_gloves_01_ger_winter_item",
+                "slot": "gloves"
+              },
+              "pants": {
+                "gametemplate": "attachable_wear_pants_02_ger_summer_item",
+                "slot": "pants"
+              },
+              "radio": {
+                "gametemplate": "feldfu_b_radio_gun",
+                "slot": "radio"
+              },
+              "skined_helmet": {
+                "gametemplate": "radioman_helmet_01_ger_summer_item",
+                "slot": "skined_helmet"
+              },
+              "tunic": {
+                "gametemplate": "attachable_wear_tunic_01_ger_summer_item",
+                "slot": "tunic"
+              }
+            },
+            "exp": 0,
+            "gametemplate": "ger_base_soldier",
+            "guid": "human_349837",
+            "human_weap__weapInfo": [
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 5,
+                "reserveAmmoTemplate": "mp40_magazine"
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 5,
+                "reserveAmmoTemplate": "p38_walther_magazine"
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              }
+            ],
+            "human_weap__weapInitialComponents": [
+              {
+                "gun__reloadTime": -5,
+                "gun__shotFreq": 1,
+                "gun_spread__maxDeltaAngle": 1,
+                "gun__kineticDamageMult": 5
+              },
+              {},
+              {},
+              {},
+              {}
+            ],
+            "human_weap__weapTemplates": {
+              "grenade": "grenade_thrower",
+              "melee": "shovel_weapon",
+              "primary": "mp40_gun",
+              "secondary": "",
+              "tertiary": "p38_walther_gun"
+            },
+            "id": 0,
+            "inventory": [
+              {
+                "gametemplate": "tnt_block_exploder"
+              },
+              {
+                "gametemplate": "m24_grenade_item"
+              },
+              {
+                "gametemplate": "germ_medkit_item"
+              },
+              {
+                "gametemplate": "ger_binoculars_item"
+              },
+              {
+                "gametemplate": "ger_tnt_block"
+              },
+              {
+                "gametemplate": "explosion_pack_item"
+              }
+            ],
+            "isHero": false,
+            "isPremium": false,
+            "level": 3,
+            "maxLevel": 3,
+            "name": "Friebel",
+            "perkPoints": {
+              "vitality": 16,
+              "speed": 16,
+              "weapon": 12
+            },
+            "perks": [
+              {
+                "name": "starter_rifle",
+                "stats": [
+                  {
+                    "statKey": "sprint_speed",
+                    "statValue": 0.02
+                  },
+                  {
+                    "statValue": 0.2,
+                    "statKey": "faster_self_fire_putout"
+                  },
+                  {
+                    "statValue": 0.05,
+                    "statKey": "crawl_crouch_speed"
+                  }
+                ]
+              }
+            ],
+            "sClass": "assault",
+            "sKind": "assault",
+            "surname": "Roeske",
+            "tier": 3,
+            "weaponPreset": "",
+            "__squadType": "radioman",
+            "__squadId": "ger_moscow_radioman_1",
+            "__faction": "moscow_axis",
+            "__currIndex": 0,
+            "appearance__rndSeed": 26492,
+            "perksCount": 1
+          },
+          {
+            "appearance__rndSeed": 2282,
+            "availPerks": 0,
+            "bodyScale": {
+              "height": 1,
+              "width": 1
+            },
+            "callname": "",
+            "equipment": {
+              "belt_1": {
+                "gametemplate": "attachable_wear_belt_1_01_ger_summer_item",
+                "slot": "belt_1"
+              },
+              "belt_2": {
+                "gametemplate": "attachable_wear_belt_2_01_ger_summer_item",
+                "slot": "belt_2"
+              },
+              "face": {
+                "gametemplate": "attachable_wear_head_male_23_ger_item",
+                "slot": "face"
+              },
+              "gloves": {
+                "gametemplate": "attachable_wear_gloves_01_ger_winter_item",
+                "slot": "gloves"
+              },
+              "hair": {
+                "gametemplate": "hair_01_ger_summer_item",
+                "slot": "hair"
+              },
+              "pants": {
+                "gametemplate": "attachable_wear_pants_02_ger_summer_item",
+                "slot": "pants"
+              },
+              "skined_helmet": {
+                "gametemplate": "radioman_helmet_01_ger_summer_item",
+                "slot": "skined_helmet"
+              },
+              "tunic": {
+                "gametemplate": "attachable_wear_tunic_01_ger_summer_item",
+                "slot": "tunic"
+              }
+            },
+            "exp": 0,
+            "gametemplate": "ger_base_soldier",
+            "guid": "human_439085",
+            "heroTpl": "",
+            "human_weap__weapInfo": [
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {
+                  "bayonet": "sg_8498_III_bayonet_item"
+                },
+                "numReserveAmmo": 7,
+                "reserveAmmoTemplate": "mauser98k_magazine"
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              }
+            ],
+            "human_weap__weapInitialComponents": [
+              {},
+              {
+                "gun__reloadTime": -1,
+                "gun_spread__maxDeltaAngle": -6,
+                "gun__kineticDamageMult": 3
+              },
+              {},
+              {},
+              {}
+            ],
+            "human_weap__weapTemplates": {
+              "grenade": "grenade_thrower",
+              "melee": "knife_weapon",
+              "primary": "",
+              "secondary": "mauser_98k_gun",
+              "tertiary": ""
+            },
+            "id": 1,
+            "inventory": [
+              {
+                "gametemplate": "tnt_block_exploder"
+              },
+              {
+                "gametemplate": "m24_grenade_item"
+              },
+              {
+                "gametemplate": "germ_medkit_item"
+              }
+            ],
+            "isPremium": false,
+            "level": 3,
+            "maxLevel": 3,
+            "name": "Leopold",
+            "perkPoints": {
+              "vitality": 16,
+              "speed": 16,
+              "weapon": 12
+            },
+            "perks": [
+              {
+                "name": "starter_rifle",
+                "stats": [
+                  {
+                    "statKey": "sprint_speed",
+                    "statValue": 0.02
+                  },
+                  {
+                    "statValue": 0.2,
+                    "statKey": "faster_self_fire_putout"
+                  },
+                  {
+                    "statValue": 0.05,
+                    "statKey": "crawl_crouch_speed"
+                  }
+                ]
+              }
+            ],
+            "perksCount": 1,
+            "sClass": "rifle",
+            "sKind": "rifle",
+            "surname": "Froelich",
+            "tier": 1,
+            "weaponPreset": "",
+            "country": "",
+            "__squadType": "radioman",
+            "__squadId": "ger_moscow_radioman_1",
+            "__faction": "moscow_axis",
+            "__currIndex": 1
+          },
+          {
+            "bodyScale": {
+              "height": 1,
+              "width": 1
+            },
+            "callname": "",
+            "country": "germany",
+            "equipment": {
+              "belt_1": {
+                "gametemplate": "attachable_wear_belt_1_01_ger_summer_item",
+                "slot": "belt_1"
+              },
+              "belt_2": {
+                "gametemplate": "attachable_wear_belt_2_01_ger_summer_item",
+                "slot": "belt_2"
+              },
+              "chest": {
+                "gametemplate": "attachable_wear_gas_cape_pouch_01_ger_summer_item",
+                "slot": "chest"
+              },
+              "face": {
+                "gametemplate": "attachable_wear_head_male_47_ussr_item",
+                "slot": "face"
+              },
+              "gloves": {
+                "gametemplate": "attachable_wear_gloves_01_ger_winter_item",
+                "slot": "gloves"
+              },
+              "pants": {
+                "gametemplate": "attachable_wear_pants_02_ger_summer_item",
+                "slot": "pants"
+              },
+              "shovel": {
+                "gametemplate": "attachable_wear_shovel_01_ger_summer_item",
+                "slot": "shovel"
+              },
+              "skined_helmet": {
+                "gametemplate": "radioman_helmet_01_ger_summer_item",
+                "slot": "skined_helmet"
+              },
+              "tunic": {
+                "gametemplate": "attachable_wear_tunic_07_ger_summer_item",
+                "slot": "tunic"
+              }
+            },
+            "exp": 0,
+            "gametemplate": "ger_base_soldier",
+            "guid": "human_9962915",
+            "human_weap__weapInfo": [
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {
+                  "bayonet": "sg_8498_III_bayonet_item"
+                },
+                "numReserveAmmo": 7,
+                "reserveAmmoTemplate": "mauser98k_magazine"
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              }
+            ],
+            "human_weap__weapInitialComponents": [
+              {},
+              {
+                "gun__reloadTime": -1,
+                "gun_spread__maxDeltaAngle": -6,
+                "gun__kineticDamageMult": 3
+              },
+              {},
+              {},
+              {}
+            ],
+            "human_weap__weapTemplates": {
+              "grenade": "grenade_thrower",
+              "melee": "knife_weapon",
+              "primary": "",
+              "secondary": "mauser_98k_gun",
+              "tertiary": ""
+            },
+            "id": 2,
+            "inventory": [
+              {
+                "gametemplate": "tnt_block_exploder"
+              },
+              {
+                "gametemplate": "m24_grenade_item"
+              },
+              {
+                "gametemplate": "germ_medkit_item"
+              }
+            ],
+            "isHero": false,
+            "isPremium": false,
+            "level": 3,
+            "maxLevel": 3,
+            "name": "Joachim",
+            "perkPoints": {
+              "vitality": 16,
+              "speed": 16,
+              "weapon": 12
+            },
+            "perks": [
+              {
+                "name": "starter_rifle",
+                "stats": [
+                  {
+                    "statKey": "sprint_speed",
+                    "statValue": 0.02
+                  },
+                  {
+                    "statValue": 0.2,
+                    "statKey": "faster_self_fire_putout"
+                  },
+                  {
+                    "statValue": 0.05,
+                    "statKey": "crawl_crouch_speed"
+                  }
+                ]
+              }
+            ],
+            "sClass": "rifle",
+            "sKind": "rifle",
+            "surname": "Groddeck",
+            "tier": 1,
+            "weaponPreset": "",
+            "__squadType": "radioman",
+            "__squadId": "ger_moscow_radioman_1",
+            "__faction": "moscow_axis",
+            "__currIndex": 3,
+            "appearance__rndSeed": 23652,
+            "perksCount": 1
+          },
+          {
+            "appearance__rndSeed": 6471,
+            "availPerks": 0,
+            "bodyScale": {
+              "height": 1,
+              "width": 1
+            },
+            "callname": "",
+            "equipment": {
+              "belt_1": {
+                "gametemplate": "attachable_wear_belt_1_01_ger_summer_item",
+                "slot": "belt_1"
+              },
+              "belt_2": {
+                "gametemplate": "attachable_wear_belt_2_04_ger_summer_item",
+                "slot": "belt_2"
+              },
+              "face": {
+                "gametemplate": "attachable_wear_head_male_18b_us_item",
+                "slot": "face"
+              },
+              "gloves": {
+                "gametemplate": "attachable_wear_gloves_01_ger_winter_item",
+                "slot": "gloves"
+              },
+              "pants": {
+                "gametemplate": "attachable_wear_pants_02_ger_summer_item",
+                "slot": "pants"
+              },
+              "radio": {
+                "gametemplate": "feldfu_b_radio_gun",
+                "slot": "radio"
+              },
+              "skined_helmet": {
+                "gametemplate": "radioman_helmet_01_ger_summer_item",
+                "slot": "skined_helmet"
+              },
+              "tunic": {
+                "gametemplate": "attachable_wear_tunic_06_ger_summer_item",
+                "slot": "tunic"
+              }
+            },
+            "exp": 0,
+            "gametemplate": "ger_base_soldier",
+            "guid": "human_4757634",
+            "heroTpl": "",
+            "human_weap__weapInfo": [
+              {
+                "gunSlots": {
+                  "scope": "scope_zf39_item",
+                  "bayonet": "sg_8498_III_bayonet_item"
+                },
+                "numReserveAmmo": 10,
+                "reserveAmmoTemplate": "mauser98k_magazine"
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              }
+            ],
+            "human_weap__weapInitialComponents": [
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "human_weap__weapTemplates": {
+              "grenade": "grenade_thrower",
+              "melee": "knife_weapon",
+              "primary": "pre_war_kar98k_with_scope_mount_gun",
+              "secondary": "ger_building_tool_gun_bot",
+              "tertiary": ""
+            },
+            "id": 3,
+            "inventory": [
+              {
+                "gametemplate": "tnt_block_exploder"
+              },
+              {
+                "gametemplate": "m24_grenade_item"
+              },
+              {
+                "gametemplate": "germ_medkit_item"
+              },
+              {
+                "gametemplate": "explosion_pack_item"
+              }
+            ],
+            "isPremium": false,
+            "level": 3,
+            "maxLevel": 3,
+            "name": "Lothar",
+            "perkPoints": {
+              "vitality": 16,
+              "speed": 16,
+              "weapon": 12
+            },
+            "perks": [
+              {
+                "name": "starter_rifle",
+                "stats": [
+                  {
+                    "statKey": "sprint_speed",
+                    "statValue": 0.02
+                  },
+                  {
+                    "statValue": 0.2,
+                    "statKey": "faster_self_fire_putout"
+                  },
+                  {
+                    "statValue": 0.05,
+                    "statKey": "crawl_crouch_speed"
+                  }
+                ]
+              }
+            ],
+            "perksCount": 1,
+            "sClass": "engineer",
+            "sKind": "engineer",
+            "surname": "Eitner",
+            "tier": 3,
+            "weaponPreset": "",
+            "country": "",
+            "__squadType": "radioman",
+            "__squadId": "ger_moscow_radioman_1",
+            "__faction": "moscow_axis",
+            "__currIndex": 0
+          },
+          {
+            "bodyScale": {
+              "height": 1,
+              "width": 1
+            },
+            "callname": "",
+            "country": "germany",
+            "equipment": {
+              "belt_1": {
+                "gametemplate": "attachable_wear_belt_1_01_ger_summer_item",
+                "slot": "belt_1"
+              },
+              "belt_2": {
+                "gametemplate": "attachable_wear_belt_2_04_ger_summer_item",
+                "slot": "belt_2"
+              },
+              "chest": {
+                "gametemplate": "attachable_wear_gas_cape_pouch_01_ger_summer_item",
+                "slot": "chest"
+              },
+              "face": {
+                "gametemplate": "ger_gen_head_03",
+                "slot": "face"
+              },
+              "gloves": {
+                "gametemplate": "attachable_wear_gloves_01_ger_winter_item",
+                "slot": "gloves"
+              },
+              "hair": {
+                "gametemplate": "hair_01_ger_summer_item",
+                "slot": "hair"
+              },
+              "pants": {
+                "gametemplate": "attachable_wear_pants_02_ger_summer_item",
+                "slot": "pants"
+              },
+              "skined_helmet": {
+                "gametemplate": "radioman_helmet_01_ger_summer_item",
+                "slot": "skined_helmet"
+              },
+              "tunic": {
+                "gametemplate": "attachable_wear_tunic_06_ger_summer_item",
+                "slot": "tunic"
+              }
+            },
+            "exp": 0,
+            "gametemplate": "ger_base_soldier",
+            "guid": "human_4508112",
+            "human_weap__weapInfo": [
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {
+                  "bayonet": "sg_8498_III_bayonet_item"
+                },
+                "numReserveAmmo": 7,
+                "reserveAmmoTemplate": "mauser98k_magazine"
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              }
+            ],
+            "human_weap__weapInitialComponents": [
+              {},
+              {
+                "gun__reloadTime": -1,
+                "gun_spread__maxDeltaAngle": -6,
+                "gun__kineticDamageMult": 3
+              },
+              {},
+              {},
+              {}
+            ],
+            "human_weap__weapTemplates": {
+              "grenade": "grenade_thrower",
+              "melee": "knife_weapon",
+              "primary": "",
+              "secondary": "mauser_98k_gun",
+              "tertiary": ""
+            },
+            "id": 4,
+            "inventory": [
+              {
+                "gametemplate": "tnt_block_exploder"
+              },
+              {
+                "gametemplate": "m24_grenade_item"
+              },
+              {
+                "gametemplate": "germ_medkit_item"
+              }
+            ],
+            "isHero": false,
+            "isPremium": false,
+            "level": 3,
+            "maxLevel": 3,
+            "name": "Leonhard",
+            "perkPoints": {
+              "vitality": 16,
+              "speed": 16,
+              "weapon": 12
+            },
+            "perks": [
+              {
+                "name": "starter_rifle",
+                "stats": [
+                  {
+                    "statKey": "sprint_speed",
+                    "statValue": 0.02
+                  },
+                  {
+                    "statValue": 0.2,
+                    "statKey": "faster_self_fire_putout"
+                  },
+                  {
+                    "statValue": 0.05,
+                    "statKey": "crawl_crouch_speed"
+                  }
+                ]
+              }
+            ],
+            "sClass": "rifle",
+            "sKind": "rifle",
+            "surname": "Kroseberg",
+            "tier": 1,
+            "weaponPreset": "",
+            "__squadType": "radioman",
+            "__squadId": "ger_moscow_radioman_1",
+            "__faction": "moscow_axis",
+            "__currIndex": 2,
+            "appearance__rndSeed": 11865,
+            "perksCount": 1
+          }
+        ],
+        "squadId": "ger_moscow_rifle_2",
+        "squadType": "radio",
+        "toLevelExp": 9000,
+        "vehicleType": ""
+      },
+      {
+        "artilleryCooldownMul": 1,
+        "artilleryTypeUnlocks": [],
+        "curVehicle": null,
+        "engineerUnlocks": [],
+        "exp": 1000,
+        "expBonus": 1,
+        "isRented": false,
+        "level": 0,
+        "squad": [
+          {
+            "appearance__rndSeed": 5344,
+            "availPerks": 0,
+            "bodyScale": {
+              "height": 1,
+              "width": 1
+            },
+            "callname": "",
+            "equipment": {
+              "belt_1": {
+                "gametemplate": "attachable_wear_belt_1_01_ger_winter_item",
+                "slot": "belt_1"
+              },
+              "face": {
+                "gametemplate": "attachable_wear_head_male_40_ger_item",
+                "slot": "face"
+              },
+              "front_belt_r": {
+                "gametemplate": "attachable_wear_pouch_02_ger_summer_item",
+                "slot": "front_belt_r"
+              },
+              "gloves": {
+                "gametemplate": "attachable_wear_gloves_01_ger_winter_item",
+                "slot": "gloves"
+              },
+              "hair": {
+                "gametemplate": "hair_01_ger_summer_item",
+                "slot": "hair"
+              },
+              "pants": {
+                "gametemplate": "attachable_wear_pants_02_ger_winter_item",
+                "slot": "pants"
+              },
+              "shovel": {
+                "gametemplate": "attachable_wear_shovel_01_ger_winter_item",
+                "slot": "shovel"
+              },
+              "skined_helmet": {
+                "gametemplate": "helmet_01_ger_cloth_b_winter_item",
+                "slot": "skined_helmet"
+              },
+              "tunic": {
+                "gametemplate": "attachable_wear_overcoat_camo_01_ger_winter_item",
+                "slot": "tunic"
+              }
+            },
+            "exp": 0,
+            "gametemplate": "ger_base_soldier",
+            "guid": "human_4209128",
+            "heroTpl": "",
+            "human_weap__weapInfo": [
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 5,
+                "reserveAmmoTemplate": "mp40_magazine"
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 5,
+                "reserveAmmoTemplate": "p38_walther_magazine"
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              }
+            ],
+            "human_weap__weapInitialComponents": [
+              {
+                "gun__reloadTime": -5,
+                "gun__shotFreq": 1,
+                "gun_spread__maxDeltaAngle": 1,
+                "gun__kineticDamageMult": 5
+              },
+              {},
+              {},
+              {},
+              {}
+            ],
+            "human_weap__weapTemplates": {
+              "grenade": "grenade_thrower",
+              "melee": "shovel_weapon",
+              "primary": "mp40_gun",
+              "secondary": "",
+              "tertiary": "p38_walther_gun"
+            },
+            "id": 0,
+            "inventory": [
+              {
+                "gametemplate": "tnt_block_exploder"
+              },
+              {
+                "gametemplate": "m24_grenade_item"
+              },
+              {
+                "gametemplate": "germ_medkit_item"
+              },
+              {
+                "gametemplate": "ger_binoculars_item"
+              },
+              {
+                "gametemplate": "ger_tnt_block"
+              },
+              {
+                "gametemplate": "explosion_pack_item"
+              }
+            ],
+            "isPremium": false,
+            "level": 3,
+            "maxLevel": 3,
+            "name": "Wolfhart",
+            "perkPoints": {
+              "vitality": 16,
+              "speed": 16,
+              "weapon": 12
+            },
+            "perks": [
+              {
+                "name": "starter_rifle",
+                "stats": [
+                  {
+                    "statKey": "sprint_speed",
+                    "statValue": 0.02
+                  },
+                  {
+                    "statValue": 0.2,
+                    "statKey": "faster_self_fire_putout"
+                  },
+                  {
+                    "statValue": 0.05,
+                    "statKey": "crawl_crouch_speed"
+                  }
+                ]
+              }
+            ],
+            "perksCount": 1,
+            "sClass": "assault",
+            "sKind": "assault",
+            "surname": "Lohmann",
+            "tier": 2,
+            "weaponPreset": "",
+            "country": "",
+            "__squadType": "sniper",
+            "__squadId": "ger_moscow_sniper_1",
+            "__faction": "moscow_axis",
+            "__currIndex": 2
+          },
+          {
+            "appearance__rndSeed": 26338,
+            "availPerks": 0,
+            "bodyScale": {
+              "height": 1,
+              "width": 1
+            },
+            "callname": "",
+            "equipment": {
+              "belt_1": {
+                "gametemplate": "attachable_wear_belt_1_01_ger_winter_item",
+                "slot": "belt_1"
+              },
+              "face": {
+                "gametemplate": "attachable_wear_head_male_40_ger_item",
+                "slot": "face"
+              },
+              "front_belt_r": {
+                "gametemplate": "attachable_wear_pouch_02_ger_summer_item",
+                "slot": "front_belt_r"
+              },
+              "gloves": {
+                "gametemplate": "attachable_wear_gloves_01_ger_winter_item",
+                "slot": "gloves"
+              },
+              "hair": {
+                "gametemplate": "hair_01_ger_summer_item",
+                "slot": "hair"
+              },
+              "pants": {
+                "gametemplate": "attachable_wear_pants_02_ger_winter_item",
+                "slot": "pants"
+              },
+              "shovel": {
+                "gametemplate": "attachable_wear_shovel_01_ger_winter_item",
+                "slot": "shovel"
+              },
+              "skined_helmet": {
+                "gametemplate": "helmet_01_ger_cloth_b_winter_item",
+                "slot": "skined_helmet"
+              },
+              "tunic": {
+                "gametemplate": "attachable_wear_overcoat_camo_01_ger_winter_item",
+                "slot": "tunic"
+              }
+            },
+            "exp": 0,
+            "gametemplate": "ger_base_soldier",
+            "guid": "human_7012430",
+            "heroTpl": "",
+            "human_weap__weapInfo": [
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 3,
+                "reserveAmmoTemplate": "svt_40_magazine"
+              },
+              {},
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              }
+            ],
+            "human_weap__weapInitialComponents": [
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "human_weap__weapTemplates": {
+              "grenade": "grenade_thrower",
+              "melee": "knife_weapon",
+              "primary": "svt_40_gun",
+              "secondary": "ger_building_tool_gun_bot",
+              "tertiary": ""
+            },
+            "id": 1,
+            "inventory": [
+              {
+                "gametemplate": "tnt_block_exploder"
+              },
+              {
+                "gametemplate": "m24_grenade_item"
+              },
+              {
+                "gametemplate": "germ_medkit_item"
+              },
+              {
+                "gametemplate": "medic_medkit_item"
+              },
+              {
+                "gametemplate": "medic_medkit_item"
+              },
+              {
+                "gametemplate": "explosion_pack_item"
+              }
+            ],
+            "isPremium": false,
+            "level": 3,
+            "maxLevel": 3,
+            "name": "Wolfhart",
+            "perkPoints": {
+              "vitality": 16,
+              "speed": 16,
+              "weapon": 12
+            },
+            "perks": [
+              {
+                "name": "starter_rifle",
+                "stats": [
+                  {
+                    "statKey": "sprint_speed",
+                    "statValue": 0.02
+                  },
+                  {
+                    "statValue": 0.2,
+                    "statKey": "faster_self_fire_putout"
+                  },
+                  {
+                    "statValue": 0.05,
+                    "statKey": "crawl_crouch_speed"
+                  }
+                ]
+              }
+            ],
+            "perksCount": 1,
+            "sClass": "medic",
+            "sKind": "medic",
+            "surname": "Lohmann",
+            "tier": 2,
+            "weaponPreset": "",
+            "country": "",
+            "__squadType": "sniper",
+            "__squadId": "ger_moscow_sniper_1",
+            "__faction": "moscow_axis",
+            "__currIndex": 2
+          },
+          {
+            "bodyScale": {
+              "height": 1,
+              "width": 1
+            },
+            "callname": "",
+            "country": "germany",
+            "equipment": {
+              "belt_1": {
+                "gametemplate": "attachable_wear_belt_1_02_ger_winter_item",
+                "slot": "belt_1"
+              },
+              "belt_2": {
+                "gametemplate": "attachable_wear_belt_2_02_ger_winter_item",
+                "slot": "belt_2"
+              },
+              "face": {
+                "gametemplate": "attachable_wear_head_male_12_ger_item",
+                "slot": "face"
+              },
+              "gloves": {
+                "gametemplate": "attachable_wear_hands_01_ussr_summer_item",
+                "slot": "gloves"
+              },
+              "hair": {
+                "gametemplate": "hair_02_ger_summer_item",
+                "slot": "hair"
+              },
+              "pants": {
+                "gametemplate": "attachable_wear_pants_02_ger_winter_item",
+                "slot": "pants"
+              },
+              "shovel": {
+                "gametemplate": "attachable_wear_shovel_01_ger_winter_item",
+                "slot": "shovel"
+              },
+              "skined_helmet": {
+                "gametemplate": "helmet_04_ger_winter_item",
+                "slot": "skined_helmet"
+              },
+              "tunic": {
+                "gametemplate": "attachable_wear_overcoat_camo_01_ger_winter_item",
+                "slot": "tunic"
+              }
+            },
+            "exp": 0,
+            "gametemplate": "ger_base_soldier",
+            "guid": "human_1390661",
+            "human_weap__weapInfo": [
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 5,
+                "reserveAmmoTemplate": "mp40_magazine"
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 5,
+                "reserveAmmoTemplate": "p38_walther_magazine"
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              }
+            ],
+            "human_weap__weapInitialComponents": [
+              {
+                "gun__reloadTime": -5,
+                "gun__shotFreq": 1,
+                "gun_spread__maxDeltaAngle": 1,
+                "gun__kineticDamageMult": 5
+              },
+              {},
+              {},
+              {},
+              {}
+            ],
+            "human_weap__weapTemplates": {
+              "grenade": "grenade_thrower",
+              "melee": "shovel_weapon",
+              "primary": "mp40_gun",
+              "secondary": "",
+              "tertiary": "p38_walther_gun"
+            },
+            "id": 2,
+            "inventory": [
+              {
+                "gametemplate": "tnt_block_exploder"
+              },
+              {
+                "gametemplate": "m24_grenade_item"
+              },
+              {
+                "gametemplate": "germ_medkit_item"
+              },
+              {
+                "gametemplate": "ger_binoculars_item"
+              },
+              {
+                "gametemplate": "ger_tnt_block"
+              },
+              {
+                "gametemplate": "explosion_pack_item"
+              }
+            ],
+            "isHero": false,
+            "isPremium": false,
+            "level": 3,
+            "maxLevel": 3,
+            "name": "Waldemar",
+            "perkPoints": {
+              "vitality": 16,
+              "speed": 16,
+              "weapon": 12
+            },
+            "perks": [
+              {
+                "name": "starter_rifle",
+                "stats": [
+                  {
+                    "statKey": "sprint_speed",
+                    "statValue": 0.02
+                  },
+                  {
+                    "statValue": 0.2,
+                    "statKey": "faster_self_fire_putout"
+                  },
+                  {
+                    "statValue": 0.05,
+                    "statKey": "crawl_crouch_speed"
+                  }
+                ]
+              }
+            ],
+            "sClass": "assault",
+            "sKind": "assault",
+            "surname": "Holle",
+            "tier": 1,
+            "weaponPreset": "",
+            "__squadType": "sniper",
+            "__squadId": "axis_tunisia_sniper_2",
+            "__faction": "moscow_axis",
+            "__currIndex": 1,
+            "appearance__rndSeed": 37421,
+            "perksCount": 1
+          },
+          {
+            "bodyScale": {
+              "height": 1,
+              "width": 1
+            },
+            "callname": "",
+            "country": "germany",
+            "equipment": {
+              "belt_1": {
+                "gametemplate": "attachable_wear_belt_1_02_ger_winter_item",
+                "slot": "belt_1"
+              },
+              "belt_2": {
+                "gametemplate": "attachable_wear_belt_2_02_ger_winter_item",
+                "slot": "belt_2"
+              },
+              "face": {
+                "gametemplate": "attachable_wear_head_male_12_ger_item",
+                "slot": "face"
+              },
+              "gloves": {
+                "gametemplate": "attachable_wear_hands_01_ussr_summer_item",
+                "slot": "gloves"
+              },
+              "hair": {
+                "gametemplate": "hair_02_ger_summer_item",
+                "slot": "hair"
+              },
+              "pants": {
+                "gametemplate": "attachable_wear_pants_02_ger_winter_item",
+                "slot": "pants"
+              },
+              "shovel": {
+                "gametemplate": "attachable_wear_shovel_01_ger_winter_item",
+                "slot": "shovel"
+              },
+              "skined_helmet": {
+                "gametemplate": "helmet_04_ger_winter_item",
+                "slot": "skined_helmet"
+              },
+              "tunic": {
+                "gametemplate": "attachable_wear_overcoat_camo_01_ger_winter_item",
+                "slot": "tunic"
+              }
+            },
+            "exp": 0,
+            "gametemplate": "ger_base_soldier",
+            "guid": "human_2820335",
+            "human_weap__weapInfo": [
+              {
+                "gunSlots": {
+                  "scope": "scope_zf39_item",
+                  "bayonet": "sg_8498_III_bayonet_item"
+                },
+                "numReserveAmmo": 10,
+                "reserveAmmoTemplate": "mauser98k_magazine"
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              },
+              {
+                "gunSlots": {},
+                "numReserveAmmo": 0,
+                "reserveAmmoTemplate": ""
+              }
+            ],
+            "human_weap__weapInitialComponents": [
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "human_weap__weapTemplates": {
+              "grenade": "grenade_thrower",
+              "melee": "knife_weapon",
+              "primary": "pre_war_kar98k_with_scope_mount_gun",
+              "secondary": "ger_building_tool_gun_bot",
+              "tertiary": ""
+            },
+            "id": 3,
+            "inventory": [
+              {
+                "gametemplate": "tnt_block_exploder"
+              },
+              {
+                "gametemplate": "m24_grenade_item"
+              },
+              {
+                "gametemplate": "germ_medkit_item"
+              },
+              {
+                "gametemplate": "explosion_pack_item"
+              }
+            ],
+            "isHero": false,
+            "isPremium": false,
+            "level": 3,
+            "maxLevel": 3,
+            "name": "Waldemar",
+            "perkPoints": {
+              "vitality": 16,
+              "speed": 16,
+              "weapon": 12
+            },
+            "perks": [
+              {
+                "name": "starter_rifle",
+                "stats": [
+                  {
+                    "statKey": "sprint_speed",
+                    "statValue": 0.02
+                  },
+                  {
+                    "statValue": 0.2,
+                    "statKey": "faster_self_fire_putout"
+                  },
+                  {
+                    "statValue": 0.05,
+                    "statKey": "crawl_crouch_speed"
+                  }
+                ]
+              }
+            ],
+            "sClass": "engineer",
+            "sKind": "engineer",
+            "surname": "Holle",
+            "tier": 1,
+            "weaponPreset": "",
+            "__squadType": "sniper",
+            "__squadId": "axis_tunisia_sniper_2",
+            "__faction": "moscow_axis",
+            "__currIndex": 1,
+            "appearance__rndSeed": 21232,
+            "perksCount": 1
+          }
+        ],
+        "squadId": "ger_moscow_sniper_1",
+        "squadType": "sniper",
+        "toLevelExp": 9000,
+        "vehicleType": ""
+      }
+    ],
+    "wallPosters": [],
+    "wallPostersCount": 0
+  }
+}

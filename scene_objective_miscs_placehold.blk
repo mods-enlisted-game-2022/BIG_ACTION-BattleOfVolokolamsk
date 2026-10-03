@@ -1,0 +1,78 @@
+entity{
+  _template:t="respAircraftInAir"
+  transform:m=[[0.630919, 0, 0.775848] [0, 1, -0] [-0.775848, 0, 0.630919] [-3320.42, 1638.21, 6494.2]]
+  team:i=1
+}
+
+entity{
+  _template:t="respAircraftInAir"
+  transform:m=[[0.630919, 0, 0.775848] [0, 1, -0] [-0.775848, 0, 0.630919] [-3159.71, 1638.21, 6446.31]]
+  team:i=1
+}
+
+entity{
+  _template:t="respAircraftInAir"
+  transform:m=[[0.630919, 0, 0.775848] [0, 1, -0] [-0.775848, 0, 0.630919] [-2953.06, 1638.21, 6453.07]]
+  team:i=1
+}
+
+entity{
+  _template:t="respAircraftInAir"
+  transform:m=[[0.630919, 0, 0.775848] [0, 1, -0] [-0.775848, 0, 0.630919] [-3320.42, 1638.21, 6677.33]]
+  team:i=1
+}
+
+entity{
+  _template:t="respAircraftInAir"
+  transform:m=[[0.630919, 0, 0.775848] [0, 1, -0] [-0.775848, 0, 0.630919] [-3159.71, 1638.21, 6629.44]]
+  team:i=1
+}
+
+entity{
+  _template:t="respAircraftInAir"
+  transform:m=[[0.630919, 0, 0.775848] [0, 1, -0] [-0.775848, 0, 0.630919] [-2953.06, 1638.21, 6636.19]]
+  respawnbaseSubtype:t="noop"
+  team:i=1
+}
+
+entity{
+  _template:t="respAircraftInAir"
+  transform:m=[[0.630919, 0, 0.775848] [0, 1, -0] [-0.775848, 0, 0.630919] [-716.404, 1638.21, -8091.28]]
+  respawnbaseSubtype:t="noop"
+  team:i=2
+}
+
+entity{
+  _template:t="respAircraftInAir"
+  transform:m=[[0.630919, 0, 0.775848] [0, 1, -0] [-0.775848, 0, 0.630919] [-555.695, 1638.21, -8139.18]]
+  respawnbaseSubtype:t="noop"
+  team:i=2
+}
+
+entity{
+  _template:t="respAircraftInAir"
+  transform:m=[[0.630919, 0, 0.775848] [0, 1, -0] [-0.775848, 0, 0.630919] [-349.049, 1638.21, -8132.42]]
+  respawnbaseSubtype:t="noop"
+  team:i=2
+}
+
+entity{
+  _template:t="respAircraftInAir"
+  transform:m=[[0.630919, 0, 0.775848] [0, 1, -0] [-0.775848, 0, 0.630919] [-716.404, 1638.21, -7908.16]]
+  respawnbaseSubtype:t="noop"
+  team:i=2
+}
+
+entity{
+  _template:t="respAircraftInAir"
+  transform:m=[[0.630919, 0, 0.775848] [0, 1, -0] [-0.775848, 0, 0.630919] [-555.695, 1638.21, -7956.04]]
+  respawnbaseSubtype:t="noop"
+  team:i=2
+}
+
+entity{
+  _template:t="respAircraftInAir"
+  transform:m=[[0.630919, 0, 0.775848] [0, 1, -0] [-0.775848, 0, 0.630919] [-349.049, 1638.21, -7949.29]]
+  respawnbaseSubtype:t="noop"
+  team:i=2
+}

@@ -1,0 +1,1747 @@
+
+entity{
+  _template:t="game_rendinst+big_action_fortification_build+prefab_object+enbaked_ri"
+  transform:m=[[1.50538, 0, -0.0478489] [0, 1, 0] [0.047849, 0, 1.50538] [-808.399, 7.92696, -1453.63]]
+  ri_extra__name:t="normandy_bunker_a102_walls"
+  prefab__parentId:i=2
+}
+
+entity{
+  _template:t="game_rendinst+big_action_fortification_build+prefab_object+enbaked_ri"
+  transform:m=[[-0.500761, 0, 1.42046] [0, 1, 0] [-1.42046, 0, -0.500761] [394.231, 6.59435, 758.212]]
+  ri_extra__name:t="normandy_bunker_a102_walls"
+  prefab__parentId:i=3
+}
+
+entity{
+  _template:t="ba_bunker_sandbags_wall_maxim_no_shield+enbaked_ri"
+  transform:m=[[-0.690523, 0, -0.723294] [0, 1.07537, 0] [0.723298, 0, -0.690526] [-813.472, 8.07446, -1458.52]]
+  prefab__parentId:i=2
+  ri_extra__hasCollision:b=no
+  buildingRadius:r=1
+}
+
+entity{
+  _template:t="ba_bunker_sandbags_wall_maxim_no_shield+enbaked_ri"
+  transform:m=[[-0.999795, 0, 0.019452] [0, 1.06832, 0] [-0.019452, 0, -0.999797] [-815.489, 8.08086, -1453.45]]
+  prefab__parentId:i=2
+  ri_extra__hasCollision:b=no
+  buildingRadius:r=1
+}
+
+entity{
+  _template:t="ba_bunker_sandbags_wall_maxim_no_shield+enbaked_ri"
+  transform:m=[[0.924321, 0, -0.288159] [0, 1.07537, 0] [0.381588, 0, 0.924325] [400.627, 6.74185, 755.255]]
+  ri_extra__hasCollision:b=no
+  buildingRadius:r=1
+  prefab__parentId:i=3
+}
+
+entity{
+  _template:t="ba_bunker_sandbags_wall_maxim_no_shield+enbaked_ri"
+  transform:m=[[-0.228767, 0, -0.973462] [0, 1.06809, 0] [0.973465, 0, -0.228768] [391.063, 6.74826, 751.482]]
+  ri_extra__hasCollision:b=no
+  buildingRadius:r=1
+  prefab__parentId:i=3
+}
+
+entity{
+  _template:t="ba_bunker_sandbags_wall_maxim_no_shield"
+  transform:m=[[-0.443849, 0, -0.860467] [0, 1.07537, 0] [0.888725, 0, -0.458426] [627.414, 21.0556, -489.476]]
+  ri_extra__hasCollision:b=no
+  buildingRadius:r=1
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[-1.36051, 0.5486, -4.96146] [0.679958, 5.11489, 0.379112] [4.94518, -0.552361, -1.41712] [-127.289, 59.2622, -125.212]]
+  ri_extra__name:t="soviet_victory_flag_a_anim"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[-0.85376, 0, 0.520666] [0, 1, 0] [-0.520666, 0, -0.85376] [14.0383, 9.33648, -1498.42]]
+  ri_extra__name:t="ussr_85mm_antiaircraft_gun_k52"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[-0.85376, 0, 0.520666] [0, 1, 0] [-0.520666, 0, -0.85376] [-359.367, 4.17468, -400.437]]
+  ri_extra__name:t="ussr_85mm_antiaircraft_gun_k52"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[-0.85376, 0, 0.520666] [0, 1, 0] [-0.520666, 0, -0.85376] [-278.681, 3.87601, -270.163]]
+  ri_extra__name:t="ussr_85mm_antiaircraft_gun_k52"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[0.353711, 0, -0.935355] [-0, 1, 0] [0.935355, 0, 0.353711] [-251.305, 3.87601, -266.392]]
+  ri_extra__name:t="ussr_85mm_antiaircraft_gun_k52"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[0.356222, 0.0598972, -0.93248] [0.0311484, 0.996628, 0.0759169] [0.933882, -0.0560885, 0.353155] [-214.323, 3.11646, -284.004]]
+  ri_extra__name:t="ussr_85mm_antiaircraft_gun_k52"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[0.803422, 0, 0.59541] [0, 1, -0] [-0.59541, 0, 0.803422] [-228.263, 8.24881, 257.437]]
+  ri_extra__name:t="ussr_85mm_antiaircraft_gun_k52"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[0.793229, -0.0476802, 0.607054] [0.105656, 0.992585, -0.0600979] [-0.599688, 0.11181, 0.792385] [-318.856, 4.55424, 686.72]]
+  ri_extra__name:t="ussr_85mm_antiaircraft_gun_k52"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[0.222872, 0, -0.974847] [-0, 1, 0] [0.974847, 0, 0.222872] [-335.948, 4.17468, -406.21]]
+  ri_extra__name:t="ussr_85mm_antiaircraft_gun_k52_damaged_a"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[0.337093, 0, -0.941471] [-0, 1, 0] [0.941471, 0, 0.337093] [85.7319, 3.78062, 154.439]]
+  ri_extra__name:t="ussr_85mm_antiaircraft_gun_k52_damaged_b"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[0.334738, 0.0719252, -0.939562] [-0.0447966, 0.99717, 0.0603755] [0.941246, 0.0218793, 0.337013] [47.1625, 4.07264, 153.544]]
+  ri_extra__name:t="ussr_85mm_antiaircraft_gun_k52_damaged_a"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-106.099, 8.88859, 409.233]]
+  ri_extra__name:t="ussr_85mm_antiaircraft_gun_k52"
+}
+
+entity{
+  _template:t="game_rendinst"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-179.472, 9.03076, 355.54]]
+  ri_extra__name:t="ussr_85mm_antiaircraft_gun_k52_damaged_a"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[0.459058, 0.0125469, 0.888318] [0.0312205, 0.999055, -0.0302448] [-0.887857, 0.0416178, 0.458233] [-1882.06, 1.58245, -781]]
+  ri_extra__name:t="opel_blitz_kfz_305"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[0.0948454, -0.0638587, 0.993442] [0.0389634, 0.997414, 0.0603941] [-0.994729, 0.0329797, 0.0970882] [-1883.11, 0.875943, -760.385]]
+  ri_extra__name:t="opel_blitz_kfz_305"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[-0.153909, -0.246884, 0.956745] [0.121803, 0.956156, 0.266327] [-0.980549, 0.157524, -0.11709] [-1915.3, 2.89025, -769.884]]
+  ri_extra__name:t="opel_blitz_kfz_305"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[-0.931763, 0.0122404, 0.362861] [0.00781153, 0.999876, -0.0136702] [-0.286298, -0.00990287, -0.931743] [-1916.84, 1.8589, -679.701]]
+  ri_extra__name:t="opel_blitz_kfz_305"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[-0.289257, -0.163896, 0.905001] [-0.0298419, 0.985746, 0.165575] [-0.919238, 0.0379926, -0.289187] [-1945.95, 2.04882, -718.685]]
+  ri_extra__name:t="opel_blitz_kfz_305"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[-0.536169, -0.00879703, 0.844065] [0.0312243, 0.999055, 0.0302467] [-0.843533, 0.0425727, -0.535388] [-1845.1, 0.607816, -776.015]]
+  ri_extra__name:t="opel_blitz_kfz_305"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[0.999839, 0.0173753, -0.00445539] [-0.0173672, 0.999848, 0.00186139] [0.00448705, -0.00178371, 0.999988] [-1866.42, 0.203825, -760.162]]
+  ri_extra__name:t="military_tent_c_b"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[0.98632, 0.0133002, -0.164312] [-0.00590527, 0.998951, 0.0454118] [0.164744, -0.0438201, 0.985363] [-1892.24, 4.29606, -1197.49]]
+  ri_extra__name:t="karelia_village_debris_c_burnt"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[-0.730791, 0.0133002, -0.682473] [0.0396225, 0.998951, -0.0229599] [0.681451, -0.0438201, -0.730552] [-1886.83, 4.45089, -1209.84]]
+  ri_extra__name:t="karelia_village_debris_b_burnt"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[-0.730791, 0.0133002, -0.682473] [0.0396225, 0.998951, -0.0229599] [0.681451, -0.0438201, -0.730552] [-1886.83, 4.45089, -1209.84]]
+  ri_extra__name:t="karelia_village_debris_b_burnt"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[-0.649946, 0.0133002, 0.759865] [-0.0246664, 0.998951, -0.0385833] [-0.759581, -0.0438201, -0.648936] [-1889.65, 4.02423, -1190.74]]
+  ri_extra__name:t="karelia_village_debris_b_burnt"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[-0.649946, 0.0133002, 0.759865] [-0.0246664, 0.998951, -0.0385833] [-0.759581, -0.0438201, -0.648936] [-1889.65, 4.02423, -1190.74]]
+  ri_extra__name:t="karelia_village_debris_b_burnt"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[0.491393, 0, 0.870938] [0, 1, 0] [-0.870938, 0, 0.491393] [-1888.53, 4.43372, -1197.73]]
+  ri_extra__name:t="karelia_village_house_1story_05_burnt_walls"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[0.491393, 0, 0.870938] [0, 1, 0] [-0.870938, 0, 0.491393] [-1888.53, 4.43372, -1197.73]]
+  ri_extra__name:t="karelia_village_house_1story_05_burnt_walls"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[1.88608, 0.0254332, -0.28142] [-0.0112923, 1.91024, 0.0868384] [0.31503, -0.0837947, 1.88425] [-1881.23, 4.29606, -1187.85]]
+  ri_extra__name:t="karelia_village_debris_c_burnt"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[-0.730791, 0.0133002, -0.682473] [0.0396225, 0.998951, -0.0229599] [0.681451, -0.0438201, -0.730552] [-1871.37, 4.45089, -1182.28]]
+  ri_extra__name:t="karelia_village_debris_b_burnt"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[-1.16698, 0.0238805, 1.36434] [-0.0442887, 1.79362, -0.0692765] [-1.36383, -0.0786793, -1.16517] [-1872.82, 4.02424, -1171.88]]
+  ri_extra__name:t="karelia_village_debris_b_burnt"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[0.491393, 0, 0.870938] [0, 1, 0] [-0.870938, 0, 0.491393] [-1878.46, 4.43372, -1178.91]]
+  ri_extra__name:t="karelia_village_house_1story_05_burnt_walls"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[0.42828, 0.000735723, 0.903646] [0.031231, 0.999391, -0.0156155] [-0.903106, 0.0349095, 0.427996] [-1899.55, 1.82992, -770.762]]
+  ri_extra__name:t="opel_blitz_kfz_305"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[0.100725, 0.231007, -0.967724] [0.198223, 0.948511, 0.247053] [0.974968, -0.21671, 0.0497474] [-625.433, 14.1704, 584.342]]
+  ri_extra__name:t="soviet_victory_flag_a_anim"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[-0.730791, 0.0133002, -0.682473] [0.0396225, 0.998951, -0.0229599] [0.681451, -0.0438201, -0.730552] [-1866.2, 4.4509, -1171.9]]
+  ri_extra__name:t="karelia_village_debris_b_burnt"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[-1.16698, 0.0238805, 1.36434] [-0.0442887, 1.79362, -0.0692765] [-1.36383, -0.0786793, -1.16517] [-1863.91, 4.02424, -1154.57]]
+  ri_extra__name:t="karelia_village_debris_b_burnt"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[0.491393, 0, 0.870938] [0, 1, 0] [-0.870938, 0, 0.491393] [-1869.55, 4.43372, -1161.6]]
+  ri_extra__name:t="karelia_village_house_1story_05_burnt_walls"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[0.491393, 0, 0.870938] [0, 1, 0] [-0.870938, 0, 0.491393] [-1896.48, 4.43372, -1211.91]]
+  ri_extra__name:t="karelia_village_house_1story_05_burnt_walls"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[-0.730791, 0.0133002, -0.682473] [0.0396225, 0.998951, -0.0229599] [0.681451, -0.0438201, -0.730552] [-1896.01, 4.45089, -1223.57]]
+  ri_extra__name:t="karelia_village_debris_b_burnt"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[-0.536169, -0.00879703, 0.844065] [0.0312243, 0.999055, 0.0302467] [-0.843533, 0.0425727, -0.535388] [-1845.1, 0.607816, -776.015]]
+  ri_extra__name:t="opel_blitz_kfz_305"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[0.98632, 0.0133002, -0.164312] [-0.00590527, 0.998951, 0.0454118] [0.164744, -0.0438201, 0.985363] [-1892.24, 4.29606, -1197.49]]
+  ri_extra__name:t="karelia_village_debris_c_burnt"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[-0.730791, 0.0133002, -0.682473] [0.0396225, 0.998951, -0.0229599] [0.681451, -0.0438201, -0.730552] [-1886.83, 4.45089, -1209.84]]
+  ri_extra__name:t="karelia_village_debris_b_burnt"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[-0.730791, 0.0133002, -0.682473] [0.0396225, 0.998951, -0.0229599] [0.681451, -0.0438201, -0.730552] [-1886.83, 4.45089, -1209.84]]
+  ri_extra__name:t="karelia_village_debris_b_burnt"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[-0.649946, 0.0133002, 0.759865] [-0.0246664, 0.998951, -0.0385833] [-0.759581, -0.0438201, -0.648936] [-1889.65, 4.02423, -1190.74]]
+  ri_extra__name:t="karelia_village_debris_b_burnt"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[-0.649946, 0.0133002, 0.759865] [-0.0246664, 0.998951, -0.0385833] [-0.759581, -0.0438201, -0.648936] [-1889.65, 4.02423, -1190.74]]
+  ri_extra__name:t="karelia_village_debris_b_burnt"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[0.491393, 0, 0.870938] [0, 1, 0] [-0.870938, 0, 0.491393] [-1888.53, 4.43372, -1197.73]]
+  ri_extra__name:t="karelia_village_house_1story_05_burnt_walls"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[0.491393, 0, 0.870938] [0, 1, 0] [-0.870938, 0, 0.491393] [-1888.53, 4.43372, -1197.73]]
+  ri_extra__name:t="karelia_village_house_1story_05_burnt_walls"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[1.88608, 0.0254332, -0.28142] [-0.0112923, 1.91024, 0.0868384] [0.31503, -0.0837947, 1.88425] [-1881.23, 4.29606, -1187.85]]
+  ri_extra__name:t="karelia_village_debris_c_burnt"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[-0.730791, 0.0133002, -0.682473] [0.0396225, 0.998951, -0.0229599] [0.681451, -0.0438201, -0.730552] [-1871.37, 4.45089, -1182.28]]
+  ri_extra__name:t="karelia_village_debris_b_burnt"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[-1.16698, 0.0238805, 1.36434] [-0.0442887, 1.79362, -0.0692765] [-1.36383, -0.0786793, -1.16517] [-1872.82, 4.02424, -1171.88]]
+  ri_extra__name:t="karelia_village_debris_b_burnt"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[0.491393, 0, 0.870938] [0, 1, 0] [-0.870938, 0, 0.491393] [-1878.46, 4.43372, -1178.91]]
+  ri_extra__name:t="karelia_village_house_1story_05_burnt_walls"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[-0.995973, 0.00522288, 0.0894966] [0.00516888, 0.999986, -0.000835176] [-0.0894997, -0.000369216, -0.995986] [-312.404, 7.98083, -1614.46]]
+  ri_extra__name:t="ussr_locomotive_i_2012"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[-0.996841, -0.00248098, 0.0793815] [0, 0.999512, 0.0312386] [-0.0794202, 0.0311399, -0.996354] [-413.887, 8.10458, -1581.26]]
+  ri_extra__name:t="ussr_freight_car_a_sand_b"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[0.909701, -0.00124297, -0.415263] [0.0140643, 0.999514, 0.0278184] [0.415026, -0.0311468, 0.909276] [-382.763, 8.23561, -1599.96]]
+  ri_extra__name:t="ussr_low_freight_car_1933_clamp_t_26"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[-0.647099, -0.00584261, 0.0381063] [0, 0.640758, 0.0982436] [-0.0385516, 0.0980697, -0.639623] [-168.677, 16.6099, -7.93797]]
+  ri_extra__name:t="debris_stone_a_base"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[0.778113, 0, -0.628123] [0, 1, 0] [0.628123, 0, 0.778113] [-1856.17, 0.672135, -762.927]]
+  ri_extra__name:t="steyer_1500a"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[0.998401, -0.0438039, -0.0357196] [0.0466635, 0.995406, 0.0836005] [0.0318935, -0.0851336, 0.995858] [-1816.49, 0.365862, -802.168]]
+  ri_extra__name:t="steyer_1500a"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[0.280441, -0.0236879, -0.959578] [-0.0224443, 0.999261, -0.0312269] [0.959608, 0.0302944, 0.279702] [-1759.72, 0.795428, -823.451]]
+  ri_extra__name:t="steyer_1500a"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[0.987578, 0.00857984, -0.156888] [0, 0.998508, 0.0546059] [0.157123, -0.0539276, 0.986105] [-1294.52, 11.3949, 474.935]]
+  ri_extra__name:t="steyer_1500a"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[-0.477154, -0.136417, -0.868167] [0.125619, 0.967147, -0.221012] [0.869794, -0.214515, -0.444341] [-466.168, 5.22022, 1369.4]]
+  ri_extra__name:t="steyer_1500a"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[-0.714541, -0.263418, 0.648106] [-0.222151, 0.963892, 0.146845] [-0.663385, -0.0390506, -0.747258] [793.546, 7.4314, -1394.42]]
+  ri_extra__name:t="opel_blitz_kfz_305"
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.040272, 0, -0.999189] [0, 1, 0] [1.75812, 0, -0.0708605] [-814.232, 8.01456, -1453.44]]
+  ri_extra__name:t="blast_furnace_concrete_plate_d"
+  prefab__parentId:i=2
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.655079, 0, -0.755561] [0, 1, 0] [1.32945, 0, -1.15264] [-812.389, 8.02106, -1449.16]]
+  ri_extra__name:t="blast_furnace_concrete_plate_d"
+  prefab__parentId:i=2
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.724611, 0, -0.689157] [0, 1, 0] [1.21261, 0, 1.27499] [-812.501, 8.01636, -1457.89]]
+  ri_extra__name:t="blast_furnace_concrete_plate_d"
+  prefab__parentId:i=2
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.999304, 0, -0.0372361] [0, 0.999998, 0] [0.0372362, 0, 0.999304] [-807.804, 10.9525, -1455.68]]
+  ri_extra__name:t="bunker_lamp_ceiling_b_on"
+  prefab__parentId:i=2
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.999304, 0, -0.0372361] [0, 0.999998, 0] [0.0372362, 0, 0.999304] [-807.6, 10.936, -1451.84]]
+  ri_extra__name:t="bunker_lamp_ceiling_b_on"
+  prefab__parentId:i=2
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.0812265, 0, 0.996696] [0, 1, -0] [-0.996696, 0, 0.0812265] [-797.51, 5.3496, -1454.69]]
+  ri_extra__name:t="blast_furnace_road_metal_stair"
+  prefab__parentId:i=2
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.945906, 0, 0.324444] [0, 1, 0] [-0.570874, 0, 1.66437] [396.167, 6.68195, 752.707]]
+  ri_extra__name:t="blast_furnace_concrete_plate_d"
+  prefab__parentId:i=3
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.941555, 0, -0.283686] [0, 1, 0] [0.592719, 0, 1.65671] [391.51, 6.68845, 752.874]]
+  ri_extra__name:t="blast_furnace_concrete_plate_d"
+  prefab__parentId:i=3
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.379836, 0, 0.925053] [0, 1, 0] [-1.62768, 0, 0.668344] [399.688, 6.68375, 755.932]]
+  ri_extra__name:t="blast_furnace_concrete_plate_d"
+  prefab__parentId:i=3
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.282732, 0, 0.944913] [0, 0.999998, 0] [-0.944913, 0, -0.282732] [396.228, 9.57127, 758.199]]
+  ri_extra__name:t="bunker_lamp_ceiling_b_on"
+  prefab__parentId:i=3
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.282732, 0, 0.944913] [0, 0.999998, 0] [-0.944913, 0, -0.282732] [392.807, 9.57047, 756.781]]
+  ri_extra__name:t="bunker_lamp_ceiling_b_on"
+  prefab__parentId:i=3
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.958419, 0, -0.285368] [0, 1, 0] [0.285368, 0, -0.958419] [391.274, 4.01699, 768.746]]
+  ri_extra__name:t="blast_furnace_road_metal_stair"
+  prefab__parentId:i=3
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[-0.128206, -0.215735, 0.967999] [-0.0590927, 0.975982, 0.209687] [-0.989986, -0.0303185, -0.137875] [1547.08, 18.2038, 340.07]]
+  ri_extra__name:t="zis_5"
+}
+
+entity{
+  _template:t="game_rendinst+enbaked_ri"
+  transform:m=[[0.546237, -0.0533851, -0.835927] [0.165483, 0.985176, 0.0452181] [0.821122, -0.163031, 0.546974] [1396.61, 27.9229, 370.319]]
+  ri_extra__name:t="zis_5"
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.883781, 0, -0.467902] [0, 1, 0] [0.467902, 0, 0.883781] [616.708, 17.2341, -485.608]]
+  ri_extra__name:t="bunker_chair_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.670449, 0, -0.741955] [0, 1, 0] [0.741955, 0, 0.670449] [621.79, 17.2341, -488.739]]
+  ri_extra__name:t="bunker_chair_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.467902, 5.96046e-08, 0.883781] [-2.94728e-07, 1, 4.41964e-08] [-0.883781, -2.98023e-07, 0.467902] [617.031, 18.6915, -492.015]]
+  ri_extra__name:t="bunker_electric_fuse_box_b"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.467902, 0, -0.883781] [2.51703e-07, 1, -1.70341e-07] [0.883781, -3.57628e-07, -0.467902] [625.426, 18.7301, -480.623]]
+  ri_extra__name:t="bunker_electric_fuse_panel_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.883781, -5.96046e-08, -0.467902] [-2.54633e-07, -1, -2.51118e-07] [-0.467902, 3.57628e-07, -0.883781] [615.794, 18.612, -486.806]]
+  ri_extra__name:t="bunker_electric_fuse_panel_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.467902, 1.19209e-07, -0.883781] [3.37167e-07, 1, -2.34327e-09] [0.883781, -2.98023e-07, -0.467902] [626.164, 18.7301, -481.013]]
+  ri_extra__name:t="bunker_electric_switch_panel_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.883781, 1.19209e-07, -0.467902] [2.34327e-09, 1, 3.37167e-07] [0.467902, -2.98023e-07, 0.883781] [615.42, 18.5785, -487.513]]
+  ri_extra__name:t="bunker_electric_switch_panel_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.467902, 0, -0.883781] [0, 1, 0] [0.883781, 0, -0.467902] [623.016, 18.7294, -479.337]]
+  ri_extra__name:t="bunker_alarm_ring_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.467902, 0, -0.883781] [0, 1, 0] [0.883781, 0, -0.467902] [624.764, 18.7294, -484.231]]
+  ri_extra__name:t="bunker_alarm_ring_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.883781, 5.96046e-08, -0.467902] [-4.24387e-08, 1, -4.18529e-08] [0.467902, 5.96046e-08, 0.883781] [617.42, 17.5142, -483.733]]
+  ri_extra__name:t="bunker_shelf_wall_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.883781, 5.96046e-08, -0.467902] [-4.24387e-08, 1, -4.18529e-08] [0.467902, 5.96046e-08, 0.883781] [617.42, 18.4088, -483.733]]
+  ri_extra__name:t="bunker_shelf_wall_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.883781, 5.96046e-08, -0.467902] [-4.24387e-08, 1, -4.18529e-08] [0.467902, 5.96046e-08, 0.883781] [617.42, 17.9455, -483.733]]
+  ri_extra__name:t="bunker_shelf_wall_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.883781, 5.96046e-08, -0.467902] [4.41964e-08, 1, 2.94728e-07] [0.467902, -2.98023e-07, 0.883781] [617.973, 17.3269, -482.687]]
+  ri_extra__name:t="bunker_shelf_armory_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.467902, 0, -0.883781] [0, 1, 0] [0.883781, 0, -0.467902] [620.267, 20.2609, -485.497]]
+  ri_extra__name:t="bunker_lamp_ceiling_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.467902, 0, -0.883781] [0, 1, 0] [0.883781, 0, -0.467902] [623.001, 20.2609, -481.055]]
+  ri_extra__name:t="bunker_lamp_ceiling_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.467902, -5.96046e-08, 0.883781] [1.2673e-07, 1, 4.12669e-08] [-0.883781, 1.19209e-07, 0.467902] [622.109, 17.2341, -489.111]]
+  ri_extra__name:t="bunker_table_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.883781, 0, -0.467902] [0, 1, 0] [0.467902, 0, 0.883781] [616.885, 17.4646, -484.744]]
+  ri_extra__name:t="bunker_shelf_armory_b"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.467902, 0, -0.883781] [-0.883781, 5.96046e-08, 0.467902] [4.18529e-08, 1, -4.24387e-08] [621.744, 19.8979, -478.672]]
+  ri_extra__name:t="bunker_lamp_wall_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.467902, 0, 0.883781] [0.883781, 5.96046e-08, -0.467902] [-4.18529e-08, 1, 4.24387e-08] [623.857, 19.6585, -483.185]]
+  ri_extra__name:t="bunker_lamp_wall_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.467902, 0, -0.883781] [-0.883781, 5.96046e-08, 0.467902] [4.18529e-08, 1, -4.24387e-08] [623.623, 19.6585, -483.627]]
+  ri_extra__name:t="bunker_lamp_wall_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.467902, 0, -0.883781] [0, 1, 0] [0.883781, 0, -0.467902] [618.506, 20.2609, -488.822]]
+  ri_extra__name:t="bunker_lamp_ceiling_a_off"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.883781, 0, 0.467902] [-1.70927e-07, 1, -3.35995e-07] [-0.467902, -3.57628e-07, -0.883781] [623.945, 17.6417, -486.368]]
+  ri_extra__name:t="bunker_electric_fuse_box_e"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.883781, 5.96046e-08, -0.467902] [-4.24387e-08, 1, -4.18529e-08] [0.467902, 5.96046e-08, 0.883781] [615.048, 18.5785, -488.215]]
+  ri_extra__name:t="bunker_electric_indicator_box_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.883781, 5.96046e-08, 0.467902] [4.24387e-08, 1, 4.18529e-08] [-0.467902, 5.96046e-08, -0.883781] [623.977, 18.5882, -486.308]]
+  ri_extra__name:t="bunker_electric_indicator_box_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.329197, 0, 0.174288] [0, 0.372488, 0] [-0.174288, 0, -0.329197] [622.222, 18.5284, -489.623]]
+  ri_extra__name:t="wall_map_german_normandy_c"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.29407, 0, 0.955784] [0, 1, 0] [-1.0557, 0, -0.324814] [641.568, 21.2341, -492.455]]
+  ri_extra__name:t="normandy_decor_step_2000_bunker_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.29407, 0, 0.955784] [0, 1, 0] [-1.0557, 0, -0.324814] [639.502, 21.2341, -493.084]]
+  ri_extra__name:t="normandy_decor_step_2000_bunker_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.29407, 0, -0.955784] [0, 1, 0] [1.0557, 0, 0.324814] [636.846, 21.2341, -477.185]]
+  ri_extra__name:t="normandy_decor_step_2000_bunker_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.29407, 0, -0.955784] [0, 1, 0] [1.04684, 0, 0.322086] [634.785, 21.2341, -477.812]]
+  ri_extra__name:t="normandy_decor_step_2000_bunker_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.955784, 0, -0.29407] [0, 1, 0] [0.324814, 0, -1.0557] [646.094, 21.2341, -483.799]]
+  ri_extra__name:t="normandy_decor_step_2000_bunker_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.955784, 0, -0.29407] [0, 1, 0] [0.322086, 0, -1.04684] [645.466, 21.2341, -481.738]]
+  ri_extra__name:t="normandy_decor_step_2000_bunker_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-1.00208, 0, -1.89275] [-1.89275, 1.19209e-07, 1.00208] [8.37056e-08, 2.14165, -8.48773e-08] [614.174, 20.4436, -485.585]]
+  ri_extra__name:t="normandy_bunker_decal_c"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-2.88637, 0, -0.888064] [-0.727282, -5.96046e-08, 2.36382] [-4.18529e-08, 2.47318, 4.24387e-08] [635.825, 22.3187, -475.367]]
+  ri_extra__name:t="normandy_bunker_decal_c"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[1.00208, 0, 1.89275] [1.89275, -5.96046e-08, -1.00208] [4.18529e-08, 2.6511, -4.24387e-08] [646.691, 22.2815, -490.457]]
+  ri_extra__name:t="normandy_bunker_decal_c"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-1.8502, 5.36442e-07, 0.979555] [0.979555, -5.96046e-08, 1.8502] [5.04579e-07, 2.0935, -1.72098e-07] [626.479, 20.4208, -478.914]]
+  ri_extra__name:t="normandy_bunker_decal_c"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.973333, 0, -1.83845] [-2.40549, -5.96046e-08, 1.27355] [-4.18529e-08, 2.72182, 4.24387e-08] [629.863, 22.9135, -479.456]]
+  ri_extra__name:t="normandy_bunker_decal_d"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-1.89275, 0, 1.00208] [1.00208, -5.96046e-08, 1.89275] [4.24387e-08, 2.14165, 4.18529e-08] [623.861, 20.8576, -477.527]]
+  ri_extra__name:t="normandy_bunker_decal_d"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[1.89275, 0, -1.00208] [-1.00208, -5.96046e-08, -1.89275] [-4.24387e-08, 2.14165, -4.18529e-08] [629.391, 22.2859, -491.781]]
+  ri_extra__name:t="normandy_bunker_decal_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[1.2388, 0, -0.655859] [-1.00208, -5.96046e-08, -1.89275] [0, 1.2775, 0] [626.814, 20.5905, -490.414]]
+  ri_extra__name:t="normandy_bunker_decal_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.534654, 0, -1.00987] [-1.00987, 0, 0.534654] [0, 1.14267, 0] [629.807, 20.8038, -479.56]]
+  ri_extra__name:t="normandy_bunker_decal_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.629778, 0, -2.04696] [-2.04696, -5.96046e-08, -0.629778] [-4.24387e-08, 2.02124, -4.18529e-08] [646.757, 22.1132, -482.363]]
+  ri_extra__name:t="normandy_bunker_decal_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.707674, 0, 1.33667] [1.33667, -5.96046e-08, -0.707674] [4.18529e-08, 1.51244, -4.24387e-08] [626.837, 22.5327, -483.073]]
+  ri_extra__name:t="normandy_bunker_decal_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-1.66953, 0, 0.883905] [0.819679, -5.96046e-08, 1.54822] [4.24387e-08, 2.14959, 4.18529e-08] [622.966, 20.735, -477.053]]
+  ri_extra__name:t="normandy_bunker_decal_b"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-1.84127, 0, -3.47781] [-2.77174, -1.19209e-07, 1.46745] [-1.67998e-07, 5.13836, 8.54634e-08] [616.762, 20.4154, -480.7]]
+  ri_extra__name:t="normandy_bunker_decal_b"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-3.56573, 0, 1.8878] [1.46745, -1.19209e-07, 2.77174] [8.54634e-08, 5.56232, 1.67998e-07] [642.878, 22.4113, -476.271]]
+  ri_extra__name:t="normandy_bunker_decal_b"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[3.47781, 0, -1.84127] [-1.46745, -1.19209e-07, -2.77174] [-8.54634e-08, 5.13836, -1.67998e-07] [632.694, 22.4209, -493.53]]
+  ri_extra__name:t="normandy_bunker_decal_b"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.367976, 0, 1.19599] [1.7291, -5.96046e-08, 0.531998] [4.24387e-08, 1.54283, 4.18529e-08] [638.88, 22.4298, -493.236]]
+  ri_extra__name:t="normandy_bunker_decal_f"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[1.66607, 0, 0.512584] [0.629778, -5.96046e-08, -2.04696] [4.18529e-08, 1.92357, -4.24387e-08] [635.398, 22.1553, -476.561]]
+  ri_extra__name:t="normandy_bunker_decal_f"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-1.00208, 0, -1.89275] [-1.89275, -5.96046e-08, 1.00208] [-4.18529e-08, 2.14165, 4.24387e-08] [629.331, 22.1358, -487.918]]
+  ri_extra__name:t="normandy_bunker_decal_f"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.254622, 0, 0.134805] [0.323308, 5.96046e-08, 0.610667] [-4.24387e-08, 0.413011, -4.18529e-08] [623.886, 19.6439, -477.54]]
+  ri_extra__name:t="normandy_bunker_decal_f"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[1.00208, 0, 1.89275] [1.89275, -5.96046e-08, -1.00208] [4.18529e-08, 2.6511, -4.24387e-08] [648.013, 21.9859, -487.96]]
+  ri_extra__name:t="normandy_bunker_decal_f"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.856764, 0, -1.61827] [-1.89275, -5.96046e-08, 1.00208] [-4.18529e-08, 2.24202, 4.24387e-08] [629.315, 22.9706, -487.951]]
+  ri_extra__name:t="normandy_bunker_decal_h"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[1.00208, 0, 1.89275] [1.89275, -5.96046e-08, -1.00208] [4.18529e-08, 2.6511, -4.24387e-08] [646.739, 22.7862, -490.366]]
+  ri_extra__name:t="normandy_bunker_decal_h"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-1.67676, 0, -0.515896] [-0.629794, -5.96046e-08, 2.04695] [-4.18529e-08, 2.3692, 4.24387e-08] [646.143, 22.6417, -484.472]]
+  ri_extra__name:t="normandy_bunker_decal_e"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.858385, -0.170011, 0.484015] [-0.50096, 0.0745339, -0.862256] [0.110518, -0.982619, -0.149148] [621.996, 20.1479, -490.492]]
+  ri_extra__name:t="normandy_bunker_chunk_c"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.0570894, -0.97432, 0.217809] [0.183926, -0.204167, -0.961503] [0.981281, 0.0949523, 0.167547] [619.786, 22.6418, -490.853]]
+  ri_extra__name:t="normandy_bunker_chunk_c"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.0318887, -0.798371, 0.0014754] [0.69603, 0.0270777, -0.39144] [0.391077, 0.0169078, 0.696555] [617.795, 20.2812, -491.742]]
+  ri_extra__name:t="normandy_bunker_chunk_c"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.0591211, -0.796749, 0.0105919] [0.0599729, -0.00614154, -0.796732] [0.794559, 0.0597476, 0.0593487] [620.191, 20.3482, -489.627]]
+  ri_extra__name:t="normandy_bunker_chunk_c"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.139303, -0.95532, 0.260689] [0.551626, -0.29349, -0.780751] [0.822377, 0.0350425, 0.567863] [617.584, 22.8656, -490.191]]
+  ri_extra__name:t="normandy_bunker_chunk_c"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.150331, -0.94452, 0.292032] [0.104324, -0.278584, -0.954728] [0.983116, 0.173991, 0.0566573] [620.622, 23.1156, -488.026]]
+  ri_extra__name:t="normandy_bunker_chunk_c"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.0129111, -0.978812, 0.204353] [0.173755, -0.203457, -0.963543] [0.984703, 0.0230673, 0.172701] [621.176, 22.6649, -490.375]]
+  ri_extra__name:t="normandy_bunker_chunk_c"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.128579, -0.781558, 0.610439] [-0.621586, -0.416114, -0.663687] [0.772722, -0.464776, -0.432302] [622.931, 22.4601, -490.558]]
+  ri_extra__name:t="normandy_bunker_chunk_c"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.00066036, -0.982438, 0.186588] [0.58374, -0.15112, -0.797753] [0.81194, 0.109446, 0.573389] [618.821, 22.6957, -490.846]]
+  ri_extra__name:t="normandy_bunker_chunk_c"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.858385, -0.170011, 0.484015] [-0.50096, 0.0745339, -0.862256] [0.110518, -0.982619, -0.149148] [622.998, 20.8475, -491.952]]
+  ri_extra__name:t="normandy_bunker_chunk_c"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.204699, -0.707733, 0.676175] [0.843949, -0.222319, -0.488183] [0.495831, 0.670588, 0.551783] [616.784, 22.0712, -493.212]]
+  ri_extra__name:t="normandy_bunker_chunk_c"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.0517297, -0.796478, -0.0369111] [0.493113, 0.0610245, -0.625725] [0.626561, 0.017731, 0.495502] [618.779, 20.3482, -490.032]]
+  ri_extra__name:t="normandy_bunker_chunk_c"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.127374, -0.97432, 0.185676] [0.8475, -0.204167, -0.489962] [0.515288, 0.0949523, 0.851741] [617.807, 22.7328, -492.157]]
+  ri_extra__name:t="normandy_bunker_chunk_c"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.456622, -0.00110781, -0.581946] [0.581703, -0.0222745, -0.456388] [-0.0168403, -0.73937, 0.0146214] [618.792, 21.2241, -492.807]]
+  ri_extra__name:t="normandy_bunker_chunk_e"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.00280908, -0.432531, -0.39676] [-0.399278, 0.292222, -0.31574] [0.430206, 0.268389, -0.295633] [622.302, 21.2982, -491.991]]
+  ri_extra__name:t="normandy_bunker_chunk_e"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.594442, -0.464838, 0.424776] [-0.332172, 0.727748, 0.331535] [-0.53495, 0.0646452, -0.67788] [621.633, 19.8648, -493.216]]
+  ri_extra__name:t="normandy_bunker_chunk_e"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.728868, -0.368667, -0.534013] [-0.364411, 0.897038, -0.12191] [0.536928, 0.108357, -0.807652] [621.86, 19.936, -492.043]]
+  ri_extra__name:t="normandy_bunker_chunk_e"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.264869, 0.0493997, -0.937944] [-0.313878, 0.913843, 0.136767] [0.885246, 0.338799, -0.232143] [620.802, 19.4845, -493.462]]
+  ri_extra__name:t="normandy_bunker_chunk_e"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.38999, 0.481963, -0.753627] [0.0838155, 0.8382, 0.492676] [0.890627, 0.13216, -0.376365] [620.762, 20.0239, -494.464]]
+  ri_extra__name:t="normandy_bunker_chunk_e"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.306047, 0.590228, -0.714353] [0.30647, 0.774442, 0.508577] [0.874498, -0.0648431, -0.428233] [619.04, 19.5799, -493.922]]
+  ri_extra__name:t="normandy_bunker_chunk_e"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.434198, 0.204715, -0.777764] [0.373983, 0.833892, 0.0107075] [0.712013, -0.313161, -0.479919] [618.25, 20.0872, -493.948]]
+  ri_extra__name:t="normandy_bunker_chunk_e"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.15338, -0.611888, 0.333482] [0.108872, -0.358312, -0.607373] [0.688306, -0.0796758, 0.170382] [620.456, 20.9677, -490.615]]
+  ri_extra__name:t="normandy_bunker_chunk_e"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.601689, 0.199387, -0.38129] [0.096496, -0.576267, -0.45362] [-0.419316, -0.418721, 0.442734] [619.888, 20.711, -490.584]]
+  ri_extra__name:t="normandy_bunker_chunk_e"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.754554, -0.512984, -0.346164] [0.498381, -0.180098, -0.819461] [0.366877, -0.810399, 0.401234] [618.195, 20.854, -493.25]]
+  ri_extra__name:t="normandy_bunker_chunk_e"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.171854, -0.561105, -0.0117058] [-0.0101148, 0.00914371, -0.586791] [0.561135, 0.172009, -0.00699279] [621.157, 21.024, -490.483]]
+  ri_extra__name:t="normandy_bunker_chunk_e"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.213164, -0.668372, 0.130318] [-0.371728, -0.000199378, -0.609066] [0.570546, -0.249844, -0.348137] [621.596, 21.2527, -490.627]]
+  ri_extra__name:t="normandy_bunker_chunk_e"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.790148, -0.562155, -0.109466] [-0.256542, 0.51418, -0.788759] [0.512042, -0.609865, -0.564102] [617.47, 20.5371, -493.546]]
+  ri_extra__name:t="normandy_bunker_chunk_e"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.445705, -0.0349803, -0.498488] [0.471142, 0.193206, -0.434813] [0.166547, -0.640167, -0.10399] [617.822, 21.8483, -493.356]]
+  ri_extra__name:t="normandy_bunker_chunk_e"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.92504, -0.247155, -0.28847] [0.277303, 0.0796563, -0.957475] [0.259624, -0.965696, -0.00514835] [616.641, 20.8067, -493.343]]
+  ri_extra__name:t="normandy_bunker_chunk_e"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.0385002, -0.598703, -0.575202] [-0.707161, 0.325345, -0.291306] [0.435002, 0.475909, -0.52447] [622.202, 21.5385, -491.171]]
+  ri_extra__name:t="normandy_bunker_chunk_e"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.458264, 0.0190642, -0.888611] [0.766077, 0.515421, -0.384014] [0.450688, -0.856725, -0.250804] [618.233, 22.1322, -492.536]]
+  ri_extra__name:t="normandy_bunker_chunk_e"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.209391, 0.552756, -0.534565] [0.402964, -0.550742, -0.41164] [-0.654921, -0.162138, -0.424189] [619.23, 21.097, -491.321]]
+  ri_extra__name:t="normandy_bunker_chunk_e"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.467902, 0, -0.883781] [-0.883781, 5.96046e-08, 0.467902] [4.18529e-08, 1, -4.24387e-08] [622.418, 20.5706, -477.332]]
+  ri_extra__name:t="bunker_lamp_wall_a_off"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.467902, 0, 0.883781] [0, 1, 0] [-0.883781, 0, 0.467902] [622.721, 18.234, -476.927]]
+  ri_extra__name:t="bunker_door_frame_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.467902, -1.19209e-07, -0.883781] [4.18529e-07, 1, -4.24387e-07] [0.883781, -5.36442e-07, -0.467902] [626.164, 17.7462, -481.013]]
+  ri_extra__name:t="bunker_electric_fuse_box_d"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.883781, -1.19209e-07, -0.467902] [2.11608e-07, 1, 1.24973e-07] [0.467902, -2.38419e-07, 0.883781] [619.538, 17.7313, -479.706]]
+  ri_extra__name:t="bunker_electric_fuse_box_d"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.883781, 0, -0.467902] [4.24387e-08, 1, 4.18529e-08] [0.467902, -5.96046e-08, 0.883781] [616.76, 17.7738, -484.978]]
+  ri_extra__name:t="bunker_electric_fuse_box_d"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.467902, -1.19209e-07, -0.883781] [1.24973e-07, 1, -2.11608e-07] [0.883781, -2.38419e-07, -0.467902] [620.868, 17.7785, -482.171]]
+  ri_extra__name:t="bunker_electric_fuse_box_d"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.883781, 0, -0.467902] [0, 1, 0] [0.467902, 0, 0.883781] [619.752, 17.2341, -479.301]]
+  ri_extra__name:t="bunker_electric_socket_wire_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.883781, 0, -0.467902] [0, 1, 0] [0.467902, 0, 0.883781] [619.662, 17.2341, -479.472]]
+  ri_extra__name:t="bunker_electric_socket_wire_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.883781, 0, 0.467902] [0, 1, 0] [-0.467902, 0, -0.883781] [623.278, 17.5234, -487.633]]
+  ri_extra__name:t="bunker_couch_wall_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.883781, 0, -0.467902] [0, 1, 0] [0.467902, 0, 0.883781] [616.172, 18.6854, -486.089]]
+  ri_extra__name:t="bunker_electric_switch_panel_b"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.467902, 0, -0.883781] [0, 1, 0] [0.883781, 0, -0.467902] [621.953, 19.0728, -482.743]]
+  ri_extra__name:t="bunker_electric_switch_panel_b"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.467902, -1.19209e-07, -0.883781] [2.92971e-07, 1, -2.97072e-07] [0.883781, -4.17233e-07, -0.467902] [623.345, 18.4555, -479.511]]
+  ri_extra__name:t="bunker_telephone_wall_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.467902, -1.19209e-07, -0.883781] [2.92971e-07, 1, -2.97072e-07] [0.883781, -4.17233e-07, -0.467902] [624.442, 18.4555, -484.059]]
+  ri_extra__name:t="bunker_telephone_wall_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.883781, -1.19209e-07, -0.467902] [8.37056e-08, 1, -8.48773e-08] [0.467902, 0, 0.883781] [615.187, 18.5785, -487.955]]
+  ri_extra__name:t="bunker_electric_switch_b"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.467902, -1.19209e-07, 0.883781] [-8.31201e-08, 1, 1.69169e-07] [-0.883781, -1.19209e-07, 0.467902] [624.516, 18.6248, -483.534]]
+  ri_extra__name:t="bunker_electric_switch_b"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.883781, 5.96046e-08, -0.467902] [-4.24387e-08, 1, -4.18529e-08] [0.467902, 5.96046e-08, 0.883781] [620.033, 17.2337, -478.778]]
+  ri_extra__name:t="bunker_electric_cabinet_door_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.467902, 5.96046e-08, 0.883781] [4.18529e-08, 1, -4.24387e-08] [-0.883781, 5.96046e-08, 0.467902] [616.245, 17.2337, -491.608]]
+  ri_extra__name:t="bunker_electric_cabinet_door_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.467902, 0, -0.883781] [0, 1, 0] [0.883781, 0, -0.467902] [621.929, 18.0966, -482.73]]
+  ri_extra__name:t="bunker_electric_fuse_box_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.467902, 5.96046e-08, -0.883781] [4.24387e-08, 1, 4.18529e-08] [0.883781, -5.96046e-08, -0.467902] [614.046, 19.9306, -490.268]]
+  ri_extra__name:t="bunker_air_duct_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.883781, 5.96046e-08, -0.467902] [-4.18529e-08, 1, 4.24387e-08] [0.467902, -5.96046e-08, 0.883781] [620.305, 19.9306, -481.219]]
+  ri_extra__name:t="bunker_air_duct_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.883781, 5.96046e-08, -0.467902] [-4.18529e-08, 1, 4.24387e-08] [0.467902, -5.96046e-08, 0.883781] [621.189, 19.9306, -481.687]]
+  ri_extra__name:t="bunker_air_duct_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.467902, 5.96046e-08, -0.883781] [4.24387e-08, 1, 4.18529e-08] [0.883781, -5.96046e-08, -0.467902] [617.321, 19.9306, -484.081]]
+  ri_extra__name:t="bunker_air_duct_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.883781, 5.96046e-08, -0.467902] [-4.18529e-08, 1, 4.24387e-08] [0.467902, -5.96046e-08, 0.883781] [619.422, 19.9306, -480.751]]
+  ri_extra__name:t="bunker_air_duct_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.467902, 5.96046e-08, -0.883781] [4.24387e-08, 1, 4.18529e-08] [0.883781, -5.96046e-08, -0.467902] [616.386, 19.9306, -485.85]]
+  ri_extra__name:t="bunker_air_duct_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.467902, 5.96046e-08, -0.883781] [4.24387e-08, 1, 4.18529e-08] [0.883781, -5.96046e-08, -0.467902] [615.918, 19.9306, -486.733]]
+  ri_extra__name:t="bunker_air_duct_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.467902, 5.96046e-08, -0.883781] [4.24387e-08, 1, 4.18529e-08] [0.883781, -5.96046e-08, -0.467902] [615.45, 19.9306, -487.617]]
+  ri_extra__name:t="bunker_air_duct_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.467902, 5.96046e-08, -0.883781] [4.24387e-08, 1, 4.18529e-08] [0.883781, -5.96046e-08, -0.467902] [614.982, 19.9306, -488.501]]
+  ri_extra__name:t="bunker_air_duct_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.467902, 5.96046e-08, -0.883781] [4.24387e-08, 1, 4.18529e-08] [0.883781, -5.96046e-08, -0.467902] [614.515, 19.9306, -489.384]]
+  ri_extra__name:t="bunker_air_duct_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.467902, 5.96046e-08, -0.883781] [4.24387e-08, 1, 4.18529e-08] [0.883781, -5.96046e-08, -0.467902] [616.854, 19.9306, -484.966]]
+  ri_extra__name:t="bunker_air_duct_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.467902, 5.96046e-08, -0.883781] [4.24387e-08, 1, 4.18529e-08] [0.883781, -5.96046e-08, -0.467902] [617.79, 19.9306, -483.198]]
+  ri_extra__name:t="bunker_air_duct_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.467902, 5.96046e-08, -0.883781] [4.24387e-08, 1, 4.18529e-08] [0.883781, -5.96046e-08, -0.467902] [618.257, 19.9306, -482.314]]
+  ri_extra__name:t="bunker_air_duct_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.467902, 5.96046e-08, -0.883781] [4.24387e-08, 1, 4.18529e-08] [0.883781, -5.96046e-08, -0.467902] [618.725, 19.9306, -481.43]]
+  ri_extra__name:t="bunker_air_duct_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.467902, 5.96046e-08, -0.883781] [4.24387e-08, 1, 4.18529e-08] [0.883781, -5.96046e-08, -0.467902] [619.193, 19.9306, -480.546]]
+  ri_extra__name:t="bunker_air_duct_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.467902, 5.96046e-08, -0.883781] [4.24387e-08, 1, 4.18529e-08] [0.883781, -5.96046e-08, -0.467902] [619.661, 19.9306, -479.663]]
+  ri_extra__name:t="bunker_air_duct_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.467902, 5.96046e-08, -0.883781] [4.24387e-08, 1, 4.18529e-08] [0.883781, -5.96046e-08, -0.467902] [620.129, 19.9306, -478.779]]
+  ri_extra__name:t="bunker_air_duct_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.467902, 5.96046e-08, -0.883781] [4.24387e-08, 1, 4.18529e-08] [0.883781, -5.96046e-08, -0.467902] [620.597, 19.9306, -477.895]]
+  ri_extra__name:t="bunker_air_duct_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.883781, 5.96046e-08, -0.467902] [-4.18529e-08, 1, 4.24387e-08] [0.467902, -5.96046e-08, 0.883781] [623.84, 19.9306, -483.091]]
+  ri_extra__name:t="bunker_air_duct_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.883781, 5.96046e-08, -0.467902] [-4.18529e-08, 1, 4.24387e-08] [0.467902, -5.96046e-08, 0.883781] [622.073, 19.9306, -482.154]]
+  ri_extra__name:t="bunker_air_duct_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.883781, 5.96046e-08, -0.467902] [-4.18529e-08, 1, 4.24387e-08] [0.467902, -5.96046e-08, 0.883781] [622.956, 19.9306, -482.623]]
+  ri_extra__name:t="bunker_air_duct_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.883781, 5.96046e-08, -0.467902] [-4.18529e-08, 1, 4.24387e-08] [0.467902, -5.96046e-08, 0.883781] [624.724, 19.9306, -483.559]]
+  ri_extra__name:t="bunker_air_duct_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.883781, 5.96046e-08, -0.467902] [-4.18529e-08, 1, 4.24387e-08] [0.467902, -5.96046e-08, 0.883781] [625.608, 19.9306, -484.026]]
+  ri_extra__name:t="bunker_air_duct_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.467902, 5.96046e-08, 0.883781] [-4.24387e-08, 1, -4.18529e-08] [-0.883781, -5.96046e-08, 0.467902] [619.102, 17.4507, -493.115]]
+  ri_extra__name:t="bunker_heater_radiator_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.883781, 0, -0.467902] [-4.24387e-08, 1, -4.18529e-08] [0.467902, 5.96046e-08, 0.883781] [614.18, 18.3714, -489.808]]
+  ri_extra__name:t="bunker_air_filter_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.38605, 0, 0.204388] [0, 0.436817, 0] [-0.204388, 0, -0.38605] [622.593, 18.5492, -488.922]]
+  ri_extra__name:t="wall_map_german_normandy_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.883781, 5.96046e-08, -0.467902] [-2.12194e-07, 1, -2.09264e-07] [0.467902, 2.98023e-07, 0.883781] [623.883, 19.9586, -477.542]]
+  ri_extra__name:t="bunker_air_duct_hole"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.467902, 0, 0.883781] [0, 1, 0] [-0.883781, 0, 0.467902] [620.287, 18.484, -481.522]]
+  ri_extra__name:t="bunker_arrowslit_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.473049, 0, -0.893502] [0, 1, 0] [1.04551, 0, -0.55353] [622.487, 18.234, -477.368]]
+  ri_extra__name:t="normandy_decor_stairs_1000_bunker_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.616109, -0.0449563, 0.458447] [0.447524, 0.239846, -0.577909] [-0.109162, 0.729546, 0.218244] [615.667, 20.9318, -493.176]]
+  ri_extra__name:t="normandy_bunker_chunk_d"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.588247, -0.458679, 0.188054] [0.328645, 0.142351, -0.680819] [0.371139, 0.600944, 0.304806] [616.341, 21.665, -493.119]]
+  ri_extra__name:t="normandy_bunker_chunk_d"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.1079, -0.732659, 0.208214] [0.724454, 0.0337871, -0.256534] [0.235179, 0.232064, 0.694709] [617.437, 22.4081, -492.809]]
+  ri_extra__name:t="normandy_bunker_chunk_d"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.0393438, -0.767947, -0.0222149] [0.502712, -0.00891292, -0.582224] [0.580962, -0.0442945, 0.5023] [618.203, 20.3887, -490.764]]
+  ri_extra__name:t="normandy_bunker_chunk_d"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.0444185, -0.767947, 0.00827226] [0.0108526, -0.00891292, -0.769147] [0.767915, -0.0442945, 0.0113497] [620.988, 20.3887, -489.728]]
+  ri_extra__name:t="normandy_bunker_chunk_d"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.0444185, -0.767947, 0.00827226] [0.0108526, -0.00891292, -0.769147] [0.767915, -0.0442945, 0.0113497] [622.048, 22.7004, -490.325]]
+  ri_extra__name:t="normandy_bunker_chunk_d"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.514341, -0.115314, 0.849798] [0.171395, -0.957105, -0.233611] [0.840284, 0.265807, -0.472514] [618.739, 20.0186, -494.237]]
+  ri_extra__name:t="normandy_bunker_chunk_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.965626, 0.223182, -0.133251] [0.143035, -0.884266, -0.44454] [-0.217042, 0.4102, -0.885793] [619.772, 20.198, -494.958]]
+  ri_extra__name:t="normandy_bunker_chunk_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.589209, -0.0651163, 0.805353] [0.782023, -0.296579, 0.548162] [0.203156, 0.952786, 0.22567] [622.049, 20.2659, -491.611]]
+  ri_extra__name:t="normandy_bunker_chunk_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.701601, -0.115314, 0.703177] [0.267905, -0.957105, 0.110349] [0.660289, 0.265807, 0.702399] [622.044, 19.9855, -492.719]]
+  ri_extra__name:t="normandy_bunker_chunk_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.753619, 0.594504, 0.280397] [-0.65225, -0.729202, -0.206969] [0.0814227, -0.338865, 0.937305] [618.171, 20.3953, -493.025]]
+  ri_extra__name:t="normandy_bunker_chunk_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.298502, 0.0115224, -0.678855] [0.191817, 0.712789, -0.0722461] [0.651294, -0.204648, -0.289856] [617.212, 23.0202, -491.004]]
+  ri_extra__name:t="normandy_bunker_chunk_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.28141, -0.284172, -0.465783] [-0.0724091, 0.538899, -0.285033] [0.540799, -0.0757169, -0.280538] [616.88, 20.2921, -493.677]]
+  ri_extra__name:t="normandy_bunker_chunk_b"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.151234, 0.0417358, -0.397895] [0.103059, 0.415083, 0.00436755] [0.386576, -0.0943307, -0.156826] [617.996, 20.419, -493.38]]
+  ri_extra__name:t="normandy_bunker_chunk_b"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.340698, 0.278362, -0.225436] [0.342083, -0.160576, 0.31871] [0.106235, -0.375648, -0.30329] [618.173, 20.1466, -492.753]]
+  ri_extra__name:t="normandy_bunker_chunk_b"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.337703, -0.084586, -0.62565] [0.0452118, 0.704469, -0.119646] [0.629721, -0.0959397, -0.32693] [617.654, 22.7465, -491.03]]
+  ri_extra__name:t="normandy_bunker_chunk_b"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.467902, 0, -0.883781] [0, 1, 0] [0.883781, 0, -0.467902] [631.454, 18.234, -486.076]]
+  ri_extra__name:t="normandy_bunker_fl249_camofabric"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.29407, 0, 0.955784] [0, 1, 0] [-0.955784, 0, -0.29407] [640.519, 22.2341, -492.756]]
+  ri_extra__name:t="normandy_decor_stairs_1000_bunker_c"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.955784, 0, -0.29407] [0, 1, 0] [0.29407, 0, -0.955784] [645.766, 22.2341, -482.782]]
+  ri_extra__name:t="normandy_decor_stairs_1000_bunker_c"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.29407, 0, -0.955784] [0, 1, 0] [0.955784, 0, 0.29407] [635.829, 22.2341, -477.513]]
+  ri_extra__name:t="normandy_decor_stairs_1000_bunker_c"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.29407, 0, 0.955784] [0, 1, 0] [-0.955784, 0, -0.29407] [640.664, 21.2341, -493.237]]
+  ri_extra__name:t="normandy_decor_step_1000_bunker_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[0.29407, 0, -0.955784] [0, 1, 0] [0.955784, 0, 0.29407] [635.685, 21.2341, -477.032]]
+  ri_extra__name:t="normandy_decor_step_1000_bunker_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.955784, 0, -0.29407] [0, 1, 0] [0.29407, 0, -0.955784] [646.247, 21.2341, -482.638]]
+  ri_extra__name:t="normandy_decor_step_1000_bunker_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst_decor"
+  transform:m=[[0.509992, 0.109337, -0.853202] [-0.0560973, 0.994005, 0.0938492] [0.858348, -3.72529e-09, 0.513068] [-1374.58, -0.18224, 1259.02]]
+  ri_extra__name:t="26_whaleboat"
+}
+
+entity{
+  _template:t="game_rendinst_decor"
+  transform:m=[[0.168446, 0.102072, -0.980412] [-0.0560974, 0.994005, 0.0938492] [0.984113, 0.03919, 0.173162] [-1380.92, -0.211681, 1255.08]]
+  ri_extra__name:t="26_whaleboat"
+}
+
+entity{
+  _template:t="game_rendinst_decor"
+  transform:m=[[0.526975, 0.183431, -0.82985] [-0.0806254, 0.982817, 0.166044] [0.846048, -0.020594, 0.532709] [-1385.32, -0.299326, 1252.03]]
+  ri_extra__name:t="26_whaleboat"
+}
+
+entity{
+  _template:t="game_rendinst_decor"
+  transform:m=[[0.75904, 0.183431, 0.624669] [-0.154916, 0.982817, -0.10036] [-0.632344, -0.020594, 0.774414] [-1525.87, -0.553024, 938.52]]
+  ri_extra__name:t="26_whaleboat"
+}
+
+entity{
+  _template:t="game_rendinst_decor"
+  transform:m=[[0.75904, 0.183431, 0.624669] [-0.154916, 0.982817, -0.10036] [-0.632344, -0.020594, 0.774414] [-1519.58, -0.546827, 932.343]]
+  ri_extra__name:t="26_whaleboat"
+}
+
+entity{
+  _template:t="game_rendinst_decor"
+  transform:m=[[0.815551, 0.0716552, 0.574231] [-0.0759414, 0.996975, -0.0165513] [-0.573681, -0.0301095, 0.818527] [-1092.43, 1.04597, -1160.86]]
+  ri_extra__hasCollision:b=yes
+  ri_extra__name:t="zis_5"
+}
+
+entity{
+  _template:t="game_rendinst_decor+big_action_fortification_build+prefab_object+enbaked_ri"
+  transform:m=[[-0.90165, 0, 0.432466] [0, 1, 0] [-0.432466, 0, -0.90165] [627.354, 20.9855, -489.306]]
+  ri_extra__name:t="russia_bunker_pillbox_b_front_walls"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst_decor+enbaked_ri"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [-2393.06, 5.19017, -1182.89]]
+  ri_extra__name:t="russia_water_tower_a_walls"
+}
+
+entity{
+  _template:t="game_rendinst_decor+enbaked_ri"
+  transform:m=[[0.967682, 0.0227235, -0.251145] [-0.0156159, 0.99942, 0.0302578] [0.251688, -0.0253581, 0.967477] [399.339, 5.30102, -156.962]]
+  ri_extra__hasCollision:b=yes
+  ri_extra__name:t="zis_5"
+}
+
+entity{
+  _template:t="game_rendinst_decor+enbaked_ri"
+  transform:m=[[0.652988, -0.148457, 0.742675] [0.238046, 0.971136, -0.015174] [-0.718986, 0.186699, 0.66948] [387.532, 6.8531, -166.504]]
+  ri_extra__hasCollision:b=yes
+  ri_extra__name:t="zis_5"
+}
+
+entity{
+  _template:t="game_rendinst_decor+enbaked_ri"
+  transform:m=[[-0.141125, 0.236885, 0.961233] [0.0151774, 0.971355, -0.237151] [-0.989876, -0.0188789, -0.140678] [1498.2, 3.99647, 935.677]]
+  ri_extra__hasCollision:b=no
+  ri_extra__name:t="zis_5"
+}
+
+entity{
+  _template:t="game_rendinst_decor+enbaked_ri"
+  transform:m=[[0.272874, 0.0268029, 0.961676] [-0.0156188, 0.999604, -0.0234282] [-0.961924, -0.0086273, 0.273185] [-1105.36, 1.02338, -1166.12]]
+  ri_extra__hasCollision:b=yes
+  ri_extra__name:t="zis_5"
+}
+
+entity{
+  _template:t="game_rendinst_decor+enbaked_ri"
+  transform:m=[[0.0969552, -0.453299, 0.88607] [0.187896, 0.882592, 0.43096] [-0.977392, 0.124705, 0.170745] [-491.893, 7.92678, -1540.67]]
+  ri_extra__name:t="sandbags_wall_medium_rounded_a_dmg"
+}
+
+entity{
+  _template:t="game_rendinst_decor+enbaked_ri"
+  transform:m=[[0.536136, -0.453066, 0.712243] [0.194991, 0.887409, 0.417713] [-0.821302, -0.0850704, 0.564116] [-483.292, 7.77253, -1544.33]]
+  ri_extra__name:t="sandbags_wall_medium_rounded_a_dmg"
+}
+
+entity{
+  _template:t="game_rendinst_decor+enbaked_ri"
+  transform:m=[[-0.082295, 0.413112, 0.906954] [-0.191725, 0.88648, -0.421183] [-0.977992, -0.208547, 0.00625108] [-490.053, 7.85764, -1548.23]]
+  ri_extra__name:t="sandbags_wall_medium_rounded_a_dmg"
+}
+
+entity{
+  _template:t="game_rendinst_decor+prefab_object+enbaked_ri"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [618.633, 18.3257, -494.358]]
+  ri_extra__name:t="debris_stone_b"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst_decor+big_action_fortification_build+prefab_object+enbaked_ri"
+  transform:m=[[1, 0, 0] [0, 1, 0] [0, 0, 1] [638.197, 18.8657, -485.105]]
+  ri_extra__name:t="russia_bunker_pillbox_f_walls"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.883781, -1.19209e-07, 0.467902] [-8.37056e-08, 1, 8.48773e-08] [-0.467902, 0, -0.883781] [628.771, 18.8736, -483.849]]
+  ri_extra__name:t="bunker_ladder_wall_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.883781, -1.19209e-07, 0.467902] [-8.37056e-08, 1, 8.48773e-08] [-0.467902, 0, -0.883781] [628.771, 17.8736, -483.849]]
+  ri_extra__name:t="bunker_ladder_wall_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.883781, -1.19209e-07, 0.467902] [-8.37056e-08, 1, 8.48773e-08] [-0.467902, 0, -0.883781] [628.771, 20.8736, -483.849]]
+  ri_extra__name:t="bunker_ladder_wall_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+prefab_object+enbaked_ri"
+  transform:m=[[-0.883781, -1.19209e-07, 0.467902] [-8.37056e-08, 1, 8.48773e-08] [-0.467902, 0, -0.883781] [628.771, 19.8736, -483.849]]
+  ri_extra__name:t="bunker_ladder_wall_a"
+  prefab__parentId:i=5
+}
+
+entity{
+  _template:t="game_rendinst+big_action_fortification_build+prefab_object+enbaked_ri"
+  transform:m=[[-0.467902, 0, -0.883781] [0, 1, 0] [0.883781, 0, -0.467902] [631.454, 18.234, -486.076]]
+  ri_extra__name:t="normandy_bunker_fl249_damaged_walls"
+  prefab__parentId:i=5
+}

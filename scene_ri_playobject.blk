@@ -1,0 +1,51 @@
+
+entity{
+  _template:t="builded_ussr_towed_at_53k_common+anti_tank_cannon_common+big_action_fortification_build_no_destroy+big_action_kv_2_bunker_turret+vehicle_display_marker_over_head"
+  active:b=no
+  groupName:t="s2e1"
+  transform:m=[[-0.918507, 0.000464995, 0.395405] [0.000706424, 1, 0.000464995] [-0.395404, 0.000706424, -0.918507] [-488.927, 9.22795, -1544.65]]
+  map_icon__image:t="repair_parts/empty"
+  hud_icon__image:t="repair_parts/empty"
+  buildingRadius:r=3
+
+  "turretsInitialComponents:array"{
+    "turretsInitialComponents:object"{
+      turret__limit:p4=-160, 160, -3, 20
+
+      "gun__shellsAmmo:array"{
+        gun__shellsAmmo:i=6
+        gun__shellsAmmo:i=3
+        gun__shellsAmmo:i=3
+      }
+    }
+  }
+}
+
+entity{
+  _template:t="builded_ussr_towed_at_53k_common+anti_tank_cannon_common+big_action_fortification_build_no_destroy+big_action_127mm_bl_60_stationary_field_gun_bunker_turret+vehicle_display_marker_over_head"
+  transform:m=[[-0.53414, 0, -0.845396] [0, 1, 0] [0.845396, 0, -0.53414] [638.261, 21.7576, -485.121]]
+}
+
+entity{
+  _template:t="big_action_bunker_repair_box"
+  transform:m=[[0.48537, 0, 0.874309] [0, 1, -0] [-0.874309, 0, 0.48537] [627.892, 17.1436, -484.618]]
+  team:i=1
+  animchar__res:t="repair_tools_char"
+  collres__res:t="repair_tools_collision"
+}
+
+entity{
+  _template:t="big_action_bunker_repair_box"
+  transform:m=[[0.951138, 0, 0.308766] [0, 1, -0] [-0.308766, 0, 0.951138] [387.991, 6.59435, 753.58]]
+  team:i=1
+  animchar__res:t="repair_tools_char"
+  collres__res:t="repair_tools_collision"
+}
+
+entity{
+  _template:t="big_action_bunker_repair_box"
+  transform:m=[[0.386278, 0, 0.922383] [0, 1, -0] [-0.922383, 0, 0.386278] [-471.48, 10.5777, -1551.18]]
+  team:i=1
+  animchar__res:t="repair_tools_char"
+  collres__res:t="repair_tools_collision"
+}

@@ -355,12 +355,6 @@ entity{
 
 entity{
   _template:t="game_rendinst+enbaked_ri"
-  transform:m=[[-0.995973, 0.00522288, 0.0894966] [0.00516888, 0.999986, -0.000835176] [-0.0894997, -0.000369216, -0.995986] [-312.404, 7.98083, -1614.46]]
-  ri_extra__name:t="ussr_locomotive_i_2012"
-}
-
-entity{
-  _template:t="game_rendinst+enbaked_ri"
   transform:m=[[-0.996841, -0.00248098, 0.0793815] [0, 0.999512, 0.0312386] [-0.0794202, 0.0311399, -0.996354] [-413.887, 8.10458, -1581.26]]
   ri_extra__name:t="ussr_freight_car_a_sand_b"
 }

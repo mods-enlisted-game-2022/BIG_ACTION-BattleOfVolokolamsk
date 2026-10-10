@@ -1,6 +1,3 @@
-import{
-  scene:t="%ugm/scene_battle_area_s2n1c0.blk"
-}
 
 entity{
   _template:t="big_action_objective_init_capzone_ingame"
@@ -125,12 +122,6 @@ entity{
 }
 
 entity{
-  _template:t="big_action_bomb_site_zone+big_action_bomb_site_zone_s2e1"
-  transform:m=[[1.91062, 0, -1.42483] [0, 1, 0] [1.42483, -0, 1.91062] [-206.473, 6.6079, -1631.91]]
-  active:b=yes
-}
-
-entity{
   _template:t="big_action_objective_capzone_ingame"
   transform:m=[[8.17289, 0.0375157, -0.586241] [-0.00782761, 1.00193, -0.0450088] [0.582982, 0.370721, 8.15118] [61.9301, 6.27256, -1590.5]]
   ui_order:i=209
@@ -252,45 +243,6 @@ entity{
 }
 
 entity{
-  _template:t="big_action_objective_deped_capzone_ingame"
-  transform:m=[[11.8541, 0.103257, -0.363427] [-0.00882986, 1.13022, 0.033112] [0.264121, -0.248262, 8.54444] [1104.71, 5.4553, -1374.28]]
-  ui_order:i=222
-  groupName:t="s2e2"
-  capzone__title:t="A"
-  capzone__caption:t="A; Market; Defend By Allies !!Unable To Re-Capture If Taken!!"
-  // respawnBaseGroup:i=662010
-  capzone__acivateRespawnGroup:i=662011
-  capzone__activateRespawnOnProgress:r=0.96
-  capzone__createdRespawnBaseGroup:i=22101
-}
-
-entity{
-  _template:t="big_action_bomb_site_zone+big_action_bomb_site_zone_s2e2"
-  transform:m=[[1.02843, 0.0169921, 0.33123] [-0.0138084, 1.08042, -0.0125525] [-0.331378, 0.00771391, 1.02849] [1307.25, 1.19022, -1192.27]]
-  ui_order:i=223
-  active:b=yes
-}
-
-entity{
-  _template:t="big_action_objective_capzone_ingame"
-  transform:m=[[12.3569, -0.0223477, -1.43025] [-4.97371e-09, 2.84791, -0.0444986] [1.08395, 0.146292, 9.36269] [1247.15, 2.6774, -968.815]]
-  ui_order:i=227
-  groupName:t="s2e2"
-  capzone__title:t="D"
-  capzone__caption:t="D; Food Warhous; (Axis Captured To North; Allies Cpatured +500 To East; To Enemy -1000)"
-  respawnBaseGroup:i=662011
-  capzone__activateCap:t="s3e1s0"
-  capzone__activateAfterTeam2Cap:t="s3e1s0"
-  capzone__activateGroupNameAfterTeam2Cap:t="s3e1s0"
-  capzone__activateAfterTeam1Cap:t="s2e2w1"
-  capzone__activateGroupNameAfterTeam1Cap:t="s2e2w1"
-  capzone__createdRespawnBaseGroup:i=22102
-  capzone__lockAfterActivate:b=yes
-  team:i=2
-  capzone__alwaysShow:b=no
-}
-
-entity{
   _template:t="big_action_objective_capzone_ingame"
   transform:m=[[8.25697, 0.411371, 11.2914] [-0.0163499, 3.5665, -0.11798] [-7.05569, 0.138166, 5.15451] [549.447, 20.1193, -563.796]]
   ui_order:i=229
@@ -305,13 +257,6 @@ entity{
   capzone__createdRespawnBaseGroup:i=31101
   capzone__lockAfterActivate:b=yes
 }
-
-// entity{
-//   _template:t="big_action_bomb_site_zone+big_action_bomb_site_zone_s3w1"
-//   transform:m=[[-0.0769902, 0, 0.997032] [0, 1, 0] [-1.90844, 0, -0.147368] [-586.083, 2.19505, 105.36]]
-//   ui_order:i=303
-//   active:b=yes
-// }
 
 // "rirmv:object"{
 //   name:t="bridge_25000_wood_a_base"
@@ -408,13 +353,6 @@ entity{
   capzone__icon:t="!ui/skin#building_mg_nest.svg"
   capzone__capPenalty:r=6000
   capzone__unlockAfterTime:r=470
-}
-
-entity{
-  _template:t="big_action_bomb_site_zone+big_action_bomb_site_zone_s3e1"
-  transform:m=[[-2.37261, 0, -0.226561] [0, 1, 0] [0.226561, 0, -2.37261] [1520.77, 47.4528, 121.477]]
-  ui_order:i=328
-  active:b=yes
 }
 
 entity{
@@ -595,12 +533,6 @@ entity{
   capzone__acivateRespawnGroup:i=666550
   capzone__activateRespawnOnProgress:r=0.96
   capzone__createdRespawnBaseGroup:i=40201
-}
-
-entity{
-  _template:t="big_action_bomb_site_zone+defend_zone_respawnbase+big_action_bomb_site_zone_s4w1n2"
-  transform:m=[[-2.35065, 0, -0.393728] [0, 1, 0] [0.393728, 0, -2.35065] [-622.439, 4.48503, 1526.92]]
-  active:b=yes
 }
 
 entity{

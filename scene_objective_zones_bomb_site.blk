@@ -1,0 +1,25 @@
+entity{
+  _template:t="big_action_bomb_site_zone+big_action_bomb_site_zone_s2e1"
+  transform:m=[[1.91062, 0, -1.42483] [0, 1, 0] [1.42483, -0, 1.91062] [-206.473, 6.6079, -1631.91]]
+  active:b=yes
+}
+
+entity{
+  _template:t="big_action_bomb_site_zone+big_action_bomb_site_zone_s3e1"
+  transform:m=[[-2.37261, 0, -0.226561] [0, 1, 0] [0.226561, 0, -2.37261] [1520.77, 47.4528, 121.477]]
+  ui_order:i=328
+  active:b=yes
+}
+
+entity{
+  _template:t="big_action_bomb_site_zone+defend_zone_respawnbase+big_action_bomb_site_zone_s4w1n2"
+  transform:m=[[-2.35065, 0, -0.393728] [0, 1, 0] [0.393728, 0, -2.35065] [-622.439, 4.48503, 1526.92]]
+  active:b=yes
+}
+
+// entity{
+//   _template:t="big_action_bomb_site_zone+big_action_bomb_site_zone_s3w1"
+//   transform:m=[[-0.0769902, 0, 0.997032] [0, 1, 0] [-1.90844, 0, -0.147368] [-586.083, 2.19505, 105.36]]
+//   ui_order:i=303
+//   active:b=yes
+// }

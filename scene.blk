@@ -43,6 +43,10 @@ import{
 }
 
 import{
+  scene:t="%ugm/scene_objective_zones_bomb_site.blk"
+}
+
+import{
   scene:t="%ugm/scene_objective_zones.blk"
 }
 
@@ -52,6 +56,10 @@ import{
 
 import{
   scene:t="%ugm/scene_objective_zones_s2n1c0.blk"
+}
+
+import{
+  scene:t="%ugm/scene_objective_zones_s2e2.blk"
 }
 
 import{
@@ -121,7 +129,7 @@ entity{
   level__month:i=10
   level__day:i=20
   level__minimapDefaultVisibleRadius:i=230
-  // level__patchNavMeshPath:t="%ugm/patch_nav_mesh.bin"
+  level__patchNavMeshPath:t="%ugm/patch_nav_mesh.bin"
 
   "level__weatherChoice:object"{
     "weather_cloudy_sunset_b:object"{
@@ -304,7 +312,7 @@ entity{
   hints_header:t="Main Objective: Attack the D Point / Defend The D Point"
   hints:t="common/controls"
   mission_type:t="invasion"
-  mission_name:t="Big Action Enduring Confrontation | 1066.261004g(no navmesh baked)"
+  mission_name:t="Big Action Enduring Confrontation | 1067.261004h3(simplify navmesh baked)"
 
   "loading_images:list<t>"{
     item:t="%ugm/assets/loading/ba_volmzk_tutorial_01.jpg"
@@ -1231,7 +1239,7 @@ entity{
 
 entity{
   _template:t="respawnChooser+respTeam2"
-  transform:m=[[0.309451, 0, 0.950916] [0, 1, -0] [-0.950916, 0, 0.309451] [-832.856, 38.1141, -967.444]]
+  transform:m=[[0.309451, 0, 0.950916] [0, 1, 0] [-0.950916, 0, 0.309451] [-833.968, 41.3154, -970.972]]
   groupName:t="s2n1"
   respawnBaseGroup:i=992007
 }
@@ -1245,7 +1253,7 @@ entity{
 
 entity{
   _template:t="respawnChooser+respTeam2"
-  transform:m=[[0.309451, 0, 0.950916] [0, 1, -0] [-0.950916, 0, 0.309451] [-832.856, 38.1141, -967.444]]
+  transform:m=[[0.309451, 0, 0.950916] [0, 1, 0] [-0.950916, 0, 0.309451] [-833.968, 41.3154, -970.972]]
   groupName:t="s2n1w1"
   respawnBaseGroup:i=992007
 }

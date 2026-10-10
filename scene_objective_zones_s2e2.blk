@@ -1,0 +1,39 @@
+
+entity{
+  _template:t="big_action_objective_deped_capzone_ingame"
+  transform:m=[[11.8541, 0.103257, -0.363427] [-0.00882986, 1.13022, 0.033112] [0.264121, -0.248262, 8.54444] [1104.71, 5.4553, -1374.28]]
+  ui_order:i=222
+  groupName:t="s2e2"
+  capzone__title:t="A"
+  capzone__caption:t="A; Market; Defend By Allies !!Unable To Re-Capture If Taken!!"
+  // respawnBaseGroup:i=662010
+  capzone__acivateRespawnGroup:i=662011
+  capzone__activateRespawnOnProgress:r=0.96
+  capzone__createdRespawnBaseGroup:i=22101
+}
+
+entity{
+  _template:t="big_action_bomb_site_zone+big_action_bomb_site_zone_s2e2"
+  transform:m=[[1.02843, 0.0169921, 0.33123] [-0.0138084, 1.08042, -0.0125525] [-0.331378, 0.00771391, 1.02849] [1307.25, 1.19022, -1192.27]]
+  ui_order:i=223
+  active:b=yes
+}
+
+entity{
+  _template:t="big_action_objective_capzone_ingame"
+  transform:m=[[12.3569, -0.0223477, -1.43025] [-4.97371e-09, 2.84791, -0.0444986] [1.08395, 0.146292, 9.36269] [1247.15, 2.6774, -968.815]]
+  ui_order:i=227
+  groupName:t="s2e2"
+  capzone__title:t="D"
+  capzone__caption:t="D; Food Warhous; (Axis Captured To North; Allies Cpatured +500 To East; To Enemy -1000)"
+  respawnBaseGroup:i=662011
+  capzone__activateCap:t="s3e1s0"
+  capzone__activateAfterTeam2Cap:t="s3e1s0"
+  capzone__activateGroupNameAfterTeam2Cap:t="s3e1s0"
+  capzone__activateAfterTeam1Cap:t="s2e2w1"
+  capzone__activateGroupNameAfterTeam1Cap:t="s2e2w1"
+  capzone__createdRespawnBaseGroup:i=22102
+  capzone__lockAfterActivate:b=yes
+  team:i=2
+  capzone__alwaysShow:b=no
+}
